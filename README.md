@@ -1,4 +1,17 @@
-# Mine the commits that fix breaking changes #
+# Output-Oriented Program Synthesis for Combating Breaking Changes in Libraries #
+
+APIFix is a tool that automates API usage adaptations by learning from the existing human actions via an output-oriented program synthesis. The aim is not only to rely on the example human adaptations of the clients from the old library version
+to the new library version, since this can lead to over-fitting transformation rules. Instead, APIFix also relies on
+example usages of the new updated library in clients, which provide valuable context for synthesizing and
+applying the transformation rules.
+
+### How does it work?
+
+
+### Build
+
+
+### Usage
 
 ```
 usage: crawler.py [-h] [-u USER] [-t TOKEN] repo author package
@@ -44,6 +57,8 @@ optional arguments:
 
 ```
 usage: CSharpEngine.exe -l LIBRARY -m OLD_VERSION -n NEW_VERSION [OPTIONS]
+
+options:
   -l, --libraryName    Required. The name of library.
   -m, --oldLib         Required. The old version of library.
   -n, --newLib         Required. The new version of library.
@@ -66,6 +81,8 @@ usage: CSharpEngine.exe -l LIBRARY -m OLD_VERSION -n NEW_VERSION [OPTIONS]
 
 ```
 Synthesizer.exe -l LIBRARY -m OLD_VERSION -n NEW_VERSION [OPTIONS]
+
+options:
   -l, --libraryName         Required. The name of library.
   -m, --oldLib              Required. The old version of library.
   -n, --newLib              Required. The new version of library.
