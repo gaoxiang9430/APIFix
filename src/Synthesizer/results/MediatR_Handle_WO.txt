@@ -1,0 +1,1681 @@
+Configuration: 
+---- UseAdditionalOutput: True
+---- UseAdditionalInput : False
+---- OnlyNewUsage       : False
+---- GivenExample       : 1
+---- UseTypedUsage      : True
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.2
+---- NewUsageThreashold : 0.25
+load 3 relevant edits!
+load 82 old relevant usages
+load 721 new relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 3
+size of new usage: 721
+Log: add new usage applier.Handle(ev, CancellationToken.None)
+Log: add new usage handler.Handle(request, cancellationToken)
+Log: add new usage handler.Handle(request, cancellationToken)
+Log: add new usage handler.Handle(c, CancellationToken.None)
+Log: add new usage handler.Handle(c, CancellationToken.None)
+Log: add new usage handler.Handle(c, CancellationToken.None)
+Log: add new usage ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command, default)
+Log: add new usage ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command, default)
+Log: add new usage ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command, default)
+Log: add new usage typedHandler.Handle(request, CancellationToken.None)
+Log: add new usage typedHandler.Handle(request, CancellationToken.None)
+Log: add new usage typedHandler.Handle(request, CancellationToken.None)
+Log: add new usage Decorated.Handle(request, cancellationToken)
+Log: add new usage x.Handle(It.IsAny < DownloadUriQuery >(), It.IsAny < CancellationToken >())
+Log: add new usage x.Handle(It.Is < FinishUpload >(y => y.UploadId == UploadIdForTests), It.IsAny < CancellationToken >())
+Log: add new usage x.Handle(It.IsAny < FinishUpload >(), It.IsAny < CancellationToken >())
+Log: add new usage _handler.Handle(new Request { Value = "newValue", Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Value = "newBestPlayerValue", Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Type =(HelperEntityType) 144 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(matCommand, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 11111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.Materials[0].Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.DeletedMaterial }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.MaterialWithComments }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial, IncludePending = true }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { PageSize = 10, CurrentPage = 1 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { PageSize = pageSize, CurrentPage = page }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = UpdateMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: add new usage _handler.Handle(materialCommand, CancellationToken.None)
+Log: add new usage _handler.Handle(request, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageThatNotRelatedToAdmin.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageForRead.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { IncludeRoles = true }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = UserQueryTestFixture.UserId }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Value = "newValue", Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Value = "newBestPlayerValue", Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Type =(HelperEntityType) 144 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(matCommand, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 11111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.Materials[0].Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.DeletedMaterial }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.MaterialWithComments }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial, IncludePending = true }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { PageSize = 10, CurrentPage = 1 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { PageSize = pageSize, CurrentPage = page }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = UpdateMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: add new usage _handler.Handle(materialCommand, CancellationToken.None)
+Log: add new usage _handler.Handle(request, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageThatNotRelatedToAdmin.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageForRead.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { IncludeRoles = true }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = UserQueryTestFixture.UserId }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Value = "newValue", Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Value = "newBestPlayerValue", Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Type = entityType }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Type =(HelperEntityType) 144 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(matCommand, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 11111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.Materials[0].Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.DeletedMaterial }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.MaterialWithComments }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial, IncludePending = true }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { PageSize = 10, CurrentPage = 1 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { PageSize = pageSize, CurrentPage = page }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = UpdateMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: add new usage _handler.Handle(materialCommand, CancellationToken.None)
+Log: add new usage _handler.Handle(request, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageThatNotRelatedToAdmin.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageForRead.Id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { IncludeRoles = true }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request(), CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: add new usage _handler.Handle(new Request { Id = UserQueryTestFixture.UserId }, CancellationToken.None)
+Log: add new usage handler.Handle(req, CancellationToken.None)
+Log: add new usage svc.Handle(msg, new CancellationToken())
+Log: add new usage _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+Log: add new usage _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+Log: add new usage _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+Log: add new usage _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+Log: add new usage _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+Log: add new usage _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+Log: add new usage _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+Log: add new usage _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+Log: add new usage _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+Log: add new usage _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+Log: add new usage _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+Log: add new usage _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+Log: add new usage _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+Log: add new usage _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+Log: add new usage _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+Log: add new usage _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+Log: add new usage _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+Log: add new usage _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+Log: add new usage _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+Log: add new usage _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+Log: add new usage _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+Log: add new usage _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+Log: add new usage _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+Log: add new usage _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+Log: add new usage _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+Log: add new usage _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+Log: add new usage _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+Log: add new usage _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+Log: add new usage _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+Log: add new usage _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+Log: add new usage _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+Log: add new usage _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+Log: add new usage _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+Log: add new usage _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+Log: add new usage _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+Log: add new usage _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+Log: add new usage _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+Log: add new usage _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+Log: add new usage _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+Log: add new usage _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+Log: add new usage _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+Log: add new usage _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+Log: add new usage _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+Log: add new usage _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+Log: add new usage _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+Log: add new usage _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+Log: add new usage _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+Log: add new usage _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+Log: add new usage _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+Log: add new usage _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+Log: add new usage _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+Log: add new usage _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+Log: add new usage _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+Log: add new usage _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+Log: add new usage _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+Log: add new usage _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+Log: add new usage _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+Log: add new usage _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+Log: add new usage _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+Log: add new usage _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+Log: add new usage _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+Log: add new usage _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+Log: add new usage _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+Log: add new usage _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+Log: add new usage _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+Log: add new usage _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+Log: add new usage _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+Log: add new usage _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+Log: add new usage _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+Log: add new usage _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+Log: add new usage _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+Log: add new usage _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+Log: add new usage _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+Log: add new usage _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+Log: add new usage _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+Log: add new usage _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+Log: add new usage _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+Log: add new usage _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+Log: add new usage _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+Log: add new usage _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+Log: add new usage _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+Log: add new usage _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+Log: add new usage _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+Log: add new usage _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+Log: add new usage _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+Log: add new usage _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+Log: add new usage _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+Log: add new usage _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: add new usage _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+Log: add new usage _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+Log: add new usage _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+Log: add new usage _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+Log: add new usage _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+Log: add new usage _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: add new usage _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+Log: add new usage _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+Log: add new usage _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+Log: add new usage _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+Log: add new usage _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+Log: add new usage _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+Log: add new usage _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+Log: add new usage _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+Log: add new usage _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+Log: add new usage _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: add new usage _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+Log: add new usage _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+Log: add new usage _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+Log: add new usage _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+Log: add new usage _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+Log: add new usage _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+Log: add new usage _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+Log: add new usage _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+Log: add new usage _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+Log: add new usage _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+Log: add new usage _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+Log: add new usage this.inner.Handle(request, cancellationToken)
+Log: add new usage this.inner.Handle(request, cancellationToken)
+Log: add new usage this.inner.Handle(request, cancellationToken)
+Log: add new usage this._decorated.Handle(command, cancellationToken)
+Log: add new usage this._decorated.Handle(notification, cancellationToken)
+Log: add new usage this._decorated.Handle(command, cancellationToken)
+Log: add new usage this._decorated.Handle(notification, cancellationToken)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage Handle(notification)
+Log: add old usage TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+Log: add old usage TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+Log: add old usage TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: add old usage TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: add old usage TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+Log: add old usage TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+Log: add old usage TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+Log: add old usage TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: add old usage TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+Log: add old usage TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+Log: add old usage TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+Log: add old usage TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+Log: add old usage TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: add old usage TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+Log: ============== Cluster start ==============
+- var handlers = serviceFactory
+                .GetInstances<INotificationHandler<TNotification>>()
+                .Select(x => x.Handle((TNotification)notification, cancellationToken));
+----------------
++ var handlers = serviceFactory
+                .GetInstances<INotificationHandler<TNotification>>()
+                .Select(x => new Func<Task>(() => x.Handle((TNotification)notification, cancellationToken)));
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- await Handle(request).ConfigureAwait(false);
+----------------
++ await Handle(request, cancellationToken).ConfigureAwait(false);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+Handle(request)
+----------------
+Handle(request, cancellationToken)
+
+new usages: applier.Handle(ev, CancellationToken.None)
+new usages: handler.Handle(request, cancellationToken)
+new usages: handler.Handle(c, CancellationToken.None)
+new usages: ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command, default)
+new usages: typedHandler.Handle(request, CancellationToken.None)
+new usages: Decorated.Handle(request, cancellationToken)
+new usages: x.Handle(It.IsAny < DownloadUriQuery >(), It.IsAny < CancellationToken >())
+new usages: x.Handle(It.Is < FinishUpload >(y => y.UploadId == UploadIdForTests), It.IsAny < CancellationToken >())
+new usages: x.Handle(It.IsAny < FinishUpload >(), It.IsAny < CancellationToken >())
+new usages: _handler.Handle(new Request { Value = "newValue", Type = entityType }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Value = "newBestPlayerValue", Type = entityType }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Type = entityType }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Type =(HelperEntityType) 144 }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = id }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+new usages: _handler.Handle(matCommand, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = 11111 }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.Materials[0].Id }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = MaterialQueryTestFixture.DeletedMaterial }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = MaterialQueryTestFixture.MaterialWithComments }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial, IncludePending = true }, CancellationToken.None)
+new usages: _handler.Handle(new Request { PageSize = 10, CurrentPage = 1 }, CancellationToken.None)
+new usages: _handler.Handle(new Request { PageSize = pageSize, CurrentPage = page }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = UpdateMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+new usages: _handler.Handle(materialCommand, CancellationToken.None)
+new usages: _handler.Handle(request, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageThatNotRelatedToAdmin.Id }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageForRead.Id }, CancellationToken.None)
+new usages: _handler.Handle(new Request(), CancellationToken.None)
+new usages: _handler.Handle(new Request { IncludeRoles = true }, CancellationToken.None)
+new usages: _handler.Handle(new Request { Id = UserQueryTestFixture.UserId }, CancellationToken.None)
+new usages: handler.Handle(req, CancellationToken.None)
+new usages: svc.Handle(msg, new CancellationToken())
+new usages: _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+new usages: _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+new usages: _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+new usages: _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+new usages: _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+new usages: _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+new usages: _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+new usages: _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+new usages: _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+new usages: _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+new usages: _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+new usages: _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+new usages: _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+new usages: _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+new usages: _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+new usages: _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+new usages: _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+new usages: _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+new usages: _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+new usages: _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+new usages: _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+new usages: _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+new usages: _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+new usages: _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+new usages: _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+new usages: _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+new usages: _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+new usages: _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+new usages: _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+new usages: _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+new usages: _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+new usages: _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+new usages: _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+new usages: _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+new usages: _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+new usages: _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+new usages: _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+new usages: _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+new usages: _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+new usages: _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+new usages: _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+new usages: _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+new usages: _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+new usages: _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+new usages: _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+new usages: _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+new usages: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+new usages: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+new usages: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+new usages: _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+new usages: _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+new usages: _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+new usages: _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+new usages: _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+new usages: _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+new usages: _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+new usages: _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+new usages: _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+new usages: _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+new usages: _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+new usages: _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+new usages: _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+new usages: _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+new usages: _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+new usages: _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+new usages: _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+new usages: _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+new usages: _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+new usages: _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+new usages: _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+new usages: _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+new usages: _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+new usages: this.inner.Handle(request, cancellationToken)
+new usages: this._decorated.Handle(command, cancellationToken)
+new usages: this._decorated.Handle(notification, cancellationToken)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: Handle(notification)
+old usages: TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+old usages: TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+old usages: TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+old usages: TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+old usages: TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+old usages: TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+old usages: TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+old usages: TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+old usages: TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+old usages: TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+old usages: TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+old usages: TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+old usages: TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+old usages: TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+============= Cluster end ==============
+
+Log: generalized output is: Handle(request, cancellationToken)
+Interesting new usage: applier.Handle(ev, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> ev:Argument
+Log: Subsititution: Handle:IdentifierName -> applier.Handle:SimpleMemberAccessExpression
+Correponding input: applier.Handle(ev)
+Interesting new usage: handler.Handle(request, cancellationToken)
+Log: Subsititution: request:Argument -> request:Argument
+Log: Subsititution: Handle:IdentifierName -> handler.Handle:SimpleMemberAccessExpression
+Correponding input: handler.Handle(request)
+Interesting new usage: handler.Handle(c, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> c:Argument
+Log: Subsititution: Handle:IdentifierName -> handler.Handle:SimpleMemberAccessExpression
+Correponding input: handler.Handle(c)
+Interesting new usage: ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command, default)
+Log: Subsititution: cancellationToken:IdentifierName -> default:DefaultLiteralExpression
+Log: Subsititution: request:Argument -> command:Argument
+Log: Subsititution: Handle:IdentifierName -> ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle:SimpleMemberAccessExpression
+Correponding input: ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command)
+Interesting new usage: typedHandler.Handle(request, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> request:Argument
+Log: Subsititution: Handle:IdentifierName -> typedHandler.Handle:SimpleMemberAccessExpression
+Correponding input: typedHandler.Handle(request)
+Interesting new usage: Decorated.Handle(request, cancellationToken)
+Log: Subsititution: request:Argument -> request:Argument
+Log: Subsititution: Handle:IdentifierName -> Decorated.Handle:SimpleMemberAccessExpression
+Correponding input: Decorated.Handle(request)
+Interesting new usage: x.Handle(It.IsAny < DownloadUriQuery >(), It.IsAny < CancellationToken >())
+Log: Subsititution: cancellationToken:IdentifierName -> It.IsAny < CancellationToken >():InvocationExpression
+Log: Subsititution: request:Argument -> It.IsAny < DownloadUriQuery >():Argument
+Log: Subsititution: Handle:IdentifierName -> x.Handle:SimpleMemberAccessExpression
+Correponding input: x.Handle(It.IsAny < DownloadUriQuery >())
+Interesting new usage: x.Handle(It.Is < FinishUpload >(y => y.UploadId == UploadIdForTests), It.IsAny < CancellationToken >())
+Log: Subsititution: cancellationToken:IdentifierName -> It.IsAny < CancellationToken >():InvocationExpression
+Log: Subsititution: request:Argument -> It.Is < FinishUpload >(y => y.UploadId == UploadIdForTests):Argument
+Log: Subsititution: Handle:IdentifierName -> x.Handle:SimpleMemberAccessExpression
+Correponding input: x.Handle(It.Is < FinishUpload >(y => y.UploadId == UploadIdForTests))
+Interesting new usage: x.Handle(It.IsAny < FinishUpload >(), It.IsAny < CancellationToken >())
+Log: Subsititution: cancellationToken:IdentifierName -> It.IsAny < CancellationToken >():InvocationExpression
+Log: Subsititution: request:Argument -> It.IsAny < FinishUpload >():Argument
+Log: Subsititution: Handle:IdentifierName -> x.Handle:SimpleMemberAccessExpression
+Correponding input: x.Handle(It.IsAny < FinishUpload >())
+Interesting new usage: _handler.Handle(new Request { Value = "newValue", Type = entityType }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Value = "newValue", Type = entityType }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Value = "newValue", Type = entityType })
+Interesting new usage: _handler.Handle(new Request { Value = "newBestPlayerValue", Type = entityType }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Value = "newBestPlayerValue", Type = entityType }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Value = "newBestPlayerValue", Type = entityType })
+Interesting new usage: _handler.Handle(new Request { Type = entityType }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Type = entityType }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Type = entityType })
+Interesting new usage: _handler.Handle(new Request { Type =(HelperEntityType) 144 }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Type =(HelperEntityType) 144 }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Type =(HelperEntityType) 144 })
+Interesting new usage: _handler.Handle(new Request { Id = id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = id })
+Interesting new usage: _handler.Handle(new Request { Id = material.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = material.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = material.Id })
+Interesting new usage: _handler.Handle(matCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> matCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(matCommand)
+Interesting new usage: _handler.Handle(new Request { Id = 11111 }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = 11111 }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = 11111 })
+Interesting new usage: _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = DeleteMaterialCommandTestFixture.DeletedMaterialId }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.DeletedMaterialId })
+Interesting new usage: _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.Materials[0].Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = DeleteMaterialCommandTestFixture.Materials[0].Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = DeleteMaterialCommandTestFixture.Materials[0].Id })
+Interesting new usage: _handler.Handle(new Request { Id = MaterialQueryTestFixture.DeletedMaterial }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = MaterialQueryTestFixture.DeletedMaterial }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = MaterialQueryTestFixture.DeletedMaterial })
+Interesting new usage: _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = MaterialQueryTestFixture.PendingMaterial }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial })
+Interesting new usage: _handler.Handle(new Request { Id = MaterialQueryTestFixture.MaterialWithComments }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = MaterialQueryTestFixture.MaterialWithComments }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = MaterialQueryTestFixture.MaterialWithComments })
+Interesting new usage: _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial, IncludePending = true }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = MaterialQueryTestFixture.PendingMaterial, IncludePending = true }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = MaterialQueryTestFixture.PendingMaterial, IncludePending = true })
+Interesting new usage: _handler.Handle(new Request { PageSize = 10, CurrentPage = 1 }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { PageSize = 10, CurrentPage = 1 }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { PageSize = 10, CurrentPage = 1 })
+Interesting new usage: _handler.Handle(new Request { PageSize = pageSize, CurrentPage = page }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { PageSize = pageSize, CurrentPage = page }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { PageSize = pageSize, CurrentPage = page })
+Interesting new usage: _handler.Handle(new Request { Id = 111111 }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = 111111 }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = 111111 })
+Interesting new usage: _handler.Handle(new Request { Id = UpdateMaterialCommandTestFixture.DeletedMaterialId }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = UpdateMaterialCommandTestFixture.DeletedMaterialId }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = UpdateMaterialCommandTestFixture.DeletedMaterialId })
+Interesting new usage: _handler.Handle(materialCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> materialCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(materialCommand)
+Interesting new usage: _handler.Handle(request, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> request:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(request)
+Interesting new usage: _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageThatNotRelatedToAdmin.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = PmQueryTestFixture.PrivateMessageThatNotRelatedToAdmin.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageThatNotRelatedToAdmin.Id })
+Interesting new usage: _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageForRead.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = PmQueryTestFixture.PrivateMessageForRead.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = PmQueryTestFixture.PrivateMessageForRead.Id })
+Interesting new usage: _handler.Handle(new Request(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request():Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request())
+Interesting new usage: _handler.Handle(new Request { IncludeRoles = true }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { IncludeRoles = true }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { IncludeRoles = true })
+Interesting new usage: _handler.Handle(new Request { Id = UserQueryTestFixture.UserId }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new Request { Id = UserQueryTestFixture.UserId }:Argument
+Log: Subsititution: Handle:IdentifierName -> _handler.Handle:SimpleMemberAccessExpression
+Correponding input: _handler.Handle(new Request { Id = UserQueryTestFixture.UserId })
+Interesting new usage: handler.Handle(req, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> req:Argument
+Log: Subsititution: Handle:IdentifierName -> handler.Handle:SimpleMemberAccessExpression
+Correponding input: handler.Handle(req)
+Interesting new usage: svc.Handle(msg, new CancellationToken())
+Log: Subsititution: cancellationToken:IdentifierName -> new CancellationToken():ObjectCreationExpression
+Log: Subsititution: request:Argument -> msg:Argument
+Log: Subsititution: Handle:IdentifierName -> svc.Handle:SimpleMemberAccessExpression
+Correponding input: svc.Handle(msg)
+Interesting new usage: _addCategoryCommandHandler.Handle(addCategoryCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addCategoryCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _addCategoryCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addCategoryCommandHandler.Handle(addCategoryCommand)
+Interesting new usage: _deleteCategoryCommandHandler.Handle(deleteCategoryCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deleteCategoryCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteCategoryCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteCategoryCommandHandler.Handle(deleteCategoryCommand)
+Interesting new usage: _editCategoryCommandHandler.Handle(editCategoryCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editCategoryCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editCategoryCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editCategoryCommandHandler.Handle(editCategoryCommand)
+Interesting new usage: _addOrderCommandHandler.Handle(addOrderCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addOrderCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _addOrderCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addOrderCommandHandler.Handle(addOrderCommand)
+Interesting new usage: _deleteOrderCommandHandler.Handle(deleteOrderCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deleteOrderCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteOrderCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteOrderCommandHandler.Handle(deleteOrderCommand)
+Interesting new usage: _editOrderCommandHandler.Handle(editOrderCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editOrderCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editOrderCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editOrderCommandHandler.Handle(editOrderCommand)
+Interesting new usage: _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addPrivateMessageCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _addPrivateMessageCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addPrivateMessageCommandHandler.Handle(addPrivateMessageCommand)
+Interesting new usage: _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deletePrivateMessageCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _deletePrivateMessageCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deletePrivateMessageCommandHandler.Handle(deletePrivateMessageCommand)
+Interesting new usage: _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editPrivateMessageCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editPrivateMessageCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editPrivateMessageCommandHandler.Handle(editPrivateMessageCommand)
+Interesting new usage: _addProductCommandHandler.Handle(addProductCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addProductCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _addProductCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addProductCommandHandler.Handle(addProductCommand)
+Interesting new usage: _deleteProductCommandHandler.Handle(deleteProductCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deleteProductCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteProductCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteProductCommandHandler.Handle(deleteProductCommand)
+Interesting new usage: _editProductCommandHandler.Handle(editProductCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editProductCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editProductCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editProductCommandHandler.Handle(editProductCommand)
+Interesting new usage: _addProductCategoryCommandHandler.Handle(addedProductCategory, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addedProductCategory:Argument
+Log: Subsititution: Handle:IdentifierName -> _addProductCategoryCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addProductCategoryCommandHandler.Handle(addedProductCategory)
+Interesting new usage: _deleteProductCategoryHandler.Handle(deletedProductCategory, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deletedProductCategory:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteProductCategoryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteProductCategoryHandler.Handle(deletedProductCategory)
+Interesting new usage: _editProductCategoryCommandHandler.Handle(newProductCategory, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> newProductCategory:Argument
+Log: Subsititution: Handle:IdentifierName -> _editProductCategoryCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editProductCategoryCommandHandler.Handle(newProductCategory)
+Interesting new usage: _addProductCommentCommandHandler.Handle(addProductCommentCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addProductCommentCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _addProductCommentCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addProductCommentCommandHandler.Handle(addProductCommentCommand)
+Interesting new usage: _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deleteProductCommentCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteProductCommentCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteProductCommentCommandHandler.Handle(deleteProductCommentCommand)
+Interesting new usage: _editProductCommentCommandHandler.Handle(editProductCommentsCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editProductCommentsCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editProductCommentCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editProductCommentCommandHandler.Handle(editProductCommentsCommand)
+Interesting new usage: _addShopCategoryLinkHandler.Handle(addShopCategoryLink, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addShopCategoryLink:Argument
+Log: Subsititution: Handle:IdentifierName -> _addShopCategoryLinkHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addShopCategoryLinkHandler.Handle(addShopCategoryLink)
+Interesting new usage: _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deleteShopCategoryLink:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteShopCategoryLinkHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteShopCategoryLinkHandler.Handle(deleteShopCategoryLink)
+Interesting new usage: _addShopCommentCommandHandler.Handle(addShopCommentCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addShopCommentCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _addShopCommentCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addShopCommentCommandHandler.Handle(addShopCommentCommand)
+Interesting new usage: _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deleteShopCommentCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteShopCommentCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteShopCommentCommandHandler.Handle(deleteShopCommentCommand)
+Interesting new usage: _editShopCommentCommandHandler.Handle(editShopCommentsCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editShopCommentsCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editShopCommentCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editShopCommentCommandHandler.Handle(editShopCommentsCommand)
+Interesting new usage: _addUserCommandHandler.Handle(addUserCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> addUserCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _addUserCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _addUserCommandHandler.Handle(addUserCommand)
+Interesting new usage: _deleteUserCommandHandler.Handle(deleteUserCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> deleteUserCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _deleteUserCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _deleteUserCommandHandler.Handle(deleteUserCommand)
+Interesting new usage: _disableUserCommandHandler.Handle(disableUserCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> disableUserCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _disableUserCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _disableUserCommandHandler.Handle(disableUserCommand)
+Interesting new usage: _editCustomerCommandHandler.Handle(editCustomerCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editCustomerCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editCustomerCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editCustomerCommandHandler.Handle(editCustomerCommand)
+Interesting new usage: _editShopCommandHandler.Handle(editShopCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editShopCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editShopCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editShopCommandHandler.Handle(editShopCommand)
+Interesting new usage: _editUserCommandHandler.Handle(editUserCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> editUserCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _editUserCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _editUserCommandHandler.Handle(editUserCommand)
+Interesting new usage: _registerUserCommandHandler.Handle(registerUserCommand, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> registerUserCommand:Argument
+Log: Subsititution: Handle:IdentifierName -> _registerUserCommandHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _registerUserCommandHandler.Handle(registerUserCommand)
+Interesting new usage: _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllCategoriesQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllCategoriesQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllCategoriesQueryHandler.Handle(new GetAllCategoriesQuery())
+Interesting new usage: _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllOrdersQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllOrdersQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllOrdersQueryHandler.Handle(new GetAllOrdersQuery())
+Interesting new usage: _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetCustomerOrdersQuery() { CustomerId = customerId }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getCustomerOrdersQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = customerId })
+Interesting new usage: _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetCustomerOrdersQuery() { CustomerId = buyer.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getCustomerOrdersQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getCustomerOrdersQueryHandler.Handle(new GetCustomerOrdersQuery() { CustomerId = buyer.Id })
+Interesting new usage: _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopOrdersQuery { ShopId = shopId }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopOrdersQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery { ShopId = shopId })
+Interesting new usage: _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopOrdersQuery() { ShopId = seller.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopOrdersQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopOrdersQueryHandler.Handle(new GetShopOrdersQuery() { ShopId = seller.Id })
+Interesting new usage: _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllPrivateMessagesQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllPrivateMessagesHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllPrivateMessagesHandler.Handle(new GetAllPrivateMessagesQuery())
+Interesting new usage: _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllReceivedPrivateMessagesByUserQuery(user1.Id):Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user1.Id))
+Interesting new usage: _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllReceivedPrivateMessagesByUserQuery(user2.Id):Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllReceivedPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllReceivedPrivateMessagesByUserQuery(user2.Id))
+Interesting new usage: _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllSentPrivateMessagesByUserQuery(user1.Id):Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllSentPrivateMessagesWithUserIdQueryHandler.Handle(new GetAllSentPrivateMessagesByUserQuery(user1.Id))
+Interesting new usage: _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetPrivateMessageByIdQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getPrivateMessageByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery())
+Interesting new usage: _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetPrivateMessageByIdQuery { Id = message.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getPrivateMessageByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getPrivateMessageByIdQueryHandler.Handle(new GetPrivateMessageByIdQuery { Id = message.Id })
+Interesting new usage: _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductsByProductCategoryQuery(productCategory.Id):Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductsQueryHandler.Handle(new GetAllProductsByProductCategoryQuery(productCategory.Id))
+Interesting new usage: _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductsByShopQuery { ShopId = 5 }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductsWithRatingQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductsWithRatingQueryHandler.Handle(new GetAllProductsByShopQuery { ShopId = 5 })
+Interesting new usage: _getAllProductsQueryHandler.Handle(new GetAllProductsQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductsQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductsQueryHandler.Handle(new GetAllProductsQuery())
+Interesting new usage: _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductsWithRatingQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductsWithRatingQueryHandler.Handle(new GetProductsWithRatingByCategoryIdQuery { ProductCategoryId = 5 })
+Interesting new usage: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductCategoriesByShopQuery(1):Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductCategoriesByShopQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(1))
+Interesting new usage: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductCategoriesByShopQuery(shopId):Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductCategoriesByShopQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(shopId))
+Interesting new usage: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductCategoriesByShopQuery(3):Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductCategoriesByShopQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductCategoriesByShopQueryHandler.Handle(new GetAllProductCategoriesByShopQuery(3))
+Interesting new usage: _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductCategoriesQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductCategoriesQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductCategoriesQueryHandler.Handle(new GetAllProductCategoriesQuery())
+Interesting new usage: _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllProductCommentsQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllProductCommentsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllProductCommentsQueryHandler.Handle(new GetAllProductCommentsQuery())
+Interesting new usage: _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetProductCommentsByProductIdQuery(1):Argument
+Log: Subsititution: Handle:IdentifierName -> _getProductCommentsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(1))
+Interesting new usage: _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetProductCommentsByProductIdQuery(product1.Id):Argument
+Log: Subsititution: Handle:IdentifierName -> _getProductCommentsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getProductCommentsQueryHandler.Handle(new GetProductCommentsByProductIdQuery(product1.Id))
+Interesting new usage: _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllShopCommentsQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllShopCommentsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllShopCommentsQueryHandler.Handle(new GetAllShopCommentsQuery())
+Interesting new usage: _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopCommentsByShopQuery(1):Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopCommentsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(1))
+Interesting new usage: _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopCommentsByShopQuery(shop1.Id):Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopCommentsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopCommentsQueryHandler.Handle(new GetShopCommentsByShopQuery(shop1.Id))
+Interesting new usage: _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllCustomersQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllCustomersQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllCustomersQueryHandler.Handle(new GetAllCustomersQuery())
+Interesting new usage: _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetCustomerByIdQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getCustomerByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery())
+Interesting new usage: _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetCustomerByIdQuery { Id = customer.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getCustomerByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getCustomerByIdQueryHandler.Handle(new GetCustomerByIdQuery { Id = customer.Id })
+Interesting new usage: _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetCustomerByUserIdQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getCustomerByUserIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery())
+Interesting new usage: _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetCustomerByUserIdQuery { Id = user1.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getCustomerByUserIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getCustomerByUserIdQueryHandler.Handle(new GetCustomerByUserIdQuery { Id = user1.Id })
+Interesting new usage: _getAllUsersQueryHandler.Handle(new GetAllUsersQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllUsersQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllUsersQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllUsersQueryHandler.Handle(new GetAllUsersQuery())
+Interesting new usage: _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getUserByEmailAndPasswordQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getUserByEmailAndPasswordQueryHandler.Handle(new GetUserByEmailAndPasswordQuery { Email = "Email1@yahoo.com", Password = "123456" })
+Interesting new usage: _getUserByIdQueryHandler.Handle(new GetUserByIdQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetUserByIdQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getUserByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getUserByIdQueryHandler.Handle(new GetUserByIdQuery())
+Interesting new usage: _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetUserByIdQuery { Id = user.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getUserByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getUserByIdQueryHandler.Handle(new GetUserByIdQuery { Id = user.Id })
+Interesting new usage: _getAllShopsQueryHandler.Handle(new GetAllShopsQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetAllShopsQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getAllShopsQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getAllShopsQueryHandler.Handle(new GetAllShopsQuery())
+Interesting new usage: _getShopByIdQueryHandler.Handle(new GetShopByIdQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopByIdQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopByIdQueryHandler.Handle(new GetShopByIdQuery())
+Interesting new usage: _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopByIdQuery { Id = shop.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopByIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopByIdQueryHandler.Handle(new GetShopByIdQuery { Id = shop.Id })
+Interesting new usage: _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery(), CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopByUserIdQuery():Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopByUserIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery())
+Interesting new usage: _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopByUserIdQuery { UserId = user1.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopByUserIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopByUserIdQueryHandler.Handle(new GetShopByUserIdQuery { UserId = user1.Id })
+Interesting new usage: _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopsByCategoryIdQuery { Id = 1 }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopsByCategoryIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = 1 })
+Interesting new usage: _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id }, CancellationToken.None)
+Log: Subsititution: cancellationToken:IdentifierName -> CancellationToken.None:SimpleMemberAccessExpression
+Log: Subsititution: request:Argument -> new GetShopsByCategoryIdQuery { Id = category.Id }:Argument
+Log: Subsititution: Handle:IdentifierName -> _getShopsByCategoryIdQueryHandler.Handle:SimpleMemberAccessExpression
+Correponding input: _getShopsByCategoryIdQueryHandler.Handle(new GetShopsByCategoryIdQuery { Id = category.Id })
+Interesting new usage: this.inner.Handle(request, cancellationToken)
+Log: Subsititution: request:Argument -> request:Argument
+Log: Subsititution: Handle:IdentifierName -> this.inner.Handle:SimpleMemberAccessExpression
+Correponding input: this.inner.Handle(request)
+Interesting new usage: this._decorated.Handle(command, cancellationToken)
+Log: Subsititution: request:Argument -> command:Argument
+Log: Subsititution: Handle:IdentifierName -> this._decorated.Handle:SimpleMemberAccessExpression
+Correponding input: this._decorated.Handle(command)
+Interesting new usage: this._decorated.Handle(notification, cancellationToken)
+Log: Subsititution: request:Argument -> notification:Argument
+Log: Subsititution: Handle:IdentifierName -> this._decorated.Handle:SimpleMemberAccessExpression
+Correponding input: this._decorated.Handle(notification)
+Log: Input to synthesize the program:
+Log: applier.Handle(ev)
+Log: ---------------------
+Log: applier.Handle(ev, CancellationToken.None)
+Log: handler.Handle(request)
+Log: ---------------------
+Log: handler.Handle(request, cancellationToken)
+Log: handler.Handle(c)
+Log: ---------------------
+Log: handler.Handle(c, CancellationToken.None)
+Log: ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command)
+Log: ---------------------
+Log: ((IRequestHandler < AllCardsList.Request, AllCardsList.Response >) subject).Handle(command, default)
+Log: typedHandler.Handle(request)
+Log: ---------------------
+Log: typedHandler.Handle(request, CancellationToken.None)
+Log: Decorated.Handle(request)
+Log: ---------------------
+Log: Decorated.Handle(request, cancellationToken)
+Log: x.Handle(It.IsAny < DownloadUriQuery >())
+Log: ---------------------
+Log: x.Handle(It.IsAny < DownloadUriQuery >(), It.IsAny < CancellationToken >())
+Log: x.Handle(It.Is < FinishUpload >(y => y.UploadId == UploadIdForTests))
+Log: ---------------------
+Log: x.Handle(It.Is < FinishUpload >(y => y.UploadId == UploadIdForTests), It.IsAny < CancellationToken >())
+Log: x.Handle(It.IsAny < FinishUpload >())
+Log: ---------------------
+Log: x.Handle(It.IsAny < FinishUpload >(), It.IsAny < CancellationToken >())
+Log: _handler.Handle(new Request { Value = "newValue", Type = entityType })
+Log: ---------------------
+Log: _handler.Handle(new Request { Value = "newValue", Type = entityType }, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is Handle(notification)
+Log: predict is Handle(notification, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+Log: predict is TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+Log: predict is TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: predict is TestSubject.Handle(new GetMyListRequest { UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: predict is TestSubject.Handle(new GetMyListRequest { UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+Log: predict is TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+Log: predict is TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+Log: predict is TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: predict is TestSubject.Handle(new GetMyListRequest { UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+Log: predict is TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id })
+Log: predict is TestSubject.Handle(new AddMessageRequest { Text = "Hello", UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id })
+Log: predict is TestSubject.Handle(new GetMessagesRequest { WishListId = firstWishList.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = otherUser.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id })
+Log: predict is TestSubject.Handle(new AcceptInvitationRequest(token) { UserId = bob.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetMyListRequest { UserId = user.Id })
+Log: predict is TestSubject.Handle(new GetMyListRequest { UserId = user.Id }, CancellationToken.None)
+Log: old usage is TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id })
+Log: predict is TestSubject.Handle(new GetSharedListRequest { WishListId = bob.WishList.Id, UserId = james.Id }, CancellationToken.None)
+total correct cases : 0 totalTestCases 0 Successful rate is 0
+The successful rate for transforming old usages: 56 / 56

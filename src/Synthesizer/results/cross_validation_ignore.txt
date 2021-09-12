@@ -1,0 +1,543 @@
+Configuration: 
+---- UseAdditionalOutput: True
+---- UseAdditionalInput : False
+---- OnlyNewUsage       : False
+---- GivenExample       : 1
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.15
+---- NewUsageThreashold : 0.25
+---- Validate           : True
+load 2 relevant edits!
+load 38 new relevant usages
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\AutoMapper.Extensions
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\crm-api
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\crossfitDiary
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\GrKouk.InfoSystem.Solution
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\ImoutoRebirth.Room
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\indievisible
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\Lykke.Service.IndexHedgingEngine
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\Lykke.Service.LiquidityEngine
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\Nexplorer
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\OSharp
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\SaltyEmu
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\Threax.Budget
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\Threax.IdServer
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\TopoMojo
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\tt-game
+loading D:\workspace\breaking-changes\benchmark\AutoMapper\AutoMapper_7.0.0_8.0.0\clients\WifiManager
+load 22 relevant client edits!
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 4
+size of new usage: 38
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage x.Ignore()
+Log: add old usage CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.Ignore());
+Log: add old usage opt.Ignore()
+Log: add old usage CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.Ignore());
+Log: add old usage CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.Ignore()).ForSourceMember(src => src.Spread, opt => opt.Ignore());
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.Ignore()).ForSourceMember(src => src.Spread, opt => opt.Ignore());
+Log: add old usage CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.Ignore());
+Log: add old usage opt.Ignore()
+Log: add old usage CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.Ignore());
+Log: add old usage x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.Ignore());
+Log: add old usage x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.Ignore());
+Log: add old usage x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.Ignore()).ForMember(d => d.BlockHeight, o => o.Ignore()).ForMember(d => d.TransactionType, o => o.Ignore());
+Log: add old usage x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.Ignore());
+Log: add old usage x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.Ignore());
+Log: add old usage x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.Ignore());
+Log: add old usage x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.Ignore()).ForMember(d => d.PreviousBlockHash, o => o.Ignore());
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage o.Ignore()
+Log: add old usage x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.Ignore());
+Log: add old usage x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.Ignore());
+Log: add old usage x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.Ignore()).ForMember(d => d.BlockHeight, o => o.Ignore()).ForMember(d => d.TransactionType, o => o.Ignore());
+Log: add old usage x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.Ignore());
+Log: add old usage x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.Ignore());
+Log: add old usage x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.Ignore());
+Log: add old usage x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.Ignore()).ForMember(d => d.PreviousBlockHash, o => o.Ignore());
+Log: add old usage cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.Ignore()).ForSourceMember(s => s.Monsters, expr => expr.Ignore()).ForSourceMember(s => s.Portals, expr => expr.Ignore());
+Log: add old usage expr.Ignore()
+Log: add old usage expr.Ignore()
+Log: add old usage expr.Ignore()
+Log: add old usage cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.Ignore()).ForSourceMember(s => s.Monsters, expr => expr.Ignore()).ForSourceMember(s => s.Portals, expr => expr.Ignore());
+Log: add old usage expr.Ignore()
+Log: add old usage cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.Ignore());
+Log: add old usage expr.Ignore()
+Log: add old usage cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.Ignore());
+Log: add old usage cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.Ignore()).ForSourceMember(s => s.Skills, expression => expression.Ignore()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.Ignore());
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.Ignore()).ForSourceMember(s => s.Skills, expression => expression.Ignore()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.Ignore());
+Log: add old usage cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.Ignore()).ForSourceMember(s => s.Skill, expr => expr.Ignore());
+Log: add old usage expr.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.Ignore()).ForSourceMember(s => s.Skill, expr => expr.Ignore());
+Log: add old usage cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: add old usage expr.Ignore()
+Log: add old usage cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.Ignore());
+Log: add old usage expr.Ignore()
+Log: add old usage cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.Ignore());
+Log: add old usage cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: add old usage expression.Ignore()
+Log: add old usage expression.Ignore()
+Log: add old usage expr.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage opt.Ignore()
+Log: add old usage expr.ForSourceMember(propName, opt => opt.Ignore());
+Log: add old usage opt.Ignore()
+Log: add old usage expr.ForSourceMember(propName, opt => opt.Ignore());
+Log: ============== Cluster start ==============
+- ForSourceMember(property.Name, options => options.Ignore());
+----------------
++ ForSourceMember(property.Name, options => options.DoNotValidate());
+
+old usages: CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.Ignore());
+old usages: CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.Ignore()).ForSourceMember(src => src.Spread, opt => opt.Ignore());
+old usages: CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.Ignore());
+old usages: x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.Ignore());
+old usages: x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.Ignore());
+old usages: x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.Ignore()).ForMember(d => d.BlockHeight, o => o.Ignore()).ForMember(d => d.TransactionType, o => o.Ignore());
+old usages: x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.Ignore());
+old usages: x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.Ignore());
+old usages: x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.Ignore());
+old usages: x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.Ignore()).ForMember(d => d.PreviousBlockHash, o => o.Ignore());
+old usages: cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.Ignore()).ForSourceMember(s => s.Monsters, expr => expr.Ignore()).ForSourceMember(s => s.Portals, expr => expr.Ignore());
+old usages: cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.Ignore());
+old usages: cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.Ignore()).ForSourceMember(s => s.Skills, expression => expression.Ignore()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.Ignore());
+old usages: cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.Ignore()).ForSourceMember(s => s.Skill, expr => expr.Ignore());
+old usages: cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+old usages: cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.Ignore());
+old usages: cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+old usages: expr.ForSourceMember(propName, opt => opt.Ignore());
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: ForSourceMember(property.Name, options => options.Ignore());
+Log: ---------------------
+Log: ForSourceMember(property.Name, options => options.DoNotValidate());
+Log: old usage is CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.Ignore());
+Log: predict is CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.DoNotValidate());
+Log: old usage is CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.Ignore()).ForSourceMember(src => src.Spread, opt => opt.Ignore());
+Log: predict is CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.DoNotValidate()).ForSourceMember(src => src.Spread, opt => opt.DoNotValidate());
+Log: old usage is CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.Ignore());
+Log: predict is CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.DoNotValidate());
+Log: old usage is x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.Ignore());
+Log: predict is x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.Ignore());
+Log: predict is x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.Ignore()).ForMember(d => d.BlockHeight, o => o.Ignore()).ForMember(d => d.TransactionType, o => o.Ignore());
+Log: predict is x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.DoNotValidate()).ForMember(d => d.BlockHeight, o => o.DoNotValidate()).ForMember(d => d.TransactionType, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.Ignore());
+Log: predict is x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.Ignore());
+Log: predict is x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.Ignore());
+Log: predict is x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.Ignore()).ForMember(d => d.PreviousBlockHash, o => o.Ignore());
+Log: predict is x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.DoNotValidate()).ForMember(d => d.PreviousBlockHash, o => o.DoNotValidate());
+Log: old usage is cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.Ignore()).ForSourceMember(s => s.Monsters, expr => expr.Ignore()).ForSourceMember(s => s.Portals, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.DoNotValidate()).ForSourceMember(s => s.Monsters, expr => expr.DoNotValidate()).ForSourceMember(s => s.Portals, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.Ignore()).ForSourceMember(s => s.Skills, expression => expression.Ignore()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.Ignore());
+Log: predict is cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.DoNotValidate()).ForSourceMember(s => s.Skills, expression => expression.DoNotValidate()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.DoNotValidate());
+Log: old usage is cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.Ignore()).ForSourceMember(s => s.Skill, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.DoNotValidate()).ForSourceMember(s => s.Skill, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: predict is cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.DoNotValidate());
+Log: old usage is cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: predict is cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.DoNotValidate());
+Log: old usage is expr.ForSourceMember(propName, opt => opt.Ignore());
+Log: predict is expr.ForSourceMember(propName, opt => opt.DoNotValidate());
+Log: ============== Cluster start ==============
+options.Ignore()
+----------------
+options.DoNotValidate()
+
+opt.Ignore()
+----------------
+opt.DoNotValidate()
+
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: x.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: o.Ignore()
+old usages: expr.Ignore()
+old usages: expr.Ignore()
+old usages: expr.Ignore()
+old usages: expr.Ignore()
+old usages: expr.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expr.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expr.Ignore()
+old usages: expr.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expression.Ignore()
+old usages: expr.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+old usages: opt.Ignore()
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: options.Ignore()
+Log: ---------------------
+Log: options.DoNotValidate()
+Log: predict is opt.DoNotValidate()
+Log: output  is opt.DoNotValidate()
+Log: ----------------------------------------------------
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is x.Ignore()
+Log: predict is x.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is o.Ignore()
+Log: predict is o.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expression.Ignore()
+Log: predict is expression.DoNotValidate()
+Log: old usage is expr.Ignore()
+Log: predict is expr.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: old usage is opt.Ignore()
+Log: predict is opt.DoNotValidate()
+Log: ============== Cluster start ==============
+- _reverseMap.ForSourceMember(destProperty.DestinationProperty.Name, opt => opt.Ignore());
+----------------
++ _reverseMap.ForSourceMember(destProperty.DestinationName, opt => opt.DoNotValidate());
+
+old usages: CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.Ignore());
+old usages: CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.Ignore()).ForSourceMember(src => src.Spread, opt => opt.Ignore());
+old usages: CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.Ignore());
+old usages: x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.Ignore());
+old usages: x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.Ignore());
+old usages: x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.Ignore()).ForMember(d => d.BlockHeight, o => o.Ignore()).ForMember(d => d.TransactionType, o => o.Ignore());
+old usages: x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.Ignore());
+old usages: x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.Ignore());
+old usages: x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.Ignore());
+old usages: x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.Ignore()).ForMember(d => d.PreviousBlockHash, o => o.Ignore());
+old usages: cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.Ignore()).ForSourceMember(s => s.Monsters, expr => expr.Ignore()).ForSourceMember(s => s.Portals, expr => expr.Ignore());
+old usages: cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.Ignore());
+old usages: cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.Ignore()).ForSourceMember(s => s.Skills, expression => expression.Ignore()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.Ignore());
+old usages: cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.Ignore()).ForSourceMember(s => s.Skill, expr => expr.Ignore());
+old usages: cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+old usages: cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.Ignore());
+old usages: cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+old usages: expr.ForSourceMember(propName, opt => opt.Ignore());
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: _reverseMap.ForSourceMember(destProperty.DestinationProperty.Name, opt => opt.Ignore());
+Log: ---------------------
+Log: _reverseMap.ForSourceMember(destProperty.DestinationName, opt => opt.DoNotValidate());
+Log: old usage is CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.Ignore());
+Log: predict is CreateMap < HedgeLimitOrder, HedgeLimitOrderModel >(MemberList.Source).ForSourceMember(src => src.Context, opt => opt.DoNotValidate());
+Log: old usage is CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.Ignore()).ForSourceMember(src => src.Spread, opt => opt.Ignore());
+Log: predict is CreateMap < Quote, QuoteModel >(MemberList.Source).ForSourceMember(src => src.Mid, opt => opt.DoNotValidate()).ForSourceMember(src => src.Spread, opt => opt.DoNotValidate());
+Log: old usage is CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.Ignore());
+Log: predict is CreateMap < Instrument, InstrumentEntity >(MemberList.Source).ForSourceMember(src => src.CrossInstruments, opt => opt.DoNotValidate());
+Log: old usage is x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.Ignore());
+Log: predict is x.CreateMap < FavouriteAddress, FavouriteAddressDto >().ForMember(d => d.AddressDto, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.Ignore());
+Log: predict is x.CreateMap < PeerInfoResponse, PeerInfoDto >().ForMember(d => d.Address, o => o.MapFrom(s => s.IpAddress.Split(':', StringSplitOptions.None).FirstOrDefault() ?? "Unknown")).ForMember(d => d.VersionInfo, o => o.MapFrom(s => s.SubVersion)).ForMember(d => d.ChainHeight, o => o.MapFrom(s => s.Height)).ForMember(d => d.ConnectionTime, o => o.MapFrom(s => Helpers.ToDateTime(s.ConnectionTime))).ForMember(d => d.LastSendTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastSendTime))).ForMember(d => d.LastReceiveTime, o => o.MapFrom(s => Helpers.ToDateTime(s.LastReceiveTime))).ForMember(d => d.Geolocation, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.Ignore()).ForMember(d => d.BlockHeight, o => o.Ignore()).ForMember(d => d.TransactionType, o => o.Ignore());
+Log: predict is x.CreateMap < TransactionResponse, TransactionDto >().ForMember(d => d.Hash, o => o.MapFrom(s => s.TxId)).ForMember(d => d.Timestamp, o => o.MapFrom(s => Helpers.ToDateTime(s.Time))).ForMember(d => d.Inputs, o => o.MapFrom(s => MapTxInOutDto(s.Inputs))).ForMember(d => d.Outputs, o => o.MapFrom(s => MapTxInOutDto(s.Outputs))).ForMember(d => d.TransactionId, o => o.DoNotValidate()).ForMember(d => d.BlockHeight, o => o.DoNotValidate()).ForMember(d => d.TransactionType, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.Ignore());
+Log: predict is x.CreateMap < BlockResponse, BlockDto >().ForMember(d => d.Timestamp, o => o.MapFrom(s => s.Time)).ForMember(d => d.Transactions, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.Ignore());
+Log: predict is x.CreateMap < TransactionDto, OrphanTransaction >().ForMember(d => d.BlockHeight, o => o.MapFrom(s => s.BlockHeight)).ForMember(d => d.OrphanBlock, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.Ignore());
+Log: predict is x.CreateMap < BlockDto, OrphanBlock >().ForMember(d => d.BlockId, o => o.DoNotValidate());
+Log: old usage is x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.Ignore()).ForMember(d => d.PreviousBlockHash, o => o.Ignore());
+Log: predict is x.CreateMap < Block, BlockDto >().ForMember(d => d.NextBlockHash, o => o.DoNotValidate()).ForMember(d => d.PreviousBlockHash, o => o.DoNotValidate());
+Log: old usage is cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.Ignore()).ForSourceMember(s => s.Monsters, expr => expr.Ignore()).ForSourceMember(s => s.Portals, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < MapModel, MapDto >().ForSourceMember(s => s.Npcs, expr => expr.DoNotValidate()).ForSourceMember(s => s.Monsters, expr => expr.DoNotValidate()).ForSourceMember(s => s.Portals, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < MapPortalModel, PortalDto >().ForSourceMember(s => s.SourceMap, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.Ignore()).ForSourceMember(s => s.Skills, expression => expression.Ignore()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.Ignore());
+Log: predict is cfg.CreateMap < NpcMonsterModel, NpcMonsterDto >().ForSourceMember(s => s.BCards, expression => expression.DoNotValidate()).ForSourceMember(s => s.Skills, expression => expression.DoNotValidate()).ForSourceMember(s => s.MapNpcMonsters, expression => expression.DoNotValidate());
+Log: old usage is cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.Ignore()).ForSourceMember(s => s.Skill, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < NpcMonsterSkillModel, NpcMonsterSkillDto >().ForSourceMember(s => s.NpcMonster, expression => expression.DoNotValidate()).ForSourceMember(s => s.Skill, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: predict is cfg.CreateMap < BCardDto, BCardModel >().ForSourceMember(src => src.RelationType, expression => expression.DoNotValidate());
+Log: old usage is cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.Ignore());
+Log: predict is cfg.CreateMap < ItemModel, ItemDto >().ForSourceMember(s => s.BCards, expr => expr.DoNotValidate());
+Log: old usage is cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.Ignore());
+Log: predict is cfg.CreateMap < DropDto, DropModel >().ForSourceMember(src => src.RelationType, expression => expression.DoNotValidate());
+Log: old usage is expr.ForSourceMember(propName, opt => opt.Ignore());
+Log: predict is expr.ForSourceMember(propName, opt => opt.DoNotValidate());
+total correct cases : 1 totalTestCases 1 Successful rate is 1
+The successful rate for transforming old usages: 22 / 22

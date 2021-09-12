@@ -1,0 +1,990 @@
+Configuration: 
+---- UseAdditionalOutput: False
+---- UseAdditionalInput : False
+---- OnlyNewUsage       : False
+---- GivenExample       : 2
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.15
+---- NewUsageThreashold : 0.25
+load 6 relevant edits!
+load 84 old relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 12
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage scriptExecutor = new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage scriptExecutor = new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage scriptExecutor = new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: add old usage new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: ============== Cluster start ==============
+- var executor = new SqlScriptExecutor(() => Substitute.For<IConnectionManager>(), () => null, null, () => false, null);
+----------------
++ var executor = new SqlScriptExecutor(() => Substitute.For<IConnectionManager>(), () => null, null, () => false, null, () => Substitute.For<IJournal>());
+
+old usages: var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+----------------
+new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null,() => Substitute.For < IJournal >())
+
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true), () => new ConsoleUpgradeLog(), null, () => true, null);
+----------------
++ var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true), () => new ConsoleUpgradeLog(), null, () => true, null, () => Substitute.For<IJournal>());
+
+- var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true), () => new ConsoleUpgradeLog(), null, () => false, null);
+----------------
++ var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true), () => new ConsoleUpgradeLog(), null, () => false, null, () => Substitute.For<IJournal>());
+
+- var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true), () => new ConsoleUpgradeLog(), "foo", () => true, null);
+----------------
++ var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true), () => new ConsoleUpgradeLog(), "foo", () => true, null, () => Substitute.For<IJournal>());
+
+- var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true)
+            {
+                IsScriptOutputLogged = true
+            }, () => new ConsoleUpgradeLog(), "foo", () => true, null);
+----------------
++ var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true)
+            {
+                IsScriptOutputLogged = true
+            }, () => new ConsoleUpgradeLog(), "foo", () => true, null, () => Substitute.For<IJournal>());
+
+old usages: var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+old usages: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: ---------------------
+Log: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: ---------------------
+Log: var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >());
+Log: predict is null
+Log: output  is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null,() => Substitute.For < IJournal >());
+Log: ----------------------------------------------------
+Log: predict is null
+Log: output  is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null,() => Substitute.For < IJournal >());
+Log: ----------------------------------------------------
+Log: old usage is var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null);
+Log: predict is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >());
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: predict is null
+Log: old usage is var executor = new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null);
+Log: predict is null
+Log: ============== Cluster start ==============
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+----------------
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+----------------
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+----------------
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null,() => Substitute.For < IJournal >())
+
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+----------------
+new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null,() => Substitute.For < IJournal >())
+
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: ---------------------
+Log: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: ---------------------
+Log: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: predict is null
+Log: output  is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null,() => Substitute.For < IJournal >())
+Log: ----------------------------------------------------
+Log: predict is null
+Log: output  is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null,() => Substitute.For < IJournal >())
+Log: ----------------------------------------------------
+Log: old usage is new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+Log: predict is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null,() => Substitute.For < IJournal >())
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+Log: predict is null
+Log: old usage is new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+Log: predict is null
+Log: ============== Cluster start ==============
+- scriptExecutor = new SqlScriptExecutor(() => connectionManager, () => new TraceUpgradeLog(), null, () => true, null);
+----------------
++ scriptExecutor = new SqlScriptExecutor(() => connectionManager, () => Substitute.For<IUpgradeLog>(), null, () => true, null, () => versionTracker);
+
+old usages: scriptExecutor = new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null);
+old usages: scriptExecutor = new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null);
+old usages: scriptExecutor = new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null);
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+----------------
+new SqlScriptExecutor(() => connectionManager,() => Substitute.For < IUpgradeLog >(), null,() => true, null,() => versionTracker)
+
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => Substitute.For < IConnectionManager >(),() => null, null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), null,() => false, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true),() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => new TestConnectionManager(dbConnection, true) { IsScriptOutputLogged = true },() => new ConsoleUpgradeLog(), "foo",() => true, null)
+old usages: new SqlScriptExecutor(() => connectionManager,() => new TraceUpgradeLog(), null,() => true, null)
+============= Cluster end ==============
+
+total correct cases : 0 totalTestCases 4 Successful rate is 0
+The successful rate for transforming old usages: 56 / 84

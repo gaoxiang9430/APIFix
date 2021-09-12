@@ -1,0 +1,1532 @@
+[
+    {
+        "client_name": "SteamControllerConfigDownloader",
+        "five_day_commit": "af786ddbfa5f2d20cbc14b1c4391ff8192e3d6f8",
+        "html_url": "https://github.com/nikop/SteamControllerConfigDownloader.git",
+        "new_commit_id": "af786ddbfa5f2d20cbc14b1c4391ff8192e3d6f8",
+        "new_version": "1.7.0.33680",
+        "old_commit_id": "0d058ec419135b41cfff2da9dc1c42b6398b2b12",
+        "old_version": "1.6.5.29095"
+    },
+    {
+        "client_name": "MarketBot",
+        "five_day_commit": "7c7b6035b1fb70fdceb6a9293d0f191a973284b3",
+        "html_url": "https://github.com/Noobgam/MarketBot.git",
+        "new_commit_id": "3bacf19477bc18aa3f00397443badd5004d3893a",
+        "new_version": "2.1.0.0",
+        "old_commit_id": "0f4856e16d8371b75f685c28e5db1fc5854cdde4",
+        "old_version": "1.6.2.38878"
+    },
+    {
+        "client_name": "MarketBot",
+        "five_day_commit": "7151903f046fd65e4266fe0a918ee51f299e685b",
+        "html_url": "https://github.com/Noobgam/MarketBot.git",
+        "new_commit_id": "f6764d40a2b589b847158e26ce5e70a22c5592ef",
+        "new_version": "1.8.1.0",
+        "old_commit_id": "f81865df73b95b5e885d711f14496ba6b73f8528",
+        "old_version": "1.7.0.33680"
+    },
+    {
+        "client_name": "MarketBot",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/Noobgam/MarketBot.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "MarketBot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/Noobgam/MarketBot.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "MarketBot",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/Noobgam/MarketBot.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "MarketBot",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/Noobgam/MarketBot.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "MarketBot",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/Noobgam/MarketBot.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "Old-SkyrimOnline",
+        "five_day_commit": "5bcd01b711c7914ade386aaa0fd35eee3f25a76c",
+        "html_url": "https://github.com/WopsS/Old-SkyrimOnline.git",
+        "new_commit_id": "5bcd01b711c7914ade386aaa0fd35eee3f25a76c",
+        "new_version": "1.6.1",
+        "old_commit_id": "67d73c4c52f0450e87b6a88bf95c85d1f176377d",
+        "old_version": "1.5.0"
+    },
+    {
+        "client_name": "Old-SkyrimOnline",
+        "five_day_commit": "b436c44035fbaa114d8d49078ad7071728852523",
+        "html_url": "https://github.com/WopsS/Old-SkyrimOnline.git",
+        "new_commit_id": "a2235ab1cd5b31703666511e78830a576fbdb3c1",
+        "new_version": "1.5.0",
+        "old_commit_id": "e51495c8d18dde4fbb328768db2515cd1391506e",
+        "old_version": "1.4.1"
+    },
+    {
+        "client_name": "Old-SkyrimOnline",
+        "five_day_commit": "67d73c4c52f0450e87b6a88bf95c85d1f176377d",
+        "html_url": "https://github.com/WopsS/Old-SkyrimOnline.git",
+        "new_commit_id": "67d73c4c52f0450e87b6a88bf95c85d1f176377d",
+        "new_version": "1.6.0",
+        "old_commit_id": "269b37198301529a0c8a82c4d4e4b33520596411",
+        "old_version": "1.5.0"
+    },
+    {
+        "client_name": "xubot",
+        "five_day_commit": "77510c31efa38f9641fb43738af2c093183d967e",
+        "html_url": "https://github.com/xubiod/xubot.git",
+        "new_commit_id": "8f96204d6c7021539b81ebf58a07f3cb41c7d78d",
+        "new_version": "2.4.0",
+        "old_commit_id": "275b7bd1d0ccb25239a127b2eefb341f3643f06b",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "BytexDigital.Steam",
+        "five_day_commit": "596169cda59a0f6f543aa1b976b15dde1d0c0f87",
+        "html_url": "https://github.com/BytexDigital/BytexDigital.Steam.git",
+        "new_commit_id": "76154445ef78a55d9bac96cba26958c330678231",
+        "new_version": "2.3.0",
+        "old_commit_id": "7a87cd47e43103611175232551d97707358c7e46",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "BytexDigital.Steam",
+        "five_day_commit": "596169cda59a0f6f543aa1b976b15dde1d0c0f87",
+        "html_url": "https://github.com/BytexDigital/BytexDigital.Steam.git",
+        "new_commit_id": "c0d0218d63e64c6e2843c0ea2c5647d0932f073f",
+        "new_version": "2.2.0",
+        "old_commit_id": "3a769a9ab57162a551103272621a04c5e2401d52",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "SteamDepotFileVerifier",
+        "five_day_commit": "26922bbe9b4ed80ee4fc4f2bcb4c8e4af5c48853",
+        "html_url": "https://github.com/xPaw/SteamDepotFileVerifier.git",
+        "new_commit_id": "d9615c017747875c6fa3da65544abd6bcfdc766c",
+        "new_version": "2.4.0",
+        "old_commit_id": "d51f72531c9075b599971f7a3c172d21d39d9b7d",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "SteamDepotFileVerifier",
+        "five_day_commit": "d51f72531c9075b599971f7a3c172d21d39d9b7d",
+        "html_url": "https://github.com/xPaw/SteamDepotFileVerifier.git",
+        "new_commit_id": "d51f72531c9075b599971f7a3c172d21d39d9b7d",
+        "new_version": "2.3.0",
+        "old_commit_id": "6fa9b06b871c75ec5db47ff6a042b9589d57c87d",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "ASRT_SuperLobbyBot",
+        "five_day_commit": "041bde88dc5a756604ed55a92c14bdae8febd5ed",
+        "html_url": "https://github.com/Tyaap/ASRT_SuperLobbyBot.git",
+        "new_commit_id": "041bde88dc5a756604ed55a92c14bdae8febd5ed",
+        "new_version": "2.3.0",
+        "old_commit_id": "ccdda0d3ce4ea36120e2c2d671a7ba591d9146ce",
+        "old_version": "2.3.0.1172"
+    },
+    {
+        "client_name": "ASRT_SuperLobbyBot",
+        "five_day_commit": "b0338f1a3fed2899e887709349fdbe86b62eeb1a",
+        "html_url": "https://github.com/Tyaap/ASRT_SuperLobbyBot.git",
+        "new_commit_id": "1e330dc49ce3b39ddb4e44f2571ca5cd8e1b6b75",
+        "new_version": "2.3.0.1172",
+        "old_commit_id": "83368a1d4e473d0f17dc464927e9a7345f3f9d20",
+        "old_version": "2.3.0.1167"
+    },
+    {
+        "client_name": "ASRT_SuperLobbyBot",
+        "five_day_commit": "c58a1e686b18ba05abcf92c852c7f6a5f7d06319",
+        "html_url": "https://github.com/Tyaap/ASRT_SuperLobbyBot.git",
+        "new_commit_id": "d207fb2f852b95c40e822bb5d1da10db4a8f9199",
+        "new_version": "2.3.0.1167",
+        "old_commit_id": "3583d8242ab8a4bff7694895be0fb191cf6e9f05",
+        "old_version": "2.2.0.1161"
+    },
+    {
+        "client_name": "ASRT_SuperLobbyBot",
+        "five_day_commit": "6318bae4567b39274cd15bc7cee6d3bccb1d8e57",
+        "html_url": "https://github.com/Tyaap/ASRT_SuperLobbyBot.git",
+        "new_commit_id": "bda99d5124e6a425e5a9e051e7ce944af5c26239",
+        "new_version": "2.2.0.1161",
+        "old_commit_id": "e1c923130e4af898615cd2044049c84924655bba",
+        "old_version": "2.2.0.1161"
+    },
+    {
+        "client_name": "vrchat",
+        "five_day_commit": "c38f49fc025fc01505fcff558dab909c3e5eee5c",
+        "html_url": "https://github.com/suxeor/vrchat.git",
+        "new_commit_id": "50f566d08a02cbbd1c6456d5af07749f59e01a49",
+        "new_version": "1.8.3",
+        "old_commit_id": "e1ebff11451bec204a38577fee7806be24947151",
+        "old_version": "1.8.3"
+    },
+    {
+        "client_name": "vrchat",
+        "five_day_commit": "f603d909cd1b7a724ef802537eaa73faa3761367",
+        "html_url": "https://github.com/suxeor/vrchat.git",
+        "new_commit_id": "891f158112fcb7f06546039a31bb72d2eef69c36",
+        "new_version": "1.8.3",
+        "old_commit_id": "3aa589b168e7605059b99e9a56883582e7bdce3d",
+        "old_version": "1.8.3"
+    },
+    {
+        "client_name": "ASteambot",
+        "five_day_commit": "7fdba7e16c6e133a3747b9a9447dfd95c000d956",
+        "html_url": "https://github.com/Arkarr/ASteambot.git",
+        "new_commit_id": "7fdba7e16c6e133a3747b9a9447dfd95c000d956",
+        "new_version": "2.1.0",
+        "old_commit_id": "b32e4d8e5e789d841b13d8415f5c058a4309730f",
+        "old_version": "2.1.0.0"
+    },
+    {
+        "client_name": "ASteambot",
+        "five_day_commit": "1a645ce59779b51f90ede837c9ce0392cd3b22c1",
+        "html_url": "https://github.com/Arkarr/ASteambot.git",
+        "new_commit_id": "57c8a5631604d9f4b626b921b7cc7f093b616242",
+        "new_version": "2.1.0.0",
+        "old_commit_id": "763314819a7923c88c27aefef337b3688dfed3f2",
+        "old_version": "1.8.3.0"
+    },
+    {
+        "client_name": "ASteambot",
+        "five_day_commit": "4b735b93ba256a6e6a52260d5820635e4a60cc4f",
+        "html_url": "https://github.com/Arkarr/ASteambot.git",
+        "new_commit_id": "35b21742f71b7f195b04057fc3a5270149885064",
+        "new_version": "2.3.0",
+        "old_commit_id": "74fab70b0b036fc929239cb3cc3a050e83a5e354",
+        "old_version": "2.1.0"
+    },
+    {
+        "client_name": "ASteambot",
+        "five_day_commit": "51b69d3f6e920a5ef48a02930fa0860502103227",
+        "html_url": "https://github.com/Arkarr/ASteambot.git",
+        "new_commit_id": "b703452cc1fa06919a04fc2e5bca1616b8300cc5",
+        "new_version": "1.8.3.0",
+        "old_commit_id": "cb7f1e264ca95b484c6bf259a8bd372496240660",
+        "old_version": "2.1.0.0"
+    },
+    {
+        "client_name": "ASteambot",
+        "five_day_commit": "cb7f1e264ca95b484c6bf259a8bd372496240660",
+        "html_url": "https://github.com/Arkarr/ASteambot.git",
+        "new_commit_id": "8cde22c66add96b2c2f8f0145ed723a1766c76ac",
+        "new_version": "2.1.0.0",
+        "old_commit_id": "330b67da20816ebf541b39c98733c7f246b740ff",
+        "old_version": "1.8.3.0"
+    },
+    {
+        "client_name": "dota",
+        "five_day_commit": "6df096f5d9e184b68b0705898df43166b1fd1d1b",
+        "html_url": "https://github.com/h4c3er/dota.git",
+        "new_commit_id": "f769d2a6fc736bfee92c7debe417df38f9c8b3ef",
+        "new_version": "2.0.0.0",
+        "old_commit_id": "673648e397f3f2e587e5926a986df78abafd8d33",
+        "old_version": "1.8.2.0"
+    },
+    {
+        "client_name": "dota",
+        "five_day_commit": "a4fa844a0b1e188791cdb529cee292defd9584b0",
+        "html_url": "https://github.com/h4c3er/dota.git",
+        "new_commit_id": "f99433a46ae08b373e276dac12a4a5771d763d05",
+        "new_version": "1.8.2.0",
+        "old_commit_id": "5e559c64d0ca6fa6c12a54329625684a3f8162d1",
+        "old_version": "1.8.0.26737"
+    },
+    {
+        "client_name": "Steam-Discord-Bot",
+        "five_day_commit": "c38f49fc025fc01505fcff558dab909c3e5eee5c",
+        "html_url": "https://github.com/Headline/Steam-Discord-Bot.git",
+        "new_commit_id": "50f566d08a02cbbd1c6456d5af07749f59e01a49",
+        "new_version": "1.8.3",
+        "old_commit_id": "e1ebff11451bec204a38577fee7806be24947151",
+        "old_version": "1.8.3"
+    },
+    {
+        "client_name": "Steam-Discord-Bot",
+        "five_day_commit": "f603d909cd1b7a724ef802537eaa73faa3761367",
+        "html_url": "https://github.com/Headline/Steam-Discord-Bot.git",
+        "new_commit_id": "891f158112fcb7f06546039a31bb72d2eef69c36",
+        "new_version": "1.8.3",
+        "old_commit_id": "3aa589b168e7605059b99e9a56883582e7bdce3d",
+        "old_version": "1.8.3"
+    },
+    {
+        "client_name": "ChatLogger",
+        "five_day_commit": "acca9a0ea37a532ba42515248e27cb65e25f4515",
+        "html_url": "https://github.com/sp0ok3r/ChatLogger.git",
+        "new_commit_id": "dabcf842a117f36d9f964510959c70654a2f4671",
+        "new_version": "2.4.0.0",
+        "old_commit_id": "bb4d4d1378f7b00ddab97a313b5cb27a5a28c55a",
+        "old_version": "2.3.0.1164"
+    },
+    {
+        "client_name": "ChatLogger",
+        "five_day_commit": "bb4d4d1378f7b00ddab97a313b5cb27a5a28c55a",
+        "html_url": "https://github.com/sp0ok3r/ChatLogger.git",
+        "new_commit_id": "9180143188d13bc480a0912d6411a09a8cf1de73",
+        "new_version": "2.3.0.1164",
+        "old_commit_id": "27c9847076d23c7daeee6f90259106e564dadb5c",
+        "old_version": "2.2.0.0"
+    },
+    {
+        "client_name": "ChatLogger",
+        "five_day_commit": "0ff1a674a47e835b8fe04d83c9298ac2e8c55ece",
+        "html_url": "https://github.com/sp0ok3r/ChatLogger.git",
+        "new_commit_id": "0ff1a674a47e835b8fe04d83c9298ac2e8c55ece",
+        "new_version": "2.3.0.1164",
+        "old_commit_id": "802f4d35fdf87b752cd1c65270a68c673c048e23",
+        "old_version": "2.2.0.0"
+    },
+    {
+        "client_name": "ChatLogger",
+        "five_day_commit": "802f4d35fdf87b752cd1c65270a68c673c048e23",
+        "html_url": "https://github.com/sp0ok3r/ChatLogger.git",
+        "new_commit_id": "03af9a0a9d0ea63af4ca3863ad726329e6d8baa4",
+        "new_version": "2.2.0.0",
+        "old_commit_id": "dd737a84813b96269683f01665b64edd80ae32ed",
+        "old_version": "2.1.0.0"
+    },
+    {
+        "client_name": "Mercury",
+        "five_day_commit": "c6d4128c9aa22e57abbced0067a2e26cb4744327",
+        "html_url": "https://github.com/sp0ok3r/Mercury.git",
+        "new_commit_id": "c6d4128c9aa22e57abbced0067a2e26cb4744327",
+        "new_version": "2.4.0.0",
+        "old_commit_id": "5074529a66e0155a692333abce50150a16ddd4f1",
+        "old_version": "2.3.0.1249"
+    },
+    {
+        "client_name": "Mercury",
+        "five_day_commit": "9d15a34fabdac573e289baf34ebe0741a0e71213",
+        "html_url": "https://github.com/sp0ok3r/Mercury.git",
+        "new_commit_id": "0d8645d5013dca3a200efa09243e6c61260e8206",
+        "new_version": "2.3.0.1164",
+        "old_commit_id": "242307e078a6bd2641df2e8a7ff966fba46446a0",
+        "old_version": "2.2.0.0"
+    },
+    {
+        "client_name": "Mercury",
+        "five_day_commit": "5b99b7a2b671531d5f9f15b117469704e980314b",
+        "html_url": "https://github.com/sp0ok3r/Mercury.git",
+        "new_commit_id": "06c21c6a558f1705bb9210bf6203faa7a20c9dcf",
+        "new_version": "2.2.0.0",
+        "old_commit_id": "d23bf709afc7eed2c91416783774cb478d55c615",
+        "old_version": "2.1.0.0"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "480293cf43d1d60d1539b0e6cb9755e763d279db",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "f6764d40a2b589b847158e26ce5e70a22c5592ef",
+        "new_version": "1.8.1.0",
+        "old_commit_id": "f81865df73b95b5e885d711f14496ba6b73f8528",
+        "old_version": "1.7.0.33680"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SM_Bots",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/TimoKruth/SM_Bots.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "steam-profile-manager",
+        "five_day_commit": "7e34cc69e197f375cb3556c2058012eeea288a8f",
+        "html_url": "https://github.com/hmlendea/steam-profile-manager.git",
+        "new_commit_id": "23bd08a170b05d63e8569acb416e85e8a1dc4a7c",
+        "new_version": "1.8.3.0",
+        "old_commit_id": "2bfc2851b4a4054dcf4f6ec35ab7906ec803c4d2",
+        "old_version": "1.8.3.0"
+    },
+    {
+        "client_name": "steam-profile-manager",
+        "five_day_commit": "7e34cc69e197f375cb3556c2058012eeea288a8f",
+        "html_url": "https://github.com/hmlendea/steam-profile-manager.git",
+        "new_commit_id": "40c34d020888aaef6ee07ac7745135e2d20877aa",
+        "new_version": "1.8.3.0",
+        "old_commit_id": "ec945c51b26e44cb5563e21fd549875f5b4a4044",
+        "old_version": "1.8.3"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "480293cf43d1d60d1539b0e6cb9755e763d279db",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "f6764d40a2b589b847158e26ce5e70a22c5592ef",
+        "new_version": "1.8.1.0",
+        "old_commit_id": "f81865df73b95b5e885d711f14496ba6b73f8528",
+        "old_version": "1.7.0.33680"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/Jessecar96/SteamBot.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "MoistureBot",
+        "five_day_commit": "a2e0a166ef0c98ff9159608a8fae6e821de08302",
+        "html_url": "https://github.com/attemoi/MoistureBot.git",
+        "new_commit_id": "6ccfbbdeb1574a16d24bd140aef5ddaf0bb17275",
+        "new_version": "1.6.4",
+        "old_commit_id": "f6972ffbaf238c9a44912882b9766b436153f21a",
+        "old_version": "1.6.2"
+    },
+    {
+        "client_name": "MoistureBot",
+        "five_day_commit": "1a266e4cc30e2f73c5b7ca74e1e9ccf3cdbeed7e",
+        "html_url": "https://github.com/attemoi/MoistureBot.git",
+        "new_commit_id": "76a8621c370e73551548c5e9375f1cbdb2d62611",
+        "new_version": "1.6.2",
+        "old_commit_id": "a3c061aa1e882a17fc7a99bd2df9e35e06738c28",
+        "old_version": "1.6.2"
+    },
+    {
+        "client_name": "MoistureBot",
+        "five_day_commit": "5a4dc06503054ac18bd46a4db69753849e24ecc4",
+        "html_url": "https://github.com/attemoi/MoistureBot.git",
+        "new_commit_id": "5a4dc06503054ac18bd46a4db69753849e24ecc4",
+        "new_version": "1.6.2",
+        "old_commit_id": "33c4d3afbb28c19c6940bb6fd98aa7db22940c19",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "MoistureBot",
+        "five_day_commit": "3ebdf6ce144cb24adca0dc842ec7bc67eb5517d4",
+        "html_url": "https://github.com/attemoi/MoistureBot.git",
+        "new_commit_id": "e109b9e85cec75859e6f7e9985feca5cf14983fb",
+        "new_version": "1.6.0",
+        "old_commit_id": "84cc3a89ebf2d9bfdbe2fff1742f0fe2aec98586",
+        "old_version": "1.5.1"
+    },
+    {
+        "client_name": "farmercloud",
+        "five_day_commit": "647a0992a1767059eecc4bb6201f25000f2c7cba",
+        "html_url": "https://github.com/kresi097/farmercloud.git",
+        "new_commit_id": "4059a2cd11de6d75c29295af17ac847740e2aae8",
+        "new_version": "1.8.0.26737",
+        "old_commit_id": "23af6efb4b902f27bc9b61759b645ed3a74ea5bb",
+        "old_version": "1.7.0.33680"
+    },
+    {
+        "client_name": "farmercloud",
+        "five_day_commit": "e6015ca9999174eb56b1d857a17d6dcb3111b20c",
+        "html_url": "https://github.com/kresi097/farmercloud.git",
+        "new_commit_id": "4cd2444a1a31dfdc8bf887050fb828c7abee0d84",
+        "new_version": "1.7.0.33680",
+        "old_commit_id": "4f23d2e8747b5ea3ef29497e0ddeda0282785123",
+        "old_version": "1.6.5.29095"
+    },
+    {
+        "client_name": "farmercloud",
+        "five_day_commit": "e8335ac18343f0021dd7f8d39c3a36b194210b00",
+        "html_url": "https://github.com/kresi097/farmercloud.git",
+        "new_commit_id": "a0ba1480053aa2b25911ce29e97ebd5411d824f6",
+        "new_version": "1.6.5",
+        "old_commit_id": "abe3beaee7fe614f72b9598a2dc43678eb72a769",
+        "old_version": "1.6.5"
+    },
+    {
+        "client_name": "SteamBot_Swag",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/swagger1337/SteamBot_Swag.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "SteamBot_Swag",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/swagger1337/SteamBot_Swag.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot_Swag",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/swagger1337/SteamBot_Swag.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot_Swag",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/swagger1337/SteamBot_Swag.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot_Swag",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/swagger1337/SteamBot_Swag.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot_Swag",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/swagger1337/SteamBot_Swag.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "SteamBot_Swag",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/swagger1337/SteamBot_Swag.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/OllieW/SteamBot.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/OllieW/SteamBot.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/OllieW/SteamBot.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/OllieW/SteamBot.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/OllieW/SteamBot.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/OllieW/SteamBot.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/OllieW/SteamBot.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "HourBoostr",
+        "five_day_commit": "6df096f5d9e184b68b0705898df43166b1fd1d1b",
+        "html_url": "https://github.com/Ezzpify/HourBoostr.git",
+        "new_commit_id": "f769d2a6fc736bfee92c7debe417df38f9c8b3ef",
+        "new_version": "2.0.0.0",
+        "old_commit_id": "673648e397f3f2e587e5926a986df78abafd8d33",
+        "old_version": "1.8.2.0"
+    },
+    {
+        "client_name": "HourBoostr",
+        "five_day_commit": "a4fa844a0b1e188791cdb529cee292defd9584b0",
+        "html_url": "https://github.com/Ezzpify/HourBoostr.git",
+        "new_commit_id": "f99433a46ae08b373e276dac12a4a5771d763d05",
+        "new_version": "1.8.2.0",
+        "old_commit_id": "5e559c64d0ca6fa6c12a54329625684a3f8162d1",
+        "old_version": "1.8.0.26737"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "480293cf43d1d60d1539b0e6cb9755e763d279db",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "f6764d40a2b589b847158e26ce5e70a22c5592ef",
+        "new_version": "1.8.1.0",
+        "old_commit_id": "f81865df73b95b5e885d711f14496ba6b73f8528",
+        "old_version": "1.7.0.33680"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "steam-bot-test",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/krstecd/steam-bot-test.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "KraxbotOSS",
+        "five_day_commit": "0e3ffab5066afff92970eb511694efc16fab55ac",
+        "html_url": "https://github.com/kraxarn/KraxbotOSS.git",
+        "new_commit_id": "63cd914b71d75ea9a3653d42b45a72bdbe0f9029",
+        "new_version": "1.8.3",
+        "old_commit_id": "8b4fa6f4a0524ee2499dba9e3137951d3875f16f",
+        "old_version": "1.8.3"
+    },
+    {
+        "client_name": "bot",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/XieleN/bot.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "bot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/XieleN/bot.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "bot",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/XieleN/bot.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "bot",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/XieleN/bot.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "bot",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/XieleN/bot.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "bot",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/XieleN/bot.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "bot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/XieleN/bot.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "SteamAchievementsViewer",
+        "five_day_commit": "ed14b623482252bc0ad4324cbb7af3cd97147ea7",
+        "html_url": "https://github.com/Scillman/SteamAchievementsViewer.git",
+        "new_commit_id": "381fa71c8dfe2f4205b499feb31afe93148c4f99",
+        "new_version": "1.6.2",
+        "old_commit_id": "7e9346cd6f37209d741fc0f2e86e3e6915e98f91",
+        "old_version": "1.5.1"
+    },
+    {
+        "client_name": "SteamNerd",
+        "five_day_commit": "2cc5b6cfe6fac67fbf4361771e4c590951f8b0b6",
+        "html_url": "https://github.com/bakerj76/SteamNerd.git",
+        "new_commit_id": "b8d5fe580cd5e8622259fa1149f19ebd33992bc3",
+        "new_version": "1.6.4.32461",
+        "old_commit_id": "ad788593c935f870a571c4342f7de08f93a04071",
+        "old_version": "1.6.3"
+    },
+    {
+        "client_name": "SteamNerd",
+        "five_day_commit": "ad788593c935f870a571c4342f7de08f93a04071",
+        "html_url": "https://github.com/bakerj76/SteamNerd.git",
+        "new_commit_id": "ad788593c935f870a571c4342f7de08f93a04071",
+        "new_version": "1.6.3",
+        "old_commit_id": "532605478a8b55e889266de7b69ae5368dda2c77",
+        "old_version": "1.6.3"
+    },
+    {
+        "client_name": "Titan",
+        "five_day_commit": "2b766d1608ed3cf8e512b3f75a450183ae1f08c4",
+        "html_url": "https://github.com/Marc3842h/Titan.git",
+        "new_commit_id": "7c9ae89a005b23a7c35550a50dbaa4a34a7e506c",
+        "new_version": "2.1.0.0",
+        "old_commit_id": "31d5c81e6f4e4fbbeee6ba0ae4daf3580ff5966d",
+        "old_version": "2.0.0.0"
+    },
+    {
+        "client_name": "Titan",
+        "five_day_commit": "b16cb70d6faef0e905b8fe4fa25d491170d455c8",
+        "html_url": "https://github.com/Marc3842h/Titan.git",
+        "new_commit_id": "41a4dcf0c5791966202de31666bc3c635e36dc53",
+        "new_version": "2.0.0",
+        "old_commit_id": "d277556574d126eaeb5922808f0eccc2e14ea964",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "Mist",
+        "five_day_commit": "d7b7a14a8a05225c1c04513a4799dd8079eafcb5",
+        "html_url": "https://github.com/waylaidwanderer/Mist.git",
+        "new_commit_id": "ea98a7adde4a7de95dcb2902e0e71071b9a1a3f0",
+        "new_version": "1.3.0.25261",
+        "old_commit_id": "faa6e451f7146e3d79159a735446981df2e011c9",
+        "old_version": "1.3.0.24063"
+    },
+    {
+        "client_name": "steambot",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/Rhaniel/steambot.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "steambot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/Rhaniel/steambot.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "steambot",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/Rhaniel/steambot.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "steambot",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/Rhaniel/steambot.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "steambot",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/Rhaniel/steambot.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "steambot",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/Rhaniel/steambot.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "steambot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/Rhaniel/steambot.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "SteamKit2-Starter",
+        "five_day_commit": "f933078da0eb80519a93134dc5c3f76da37e0b3f",
+        "html_url": "https://github.com/121GWJolt/SteamKit2-Starter.git",
+        "new_commit_id": "d96d44f2a6cb3e7bc469ea18cf00841bb6fc7145",
+        "new_version": "1.7.0.33680",
+        "old_commit_id": "467fafbd8cff248868bc47dc04d391fc13f46ba1",
+        "old_version": "1.6.5.29095"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/duoduofeizhuzi/SteamBot.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/duoduofeizhuzi/SteamBot.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/duoduofeizhuzi/SteamBot.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/duoduofeizhuzi/SteamBot.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/duoduofeizhuzi/SteamBot.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/duoduofeizhuzi/SteamBot.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "SteamBot",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/duoduofeizhuzi/SteamBot.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "DogBot",
+        "five_day_commit": "56e2f386a82df1d17cb112c466dfbf9dd3d7c94b",
+        "html_url": "https://github.com/Trainfire/DogBot.git",
+        "new_commit_id": "1c9212ce45aa85b42765cc8fbb234ce5c4018c0a",
+        "new_version": "1.7.0",
+        "old_commit_id": "745d00e250873c0707c2b967c10561562e949524",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "gusmahourboost",
+        "five_day_commit": "a4fa844a0b1e188791cdb529cee292defd9584b0",
+        "html_url": "https://github.com/gusmaok/gusmahourboost.git",
+        "new_commit_id": "f99433a46ae08b373e276dac12a4a5771d763d05",
+        "new_version": "1.8.2.0",
+        "old_commit_id": "5e559c64d0ca6fa6c12a54329625684a3f8162d1",
+        "old_version": "1.8.0.26737"
+    },
+    {
+        "client_name": "runstarr",
+        "five_day_commit": "b8848ea05c907259e9f81347434173bba982dcc6",
+        "html_url": "https://github.com/flickamad/runstarr.git",
+        "new_commit_id": "741c288527f207c09855ae78657e894befd9c2ed",
+        "new_version": "1.6.2.38878",
+        "old_commit_id": "85a64c9690e857b8b3fcd62ec57d36e3538b77eb",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "runstarr",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/flickamad/runstarr.git",
+        "new_commit_id": "158f4a0b6cbafcb11195c41676efdaf44010292b",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "runstarr",
+        "five_day_commit": "3ed355e12b21c7439323e51a5b0d8004b4124fb2",
+        "html_url": "https://github.com/flickamad/runstarr.git",
+        "new_commit_id": "a410392fafe0b22dc0820948cf4bea3667d6bb1c",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "bf5ac628323807f8f4b9096e96b2e64e1ece4cc5",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "runstarr",
+        "five_day_commit": "891a13b023a91a9b648675df7886c228ed5bae90",
+        "html_url": "https://github.com/flickamad/runstarr.git",
+        "new_commit_id": "df7b054ee0419a7a18e15b62ada8f817b3ffcc07",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "da392f15a58f4cc38b31f276f7144d49e24e633d",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "runstarr",
+        "five_day_commit": "74295f769714f8304eee7b9a128e75eb45509c12",
+        "html_url": "https://github.com/flickamad/runstarr.git",
+        "new_commit_id": "8d24d6da57d37d56ac13eaf80344d2ae77f4cb73",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "1040f25ed4862cd7380b49322ec8c6595bd34e5e",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "runstarr",
+        "five_day_commit": "a34219e7e79d4946ffa4af5fad60cb3fea67dbb2",
+        "html_url": "https://github.com/flickamad/runstarr.git",
+        "new_commit_id": "81d2938e264e18d84a5e57c664317bc3a4de7e72",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "ab853b7a89c3dd63d5635fb02cbf25f26962e5cd",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "runstarr",
+        "five_day_commit": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "html_url": "https://github.com/flickamad/runstarr.git",
+        "new_commit_id": "5d46a87bfc58595c51b77d5550604c2dd798d287",
+        "new_version": "1.6.2",
+        "old_commit_id": "5110004330990b0b73fe4d36f513ef6317626a56",
+        "old_version": "1.6.0"
+    },
+    {
+        "client_name": "hourboost51D-ON-T-USE",
+        "five_day_commit": "6df096f5d9e184b68b0705898df43166b1fd1d1b",
+        "html_url": "https://github.com/Dmanfuns/hourboost51D-ON-T-USE.git",
+        "new_commit_id": "f769d2a6fc736bfee92c7debe417df38f9c8b3ef",
+        "new_version": "2.0.0.0",
+        "old_commit_id": "673648e397f3f2e587e5926a986df78abafd8d33",
+        "old_version": "1.8.2.0"
+    },
+    {
+        "client_name": "hourboost51D-ON-T-USE",
+        "five_day_commit": "a4fa844a0b1e188791cdb529cee292defd9584b0",
+        "html_url": "https://github.com/Dmanfuns/hourboost51D-ON-T-USE.git",
+        "new_commit_id": "f99433a46ae08b373e276dac12a4a5771d763d05",
+        "new_version": "1.8.2.0",
+        "old_commit_id": "5e559c64d0ca6fa6c12a54329625684a3f8162d1",
+        "old_version": "1.8.0.26737"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "9ab11271a15da2a6b9a9be98a981730da0fadb43",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "f921d0b4a2418dd9e35c3bc43e59b533b15d310b",
+        "new_version": "2.3.0",
+        "old_commit_id": "01b2521cefa18a24ef7fc67b14da5b26406ed4aa",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "01b2521cefa18a24ef7fc67b14da5b26406ed4aa",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "01b2521cefa18a24ef7fc67b14da5b26406ed4aa",
+        "new_version": "2.3.0",
+        "old_commit_id": "c2530ce72d7d5213ba284fd41d2fc93165080eee",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "c2530ce72d7d5213ba284fd41d2fc93165080eee",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "c2530ce72d7d5213ba284fd41d2fc93165080eee",
+        "new_version": "2.3.0",
+        "old_commit_id": "44430116734d77ae3f688b43550eda801af70584",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "38ed3c51f383104f237c9859181fc3ed54f61fa4",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "179df5d48a33deb4cfa2b052e360192657e54a7e",
+        "new_version": "2.2.0",
+        "old_commit_id": "45da07052666ff6a0d00e59c365c8a87d143da82",
+        "old_version": "2.1.0"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "45da07052666ff6a0d00e59c365c8a87d143da82",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "45da07052666ff6a0d00e59c365c8a87d143da82",
+        "new_version": "2.1.0",
+        "old_commit_id": "c300577619ff8a50bd4804f1346051bb58e66352",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "c300577619ff8a50bd4804f1346051bb58e66352",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "34ab76ef7fb487210875ce98fa2ec9ccdd9a3790",
+        "new_version": "2.0.0",
+        "old_commit_id": "2a4eba56429d0fcd1f88a83f4c11e26555e13e91",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "2a4eba56429d0fcd1f88a83f4c11e26555e13e91",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "058f20c98e68275ca3efd4019a04577d14821c0a",
+        "new_version": "2.0.0",
+        "old_commit_id": "96cd93d643930e7c6e6fc7c9f07c4c703dc0e132",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "SteamToTwitter",
+        "five_day_commit": "22214c325c440d76b405724b7de8e6759780c3d6",
+        "html_url": "https://github.com/SteamDatabase/SteamToTwitter.git",
+        "new_commit_id": "22214c325c440d76b405724b7de8e6759780c3d6",
+        "new_version": "1.8.1",
+        "old_commit_id": "56b8dfea4c9fb20bb344a1f65085cdd23b2e5233",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "8436d67afa64f6b370201264e1c4561e579166e6",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "93c89552a44296e38bf890e11f58d6379bfc1519",
+        "new_version": "2.3.0",
+        "old_commit_id": "4372ea70459a58998e134ca20025a60dc11be877",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "f8d67d8c9b81a1c7b7849e6e76c565ac6edc31a7",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "05d6da9662e47a6c765dd1dd97278324990e0527",
+        "new_version": "2.3.0",
+        "old_commit_id": "2ca1f3e8e6500d05b1e2d8bddb5cf4480cbd733c",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "ffcde1b04e91a424f69e0c01d8c7ff1180b5ff91",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "ffcde1b04e91a424f69e0c01d8c7ff1180b5ff91",
+        "new_version": "2.2.0",
+        "old_commit_id": "c6975323d2915a451119260ded45032a47e4fa47",
+        "old_version": "2.1.0"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "e0afef00e484d6faf010cc451d8e8e6709422d00",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "18a57dd1dd6b108d4f73668b598470725869fb0e",
+        "new_version": "2.1.0",
+        "old_commit_id": "a2ffdd30f501fa6e8a1e53e4ea244a5417aa313f",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "6552734faf021ae37b7602e7c4896f5a7c23b98b",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "6552734faf021ae37b7602e7c4896f5a7c23b98b",
+        "new_version": "2.0.0",
+        "old_commit_id": "65036ffa8dad7ca40f701e8714f98413809d29bd",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "6105a99e72c1917fb325cd7f0c95f45e10a0d350",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "fb3e693755a9975f91bf93946ed07722076e8174",
+        "new_version": "2.0.0",
+        "old_commit_id": "0da80d96011586f8e07b2530f84eff581f1b663e",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "35aa666ea5ff0859afcbcd6fccedb7491bd625dd",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "8277f10f35e326ac21ba03e56584e150f1f2aea7",
+        "new_version": "1.8.1.0",
+        "old_commit_id": "8659e77adc394c3e6e5ba27e719615216134dc08",
+        "old_version": "1.8.0.26737"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "a591632888f9d478750bddc704c23daea31bb00d",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "b599768bd8108d64419914a6d65484cc7520f6d1",
+        "new_version": "1.8.0.26737",
+        "old_commit_id": "65b6d97fa26c0a7b0158a90824f63099916cee0e",
+        "old_version": "1.6.4.32461"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "72c32a618e8ea4fafbecdababa8616f86b04e52e",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "c0b4dd03ee0617832990de0befd4bd7b87014dd4",
+        "new_version": "1.6.4.32461",
+        "old_commit_id": "ed44169956e11ec8d615f0574f6ac489499a758a",
+        "old_version": "1.6.1.19114"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "6ae2c37c2a1128e7b032d1758f255dba9157433f",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "7a3779f4e8320e070b2325e5c75e30fdedef3cc8",
+        "new_version": "1.6.1.19114",
+        "old_commit_id": "6f8fa5a37617951be547d732064a7ddfd7838839",
+        "old_version": "1.6.0.38373"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "289af06733d73603372b327553571bbcd66c55c3",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "3b02d4d7542208cf5edb48c416f4b466c580e2a6",
+        "new_version": "1.6.0.38373",
+        "old_commit_id": "cc9e57636135481176a425db34228f547e4e004b",
+        "old_version": "1.5.1.41089"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "5f9aa57f912a1c97c3c8683d073bfb722348a376",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "90eb0a52c19c9b0bd17fa07878eb6d058193643b",
+        "new_version": "1.5.1.41089",
+        "old_commit_id": "d9b6efaf8428f500f3d0bbbd650610b8304fd7f3",
+        "old_version": "1.5.0.29553"
+    },
+    {
+        "client_name": "DepotDownloader",
+        "five_day_commit": "47a240c2ac45d1ae65651e207eb0743de9962692",
+        "html_url": "https://github.com/SteamRE/DepotDownloader.git",
+        "new_commit_id": "07c77ae2bea8d453c3f504408622359008cee799",
+        "new_version": "1.5.0.29553",
+        "old_commit_id": "7c9e2c2264dce7e687ee9eda1e03f050f1d262d2",
+        "old_version": "1.4.1.35606"
+    },
+    {
+        "client_name": "SteamWebPipes",
+        "five_day_commit": "b81e9e365b296048404b259a046e9c42ea47949d",
+        "html_url": "https://github.com/xPaw/SteamWebPipes.git",
+        "new_commit_id": "a895191bbc4e68f8fbda751b5c183d8fbe982c2b",
+        "new_version": "2.3.0",
+        "old_commit_id": "308e61b2f1df221243420654c1d80ab36e7bfec5",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "SteamWebPipes",
+        "five_day_commit": "9a0067880a26e73c52d31cda24af86b5b9dba47b",
+        "html_url": "https://github.com/xPaw/SteamWebPipes.git",
+        "new_commit_id": "7fdada0dcb61cde863b1c43e316bad9d35598a95",
+        "new_version": "2.3.0",
+        "old_commit_id": "cf4d25b1e9b785d1904acd21bf70216f6fa0f717",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "SteamWebPipes",
+        "five_day_commit": "934b4005e5ecbe0e398683800fa1dfd42ca260a7",
+        "html_url": "https://github.com/xPaw/SteamWebPipes.git",
+        "new_commit_id": "934b4005e5ecbe0e398683800fa1dfd42ca260a7",
+        "new_version": "2.2.0",
+        "old_commit_id": "c12b569ff3550092d7bf86e25e16fc77fdc927e0",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "SteamWebPipes",
+        "five_day_commit": "e9cac88f206b50adfce7464aca8e780b1a06752f",
+        "html_url": "https://github.com/xPaw/SteamWebPipes.git",
+        "new_commit_id": "67f16fe53d6f174358c76957f889858daf3c9cbd",
+        "new_version": "2.2.0",
+        "old_commit_id": "17a236a851d6e474dadc8da44a3792a4570e9825",
+        "old_version": "2.1.0"
+    },
+    {
+        "client_name": "SteamWebPipes",
+        "five_day_commit": "39b50cd3fcf36b390e422972b3fb9dfa67d894a1",
+        "html_url": "https://github.com/xPaw/SteamWebPipes.git",
+        "new_commit_id": "9743f268c52ddc2285d9329ad5b7d015bd96757b",
+        "new_version": "2.1.0",
+        "old_commit_id": "64b965b674a61b7bd32ed3351b5ae2932b1020c4",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "SteamWebPipes",
+        "five_day_commit": "76942e45814209e015b6b5effad8712b4fb5df57",
+        "html_url": "https://github.com/xPaw/SteamWebPipes.git",
+        "new_commit_id": "91ee66bf3383710a01feccebdc89dbce89e578c5",
+        "new_version": "2.0.0",
+        "old_commit_id": "40459128a8ce13f849af4baca832680f33be177f",
+        "old_version": "1.7.0.33680"
+    },
+    {
+        "client_name": "SteamWebPipes",
+        "five_day_commit": "9f8bd9db3630ba3b779667569de88fe1f41b380b",
+        "html_url": "https://github.com/xPaw/SteamWebPipes.git",
+        "new_commit_id": "93ebf4666b0b2af1ca033413b05ef1913b9c9e6c",
+        "new_version": "1.7.0.33680",
+        "old_commit_id": "9b841e984dcc9b84b2e21bbfdc322f35bace614a",
+        "old_version": "1.7.0.33680"
+    },
+    {
+        "client_name": "DotaSpamBot",
+        "five_day_commit": "ed57af1662a1443d4bf28e326fefb5ade1196076",
+        "html_url": "https://github.com/Splinterjke/DotaSpamBot.git",
+        "new_commit_id": "ed57af1662a1443d4bf28e326fefb5ade1196076",
+        "new_version": "2.1.0",
+        "old_commit_id": "edd3a701db6af3657c4c11039efae28c7e721c86",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "SteamDatabaseBackend",
+        "five_day_commit": "06d255db5430c18689edadd3cd227ee34c852c74",
+        "html_url": "https://github.com/SteamDatabase/SteamDatabaseBackend.git",
+        "new_commit_id": "2dcecc2c50fb26f706cda039b568740ded34e5b0",
+        "new_version": "2.3.0",
+        "old_commit_id": "2ab4d6a9f19e2b9be87f4d74ab94fe4c281c9e14",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "SteamDatabaseBackend",
+        "five_day_commit": "207c2f427495df06cb097e301aae3de8f5b3285e",
+        "html_url": "https://github.com/SteamDatabase/SteamDatabaseBackend.git",
+        "new_commit_id": "b0e5a6aa288d41f13957afeb03064d6aa192a7b3",
+        "new_version": "2.3.0",
+        "old_commit_id": "66fdb161cfbe165360c7e01fe953bfd54ff95b60",
+        "old_version": "2.3.0"
+    },
+    {
+        "client_name": "SteamDatabaseBackend",
+        "five_day_commit": "189901985d39501a51524ef54f87c852c4181443",
+        "html_url": "https://github.com/SteamDatabase/SteamDatabaseBackend.git",
+        "new_commit_id": "c0758c3446fdfcae5fadc895c4cb940877220ae2",
+        "new_version": "2.3.0",
+        "old_commit_id": "cf417acb4dcf3173c49efe8632fbe7bf5bae73db",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "SteamDatabaseBackend",
+        "five_day_commit": "d2ff4c1a86c2c133d8dc0127538b0508150800a2",
+        "html_url": "https://github.com/SteamDatabase/SteamDatabaseBackend.git",
+        "new_commit_id": "d2ff4c1a86c2c133d8dc0127538b0508150800a2",
+        "new_version": "2.2.0",
+        "old_commit_id": "5837559a3499c8440aebe07ff28cc106843b8769",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "SteamDatabaseBackend",
+        "five_day_commit": "32eb1191810f5dd11c663a8fd531185367012800",
+        "html_url": "https://github.com/SteamDatabase/SteamDatabaseBackend.git",
+        "new_commit_id": "db6606cff5aeed0e78a862ba516a7997cba47424",
+        "new_version": "2.2.0",
+        "old_commit_id": "866930596191f777516d798e624383f9ce17948d",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "SteamDatabaseBackend",
+        "five_day_commit": "866930596191f777516d798e624383f9ce17948d",
+        "html_url": "https://github.com/SteamDatabase/SteamDatabaseBackend.git",
+        "new_commit_id": "1ac8a2c7ee6c548ab269958291702251850424e1",
+        "new_version": "2.2.0",
+        "old_commit_id": "95e3b404b37d77005215c19bd060ac0281160d03",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "SteamDatabaseBackend",
+        "five_day_commit": "bbf29200dbe4f98e2d172e8664c34035bc203605",
+        "html_url": "https://github.com/SteamDatabase/SteamDatabaseBackend.git",
+        "new_commit_id": "b7b4d64ea902b5934a2d7fd17b0eb0278b6e755c",
+        "new_version": "2.2.0",
+        "old_commit_id": "8472b853ab3ac4347ae293ef7ce6d5c9034f375d",
+        "old_version": "2.1.0"
+    },
+    {
+        "client_name": "Crystalys",
+        "five_day_commit": "bb864932520a4f7af66ac037f19decd5e0ea7d40",
+        "html_url": "https://github.com/HighGroundVision/Crystalys.git",
+        "new_commit_id": "9344053bfcc4e2134847de1350fed1695d1bce53",
+        "new_version": "2.3.0",
+        "old_commit_id": "2f854f447a27233f4a2414c47cf788e6109e9d0f",
+        "old_version": "2.2.0"
+    },
+    {
+        "client_name": "Crystalys",
+        "five_day_commit": "77e5157ab23cd747f58b30cb1827348d3320e736",
+        "html_url": "https://github.com/HighGroundVision/Crystalys.git",
+        "new_commit_id": "e811c73b1f589a929bd6c9d8f537775a91b108fc",
+        "new_version": "2.2.0",
+        "old_commit_id": "ae03dfc69753f5ca2e4b0c8a976472389e4b0d76",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "Crystalys",
+        "five_day_commit": "b66e17158fd9e300b84f4668a3fc8354b7a969f9",
+        "html_url": "https://github.com/HighGroundVision/Crystalys.git",
+        "new_commit_id": "d06c916d662af18354067fca2578655b48be654f",
+        "new_version": "2.0.0",
+        "old_commit_id": "a03399a2c86a798f9dd0c8fb33251f8b2019d39f",
+        "old_version": "1.8.3.0"
+    },
+    {
+        "client_name": "Crystalys",
+        "five_day_commit": "f1003219bfc266c160e7f17e510a76619eeb1736",
+        "html_url": "https://github.com/HighGroundVision/Crystalys.git",
+        "new_commit_id": "f1003219bfc266c160e7f17e510a76619eeb1736",
+        "new_version": "1.8.3.0",
+        "old_commit_id": "fcba4c2db154845c91a47ce95097366da8a945ca",
+        "old_version": "2.0.0.0"
+    },
+    {
+        "client_name": "Crystalys",
+        "five_day_commit": "f1003219bfc266c160e7f17e510a76619eeb1736",
+        "html_url": "https://github.com/HighGroundVision/Crystalys.git",
+        "new_commit_id": "52cba06329efedeb060b6c3940d8dd3a5cbc90da",
+        "new_version": "2.0.0.0",
+        "old_commit_id": "c9162242365d37c698c8736da192c76d85a05879",
+        "old_version": "1.6.5.29095"
+    },
+    {
+        "client_name": "dashe4",
+        "five_day_commit": "5ac942b0112977f16e7035c370d5a76008637fc5",
+        "html_url": "https://github.com/kraxarn/dashe4.git",
+        "new_commit_id": "5ac942b0112977f16e7035c370d5a76008637fc5",
+        "new_version": "2.1.0",
+        "old_commit_id": "80b57ceb1d945e4050329760253925519d1233c9",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "Dota2",
+        "five_day_commit": "3cb01da44af6937a0e5bd57ea48bd5d2a0a768d3",
+        "html_url": "https://github.com/paralin/Dota2.git",
+        "new_commit_id": "3cb01da44af6937a0e5bd57ea48bd5d2a0a768d3",
+        "new_version": "2.1.0",
+        "old_commit_id": "3d0016e417bd32b9f690cb05e1577474a55ba579",
+        "old_version": "2.0.0"
+    }
+]

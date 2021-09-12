@@ -1,0 +1,1156 @@
+Configuration: 
+---- UseAdditionalOutput: True
+---- UseAdditionalInput : True
+---- OnlyNewUsage       : False
+---- GivenExample       : 1
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.15
+---- NewUsageThreashold : 0.25
+load 1 relevant edits!
+load 52 old relevant usages
+load 75 new relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 2
+size of new usage: 75
+Log: add new usage attachment.Content.DecodeTo(memory);
+Log: add new usage attachment.Content.DecodeTo(memory)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token);
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token);
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token)
+Log: add new usage part.Content.DecodeTo(ms);
+Log: add new usage part.Content.DecodeTo(ms)
+Log: add new usage part.Content.DecodeTo(ms);
+Log: add new usage part.Content.DecodeTo(ms)
+Log: add new usage image.Content.DecodeTo(output);
+Log: add new usage image.Content.DecodeTo(output)
+Log: add new usage part.Content.DecodeTo(attachmentStream);
+Log: add new usage part.Content.DecodeTo(attachmentStream)
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token);
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token)
+Log: add new usage part.Content.DecodeTo(stream, cancellationToken);
+Log: add new usage part.Content.DecodeTo(stream, cancellationToken)
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token);
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(fs);
+Log: add new usage part.Content.DecodeTo(fs)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage image.Content.DecodeTo(output);
+Log: add new usage image.Content.DecodeTo(output)
+Log: add new usage ((MimePart) attachment).Content.DecodeTo(memory);
+Log: add new usage ((MimePart) attachment).Content.DecodeTo(memory)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage mimePart.Content.DecodeTo(memoryStream);
+Log: add new usage mimePart.Content.DecodeTo(memoryStream)
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token);
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token)
+Log: add new usage part.Content.DecodeTo(fs);
+Log: add new usage part.Content.DecodeTo(fs)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage mp.Content.DecodeTo(stream);
+Log: add new usage mp.Content.DecodeTo(stream)
+Log: add new usage mp.Content.DecodeTo(stream);
+Log: add new usage mp.Content.DecodeTo(stream)
+Log: add new usage mp.Content.DecodeTo(stream);
+Log: add new usage mp.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage mimePart.Content.DecodeTo(memoryStream);
+Log: add new usage mimePart.Content.DecodeTo(memoryStream)
+Log: add new usage attachment.Content.DecodeTo(stream);
+Log: add new usage attachment.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage image.Content.DecodeTo(output);
+Log: add new usage image.Content.DecodeTo(output)
+Log: add new usage content.DecodeTo(memory);
+Log: add new usage content.DecodeTo(memory)
+Log: add new usage attachment.Content.DecodeTo(memory);
+Log: add new usage attachment.Content.DecodeTo(memory)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token);
+Log: add new usage attachment.Content.DecodeTo(stream, cancel.Token)
+Log: add new usage mp.Content.DecodeTo(output);
+Log: add new usage mp.Content.DecodeTo(output)
+Log: add new usage (mime as MimePart).Content.DecodeTo(output);
+Log: add new usage (mime as MimePart).Content.DecodeTo(output)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage attachmentPart.Content.DecodeTo(memoryAttachment);
+Log: add new usage attachmentPart.Content.DecodeTo(memoryAttachment)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage mimePart.Content.DecodeTo(memoryStream);
+Log: add new usage mimePart.Content.DecodeTo(memoryStream)
+Log: add new usage mimePart.Content.DecodeTo(stream);
+Log: add new usage mimePart.Content.DecodeTo(stream)
+Log: add new usage attachment.Content.DecodeTo(stream);
+Log: add new usage attachment.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(content);
+Log: add new usage part.Content.DecodeTo(content);
+Log: add new usage part.Content.DecodeTo(content)
+Log: add new usage part.Content.DecodeTo(content)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage message.Content.DecodeTo(file.Content);
+Log: add new usage message.Content.DecodeTo(file.Content)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage image.Content.DecodeTo(output);
+Log: add new usage image.Content.DecodeTo(output)
+Log: add new usage attachment.Content.DecodeTo(stream);
+Log: add new usage attachment.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add new usage image.Content.DecodeTo(output);
+Log: add new usage image.Content.DecodeTo(output)
+Log: add new usage content.DecodeTo(memory);
+Log: add new usage content.DecodeTo(memory)
+Log: add new usage attachment.Content.DecodeTo(memory);
+Log: add new usage attachment.Content.DecodeTo(memory)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg);
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage attachment.Content.DecodeTo(jpeg)
+Log: add new usage part.ContentObject.DecodeTo(stream);
+Log: add new usage part.ContentObject.DecodeTo(stream)
+Log: add new usage part.ContentObject.DecodeTo(stream);
+Log: add new usage part.ContentObject.DecodeTo(stream)
+Log: add new usage mime.Content.DecodeTo(stream);
+Log: add new usage mime.Content.DecodeTo(stream)
+Log: add new usage mime.Content.DecodeTo(stream);
+Log: add new usage mime.Content.DecodeTo(stream)
+Log: add new usage part.Content.DecodeTo(attachmentStream);
+Log: add new usage part.Content.DecodeTo(attachmentStream)
+Log: add new usage part.Content.DecodeTo(stream);
+Log: add new usage part.Content.DecodeTo(stream)
+Log: add old usage entity.ContentObject.DecodeTo(stream);
+Log: add old usage entity.ContentObject.DecodeTo(stream)
+Log: add old usage part.ContentObject.DecodeTo(content);
+Log: add old usage part.ContentObject.DecodeTo(content)
+Log: add old usage mimePart.ContentObject.DecodeTo(stream);
+Log: add old usage mimePart.ContentObject.DecodeTo(stream)
+Log: add old usage part.ContentObject.DecodeTo(stream);
+Log: add old usage part.ContentObject.DecodeTo(stream)
+Log: add old usage ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream);
+Log: add old usage ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream)
+Log: add old usage entity.ContentObject.DecodeTo(writer.BaseStream);
+Log: add old usage entity.ContentObject.DecodeTo(writer.BaseStream)
+Log: add old usage imagePart.ContentObject.DecodeTo(writer.BaseStream);
+Log: add old usage imagePart.ContentObject.DecodeTo(writer.BaseStream)
+Log: add old usage attachment.ContentObject.DecodeTo(ms);
+Log: add old usage attachment.ContentObject.DecodeTo(ms)
+Log: add old usage part.ContentObject.DecodeTo(msstream);
+Log: add old usage part.ContentObject.DecodeTo(msstream)
+Log: add old usage part.Content.DecodeTo(msstream);
+Log: add old usage part.Content.DecodeTo(msstream)
+Log: add old usage attachment.ContentObject.DecodeTo(ms);
+Log: add old usage attachment.ContentObject.DecodeTo(ms)
+Log: add old usage part.ContentObject.DecodeTo(msstream);
+Log: add old usage part.ContentObject.DecodeTo(msstream)
+Log: add old usage part.ContentObject.DecodeTo(msstream);
+Log: add old usage part.ContentObject.DecodeTo(msstream)
+Log: add old usage part.ContentObject.DecodeTo(msstream);
+Log: add old usage part.ContentObject.DecodeTo(msstream)
+Log: add old usage attachment.ContentObject.DecodeTo(memory);
+Log: add old usage attachment.ContentObject.DecodeTo(memory)
+Log: add old usage attachment.ContentObject.DecodeTo(memory);
+Log: add old usage attachment.ContentObject.DecodeTo(memory)
+Log: add old usage part.ContentObject.DecodeTo(stream);
+Log: add old usage part.ContentObject.DecodeTo(stream)
+Log: add old usage part.ContentObject.DecodeTo(ms);
+Log: add old usage part.ContentObject.DecodeTo(ms)
+Log: add old usage attachment.ContentObject.DecodeTo(memory);
+Log: add old usage attachment.ContentObject.DecodeTo(memory)
+Log: add old usage part.ContentObject.DecodeTo(stream);
+Log: add old usage part.ContentObject.DecodeTo(stream)
+Log: add old usage att.ContentObject.DecodeTo(stream);
+Log: add old usage att.ContentObject.DecodeTo(stream)
+Log: add old usage ((MimePart) mimeEntity).ContentObject.DecodeTo(fs);
+Log: add old usage ((MimePart) mimeEntity).ContentObject.DecodeTo(fs)
+Log: add old usage att.ContentObject.DecodeTo(tempbuffer);
+Log: add old usage att.ContentObject.DecodeTo(tempbuffer)
+Log: add old usage contentObject.DecodeTo(tempFile);
+Log: add old usage contentObject.DecodeTo(tempFile)
+Log: add old usage image.ContentObject.DecodeTo(output);
+Log: add old usage image.ContentObject.DecodeTo(output)
+Log: add old usage part.ContentObject.DecodeTo(outputFile);
+Log: add old usage part.ContentObject.DecodeTo(outputFile)
+Log: add old usage part.ContentObject.DecodeTo(outputFile);
+Log: add old usage part.ContentObject.DecodeTo(outputFile)
+Log: add old usage bodyContent.DecodeTo(ms);
+Log: add old usage bodyContent.DecodeTo(ms)
+Log: add old usage attachment.ContentObject.DecodeTo(memory);
+Log: add old usage attachment.ContentObject.DecodeTo(memory)
+Log: add old usage attachment.ContentObject.DecodeTo(memory);
+Log: add old usage attachment.ContentObject.DecodeTo(memory)
+Log: add old usage part.ContentObject.DecodeTo(filestream);
+Log: add old usage part.ContentObject.DecodeTo(filestream)
+Log: add old usage part.ContentObject.DecodeTo(stream);
+Log: add old usage part.ContentObject.DecodeTo(stream)
+Log: add old usage mimePart.ContentObject.DecodeTo(memory);
+Log: add old usage mimePart.ContentObject.DecodeTo(memory)
+Log: add old usage entity.ContentObject.DecodeTo(stream);
+Log: add old usage entity.ContentObject.DecodeTo(stream)
+Log: add old usage ((MimePart) file).ContentObject.DecodeTo(memory);
+Log: add old usage ((MimePart) file).ContentObject.DecodeTo(memory)
+Log: add old usage mp.ContentObject.DecodeTo(stream);
+Log: add old usage mp.ContentObject.DecodeTo(stream)
+Log: add old usage mp.ContentObject.DecodeTo(stream);
+Log: add old usage mp.ContentObject.DecodeTo(stream)
+Log: add old usage ((MimePart) attachment).ContentObject.DecodeTo(stream);
+Log: add old usage ((MimePart) attachment).ContentObject.DecodeTo(stream)
+Log: add old usage contentObject.DecodeTo(tempFile);
+Log: add old usage contentObject.DecodeTo(tempFile)
+Log: add old usage bodyContent.DecodeTo(ms);
+Log: add old usage bodyContent.DecodeTo(ms)
+Log: add old usage attachment.ContentObject.DecodeTo(stream);
+Log: add old usage attachment.ContentObject.DecodeTo(stream)
+Log: add old usage attachment.ContentObject.DecodeTo(stream);
+Log: add old usage attachment.ContentObject.DecodeTo(stream)
+Log: add old usage part.ContentObject.DecodeTo(stream);
+Log: add old usage part.ContentObject.DecodeTo(stream)
+Log: add old usage part.ContentObject.DecodeTo(stream);
+Log: add old usage part.ContentObject.DecodeTo(stream)
+Log: add old usage part.ContentObject.DecodeTo(stream);
+Log: add old usage part.ContentObject.DecodeTo(stream)
+Log: add old usage image.ContentObject.DecodeTo(output);
+Log: add old usage image.ContentObject.DecodeTo(output)
+Log: add old usage attachment.ContentObject.DecodeTo(memory);
+Log: add old usage attachment.ContentObject.DecodeTo(memory)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg);
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(jpeg)
+Log: add old usage attachment.ContentObject.DecodeTo(stream, cancel.Token);
+Log: add old usage attachment.ContentObject.DecodeTo(stream, cancel.Token)
+Log: ============== Cluster start ==============
+- ContentObject.DecodeTo (filtered, cancellationToken);
+----------------
++ Content.DecodeTo (filtered, cancellationToken);
+
+new usages: attachment.Content.DecodeTo(memory);
+new usages: part.Content.DecodeTo(stream);
+new usages: attachment.Content.DecodeTo(stream, cancel.Token);
+new usages: part.Content.DecodeTo(ms);
+new usages: image.Content.DecodeTo(output);
+new usages: part.Content.DecodeTo(attachmentStream);
+new usages: part.Content.DecodeTo(stream, cancellationToken);
+new usages: part.Content.DecodeTo(fs);
+new usages: ((MimePart) attachment).Content.DecodeTo(memory);
+new usages: mimePart.Content.DecodeTo(memoryStream);
+new usages: mp.Content.DecodeTo(stream);
+new usages: attachment.Content.DecodeTo(stream);
+new usages: content.DecodeTo(memory);
+new usages: attachment.Content.DecodeTo(jpeg);
+new usages: mp.Content.DecodeTo(output);
+new usages: (mime as MimePart).Content.DecodeTo(output);
+new usages: attachmentPart.Content.DecodeTo(memoryAttachment);
+new usages: mimePart.Content.DecodeTo(stream);
+new usages: part.Content.DecodeTo(content);
+new usages: message.Content.DecodeTo(file.Content);
+new usages: part.ContentObject.DecodeTo(stream);
+new usages: mime.Content.DecodeTo(stream);
+old usages: entity.ContentObject.DecodeTo(stream);
+old usages: part.ContentObject.DecodeTo(content);
+old usages: mimePart.ContentObject.DecodeTo(stream);
+old usages: part.ContentObject.DecodeTo(stream);
+old usages: ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream);
+old usages: entity.ContentObject.DecodeTo(writer.BaseStream);
+old usages: imagePart.ContentObject.DecodeTo(writer.BaseStream);
+old usages: attachment.ContentObject.DecodeTo(ms);
+old usages: part.ContentObject.DecodeTo(msstream);
+old usages: part.Content.DecodeTo(msstream);
+old usages: attachment.ContentObject.DecodeTo(ms);
+old usages: part.ContentObject.DecodeTo(msstream);
+old usages: part.ContentObject.DecodeTo(msstream);
+old usages: part.ContentObject.DecodeTo(msstream);
+old usages: attachment.ContentObject.DecodeTo(memory);
+old usages: attachment.ContentObject.DecodeTo(memory);
+old usages: part.ContentObject.DecodeTo(stream);
+old usages: part.ContentObject.DecodeTo(ms);
+old usages: attachment.ContentObject.DecodeTo(memory);
+old usages: part.ContentObject.DecodeTo(stream);
+old usages: att.ContentObject.DecodeTo(stream);
+old usages: ((MimePart) mimeEntity).ContentObject.DecodeTo(fs);
+old usages: att.ContentObject.DecodeTo(tempbuffer);
+old usages: contentObject.DecodeTo(tempFile);
+old usages: image.ContentObject.DecodeTo(output);
+old usages: part.ContentObject.DecodeTo(outputFile);
+old usages: part.ContentObject.DecodeTo(outputFile);
+old usages: bodyContent.DecodeTo(ms);
+old usages: attachment.ContentObject.DecodeTo(memory);
+old usages: attachment.ContentObject.DecodeTo(memory);
+old usages: part.ContentObject.DecodeTo(filestream);
+old usages: part.ContentObject.DecodeTo(stream);
+old usages: mimePart.ContentObject.DecodeTo(memory);
+old usages: entity.ContentObject.DecodeTo(stream);
+old usages: ((MimePart) file).ContentObject.DecodeTo(memory);
+old usages: mp.ContentObject.DecodeTo(stream);
+old usages: mp.ContentObject.DecodeTo(stream);
+old usages: ((MimePart) attachment).ContentObject.DecodeTo(stream);
+old usages: contentObject.DecodeTo(tempFile);
+old usages: bodyContent.DecodeTo(ms);
+old usages: attachment.ContentObject.DecodeTo(stream);
+old usages: attachment.ContentObject.DecodeTo(stream);
+old usages: part.ContentObject.DecodeTo(stream);
+old usages: part.ContentObject.DecodeTo(stream);
+old usages: part.ContentObject.DecodeTo(stream);
+old usages: image.ContentObject.DecodeTo(output);
+old usages: attachment.ContentObject.DecodeTo(memory);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(jpeg);
+old usages: attachment.ContentObject.DecodeTo(stream, cancel.Token);
+============= Cluster end ==============
+
+Log: generalized output is: Content.DecodeTo(filtered, cancellationToken);
+Interesting new usage: attachment.Content.DecodeTo(memory);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memory);
+Interesting new usage: part.Content.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream);
+Interesting new usage: attachment.Content.DecodeTo(stream, cancel.Token);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream, cancel.Token):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream, cancel.Token);
+Interesting new usage: part.Content.DecodeTo(ms);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(ms);
+Interesting new usage: image.Content.DecodeTo(output);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: Content:IdentifierName -> image.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(output);
+Interesting new usage: part.Content.DecodeTo(attachmentStream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (attachmentStream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(attachmentStream);
+Interesting new usage: part.Content.DecodeTo(stream, cancellationToken);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream, cancellationToken):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream, cancellationToken);
+Interesting new usage: part.Content.DecodeTo(fs);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (fs):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(fs);
+Interesting new usage: ((MimePart) attachment).Content.DecodeTo(memory);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: Content:IdentifierName -> ((MimePart) attachment).Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memory);
+Interesting new usage: mimePart.Content.DecodeTo(memoryStream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memoryStream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mimePart.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memoryStream);
+Interesting new usage: mp.Content.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mp.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream);
+Interesting new usage: attachment.Content.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream);
+Interesting new usage: content.DecodeTo(memory);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: Content:IdentifierToken -> content:IdentifierToken
+Correponding input: ContentObject.DecodeTo(memory);
+Interesting new usage: attachment.Content.DecodeTo(jpeg);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (jpeg):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(jpeg);
+Interesting new usage: mp.Content.DecodeTo(output);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mp.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(output);
+Interesting new usage: (mime as MimePart).Content.DecodeTo(output);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: Content:IdentifierName -> (mime as MimePart).Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(output);
+Interesting new usage: attachmentPart.Content.DecodeTo(memoryAttachment);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memoryAttachment):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachmentPart.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memoryAttachment);
+Interesting new usage: mimePart.Content.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mimePart.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream);
+Interesting new usage: part.Content.DecodeTo(content);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (content):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(content);
+Interesting new usage: message.Content.DecodeTo(file.Content);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (file.Content):ArgumentList
+Log: Subsititution: Content:IdentifierName -> message.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(file.Content);
+Interesting new usage: part.ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream);
+Interesting new usage: mime.Content.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mime.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream);
+Old usage: entity.ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> entity.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: part.ContentObject.DecodeTo(content);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (content):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(content);
+Old usage: mimePart.ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> mimePart.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: part.ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimeKit.MimePart) match).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: entity.ContentObject.DecodeTo(writer.BaseStream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (writer.BaseStream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> entity.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(writer.BaseStream);
+Old usage: imagePart.ContentObject.DecodeTo(writer.BaseStream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (writer.BaseStream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> imagePart.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(writer.BaseStream);
+Old usage: attachment.ContentObject.DecodeTo(ms);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(ms);
+Old usage: part.ContentObject.DecodeTo(msstream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (msstream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(msstream);
+Old usage: part.Content.DecodeTo(msstream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (msstream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(msstream);
+Old usage: attachment.ContentObject.DecodeTo(memory);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(memory);
+Old usage: part.ContentObject.DecodeTo(ms);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(ms);
+Old usage: att.ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> att.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: ((MimePart) mimeEntity).ContentObject.DecodeTo(fs);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (fs):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimePart) mimeEntity).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(fs);
+Old usage: att.ContentObject.DecodeTo(tempbuffer);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (tempbuffer):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> att.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(tempbuffer);
+Old usage: contentObject.DecodeTo(tempFile);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (tempFile):ArgumentList
+Log: Subsititution: ContentObject:IdentifierToken -> contentObject:IdentifierToken
+Correponding output: Content.DecodeTo(tempFile);
+Old usage: image.ContentObject.DecodeTo(output);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> image.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(output);
+Old usage: part.ContentObject.DecodeTo(outputFile);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (outputFile):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(outputFile);
+Old usage: bodyContent.DecodeTo(ms);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: ContentObject:IdentifierToken -> bodyContent:IdentifierToken
+Correponding output: Content.DecodeTo(ms);
+Old usage: part.ContentObject.DecodeTo(filestream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (filestream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(filestream);
+Old usage: mimePart.ContentObject.DecodeTo(memory);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> mimePart.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(memory);
+Old usage: ((MimePart) file).ContentObject.DecodeTo(memory);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimePart) file).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(memory);
+Old usage: mp.ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> mp.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: ((MimePart) attachment).ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimePart) attachment).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: attachment.ContentObject.DecodeTo(stream);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream);
+Old usage: attachment.ContentObject.DecodeTo(jpeg);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (jpeg):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(jpeg);
+Old usage: attachment.ContentObject.DecodeTo(stream, cancel.Token);
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream, cancel.Token):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream, cancel.Token);
+Log: Input to synthesize the program:
+Log: ContentObject.DecodeTo(filtered, cancellationToken);
+Log: ---------------------
+Log: Content.DecodeTo(filtered, cancellationToken);
+Log: entity.ContentObject.DecodeTo(stream);
+Log: ---------------------
+Log: Content.DecodeTo(stream);
+Log: part.ContentObject.DecodeTo(content);
+Log: ---------------------
+Log: Content.DecodeTo(content);
+Log: mimePart.ContentObject.DecodeTo(stream);
+Log: ---------------------
+Log: Content.DecodeTo(stream);
+Log: part.ContentObject.DecodeTo(stream);
+Log: ---------------------
+Log: Content.DecodeTo(stream);
+Log: ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream);
+Log: ---------------------
+Log: Content.DecodeTo(stream);
+Log: entity.ContentObject.DecodeTo(writer.BaseStream);
+Log: ---------------------
+Log: Content.DecodeTo(writer.BaseStream);
+Log: imagePart.ContentObject.DecodeTo(writer.BaseStream);
+Log: ---------------------
+Log: Content.DecodeTo(writer.BaseStream);
+Log: attachment.ContentObject.DecodeTo(ms);
+Log: ---------------------
+Log: Content.DecodeTo(ms);
+Log: part.ContentObject.DecodeTo(msstream);
+Log: ---------------------
+Log: Content.DecodeTo(msstream);
+Log: old usage is entity.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is part.ContentObject.DecodeTo(content);
+Log: predict is Content.DecodeTo(content);
+Log: old usage is mimePart.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is part.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is entity.ContentObject.DecodeTo(writer.BaseStream);
+Log: predict is Content.DecodeTo(Content.BaseStream);
+Log: old usage is imagePart.ContentObject.DecodeTo(writer.BaseStream);
+Log: predict is Content.DecodeTo(Content.BaseStream);
+Log: old usage is attachment.ContentObject.DecodeTo(ms);
+Log: predict is Content.DecodeTo(ms);
+Log: old usage is part.ContentObject.DecodeTo(msstream);
+Log: predict is Content.DecodeTo(msstream);
+Log: old usage is part.Content.DecodeTo(msstream);
+Log: predict is Content.DecodeTo(msstream);
+Log: old usage is attachment.ContentObject.DecodeTo(ms);
+Log: predict is Content.DecodeTo(ms);
+Log: old usage is part.ContentObject.DecodeTo(msstream);
+Log: predict is Content.DecodeTo(msstream);
+Log: old usage is part.ContentObject.DecodeTo(msstream);
+Log: predict is Content.DecodeTo(msstream);
+Log: old usage is part.ContentObject.DecodeTo(msstream);
+Log: predict is Content.DecodeTo(msstream);
+Log: old usage is attachment.ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is attachment.ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is part.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is part.ContentObject.DecodeTo(ms);
+Log: predict is Content.DecodeTo(ms);
+Log: old usage is attachment.ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is part.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is att.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is ((MimePart) mimeEntity).ContentObject.DecodeTo(fs);
+Log: predict is Content.DecodeTo(fs);
+Log: old usage is att.ContentObject.DecodeTo(tempbuffer);
+Log: predict is Content.DecodeTo(tempbuffer);
+Log: old usage is contentObject.DecodeTo(tempFile);
+Log: predict is Content.DecodeTo(tempFile);
+Log: old usage is image.ContentObject.DecodeTo(output);
+Log: predict is Content.DecodeTo(output);
+Log: old usage is part.ContentObject.DecodeTo(outputFile);
+Log: predict is Content.DecodeTo(outputFile);
+Log: old usage is part.ContentObject.DecodeTo(outputFile);
+Log: predict is Content.DecodeTo(outputFile);
+Log: old usage is bodyContent.DecodeTo(ms);
+Log: predict is Content.DecodeTo(ms);
+Log: old usage is attachment.ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is attachment.ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is part.ContentObject.DecodeTo(filestream);
+Log: predict is Content.DecodeTo(filestream);
+Log: old usage is part.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is mimePart.ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is entity.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is ((MimePart) file).ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is mp.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is mp.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is ((MimePart) attachment).ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is contentObject.DecodeTo(tempFile);
+Log: predict is Content.DecodeTo(tempFile);
+Log: old usage is bodyContent.DecodeTo(ms);
+Log: predict is Content.DecodeTo(ms);
+Log: old usage is attachment.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is attachment.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is part.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is part.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is part.ContentObject.DecodeTo(stream);
+Log: predict is Content.DecodeTo(stream);
+Log: old usage is image.ContentObject.DecodeTo(output);
+Log: predict is Content.DecodeTo(output);
+Log: old usage is attachment.ContentObject.DecodeTo(memory);
+Log: predict is Content.DecodeTo(memory);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg);
+Log: predict is Content.DecodeTo(jpeg);
+Log: old usage is attachment.ContentObject.DecodeTo(stream, cancel.Token);
+Log: predict is Content.DecodeTo(stream, Content.Token);
+Log: ============== Cluster start ==============
+ContentObject.DecodeTo(filtered, cancellationToken)
+----------------
+Content.DecodeTo(filtered, cancellationToken)
+
+new usages: attachment.Content.DecodeTo(memory)
+new usages: part.Content.DecodeTo(stream)
+new usages: attachment.Content.DecodeTo(stream, cancel.Token)
+new usages: part.Content.DecodeTo(ms)
+new usages: image.Content.DecodeTo(output)
+new usages: part.Content.DecodeTo(attachmentStream)
+new usages: part.Content.DecodeTo(stream, cancellationToken)
+new usages: part.Content.DecodeTo(fs)
+new usages: ((MimePart) attachment).Content.DecodeTo(memory)
+new usages: mimePart.Content.DecodeTo(memoryStream)
+new usages: mp.Content.DecodeTo(stream)
+new usages: attachment.Content.DecodeTo(stream)
+new usages: content.DecodeTo(memory)
+new usages: attachment.Content.DecodeTo(jpeg)
+new usages: mp.Content.DecodeTo(output)
+new usages: (mime as MimePart).Content.DecodeTo(output)
+new usages: attachmentPart.Content.DecodeTo(memoryAttachment)
+new usages: mimePart.Content.DecodeTo(stream)
+new usages: part.Content.DecodeTo(content)
+new usages: message.Content.DecodeTo(file.Content)
+new usages: part.ContentObject.DecodeTo(stream)
+new usages: mime.Content.DecodeTo(stream)
+old usages: entity.ContentObject.DecodeTo(stream)
+old usages: part.ContentObject.DecodeTo(content)
+old usages: mimePart.ContentObject.DecodeTo(stream)
+old usages: part.ContentObject.DecodeTo(stream)
+old usages: ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream)
+old usages: entity.ContentObject.DecodeTo(writer.BaseStream)
+old usages: imagePart.ContentObject.DecodeTo(writer.BaseStream)
+old usages: attachment.ContentObject.DecodeTo(ms)
+old usages: part.ContentObject.DecodeTo(msstream)
+old usages: part.Content.DecodeTo(msstream)
+old usages: attachment.ContentObject.DecodeTo(ms)
+old usages: part.ContentObject.DecodeTo(msstream)
+old usages: part.ContentObject.DecodeTo(msstream)
+old usages: part.ContentObject.DecodeTo(msstream)
+old usages: attachment.ContentObject.DecodeTo(memory)
+old usages: attachment.ContentObject.DecodeTo(memory)
+old usages: part.ContentObject.DecodeTo(stream)
+old usages: part.ContentObject.DecodeTo(ms)
+old usages: attachment.ContentObject.DecodeTo(memory)
+old usages: part.ContentObject.DecodeTo(stream)
+old usages: att.ContentObject.DecodeTo(stream)
+old usages: ((MimePart) mimeEntity).ContentObject.DecodeTo(fs)
+old usages: att.ContentObject.DecodeTo(tempbuffer)
+old usages: contentObject.DecodeTo(tempFile)
+old usages: image.ContentObject.DecodeTo(output)
+old usages: part.ContentObject.DecodeTo(outputFile)
+old usages: part.ContentObject.DecodeTo(outputFile)
+old usages: bodyContent.DecodeTo(ms)
+old usages: attachment.ContentObject.DecodeTo(memory)
+old usages: attachment.ContentObject.DecodeTo(memory)
+old usages: part.ContentObject.DecodeTo(filestream)
+old usages: part.ContentObject.DecodeTo(stream)
+old usages: mimePart.ContentObject.DecodeTo(memory)
+old usages: entity.ContentObject.DecodeTo(stream)
+old usages: ((MimePart) file).ContentObject.DecodeTo(memory)
+old usages: mp.ContentObject.DecodeTo(stream)
+old usages: mp.ContentObject.DecodeTo(stream)
+old usages: ((MimePart) attachment).ContentObject.DecodeTo(stream)
+old usages: contentObject.DecodeTo(tempFile)
+old usages: bodyContent.DecodeTo(ms)
+old usages: attachment.ContentObject.DecodeTo(stream)
+old usages: attachment.ContentObject.DecodeTo(stream)
+old usages: part.ContentObject.DecodeTo(stream)
+old usages: part.ContentObject.DecodeTo(stream)
+old usages: part.ContentObject.DecodeTo(stream)
+old usages: image.ContentObject.DecodeTo(output)
+old usages: attachment.ContentObject.DecodeTo(memory)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(jpeg)
+old usages: attachment.ContentObject.DecodeTo(stream, cancel.Token)
+============= Cluster end ==============
+
+Log: generalized output is: Content.DecodeTo(filtered, cancellationToken)
+Interesting new usage: attachment.Content.DecodeTo(memory)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memory)
+Interesting new usage: part.Content.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream)
+Interesting new usage: attachment.Content.DecodeTo(stream, cancel.Token)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream, cancel.Token):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream, cancel.Token)
+Interesting new usage: part.Content.DecodeTo(ms)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(ms)
+Interesting new usage: image.Content.DecodeTo(output)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: Content:IdentifierName -> image.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(output)
+Interesting new usage: part.Content.DecodeTo(attachmentStream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (attachmentStream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(attachmentStream)
+Interesting new usage: part.Content.DecodeTo(stream, cancellationToken)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream, cancellationToken):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream, cancellationToken)
+Interesting new usage: part.Content.DecodeTo(fs)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (fs):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(fs)
+Interesting new usage: ((MimePart) attachment).Content.DecodeTo(memory)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: Content:IdentifierName -> ((MimePart) attachment).Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memory)
+Interesting new usage: mimePart.Content.DecodeTo(memoryStream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memoryStream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mimePart.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memoryStream)
+Interesting new usage: mp.Content.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mp.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream)
+Interesting new usage: attachment.Content.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream)
+Interesting new usage: content.DecodeTo(memory)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: Content:IdentifierToken -> content:IdentifierToken
+Correponding input: ContentObject.DecodeTo(memory)
+Interesting new usage: attachment.Content.DecodeTo(jpeg)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (jpeg):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachment.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(jpeg)
+Interesting new usage: mp.Content.DecodeTo(output)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mp.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(output)
+Interesting new usage: (mime as MimePart).Content.DecodeTo(output)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: Content:IdentifierName -> (mime as MimePart).Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(output)
+Interesting new usage: attachmentPart.Content.DecodeTo(memoryAttachment)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memoryAttachment):ArgumentList
+Log: Subsititution: Content:IdentifierName -> attachmentPart.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(memoryAttachment)
+Interesting new usage: mimePart.Content.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mimePart.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream)
+Interesting new usage: part.Content.DecodeTo(content)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (content):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(content)
+Interesting new usage: message.Content.DecodeTo(file.Content)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (file.Content):ArgumentList
+Log: Subsititution: Content:IdentifierName -> message.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(file.Content)
+Interesting new usage: part.ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream)
+Interesting new usage: mime.Content.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: Content:IdentifierName -> mime.Content:SimpleMemberAccessExpression
+Correponding input: ContentObject.DecodeTo(stream)
+Old usage: entity.ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> entity.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: part.ContentObject.DecodeTo(content)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (content):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(content)
+Old usage: mimePart.ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> mimePart.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: part.ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimeKit.MimePart) match).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: entity.ContentObject.DecodeTo(writer.BaseStream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (writer.BaseStream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> entity.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(writer.BaseStream)
+Old usage: imagePart.ContentObject.DecodeTo(writer.BaseStream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (writer.BaseStream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> imagePart.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(writer.BaseStream)
+Old usage: attachment.ContentObject.DecodeTo(ms)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(ms)
+Old usage: part.ContentObject.DecodeTo(msstream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (msstream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(msstream)
+Old usage: part.Content.DecodeTo(msstream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (msstream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.Content:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(msstream)
+Old usage: attachment.ContentObject.DecodeTo(memory)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(memory)
+Old usage: part.ContentObject.DecodeTo(ms)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(ms)
+Old usage: att.ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> att.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: ((MimePart) mimeEntity).ContentObject.DecodeTo(fs)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (fs):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimePart) mimeEntity).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(fs)
+Old usage: att.ContentObject.DecodeTo(tempbuffer)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (tempbuffer):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> att.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(tempbuffer)
+Old usage: contentObject.DecodeTo(tempFile)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (tempFile):ArgumentList
+Log: Subsititution: ContentObject:IdentifierToken -> contentObject:IdentifierToken
+Correponding output: Content.DecodeTo(tempFile)
+Old usage: image.ContentObject.DecodeTo(output)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (output):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> image.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(output)
+Old usage: part.ContentObject.DecodeTo(outputFile)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (outputFile):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(outputFile)
+Old usage: bodyContent.DecodeTo(ms)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (ms):ArgumentList
+Log: Subsititution: ContentObject:IdentifierToken -> bodyContent:IdentifierToken
+Correponding output: Content.DecodeTo(ms)
+Old usage: part.ContentObject.DecodeTo(filestream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (filestream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> part.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(filestream)
+Old usage: mimePart.ContentObject.DecodeTo(memory)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> mimePart.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(memory)
+Old usage: ((MimePart) file).ContentObject.DecodeTo(memory)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (memory):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimePart) file).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(memory)
+Old usage: mp.ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> mp.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: ((MimePart) attachment).ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> ((MimePart) attachment).ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: attachment.ContentObject.DecodeTo(stream)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream)
+Old usage: attachment.ContentObject.DecodeTo(jpeg)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (jpeg):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(jpeg)
+Old usage: attachment.ContentObject.DecodeTo(stream, cancel.Token)
+Log: Subsititution: (filtered, cancellationToken):ArgumentList -> (stream, cancel.Token):ArgumentList
+Log: Subsititution: ContentObject:IdentifierName -> attachment.ContentObject:SimpleMemberAccessExpression
+Correponding output: Content.DecodeTo(stream, cancel.Token)
+Log: Input to synthesize the program:
+Log: ContentObject.DecodeTo(filtered, cancellationToken)
+Log: ---------------------
+Log: Content.DecodeTo(filtered, cancellationToken)
+Log: entity.ContentObject.DecodeTo(stream)
+Log: ---------------------
+Log: Content.DecodeTo(stream)
+Log: part.ContentObject.DecodeTo(content)
+Log: ---------------------
+Log: Content.DecodeTo(content)
+Log: mimePart.ContentObject.DecodeTo(stream)
+Log: ---------------------
+Log: Content.DecodeTo(stream)
+Log: part.ContentObject.DecodeTo(stream)
+Log: ---------------------
+Log: Content.DecodeTo(stream)
+Log: ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream)
+Log: ---------------------
+Log: Content.DecodeTo(stream)
+Log: entity.ContentObject.DecodeTo(writer.BaseStream)
+Log: ---------------------
+Log: Content.DecodeTo(writer.BaseStream)
+Log: imagePart.ContentObject.DecodeTo(writer.BaseStream)
+Log: ---------------------
+Log: Content.DecodeTo(writer.BaseStream)
+Log: attachment.ContentObject.DecodeTo(ms)
+Log: ---------------------
+Log: Content.DecodeTo(ms)
+Log: part.ContentObject.DecodeTo(msstream)
+Log: ---------------------
+Log: Content.DecodeTo(msstream)
+Log: old usage is entity.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is part.ContentObject.DecodeTo(content)
+Log: predict is Content.DecodeTo(content)
+Log: old usage is mimePart.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is part.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is ((MimeKit.MimePart) match).ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is entity.ContentObject.DecodeTo(writer.BaseStream)
+Log: predict is Content.DecodeTo(Content.BaseStream)
+Log: old usage is imagePart.ContentObject.DecodeTo(writer.BaseStream)
+Log: predict is Content.DecodeTo(Content.BaseStream)
+Log: old usage is attachment.ContentObject.DecodeTo(ms)
+Log: predict is Content.DecodeTo(ms)
+Log: old usage is part.ContentObject.DecodeTo(msstream)
+Log: predict is Content.DecodeTo(msstream)
+Log: old usage is part.Content.DecodeTo(msstream)
+Log: predict is Content.DecodeTo(msstream)
+Log: old usage is attachment.ContentObject.DecodeTo(ms)
+Log: predict is Content.DecodeTo(ms)
+Log: old usage is part.ContentObject.DecodeTo(msstream)
+Log: predict is Content.DecodeTo(msstream)
+Log: old usage is part.ContentObject.DecodeTo(msstream)
+Log: predict is Content.DecodeTo(msstream)
+Log: old usage is part.ContentObject.DecodeTo(msstream)
+Log: predict is Content.DecodeTo(msstream)
+Log: old usage is attachment.ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is attachment.ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is part.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is part.ContentObject.DecodeTo(ms)
+Log: predict is Content.DecodeTo(ms)
+Log: old usage is attachment.ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is part.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is att.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is ((MimePart) mimeEntity).ContentObject.DecodeTo(fs)
+Log: predict is Content.DecodeTo(fs)
+Log: old usage is att.ContentObject.DecodeTo(tempbuffer)
+Log: predict is Content.DecodeTo(tempbuffer)
+Log: old usage is contentObject.DecodeTo(tempFile)
+Log: predict is Content.DecodeTo(tempFile)
+Log: old usage is image.ContentObject.DecodeTo(output)
+Log: predict is Content.DecodeTo(output)
+Log: old usage is part.ContentObject.DecodeTo(outputFile)
+Log: predict is Content.DecodeTo(outputFile)
+Log: old usage is part.ContentObject.DecodeTo(outputFile)
+Log: predict is Content.DecodeTo(outputFile)
+Log: old usage is bodyContent.DecodeTo(ms)
+Log: predict is Content.DecodeTo(ms)
+Log: old usage is attachment.ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is attachment.ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is part.ContentObject.DecodeTo(filestream)
+Log: predict is Content.DecodeTo(filestream)
+Log: old usage is part.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is mimePart.ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is entity.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is ((MimePart) file).ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is mp.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is mp.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is ((MimePart) attachment).ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is contentObject.DecodeTo(tempFile)
+Log: predict is Content.DecodeTo(tempFile)
+Log: old usage is bodyContent.DecodeTo(ms)
+Log: predict is Content.DecodeTo(ms)
+Log: old usage is attachment.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is attachment.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is part.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is part.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is part.ContentObject.DecodeTo(stream)
+Log: predict is Content.DecodeTo(stream)
+Log: old usage is image.ContentObject.DecodeTo(output)
+Log: predict is Content.DecodeTo(output)
+Log: old usage is attachment.ContentObject.DecodeTo(memory)
+Log: predict is Content.DecodeTo(memory)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(jpeg)
+Log: predict is Content.DecodeTo(jpeg)
+Log: old usage is attachment.ContentObject.DecodeTo(stream, cancel.Token)
+Log: predict is Content.DecodeTo(stream, Content.Token)
+total correct cases : 0 totalTestCases 0 Successful rate is 0
+The successful rate for transforming old usages: 52 / 52

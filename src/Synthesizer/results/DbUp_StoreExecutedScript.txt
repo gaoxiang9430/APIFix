@@ -1,0 +1,746 @@
+Configuration: 
+---- UseAdditionalOutput: False
+---- UseAdditionalInput : False
+---- OnlyNewUsage       : False
+---- GivenExample       : 1
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.15
+---- NewUsageThreashold : 0.25
+load 2 relevant edits!
+load 147 old relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 2
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage journal.StoreExecutedScript(scripts[2]);
+Log: add old usage journal.StoreExecutedScript(scripts[1]);
+Log: add old usage journal.StoreExecutedScript(scripts[0]);
+Log: add old usage journal.StoreExecutedScript(scripts[2])
+Log: add old usage journal.StoreExecutedScript(scripts[1])
+Log: add old usage journal.StoreExecutedScript(scripts[0])	
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage journal.StoreExecutedScript(scripts[2]);
+Log: add old usage journal.StoreExecutedScript(scripts[1]);
+Log: add old usage journal.StoreExecutedScript(scripts[0]);
+Log: add old usage journal.StoreExecutedScript(scripts[2])
+Log: add old usage journal.StoreExecutedScript(scripts[1])
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage journal.StoreExecutedScript(scripts[2]);
+Log: add old usage journal.StoreExecutedScript(scripts[1]);
+Log: add old usage journal.StoreExecutedScript(scripts[0]);
+Log: add old usage journal.StoreExecutedScript(scripts[2])
+Log: add old usage journal.StoreExecutedScript(scripts[1])
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script);
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage configuration.Journal.StoreExecutedScript(script)
+Log: add old usage journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: add old usage versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: add old usage journal.StoreExecutedScript(scripts[0])
+Log: ============== Cluster start ==============
+- versionTracker.Received().StoreExecutedScript(Arg.Is<SqlScript>(s => s.Name == "1234"));
+----------------
++ versionTracker.Received().StoreExecutedScript(Arg.Is<SqlScript>(s => s.Name == "1234"), Arg.Any<Func<IDbCommand>>());
+
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+old usages: journal.StoreExecutedScript(scripts[2]);
+old usages: journal.StoreExecutedScript(scripts[1]);
+old usages: journal.StoreExecutedScript(scripts[0]);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+old usages: journal.StoreExecutedScript(scripts[2]);
+old usages: journal.StoreExecutedScript(scripts[1]);
+old usages: journal.StoreExecutedScript(scripts[0]);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+old usages: journal.StoreExecutedScript(scripts[2]);
+old usages: journal.StoreExecutedScript(scripts[1]);
+old usages: journal.StoreExecutedScript(scripts[0]);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: configuration.Journal.StoreExecutedScript(script);
+old usages: configuration.Journal.StoreExecutedScript(script);
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+Log: ---------------------
+Log: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >());
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >());
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[2]);
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[1]);
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[0]);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >());
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[2]);
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[1]);
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[0]);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"));
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >());
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"));
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[2]);
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[1]);
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[0]);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script);
+Log: predict is null
+Log: ============== Cluster start ==============
+versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+----------------
+versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: journal.StoreExecutedScript(scripts[2])
+old usages: journal.StoreExecutedScript(scripts[1])
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: journal.StoreExecutedScript(scripts[2])
+old usages: journal.StoreExecutedScript(scripts[1])
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: journal.StoreExecutedScript(scripts[2])
+old usages: journal.StoreExecutedScript(scripts[1])
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: configuration.Journal.StoreExecutedScript(script)
+old usages: journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+old usages: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+old usages: journal.StoreExecutedScript(scripts[0])
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: ---------------------
+Log: versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[2])
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[1])
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[2])
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[1])
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[2])
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[1])
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is configuration.Journal.StoreExecutedScript(script)
+Log: predict is null
+Log: old usage is journal.StoreExecutedScript(new SqlScript("test", "select 1"))
+Log: predict is null
+Log: old usage is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"))
+Log: predict is versionTracker.Received().StoreExecutedScript(Arg.Is < SqlScript >(s => s.Name == "1234"), Arg.Any < Func < IDbCommand > >())
+Log: old usage is journal.StoreExecutedScript(scripts[0])
+Log: predict is null
+total correct cases : 0 totalTestCases 0 Successful rate is 0
+The successful rate for transforming old usages: 24 / 147

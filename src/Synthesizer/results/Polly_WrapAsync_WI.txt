@@ -1,0 +1,488 @@
+Configuration: 
+---- UseAdditionalOutput: False
+---- UseAdditionalInput : True
+---- OnlyNewUsage       : False
+---- GivenExample       : 1
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.1
+---- NewUsageThreashold : 0.25
+load 5 relevant edits!
+load 237 old relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 7
+Log: add old usage var policy = Policy.WrapAsync(retry, breaker);
+Log: add old usage var policy = Policy.WrapAsync(retry, breaker);
+Log: add old usage var policy = Policy.WrapAsync(retry, breaker);
+Log: add old usage var policy = Policy.WrapAsync(retry, breaker);
+Log: add old usage var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: add old usage var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: add old usage var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: add old usage var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: add old usage PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: add old usage PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: add old usage var policy = Policy.WrapAsync(fallBack, delayed);
+Log: add old usage var policy = Policy.WrapAsync(fallBack, delayed);
+Log: add old usage var policy = Policy.WrapAsync(fallBack, delayed);
+Log: add old usage var policy = Policy.WrapAsync(fallBack, delayed);
+Log: add old usage var policy = Policy.WrapAsync(fallBack, delayed);
+Log: add old usage var policy = Policy.WrapAsync(fallBack, delayed);
+Log: add old usage var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: add old usage var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: add old usage var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: add old usage var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: add old usage var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: add old usage var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: add old usage PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: add old usage PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: add old usage PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: add old usage PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: add old usage PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: add old usage PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: add old usage PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: add old usage var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: add old usage var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: add old usage var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: add old usage var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: add old usage var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: add old usage var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: add old usage var retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: add old usage var retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: add old usage IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: add old usage IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: ============== Cluster start ==============
+- return ((Policy)outerPolicy).WrapAsync(innerPolicy);
+----------------
++ return ((AsyncPolicy)outerPolicy).WrapAsync(innerPolicy);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+((Policy) outerPolicy).WrapAsync(innerPolicy)
+----------------
+((AsyncPolicy) outerPolicy).WrapAsync(innerPolicy)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- return ((Policy<TResult>)outerPolicy).WrapAsync(innerPolicy);
+----------------
++ return ((AsyncPolicy<TResult>)outerPolicy).WrapAsync(innerPolicy);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+((Policy < TResult >) outerPolicy).WrapAsync(innerPolicy)
+----------------
+((AsyncPolicy < TResult >) outerPolicy).WrapAsync(innerPolicy)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+PolicyWrap wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+----------------
+AsyncPolicyWrap wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+
+old usages: var policy = Policy.WrapAsync(retry, breaker);
+old usages: var policy = Policy.WrapAsync(retry, breaker);
+old usages: var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+old usages: var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+old usages: PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+old usages: var policy = Policy.WrapAsync(fallBack, delayed);
+old usages: var policy = Policy.WrapAsync(fallBack, delayed);
+old usages: var policy = Policy.WrapAsync(fallBack, delayed);
+old usages: var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+old usages: var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+old usages: PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+old usages: var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+old usages: var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+old usages: var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+old usages: var retryAndBreak = Policy.WrapAsync(retry, breaker);
+old usages: IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+============= Cluster end ==============
+
+Old usage: var policy = Policy.WrapAsync(retry, breaker);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retry, breaker):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap policy = Policy.WrapAsync(retry, breaker);
+Old usage: var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (timeoutPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> circuitBreaker:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> circuitBreakerWrappingTimeout:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Old usage: var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackPolicy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> retryWithFallback:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Old usage: PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (Policies.FallbackForAnyException):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker):InvocationExpression
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierName -> PolicyWrap < string >:GenericName
+Correponding output: AsyncPolicyWrap policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Old usage: var policy = Policy.WrapAsync(fallBack, delayed);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (fallBack, delayed):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap policy = Policy.WrapAsync(fallBack, delayed);
+Old usage: var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy)):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackForAnyException:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Old usage: var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> myResilienceStrategy:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Correponding output: AsyncPolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy)):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackForAnyException:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierName -> PolicyWrap < String >:GenericName
+Correponding output: AsyncPolicyWrap policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Old usage: PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> myResilienceStrategy:IdentifierToken
+Correponding output: AsyncPolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy):InvocationExpression
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierName -> PolicyWrap < String >:GenericName
+Correponding output: AsyncPolicyWrap policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Old usage: var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (PolicyFactory.CircuitbreakerPolicy()):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackPolicy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> fallbackAfterCircuitbreaker:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Old usage: var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy, timeOutPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Old usage: var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy, breakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Old usage: var retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retry, breaker):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> retryAndBreak:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> var:IdentifierToken
+Correponding output: AsyncPolicyWrap retryAndBreak = Policy.WrapAsync(retry, breaker);
+Old usage: IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy, bulkheadPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap:IdentifierToken -> IAsyncPolicy:IdentifierToken
+Correponding output: AsyncPolicyWrap policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: Input to synthesize the program:
+Log: PolicyWrap wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+Log: ---------------------
+Log: AsyncPolicyWrap wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+Log: var policy = Policy.WrapAsync(retry, breaker);
+Log: ---------------------
+Log: AsyncPolicyWrap policy = Policy.WrapAsync(retry, breaker);
+Log: var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: ---------------------
+Log: AsyncPolicyWrap policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: var policy = Policy.WrapAsync(fallBack, delayed);
+Log: ---------------------
+Log: AsyncPolicyWrap policy = Policy.WrapAsync(fallBack, delayed);
+Log: var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: ---------------------
+Log: AsyncPolicyWrap policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is var policy = Policy.WrapAsync(retry, breaker);
+Log: predict is AsyncPolicyWrap policy = Policy.WrapAsync(retry, breaker);
+Log: old usage is var policy = Policy.WrapAsync(retry, breaker);
+Log: predict is AsyncPolicyWrap policy = Policy.WrapAsync(retry, breaker);
+Log: old usage is var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: predict is AsyncPolicyWrap circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: old usage is var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: predict is AsyncPolicyWrap retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: old usage is PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: predict is AsyncPolicyWrap policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: old usage is var policy = Policy.WrapAsync(fallBack, delayed);
+Log: predict is AsyncPolicyWrap policy = Policy.WrapAsync(fallBack, delayed);
+Log: old usage is var policy = Policy.WrapAsync(fallBack, delayed);
+Log: predict is AsyncPolicyWrap policy = Policy.WrapAsync(fallBack, delayed);
+Log: old usage is var policy = Policy.WrapAsync(fallBack, delayed);
+Log: predict is AsyncPolicyWrap policy = Policy.WrapAsync(fallBack, delayed);
+Log: old usage is var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: predict is AsyncPolicyWrap policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: old usage is var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: predict is AsyncPolicyWrap policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: old usage is PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: predict is AsyncPolicyWrap policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: old usage is var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: predict is AsyncPolicyWrap fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: old usage is var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: predict is AsyncPolicyWrap policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: old usage is var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: predict is AsyncPolicyWrap policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: old usage is var retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: predict is AsyncPolicyWrap retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: old usage is IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: predict is AsyncPolicyWrap policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: ============== Cluster start ==============
+PolicyWrap < ResultPrimitive > wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+----------------
+AsyncPolicyWrap < ResultPrimitive > wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+
+PolicyWrap < ResultPrimitive > wrap = outerHandlingFault.WrapAsync(innerHandlingFaultAgain);
+----------------
+AsyncPolicyWrap < ResultPrimitive > wrap = outerHandlingFault.WrapAsync(innerHandlingFaultAgain);
+
+old usages: var policy = Policy.WrapAsync(retry, breaker);
+old usages: var policy = Policy.WrapAsync(retry, breaker);
+old usages: var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+old usages: var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+old usages: PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+old usages: var policy = Policy.WrapAsync(fallBack, delayed);
+old usages: var policy = Policy.WrapAsync(fallBack, delayed);
+old usages: var policy = Policy.WrapAsync(fallBack, delayed);
+old usages: var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+old usages: var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+old usages: PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+old usages: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+old usages: var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+old usages: var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+old usages: var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+old usages: var retryAndBreak = Policy.WrapAsync(retry, breaker);
+old usages: IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+============= Cluster end ==============
+
+Old usage: var policy = Policy.WrapAsync(retry, breaker);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retry, breaker):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retry, breaker);
+Old usage: var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (timeoutPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> circuitBreaker:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> circuitBreakerWrappingTimeout:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Old usage: var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackPolicy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> retryWithFallback:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Old usage: PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (Policies.FallbackForAnyException):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker):InvocationExpression
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: < ResultPrimitive >:TypeArgumentList -> < string >:TypeArgumentList
+Correponding output: AsyncPolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Old usage: var policy = Policy.WrapAsync(fallBack, delayed);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (fallBack, delayed):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(fallBack, delayed);
+Old usage: var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy)):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackForAnyException:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Old usage: var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> myResilienceStrategy:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> PolicyWrap:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy)):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackForAnyException:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: < ResultPrimitive >:TypeArgumentList -> < String >:TypeArgumentList
+Correponding output: AsyncPolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Old usage: PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy, circuitBreakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> myResilienceStrategy:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> PolicyWrap:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Old usage: PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (waitAndRetryPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy):InvocationExpression
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: < ResultPrimitive >:TypeArgumentList -> < String >:TypeArgumentList
+Correponding output: AsyncPolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Old usage: var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (PolicyFactory.CircuitbreakerPolicy()):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> fallbackPolicy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> fallbackAfterCircuitbreaker:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Old usage: var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy, timeOutPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policyWrap:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Old usage: var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy, breakerPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Old usage: var retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retry, breaker):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> retryAndBreak:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> var:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > retryAndBreak = Policy.WrapAsync(retry, breaker);
+Old usage: IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: Subsititution: (innerHandlingDBZE):ArgumentList -> (retryPolicy, bulkheadPolicy):ArgumentList
+Log: Subsititution: outerHandlingANE:IdentifierName -> Policy:IdentifierName
+Log: Subsititution: wrap:IdentifierToken -> policy:IdentifierToken
+Log: Subsititution: PolicyWrap < ResultPrimitive >:GenericName -> IAsyncPolicy:IdentifierName
+Correponding output: AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: Input to synthesize the program:
+Log: PolicyWrap < ResultPrimitive > wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > wrap = outerHandlingANE.WrapAsync(innerHandlingDBZE);
+Log: var policy = Policy.WrapAsync(retry, breaker);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retry, breaker);
+Log: var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: ---------------------
+Log: AsyncPolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: var policy = Policy.WrapAsync(fallBack, delayed);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(fallBack, delayed);
+Log: var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: ---------------------
+Log: AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > wrap = outerHandlingFault.WrapAsync(innerHandlingFaultAgain);
+Log: output  is AsyncPolicyWrap < ResultPrimitive > wrap = outerHandlingFault.WrapAsync(innerHandlingFaultAgain);
+Log: ----------------------------------------------------
+Log: old usage is var policy = Policy.WrapAsync(retry, breaker);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retry, breaker);
+Log: old usage is var policy = Policy.WrapAsync(retry, breaker);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retry, breaker);
+Log: old usage is var circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > circuitBreakerWrappingTimeout = circuitBreaker.WrapAsync(timeoutPolicy);
+Log: old usage is var retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > retryWithFallback = fallbackPolicy.WrapAsync(retryPolicy);
+Log: old usage is PolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: predict is AsyncPolicyWrap < string > policyWrap = Policies.WaitAndRetryPolicy.WrapAsync(Policies.CircuitBreakerPolicy).WrapAsync(Policies.FallbackForCircuitBreaker).WrapAsync(Policies.FallbackForAnyException);
+Log: old usage is var policy = Policy.WrapAsync(fallBack, delayed);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(fallBack, delayed);
+Log: old usage is var policy = Policy.WrapAsync(fallBack, delayed);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(fallBack, delayed);
+Log: old usage is var policy = Policy.WrapAsync(fallBack, delayed);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(fallBack, delayed);
+Log: old usage is var policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is var policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: old usage is var myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is PolicyWrap policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: predict is AsyncPolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForCircuitBreaker.WrapAsync(myResilienceStrategy));
+Log: old usage is PolicyWrap myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > myResilienceStrategy = Policy.WrapAsync(waitAndRetryPolicy, circuitBreakerPolicy);
+Log: old usage is PolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: predict is AsyncPolicyWrap < String > policyWrap = fallbackForAnyException.WrapAsync(fallbackForTimeout).WrapAsync(timeoutPolicy).WrapAsync(waitAndRetryPolicy);
+Log: old usage is var fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: predict is AsyncPolicyWrap < ResultPrimitive > fallbackAfterCircuitbreaker = fallbackPolicy.WrapAsync(PolicyFactory.CircuitbreakerPolicy());
+Log: old usage is var policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policyWrap = Policy.WrapAsync(retryPolicy, timeOutPolicy);
+Log: old usage is var policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retryPolicy, breakerPolicy);
+Log: old usage is var retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > retryAndBreak = Policy.WrapAsync(retry, breaker);
+Log: old usage is IAsyncPolicy policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+Log: predict is AsyncPolicyWrap < ResultPrimitive > policy = Policy.WrapAsync(retryPolicy, bulkheadPolicy);
+total correct cases : 1 totalTestCases 1 Successful rate is 1
+The successful rate for transforming old usages: 18 / 18

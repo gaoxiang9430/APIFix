@@ -1,0 +1,3071 @@
+[
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "8cbca47995797c539a2146821a0f361d28a81b26",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "9333fe0f7a92b1587277c4bbadcd0f35b0dfe5d1",
+        "new_version": "1.7.10",
+        "old_commit_id": "df6f77bcf4b6eb86916caec795c8596873cb63b7",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "8cbca47995797c539a2146821a0f361d28a81b26",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "64942bac7fd9a5ee7960e0519e712e3fe634baeb",
+        "new_version": "1.7.10",
+        "old_commit_id": "f20fae48f917b2a0c03af4bc7a9a0a2a12ee9716",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "3078ca9c79a9c44d6027381f3475ae016f83762f",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "a182fd8c6229f9439d90d2ccd34142f4b60487b4",
+        "new_version": "1.7.11",
+        "old_commit_id": "02509fd88361f7a1f119aa6f04c4fff4269525fc",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "8cbca47995797c539a2146821a0f361d28a81b26",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "df6f77bcf4b6eb86916caec795c8596873cb63b7",
+        "new_version": "1.7.10",
+        "old_commit_id": "145b81e26cefdf0dfd1c1c97e1caa8d30440d85a",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "3c712b158e69da166736c06c543d8cd68805060b",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "a7a0729b9a3e57dca9feefcffc362721a4a17c17",
+        "new_version": "1.7.6",
+        "old_commit_id": "d5f3f212c505c38a18ea7a401f5faebd22ccfd9f",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "f74d81bfbe4dd95958ac29ed1ff43167f32a52c5",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "696207935fcb08cf88779b243f7e58f838e2631a",
+        "new_version": "1.7.2",
+        "old_commit_id": "b78b87fb19075ee628cf2676d2d842c0b87bec21",
+        "old_version": "1.7.1"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "be0f2408a4f642c930721811ed060610aff40199",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "ff63c39cd61f5ae5aaafc82d63028735db23c8da",
+        "new_version": "1.7.2",
+        "old_commit_id": "073a8f52bd8b161285ccf00484a42548331f930f",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "8cbca47995797c539a2146821a0f361d28a81b26",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "f20fae48f917b2a0c03af4bc7a9a0a2a12ee9716",
+        "new_version": "1.7.10",
+        "old_commit_id": "7999f09120ff09bd2e5b141cdd844f399abede59",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "jag-lcrb-carla-public",
+        "five_day_commit": "e3a079d8dfb5de3119a46b81b3fa74ba35459ebb",
+        "html_url": "https://github.com/bcgov/jag-lcrb-carla-public.git",
+        "new_commit_id": "d5f3f212c505c38a18ea7a401f5faebd22ccfd9f",
+        "new_version": "1.7.6",
+        "old_commit_id": "ae9e0aa0e15ea3839d50b136a06433dccb5bec45",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "CSClassroom",
+        "five_day_commit": "1b6b472bcd77eb48d4a35fd148928024a7d9ec3a",
+        "html_url": "https://github.com/CSClassroom/CSClassroom.git",
+        "new_commit_id": "a14fc2ba2c3ff0740ea25ec6cc5d34b4989240ab",
+        "new_version": "1.6.21",
+        "old_commit_id": "d9b02cb32654d0e627d2c44c8c0a27b2e42c6df2",
+        "old_version": "1.6.17"
+    },
+    {
+        "client_name": "CSClassroom",
+        "five_day_commit": "7c4a711303a8255290b099ff28714627741e988d",
+        "html_url": "https://github.com/CSClassroom/CSClassroom.git",
+        "new_commit_id": "47646058a1fa5d115d3d5a8a515260cee4642dc0",
+        "new_version": "1.6.17",
+        "old_commit_id": "3f25474d34afa53b50a5f3cbf3b5ab6bbe00686f",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "CSClassroom",
+        "five_day_commit": "a2f47f788f4f6cd980c80d5c878435e113ad7f57",
+        "html_url": "https://github.com/CSClassroom/CSClassroom.git",
+        "new_commit_id": "0b99ba10e168a0f3a924505795acf0de628e17f9",
+        "new_version": "1.6.14",
+        "old_commit_id": "d579793722fa6069854073772d1c17645286a09e",
+        "old_version": "1.6.8"
+    },
+    {
+        "client_name": "BudgetTracker",
+        "five_day_commit": "88af0d5b3d8a8bf6aaf8c6d607bb208ffb54f85d",
+        "html_url": "https://github.com/DiverOfDark/BudgetTracker.git",
+        "new_commit_id": "48d6d603d9cf6d572930ab05084e30ee8b2dbaf5",
+        "new_version": "1.7.13",
+        "old_commit_id": "fe9abefee2709321171f7b8beb658e56f6440f8b",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "BudgetTracker",
+        "five_day_commit": "dbb2723a7a3917786a92792382cc52f4bdbe437e",
+        "html_url": "https://github.com/DiverOfDark/BudgetTracker.git",
+        "new_commit_id": "62770c0fd08d667525a84c3d39de50c8bd0c80a0",
+        "new_version": "1.7.9",
+        "old_commit_id": "6976805adecfc978b9f09b6b3c564ce22c221af0",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "BudgetTracker",
+        "five_day_commit": "e123ca1f7589604aeef8dd611f4de571cb7ce157",
+        "html_url": "https://github.com/DiverOfDark/BudgetTracker.git",
+        "new_commit_id": "5aa6d6301c0712a602f4aae72ad750524dc435a1",
+        "new_version": "1.7.7",
+        "old_commit_id": "bbc6e4824c0547ad25d6bd4ca09f0394d893984e",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "BudgetTracker",
+        "five_day_commit": "dfd9284b58130dd84b270dcd52afe4dc65f3c494",
+        "html_url": "https://github.com/DiverOfDark/BudgetTracker.git",
+        "new_commit_id": "9cd9de92db1096c9b1d7a06d8fc619869ed8d357",
+        "new_version": "1.7.6",
+        "old_commit_id": "cc4c373a3fdec97ef9795222311048de4bd15d03",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "Hangfire.Dashboard.BasicAuthorization",
+        "five_day_commit": "75bff9120cd92e26ad951efc780e60c556a019c6",
+        "html_url": "https://github.com/yuzd/Hangfire.Dashboard.BasicAuthorization.git",
+        "new_commit_id": "f635625fc1256d387f62ce71cdb005574049cc7f",
+        "new_version": "1.7.2",
+        "old_commit_id": "ab25572611a37135b4cd4883af59ca0ec9d7b189",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "LaunchPad",
+        "five_day_commit": "e15d6b75b4cef4f1397bf13f3be795a6718041a2",
+        "html_url": "https://github.com/michaelburns/LaunchPad.git",
+        "new_commit_id": "e15d6b75b4cef4f1397bf13f3be795a6718041a2",
+        "new_version": "1.6.17",
+        "old_commit_id": "d3fcb9552f61d462c8ab76ab11013addd08b8045",
+        "old_version": "1.6.12"
+    },
+    {
+        "client_name": "superdump",
+        "five_day_commit": "3616d44e87f244585736715203fa95d3c9d1e13c",
+        "html_url": "https://github.com/Dynatrace/superdump.git",
+        "new_commit_id": "abf751b52159976c9552c758923cf94060adb307",
+        "new_version": "1.7.17",
+        "old_commit_id": "643fc1416d9d63dee2455629c83a4bdd7296300e",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "superdump",
+        "five_day_commit": "82c6ecd730ae1cfaccecf1fc6e1439e49c830aaa",
+        "html_url": "https://github.com/Dynatrace/superdump.git",
+        "new_commit_id": "c495ba31e9603f922b4d77aa3f644a160fe44d4c",
+        "new_version": "1.7.6",
+        "old_commit_id": "96aed8c7a0d456350dab1c2e959252a622c252cc",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "superdump",
+        "five_day_commit": "38da4daa3b647299ef404d667455943d8796688e",
+        "html_url": "https://github.com/Dynatrace/superdump.git",
+        "new_commit_id": "0cd3573381b1b8678d55da203c0b983babfd9d4e",
+        "new_version": "1.7.3",
+        "old_commit_id": "831b34eca6548a235a6dff0ee1dd46df882febd8",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "superdump",
+        "five_day_commit": "5d0793b9824a2fbc07294cf4324e75b951f08447",
+        "html_url": "https://github.com/Dynatrace/superdump.git",
+        "new_commit_id": "7a41172b8b682f7c6d38807329ed960d12b842ef",
+        "new_version": "1.7.2",
+        "old_commit_id": "878a8f26883b5a7e1d4383ec03649989d0886c86",
+        "old_version": "1.7.1"
+    },
+    {
+        "client_name": "superdump",
+        "five_day_commit": "c015aff9ccb008d0bfe4eafb64d3a9b19bd9088d",
+        "html_url": "https://github.com/Dynatrace/superdump.git",
+        "new_commit_id": "c4b2e922778fd36efa3a179825c2b5984e608fa4",
+        "new_version": "1.7.1",
+        "old_commit_id": "ad3d7748747a3d1fb078fc7c88d7ccfb6c10fd41",
+        "old_version": "1.6.23"
+    },
+    {
+        "client_name": "superdump",
+        "five_day_commit": "300c1cb0594c3ec54c93b2edebea091c0cb08b88",
+        "html_url": "https://github.com/Dynatrace/superdump.git",
+        "new_commit_id": "300c1cb0594c3ec54c93b2edebea091c0cb08b88",
+        "new_version": "1.6.23",
+        "old_commit_id": "6fb04089a851eddf14e4b247457d959a2bda1d34",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "superdump",
+        "five_day_commit": "a88653ea92064f272288ae656710b9b53af876ff",
+        "html_url": "https://github.com/Dynatrace/superdump.git",
+        "new_commit_id": "e45d489bd8907f72eac99923a7c58867e005653e",
+        "new_version": "1.6.21",
+        "old_commit_id": "df517d79783f40ad48a4dbb46e0bc9634ec51590",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "ArchitectNow.Framework",
+        "five_day_commit": "0bbef858942ff357f6261748a9f1e0ac6a16e505",
+        "html_url": "https://github.com/ArchitectNow/ArchitectNow.Framework.git",
+        "new_commit_id": "3ef251ef685f21eb241b400108119805f16afd2a",
+        "new_version": "1.6.22",
+        "old_commit_id": "4831d028565d35513ee4f900ef4b7de4c104355f",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "ArchitectNow.Framework",
+        "five_day_commit": "c94407d3fa2daa1b80cf88bb24fa349e3ca89111",
+        "html_url": "https://github.com/ArchitectNow/ArchitectNow.Framework.git",
+        "new_commit_id": "64c0e42b5aa24d9a9d4bf94543fa02d737ea57da",
+        "new_version": "1.6.21",
+        "old_commit_id": "32c078c4b4554bb5caa2a8b21fb409db90694676",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "ArchitectNow.Framework",
+        "five_day_commit": "35310439be837903cc47c70bb71858c08764f213",
+        "html_url": "https://github.com/ArchitectNow/ArchitectNow.Framework.git",
+        "new_commit_id": "bccc83b8a2d57bef1929d54c92a8596ab80105b3",
+        "new_version": "1.6.19",
+        "old_commit_id": "c49bc0b5def35a1fceabfedff906b9e5f2b5f9b7",
+        "old_version": "1.6.17"
+    },
+    {
+        "client_name": "ArchitectNow.Framework",
+        "five_day_commit": "1ed774822e97734dd55f90c7d78125cfe26c47da",
+        "html_url": "https://github.com/ArchitectNow/ArchitectNow.Framework.git",
+        "new_commit_id": "1ed774822e97734dd55f90c7d78125cfe26c47da",
+        "new_version": "1.6.16",
+        "old_commit_id": "5ec97081d3b5685a79feeb8d881a109b555e8292",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "ArchitectNow.Framework",
+        "five_day_commit": "b8ec60a5b52f2c72443c96385c6e6ddbb4a42623",
+        "html_url": "https://github.com/ArchitectNow/ArchitectNow.Framework.git",
+        "new_commit_id": "64e2951d82c6379ed4d3c5dfa6a48d74fa196748",
+        "new_version": "1.6.14",
+        "old_commit_id": "5d950884a29bca8e890637127da5546654629536",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "ArchitectNow.Framework",
+        "five_day_commit": "b8ec60a5b52f2c72443c96385c6e6ddbb4a42623",
+        "html_url": "https://github.com/ArchitectNow/ArchitectNow.Framework.git",
+        "new_commit_id": "97178bed946890be8a6bbde1c14e37cb897c3ac7",
+        "new_version": "1.6.14",
+        "old_commit_id": "3ddeba0ee6f39f35b0a759931d7e27fa977a163c",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "ArchitectNow.Framework",
+        "five_day_commit": "056a5f6179602a36b606fee2201ad082a3eb5f0b",
+        "html_url": "https://github.com/ArchitectNow/ArchitectNow.Framework.git",
+        "new_commit_id": "056a5f6179602a36b606fee2201ad082a3eb5f0b",
+        "new_version": "1.6.14",
+        "old_commit_id": "32a77cb32bfd1e34727bbec0a98a70218d11eb48",
+        "old_version": "1.6.13"
+    },
+    {
+        "client_name": "IFS",
+        "five_day_commit": "d2e80c8d4894b2699419b65b018d2c84aeca846f",
+        "html_url": "https://github.com/Sebazzz/IFS.git",
+        "new_commit_id": "b7e6dfcd3c51d0df48d643b6859cdf16202e243d",
+        "new_version": "1.7.9",
+        "old_commit_id": "b4cfe47f44ec2070375429b3e289153c7b432cc0",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "IFS",
+        "five_day_commit": "b4cfe47f44ec2070375429b3e289153c7b432cc0",
+        "html_url": "https://github.com/Sebazzz/IFS.git",
+        "new_commit_id": "cc5706ab4b63f3e22ecbb8c0904830801190f3ce",
+        "new_version": "1.7.8",
+        "old_commit_id": "ff7bfe4d55df1d4db28b63af6528848895719c4f",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "IFS",
+        "five_day_commit": "0d02c88458c39d800b4b77f43db63e7c4e2eab74",
+        "html_url": "https://github.com/Sebazzz/IFS.git",
+        "new_commit_id": "0d02c88458c39d800b4b77f43db63e7c4e2eab74",
+        "new_version": "1.7.3",
+        "old_commit_id": "b1a71219dc34ab4883bc9c489d3256da62bed3ee",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "IFS",
+        "five_day_commit": "b1a71219dc34ab4883bc9c489d3256da62bed3ee",
+        "html_url": "https://github.com/Sebazzz/IFS.git",
+        "new_commit_id": "46d38846c258466b4694eb2cc5efccaf6960753f",
+        "new_version": "1.7.2",
+        "old_commit_id": "fcfa30067043cb5bc28ac0e62f39ff273eed7834",
+        "old_version": "1.7.1"
+    },
+    {
+        "client_name": "IFS",
+        "five_day_commit": "56a76ab155d9b0474ec8eea9e4630ca4f261caee",
+        "html_url": "https://github.com/Sebazzz/IFS.git",
+        "new_commit_id": "56a76ab155d9b0474ec8eea9e4630ca4f261caee",
+        "new_version": "1.7.1",
+        "old_commit_id": "9c395a2bb3e19a68a352e0c719df94bef2728c97",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "IFS",
+        "five_day_commit": "1216708e040c0aaf2222bb21fd0db71917a85904",
+        "html_url": "https://github.com/Sebazzz/IFS.git",
+        "new_commit_id": "e5c9771101f50394bb959b448834555a2a88ec78",
+        "new_version": "1.7.0",
+        "old_commit_id": "470ed8a9030d7edbbba821d5f352b0f9b1c41d7c",
+        "old_version": "1.6.24"
+    },
+    {
+        "client_name": "IFS",
+        "five_day_commit": "638476aeb2482d214e4f6721d13d0b2bf80fc894",
+        "html_url": "https://github.com/Sebazzz/IFS.git",
+        "new_commit_id": "2ee1595ff11fab4467015c5e2cd74bed348aef35",
+        "new_version": "1.6.24",
+        "old_commit_id": "22d9974e2e4630dd349ecc3404cfad4c4c69e212",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "Hangfire.Dashboard.Management",
+        "five_day_commit": "46428dfd6e71540bb0813a254d90661e8f8c385d",
+        "html_url": "https://github.com/mccj/Hangfire.Dashboard.Management.git",
+        "new_commit_id": "9ae6417c08e8cdb3bc75b6844064bc3593d0606f",
+        "new_version": "1.7.11",
+        "old_commit_id": "05852d5564342c243efcc4998bb0b9f4708bec46",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "Hangfire.Dashboard.Management",
+        "five_day_commit": "05852d5564342c243efcc4998bb0b9f4708bec46",
+        "html_url": "https://github.com/mccj/Hangfire.Dashboard.Management.git",
+        "new_commit_id": "2d338d704bab711b68191f4e681ba519815b1247",
+        "new_version": "1.7.9",
+        "old_commit_id": "71e98f6acd4fa9deff063b7ac9968f87a4b46ec7",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "Hangfire.Dashboard.Management",
+        "five_day_commit": "de3c1570a8df7b9f267937a95467b96331d83bbf",
+        "html_url": "https://github.com/mccj/Hangfire.Dashboard.Management.git",
+        "new_commit_id": "de3c1570a8df7b9f267937a95467b96331d83bbf",
+        "new_version": "1.7.8",
+        "old_commit_id": "b5476abd43279b3626e1c85c185da51833ebd5d5",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "Hangfire.Dashboard.Management",
+        "five_day_commit": "e03b33f7865a9b8e81dcc4f6047aaf7edea61fd3",
+        "html_url": "https://github.com/mccj/Hangfire.Dashboard.Management.git",
+        "new_commit_id": "e3264cf6b7548f3ac2c6cd7e91b28b7c633884a9",
+        "new_version": "1.7.7",
+        "old_commit_id": "4ab067cfb3c5e1c205bf9a309ca37caa8a33b487",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "Hangfire.Dashboard.Management",
+        "five_day_commit": "05852d5564342c243efcc4998bb0b9f4708bec46",
+        "html_url": "https://github.com/mccj/Hangfire.Dashboard.Management.git",
+        "new_commit_id": "3506ea6d1aebcb172549b75246dd0eff1727e652",
+        "new_version": "1.7.9",
+        "old_commit_id": "eae34b4aa10ce3dc179971c31df2cb052579a93b",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "RelistenApi",
+        "five_day_commit": "81fe0a40b030804b0d1d1192a9a9234a6e28b136",
+        "html_url": "https://github.com/RelistenNet/RelistenApi.git",
+        "new_commit_id": "4c0ae6c16c325e34ca06c42c9d73b2bc12c2b4f7",
+        "new_version": "1.7.8",
+        "old_commit_id": "159460054c0732589c4c3ddced58a064aaf30174",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "RelistenApi",
+        "five_day_commit": "81fe0a40b030804b0d1d1192a9a9234a6e28b136",
+        "html_url": "https://github.com/RelistenNet/RelistenApi.git",
+        "new_commit_id": "d5a72689a0ea66e41635b7b3b08ac56637b5e803",
+        "new_version": "1.7.8",
+        "old_commit_id": "237fb0653ee57e9848928f0ea93a7343b537ec36",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "RelistenApi",
+        "five_day_commit": "cf67abfbf96a15a8e9ecaffff0985000b40a14b8",
+        "html_url": "https://github.com/RelistenNet/RelistenApi.git",
+        "new_commit_id": "d6ba9c298c6a7702c6c348e204919e0341fa06a5",
+        "new_version": "1.6.20",
+        "old_commit_id": "0d7311a1f6ea9b6548d9b30d351fb274f3999d3e",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "RelistenApi",
+        "five_day_commit": "9fa4838f30e23d2a937eeda63aa2ac90ec3d9160",
+        "html_url": "https://github.com/RelistenNet/RelistenApi.git",
+        "new_commit_id": "f2ce50d38f729c0651363749d1bf9c3324e48e72",
+        "new_version": "1.6.13",
+        "old_commit_id": "589f6c2ae3d0a5a5ae699b05906761713759b8d5",
+        "old_version": "1.6.12"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "e6f5fcd987eee52d1ddf170254635e00d80a68f5",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "234d174ac44e5f2b43d1d549ebe41037245594a0",
+        "new_version": "1.7.15",
+        "old_commit_id": "094b0dec9bad425b3433d0d123569bd0be8f5787",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "8fe01b187e68efc7698d67470d15f2750aa20776",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "cc78ac29aafcb6b8d42aaa4f1816f5d85ff955d1",
+        "new_version": "1.7.11",
+        "old_commit_id": "dafb09ebbc736800fa80c61ea5ba1e45b7f944c8",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "17a2312fd2611872dd1762c67a8f64f65c8d5c00",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "4c854be63e17d5c887cde21c8523aa2a1a79bbc4",
+        "new_version": "1.7.9",
+        "old_commit_id": "5f9fab5ada979e9f3e50574bedcdc53ce4047110",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "35cb7f6be1b9a8a17f64f83f82567c09b2c5bf07",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "c886babc884762719c53acfafea85fc61e665814",
+        "new_version": "1.7.7",
+        "old_commit_id": "95bf87a35aa195b6f179ef9b1e62105d5c702e9f",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "061e500d4aa27baf85e9360cf1348f05c59ddbf2",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "e336fae8939e3b7bf39b19b43b96eb646a949b65",
+        "new_version": "1.7.6",
+        "old_commit_id": "aa502489509038be2f55b9cf4faa326a6a79c469",
+        "old_version": "1.7.4"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "b4d45c904003a10a7d39bb04dbef1d2f6e916573",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "284a1cb2b6ddf35d0a82c3e424e832579e91a8f0",
+        "new_version": "1.7.4",
+        "old_commit_id": "5417019a37a72afb97f0535ef7cf3ae0735c26e5",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "c8123513d66cec6788cd90871c5ced68be21b861",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "2512f84c9d610805f35865041ff77ae019b01282",
+        "new_version": "1.7.3",
+        "old_commit_id": "25335cd16354b5246f02352f3220b9861e7f3dca",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "5b4d5d7d86d95db8a007295ea94cf6d323a10157",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "0acbe39aab0a0c8f04712e9e7f8eca0f99f20693",
+        "new_version": "1.6.22",
+        "old_commit_id": "09e06ea2848cb372cd86ee65e581249c4767c13d",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "42abe88814473ada2453f36caf80275dda861000",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "abc7c4d6e182061c59aa274da07c007ecff8ea3a",
+        "new_version": "1.6.21",
+        "old_commit_id": "9333cef55c3066b46a6ae8d3b00d4c955ffdfcfc",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "33c07a68554859ddd21225e585790571e422a58d",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "34c936a0fc323323f359bde67ca4f1cc40fcc5d0",
+        "new_version": "1.6.20",
+        "old_commit_id": "a673af1df4d4bc8c477d60fb1213590c870d33ab",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "90bc0e2fdd9e4d3e67728acb59c483a97f69df9f",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "6649942499bea1b77bda6a5dac315c0902a227f5",
+        "new_version": "1.6.19",
+        "old_commit_id": "922b2fb895b8cdd072e7353a6a3b2ebe77bfa25e",
+        "old_version": "1.6.17"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "6f4d036c2a5f78b910ab869773ffa0075c28125b",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "f32a663fff21fabee31ba1d5d4716bc213ea0be7",
+        "new_version": "1.6.17",
+        "old_commit_id": "7fa6582c750f1faeb8f8982197542aecb9b3e4da",
+        "old_version": "1.6.16"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "d262ddddd1e0048a4dd661658d715d93df5efdec",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "1290baecb58a33d0d8d49184dea5f9c640f44ab5",
+        "new_version": "1.6.16",
+        "old_commit_id": "95b19dbce4a9785fdac1d6f5ca74fa16dd690eeb",
+        "old_version": "1.6.15"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "95a62fd7208e4731c6aac4d6ff8f657999d4a957",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "b32fc1e6e0d8922029944ce42143c5329b78c64a",
+        "new_version": "1.6.15",
+        "old_commit_id": "c63727a252ac17a5094e90572b95afa762e63abd",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "33014ff1e07c0a72db0c645e5b7ce24d5a98361e",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "a9f2943b099f2bd88ccca37867ada1dbd4f1daf8",
+        "new_version": "1.6.14",
+        "old_commit_id": "c39d456565bb82a7cabda351f1dd5aa684aea5c4",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "7bbc86a1764b7f49ad7f051113e28914dae6ca4e",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "8163d1e1d1897c87f3765cbbf08cd1b4c6ea751f",
+        "new_version": "1.6.14",
+        "old_commit_id": "a927a0fc186287b66f354184f3afcccc4471e530",
+        "old_version": "1.6.13"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "2ec5637fb1667fcfa49977f7fdaf97f33fb1d4d4",
+        "html_url": "https://github.com/aspnetboilerplate/aspnetboilerplate.git",
+        "new_commit_id": "01853602cb0904cebf81080b06b6dbe573c62bd9",
+        "new_version": "1.6.13",
+        "old_commit_id": "637966bf7dc9ae6ea9e0cd9457a228dfd743c2f4",
+        "old_version": "1.6.12"
+    },
+    {
+        "client_name": "livehapi",
+        "five_day_commit": "2d989d0477a036254ab499334143163e34644c01",
+        "html_url": "https://github.com/palladiumkenya/livehapi.git",
+        "new_commit_id": "2d989d0477a036254ab499334143163e34644c01",
+        "new_version": "1.6.20",
+        "old_commit_id": "4c2d321b1abf267886c60c87a0530bcaf17a78c3",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "Hangfire.Contrib",
+        "five_day_commit": "ef1a80ec414d9fd120dec34af768efc784a6f198",
+        "html_url": "https://github.com/webenablebv/Hangfire.Contrib.git",
+        "new_commit_id": "ef1a80ec414d9fd120dec34af768efc784a6f198",
+        "new_version": "1.7.12",
+        "old_commit_id": "8301dc536a0d3cf289cbb18818d85f86f5322f35",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "Hangfire.Contrib",
+        "five_day_commit": "8301dc536a0d3cf289cbb18818d85f86f5322f35",
+        "html_url": "https://github.com/webenablebv/Hangfire.Contrib.git",
+        "new_commit_id": "1c602f7f679962e8b894377f4150558e26842d55",
+        "new_version": "1.7.6",
+        "old_commit_id": "e273168c43e8fb9e11be541df268224a5c8a1099",
+        "old_version": "1.6.27"
+    },
+    {
+        "client_name": "Hangfire.Contrib",
+        "five_day_commit": "ab4d3de21715a9cb0a2af5b2606b3e3b6aac9c49",
+        "html_url": "https://github.com/webenablebv/Hangfire.Contrib.git",
+        "new_commit_id": "ab4d3de21715a9cb0a2af5b2606b3e3b6aac9c49",
+        "new_version": "1.6.27",
+        "old_commit_id": "4336c71264216c3cbc750c8d3c6a069a2e6f1360",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "Hangfire.Contrib",
+        "five_day_commit": "4336c71264216c3cbc750c8d3c6a069a2e6f1360",
+        "html_url": "https://github.com/webenablebv/Hangfire.Contrib.git",
+        "new_commit_id": "f35afc673e063fda622cfae8fd57f93ad9aac1c4",
+        "new_version": "1.6.22",
+        "old_commit_id": "1ade215e680565fcf11754d04b29dae75a89c907",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "Hangfire.Contrib",
+        "five_day_commit": "5fe08a2d4e0868f2b1c8b1bd648c267f54cafeea",
+        "html_url": "https://github.com/webenablebv/Hangfire.Contrib.git",
+        "new_commit_id": "5fe08a2d4e0868f2b1c8b1bd648c267f54cafeea",
+        "new_version": "1.6.21",
+        "old_commit_id": "349e444846a75b73b695e54b8894000e78905674",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "Hangfire.Contrib",
+        "five_day_commit": "1ae183ed05353eb459422abaf580b099be360b8e",
+        "html_url": "https://github.com/webenablebv/Hangfire.Contrib.git",
+        "new_commit_id": "c70572708f45ab308077c4017d2c2d74645050c7",
+        "new_version": "1.6.20",
+        "old_commit_id": "e52cfd8f5290fb5ce6ca2dacf76be77659e4f1bb",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "PageChecker",
+        "five_day_commit": "97c0ed62f76f4a2ee8aedfd9dbbb732e8dd80542",
+        "html_url": "https://github.com/PiotrBorowski/PageChecker.git",
+        "new_commit_id": "a04bfa5c2b44df29c41977fb054439edbf11a0f5",
+        "new_version": "1.7.0",
+        "old_commit_id": "053f9352fbe203b54534338dc4ff7d50b2e693cb",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "CollAction",
+        "five_day_commit": "acdfaaff1370bef97d116b18f3339439c054ab89",
+        "html_url": "https://github.com/CollActionteam/CollAction.git",
+        "new_commit_id": "d5dd3a1fa7d6585cd01659cc8ca13ba34607f0a5",
+        "new_version": "1.7.4",
+        "old_commit_id": "364e5a1876aad5ed8bdca2b7ab6e70e09c37d4b4",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "CollAction",
+        "five_day_commit": "113992b3c5473d0a6588e9f603fd260a93dae9a2",
+        "html_url": "https://github.com/CollActionteam/CollAction.git",
+        "new_commit_id": "96cecff603ef00dc2c1a8a540fad920d6554127c",
+        "new_version": "1.7.3",
+        "old_commit_id": "8cf58e329d901958475cfc6d3a4a2fbeebe2ef03",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "CollAction",
+        "five_day_commit": "95c3d1e5dac7a08d307cdc6bb4f1725596f315de",
+        "html_url": "https://github.com/CollActionteam/CollAction.git",
+        "new_commit_id": "28f5ad88dfbbc305816d8efd864ab2d77d11aa5e",
+        "new_version": "1.7.2",
+        "old_commit_id": "577c69e892855f2029edba83453eec3a08c8ce23",
+        "old_version": "1.7.1"
+    },
+    {
+        "client_name": "CollAction",
+        "five_day_commit": "76902d3ec967d268245b41b8d0ae29ee5a16e7c3",
+        "html_url": "https://github.com/CollActionteam/CollAction.git",
+        "new_commit_id": "c3d88458dfceb73e821945c9d9bf8b025c56412b",
+        "new_version": "1.7.1",
+        "old_commit_id": "76d6005351e12cf8a9bee4a63f6734dfcf23e852",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "CollAction",
+        "five_day_commit": "e0f98bd21bea759ae33a0871089bc90c481eeff4",
+        "html_url": "https://github.com/CollActionteam/CollAction.git",
+        "new_commit_id": "fa08361f241f5090ff2b5bf8e9b5b75d4fc266d5",
+        "new_version": "1.6.20",
+        "old_commit_id": "a32a98fd715f28401f8e1192f357863ab33cef9e",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "my-athletics-club",
+        "five_day_commit": "905fc7e494430ebf0c228ee5739cf5124c933d27",
+        "html_url": "https://github.com/joensindholt/my-athletics-club.git",
+        "new_commit_id": "905fc7e494430ebf0c228ee5739cf5124c933d27",
+        "new_version": "1.6.17",
+        "old_commit_id": "94c0fe2074218c9239a81e2d2e65cd2c09259e24",
+        "old_version": "1.6.17"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "90bc0e2fdd9e4d3e67728acb59c483a97f69df9f",
+        "html_url": "https://github.com/Kingzyh/aspnetboilerplate.git",
+        "new_commit_id": "6649942499bea1b77bda6a5dac315c0902a227f5",
+        "new_version": "1.6.19",
+        "old_commit_id": "922b2fb895b8cdd072e7353a6a3b2ebe77bfa25e",
+        "old_version": "1.6.17"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "6f4d036c2a5f78b910ab869773ffa0075c28125b",
+        "html_url": "https://github.com/Kingzyh/aspnetboilerplate.git",
+        "new_commit_id": "f32a663fff21fabee31ba1d5d4716bc213ea0be7",
+        "new_version": "1.6.17",
+        "old_commit_id": "7fa6582c750f1faeb8f8982197542aecb9b3e4da",
+        "old_version": "1.6.16"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "d262ddddd1e0048a4dd661658d715d93df5efdec",
+        "html_url": "https://github.com/Kingzyh/aspnetboilerplate.git",
+        "new_commit_id": "1290baecb58a33d0d8d49184dea5f9c640f44ab5",
+        "new_version": "1.6.16",
+        "old_commit_id": "95b19dbce4a9785fdac1d6f5ca74fa16dd690eeb",
+        "old_version": "1.6.15"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "95a62fd7208e4731c6aac4d6ff8f657999d4a957",
+        "html_url": "https://github.com/Kingzyh/aspnetboilerplate.git",
+        "new_commit_id": "b32fc1e6e0d8922029944ce42143c5329b78c64a",
+        "new_version": "1.6.15",
+        "old_commit_id": "c63727a252ac17a5094e90572b95afa762e63abd",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "33014ff1e07c0a72db0c645e5b7ce24d5a98361e",
+        "html_url": "https://github.com/Kingzyh/aspnetboilerplate.git",
+        "new_commit_id": "a9f2943b099f2bd88ccca37867ada1dbd4f1daf8",
+        "new_version": "1.6.14",
+        "old_commit_id": "c39d456565bb82a7cabda351f1dd5aa684aea5c4",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "7bbc86a1764b7f49ad7f051113e28914dae6ca4e",
+        "html_url": "https://github.com/Kingzyh/aspnetboilerplate.git",
+        "new_commit_id": "8163d1e1d1897c87f3765cbbf08cd1b4c6ea751f",
+        "new_version": "1.6.14",
+        "old_commit_id": "a927a0fc186287b66f354184f3afcccc4471e530",
+        "old_version": "1.6.13"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "2ec5637fb1667fcfa49977f7fdaf97f33fb1d4d4",
+        "html_url": "https://github.com/Kingzyh/aspnetboilerplate.git",
+        "new_commit_id": "01853602cb0904cebf81080b06b6dbe573c62bd9",
+        "new_version": "1.6.13",
+        "old_commit_id": "637966bf7dc9ae6ea9e0cd9457a228dfd743c2f4",
+        "old_version": "1.6.12"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "a4bb237a060a8003461b0f2ed89a924f49e88fff",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "a4bb237a060a8003461b0f2ed89a924f49e88fff",
+        "new_version": "1.7.12",
+        "old_commit_id": "9061a519fa2f1d056722e81ccfedb9f3529fe117",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "65e878a883a1d4649ac7cdbb44db3e0b2c9a165a",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "65e878a883a1d4649ac7cdbb44db3e0b2c9a165a",
+        "new_version": "1.7.11",
+        "old_commit_id": "2bf9e4aaeb52f9a6b95a00585c67d65b96d3135a",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "2bf9e4aaeb52f9a6b95a00585c67d65b96d3135a",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "2bf9e4aaeb52f9a6b95a00585c67d65b96d3135a",
+        "new_version": "1.7.9",
+        "old_commit_id": "708cfdf9539eb85fe87e1446b96a3f71ba768975",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "d81b03e593ff589f1966f36f605086dacbd85994",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "d81b03e593ff589f1966f36f605086dacbd85994",
+        "new_version": "1.7.6",
+        "old_commit_id": "61f447c6d2c3502eadd067c87ade8a5a83891f2f",
+        "old_version": "1.7.1"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "2e22b2d1bbb1548941595435d1b9f09840dc8e0e",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "2e22b2d1bbb1548941595435d1b9f09840dc8e0e",
+        "new_version": "1.7.1",
+        "old_commit_id": "0dc13fd5ddccf1ab761b78508fa96ab503b560e7",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "21470326ee49998362a35ecefc9a647357ec5fc8",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "8585508d88a6eca0cb247032fa5c65fbe957bb61",
+        "new_version": "1.6.21",
+        "old_commit_id": "257807ed3b2b23ac758d957b466ebfe94ab52d77",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "3480afb41b488da30a2254d9aa8451fae998fc28",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "f83e9ebad5ceeaac26af2ad80fca26773d88beaf",
+        "new_version": "1.6.20",
+        "old_commit_id": "68981ca42e88a312cec4738af1d4ea74f515c062",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "ae5ad5e89533e5c973b8b6b2ea3827d289fb6917",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "c0d93b1a223c80d82e55d7bcb5db97b7354af257",
+        "new_version": "1.6.19",
+        "old_commit_id": "395d5f83827fac4e7795955f6985bdc25f3d82ab",
+        "old_version": "1.6.17"
+    },
+    {
+        "client_name": "Hangfire.Mongo",
+        "five_day_commit": "02de2d87766245a67ad48ebb59a87cb60fa25d72",
+        "html_url": "https://github.com/sergeyzwezdin/Hangfire.Mongo.git",
+        "new_commit_id": "349be1327d3bebc1e1efcce374485a9b75a8f81f",
+        "new_version": "1.6.17",
+        "old_commit_id": "07f9b3eadeb78aecb41a0058f643fa4e1a6158ad",
+        "old_version": "1.6.15"
+    },
+    {
+        "client_name": "OneScript.Web",
+        "five_day_commit": "be1c3dfa4862e90f5225cbf5ce2eed1c24fecf64",
+        "html_url": "https://github.com/EvilBeaver/OneScript.Web.git",
+        "new_commit_id": "dcd2f0f81ea7522499da0cad69def50b7ba42a6e",
+        "new_version": "1.6.20",
+        "old_commit_id": "446a54307ea32bb6200beca79c144481c421eb5e",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "EmbyStat",
+        "five_day_commit": "7407f50b91b8cc9c67ed457f039bbc0b41e625f8",
+        "html_url": "https://github.com/mregni/EmbyStat.git",
+        "new_commit_id": "94e3226ba358236b96d5aeeaca5416fdefc18992",
+        "new_version": "1.7.12",
+        "old_commit_id": "70a19371e5322f6798f30a15280f50f41287102d",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "EmbyStat",
+        "five_day_commit": "a1a1641141c004d7036cbe637a71e506cebc1423",
+        "html_url": "https://github.com/mregni/EmbyStat.git",
+        "new_commit_id": "ee3e5364aa4f46988153a93be81f3b1387b50a0b",
+        "new_version": "1.7.11",
+        "old_commit_id": "84b7359adfbc9cccb464038da047d887598c4f0b",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "EmbyStat",
+        "five_day_commit": "9e61ba4b59be82f1b5a02969dac989621e584a70",
+        "html_url": "https://github.com/mregni/EmbyStat.git",
+        "new_commit_id": "1957f9ea4a794648885626f75698b9e8177bcf6e",
+        "new_version": "1.7.10",
+        "old_commit_id": "07991349ffbfb0336347cdc6b665d785ced1c91b",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "EmbyStat",
+        "five_day_commit": "5b623532e818dc5904d463dd66adadef2d789b07",
+        "html_url": "https://github.com/mregni/EmbyStat.git",
+        "new_commit_id": "036fc26cea6517862ad4fc4b47c5b7b807d937d6",
+        "new_version": "1.7.9",
+        "old_commit_id": "f800125a0ffe747edebab5c98890f1cc6a220f88",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "EmbyStat",
+        "five_day_commit": "5489b86eb8ab83ea76d95862f0aaa6205ed7c5eb",
+        "html_url": "https://github.com/mregni/EmbyStat.git",
+        "new_commit_id": "1ecf6a1fbadf34e4870303275bda40906c56970a",
+        "new_version": "1.7.8",
+        "old_commit_id": "d140e3f473eb259821935f7faf288eb22a9e8148",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "EmbyStat",
+        "five_day_commit": "821ff5bcc68f757415fd66d58dc2e85b3950a964",
+        "html_url": "https://github.com/mregni/EmbyStat.git",
+        "new_commit_id": "39cd5ca625eae2972d2eb5fa005424e721dd5a98",
+        "new_version": "1.7.7",
+        "old_commit_id": "c187211d2e6aa7f8a7eb5e13fd16e0bed452ec22",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "EmbyStat",
+        "five_day_commit": "474a3d6654b13c6205e1d3167b0d58e6c82caa13",
+        "html_url": "https://github.com/mregni/EmbyStat.git",
+        "new_commit_id": "780c42a3b192db0a4d3a6e2b5d59682b2b0ead61",
+        "new_version": "1.7.6",
+        "old_commit_id": "763933cf4e79173b744daa05531f9137ce6cb5e7",
+        "old_version": "1.7.5"
+    },
+    {
+        "client_name": "HangfireBasicAuthenticationFilter",
+        "five_day_commit": "a5a16ca4c1fff89e406452040ff2d40caf7dd8d6",
+        "html_url": "https://github.com/StoneAgeTechnologies/HangfireBasicAuthenticationFilter.git",
+        "new_commit_id": "a5a16ca4c1fff89e406452040ff2d40caf7dd8d6",
+        "new_version": "1.6.25",
+        "old_commit_id": "c9f81ac185da89d591c5de3d990e3ffdb91d7e02",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "HangfireBasicAuthenticationFilter",
+        "five_day_commit": "a5a16ca4c1fff89e406452040ff2d40caf7dd8d6",
+        "html_url": "https://github.com/StoneAgeTechnologies/HangfireBasicAuthenticationFilter.git",
+        "new_commit_id": "dfc7392e7f948cedebe817492bed7bee26ef50c4",
+        "new_version": "1.7.2",
+        "old_commit_id": "b50f63e9dbaf494d7df7e1506480bb54f8588e19",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "HangfireHttpJob",
+        "five_day_commit": "e002b94d09c2fb50514e1bb86fa84190197ddb79",
+        "html_url": "https://github.com/gnsilence/HangfireHttpJob.git",
+        "new_commit_id": "e002b94d09c2fb50514e1bb86fa84190197ddb79",
+        "new_version": "1.7.2",
+        "old_commit_id": "2bc366627d2bbee95da542bea69719d6463d1009",
+        "old_version": "1.7.1"
+    },
+    {
+        "client_name": "HangfireHttpJob",
+        "five_day_commit": "11b4e91250989db58f790fd06fa0caf1b9a55f4d",
+        "html_url": "https://github.com/gnsilence/HangfireHttpJob.git",
+        "new_commit_id": "c63c4ebab3079d92dd9020aa6d7e2ed9fc478122",
+        "new_version": "1.7.1",
+        "old_commit_id": "91aeeb78babdccb28ae2f1d3456f7108c59ef3d5",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "HangfireHttpJob",
+        "five_day_commit": "ae5289006e352746e768723bd605d5f09270c2d0",
+        "html_url": "https://github.com/gnsilence/HangfireHttpJob.git",
+        "new_commit_id": "5b8388f7efc46bad96ec0c64848de41ebb55a7d5",
+        "new_version": "1.7.0",
+        "old_commit_id": "e3949a4ffea23325a3ddfc84c96c21dbbf2cc706",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "HangfireHttpJob",
+        "five_day_commit": "3ef12959fa3548cc345d510f74fffcb8ba04f540",
+        "html_url": "https://github.com/gnsilence/HangfireHttpJob.git",
+        "new_commit_id": "c4c6f4025ab464c78e4958c8031e9f48400115f4",
+        "new_version": "1.6.22",
+        "old_commit_id": "3991f0ae3af89c25f3fb78fc7a25269454687e6f",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "Hangfire.EntityFrameworkCore",
+        "five_day_commit": "685cb13bd1562312be914fe20577250b9b57d584",
+        "html_url": "https://github.com/sergezhigunov/Hangfire.EntityFrameworkCore.git",
+        "new_commit_id": "c8900632a100ae9041283c95fa072ed9d9abd581",
+        "new_version": "1.7.14",
+        "old_commit_id": "f659fe435b4682d97ba9c294c181d5e1b437d7dc",
+        "old_version": "1.6.16"
+    },
+    {
+        "client_name": "Hangfire.EntityFrameworkCore",
+        "five_day_commit": "efe242d5b9135e72b8fb4e2a8c5299ce0abfc8ce",
+        "html_url": "https://github.com/sergezhigunov/Hangfire.EntityFrameworkCore.git",
+        "new_commit_id": "efe242d5b9135e72b8fb4e2a8c5299ce0abfc8ce",
+        "new_version": "1.6.16",
+        "old_commit_id": "d76f91657544dbeab5f59dec635d00936106f940",
+        "old_version": "1.6.16"
+    },
+    {
+        "client_name": "Hangfire.EntityFrameworkCore",
+        "five_day_commit": "6dee96c0ca690c8cfc1c96c6dfda9882e8fe117f",
+        "html_url": "https://github.com/sergezhigunov/Hangfire.EntityFrameworkCore.git",
+        "new_commit_id": "d2b2cd49101e3096e4ec863a917f92717b3f760c",
+        "new_version": "1.6.16",
+        "old_commit_id": "5ad5992a15193ed18fd9af784a5dfa8594c123e9",
+        "old_version": "1.6.23"
+    },
+    {
+        "client_name": "Hangfire.EntityFrameworkCore",
+        "five_day_commit": "f84c0cab6bf4c1dd8730039a58050f76c2e84381",
+        "html_url": "https://github.com/sergezhigunov/Hangfire.EntityFrameworkCore.git",
+        "new_commit_id": "ed6e949b7eab6e4777446e7fae90e833784e25db",
+        "new_version": "1.6.23",
+        "old_commit_id": "cab3f629caccdbcafee814410ce63513ea9f2835",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "ExicoHangfireClientServer",
+        "five_day_commit": "ac3938c2742da84c99a0a3b0b20ac109b24db0a6",
+        "html_url": "https://github.com/ishahrier/ExicoHangfireClientServer.git",
+        "new_commit_id": "bee0703c26801109ea8e1a3349e1f033e3b91efb",
+        "new_version": "1.7.17",
+        "old_commit_id": "b07204ce7bb74797abc3a8352c3220a43428e856",
+        "old_version": "1.7.14"
+    },
+    {
+        "client_name": "ExicoHangfireClientServer",
+        "five_day_commit": "b07204ce7bb74797abc3a8352c3220a43428e856",
+        "html_url": "https://github.com/ishahrier/ExicoHangfireClientServer.git",
+        "new_commit_id": "7428296eb10d4d3a37f7c1c83094267893e9f290",
+        "new_version": "1.7.14",
+        "old_commit_id": "80e05061f093791a6efd3114e30597a01004808e",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "ExicoHangfireClientServer",
+        "five_day_commit": "80e05061f093791a6efd3114e30597a01004808e",
+        "html_url": "https://github.com/ishahrier/ExicoHangfireClientServer.git",
+        "new_commit_id": "80e05061f093791a6efd3114e30597a01004808e",
+        "new_version": "1.7.12",
+        "old_commit_id": "3000d3cb711958660089d33112246c44ad4c73e0",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "ExicoHangfireClientServer",
+        "five_day_commit": "3000d3cb711958660089d33112246c44ad4c73e0",
+        "html_url": "https://github.com/ishahrier/ExicoHangfireClientServer.git",
+        "new_commit_id": "a13288b21fc0097bd59a6897cb8b18c11ab656b6",
+        "new_version": "1.7.11",
+        "old_commit_id": "0d344d91808c4b8d507e5e55919df028b584d8b0",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "ExicoHangfireClientServer",
+        "five_day_commit": "6ec32b0c0a448ca63156da979c0386f865d5b089",
+        "html_url": "https://github.com/ishahrier/ExicoHangfireClientServer.git",
+        "new_commit_id": "9ab928917de91a8c652b44151a3d0e20a5c4b53b",
+        "new_version": "1.7.8",
+        "old_commit_id": "1e1455538a6b8ebb0a3b261e05d85e77405e8379",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "RightmoveDownloader",
+        "five_day_commit": "8391df47aeb467c338fbdf5cdafc6888e0cd04d5",
+        "html_url": "https://github.com/michaltalaga/RightmoveDownloader.git",
+        "new_commit_id": "b3b9502146292bfcd680c162d3fa813f53cdcbb9",
+        "new_version": "1.7.3",
+        "old_commit_id": "689a4946c9d6c6905e1e701765619209a763d453",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "jag-spd-spice",
+        "five_day_commit": "e3a35c44c28d909d699df84c30ea8f409c38add9",
+        "html_url": "https://github.com/bcgov/jag-spd-spice.git",
+        "new_commit_id": "d8b5d55c2f328ebff533f2d5f3256948db794b05",
+        "new_version": "1.7.3",
+        "old_commit_id": "7cb680d6b5f82609607d5e1da628a8c29b2f9929",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "P9YS",
+        "five_day_commit": "b0d9e24d516242d6ec199a41c17d160411af9a93",
+        "html_url": "https://github.com/wwwu/P9YS.git",
+        "new_commit_id": "b0d9e24d516242d6ec199a41c17d160411af9a93",
+        "new_version": "1.7.9",
+        "old_commit_id": "3752a5cb1533863830398c6d2ab889009af7533f",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "P9YS",
+        "five_day_commit": "48a8dc03da69169931b74e173c212dee25701a24",
+        "html_url": "https://github.com/wwwu/P9YS.git",
+        "new_commit_id": "48a8dc03da69169931b74e173c212dee25701a24",
+        "new_version": "1.7.6",
+        "old_commit_id": "be0f3f0d81a8441588c6a4d2c6dcd78ea043ee0c",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "P9YS",
+        "five_day_commit": "2c1922cea73b3c6a7938b0c052b897cdc92187cb",
+        "html_url": "https://github.com/wwwu/P9YS.git",
+        "new_commit_id": "921bc4caf9a2c14aad4a4ba04ccd12c1a7febbc9",
+        "new_version": "1.7.0",
+        "old_commit_id": "9bb9aec9f867124dcbaaca1e678fd9a3742349c6",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "P9YS",
+        "five_day_commit": "28b9de564ff99d73f1b53f044ea02c30276097a3",
+        "html_url": "https://github.com/wwwu/P9YS.git",
+        "new_commit_id": "d81e7b4cb4a3f7623c0074c2e0c5ec388d8a052e",
+        "new_version": "1.7.0",
+        "old_commit_id": "671471e96fb916d57008a660728c0818d737a7f5",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "dwapi-hts",
+        "five_day_commit": "91942594fe1fbdb669ba5372f440d8b774fb2684",
+        "html_url": "https://github.com/palladiumkenya/dwapi-hts.git",
+        "new_commit_id": "91942594fe1fbdb669ba5372f440d8b774fb2684",
+        "new_version": "1.7.9",
+        "old_commit_id": "37ce8f509e504442e8a904c2358fae13ab197b66",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "a1d11edcbcb465d4eba38ed219e06fd1e4bb95f4",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "cc6eae2f18b9aff3a138175d3f0eebd1772ea076",
+        "new_version": "1.7.15",
+        "old_commit_id": "4fbc50dbb68c139a20d09cb73070aed072f32a67",
+        "old_version": "1.7.13"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "4fbc50dbb68c139a20d09cb73070aed072f32a67",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "4fbc50dbb68c139a20d09cb73070aed072f32a67",
+        "new_version": "1.7.13",
+        "old_commit_id": "e36bbcac6de1738dcf7ab2087f0482d5adaa554a",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "2496c305f62afba0bdda74aa98cb23367b5de480",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "6dfdeca0fac21f1cbbcf155d88d19cb1ce8de845",
+        "new_version": "1.7.8",
+        "old_commit_id": "7d622b20c7e86cb575a71c9e6c379a28b48221fb",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "89c4c1a423aa76663b5097eb5e48d59926020021",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "5159c2de754cabf16ed5b9c0c5f8563ecacc2377",
+        "new_version": "1.7.7",
+        "old_commit_id": "ea1965963624b6db1c52f4510f80dc3c0a6954ee",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "b0317bae36da2aa5e064df8d702546d33bbac4a7",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "bed6dd1a622cb5d8f8858cccefaaeb2d42305b28",
+        "new_version": "1.7.6",
+        "old_commit_id": "f298511ad582a499fb2a898f09f5cda51f8e7fcd",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "c2ca3e350833204d4aaa80ecd0e92f1ff09324cd",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "c2ca3e350833204d4aaa80ecd0e92f1ff09324cd",
+        "new_version": "1.7.3",
+        "old_commit_id": "c53dbdca21bf8275e5bfcbd9c01e6009cef220d5",
+        "old_version": "1.7.2"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "a1d11edcbcb465d4eba38ed219e06fd1e4bb95f4",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "a1d11edcbcb465d4eba38ed219e06fd1e4bb95f4",
+        "new_version": "1.7.15",
+        "old_commit_id": "cc6eae2f18b9aff3a138175d3f0eebd1772ea076",
+        "old_version": "1.7.13"
+    },
+    {
+        "client_name": "InstructorIQ",
+        "five_day_commit": "8e1b654a814dabf000a1d3694a136421c1d1ba3c",
+        "html_url": "https://github.com/loresoft/InstructorIQ.git",
+        "new_commit_id": "46122c10d31bb220a845558575799de77450b818",
+        "new_version": "1.7.1",
+        "old_commit_id": "5688af46d9a40a48fcf6bee18b8a540cab275a87",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "SimplCommerce",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/simplcommerce/SimplCommerce.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "Cameo",
+        "five_day_commit": "89ad5b2bc92e72662d67aa2d2360689eab94cc24",
+        "html_url": "https://github.com/napster1991/Cameo.git",
+        "new_commit_id": "b51d19be8776f8327360d6e2f1c8e1420885439d",
+        "new_version": "1.7.9",
+        "old_commit_id": "f200480afb7366d83926cc8d8bb0f0bb3bb3dab2",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "FocLab",
+        "five_day_commit": "e73daf6d9d3dd6fa27badf18e5f006f1e25cca7e",
+        "html_url": "https://github.com/dimaserd/FocLab.git",
+        "new_commit_id": "3084a40e4208abcb4903e96c7532d687f29df757",
+        "new_version": "1.7.9",
+        "old_commit_id": "30042cd4fd122f993653272417c6a66ad38cc7f2",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "FocLab",
+        "five_day_commit": "30042cd4fd122f993653272417c6a66ad38cc7f2",
+        "html_url": "https://github.com/dimaserd/FocLab.git",
+        "new_commit_id": "caac49a081ab84fcbd93960742de96dd45f5bfcc",
+        "new_version": "1.7.8",
+        "old_commit_id": "e83dc5f055d315b7e840eb7148a06b849c42924f",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "FocLab",
+        "five_day_commit": "81b4862e1acdc631aae604c23ae866bab9f881a8",
+        "html_url": "https://github.com/dimaserd/FocLab.git",
+        "new_commit_id": "a8e5feebc791563f9e3c718b10a82cc03bd6d9a8",
+        "new_version": "1.7.7",
+        "old_commit_id": "10d04f7224722e87ef432f0796ec8204e7bf534f",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "FocLab",
+        "five_day_commit": "747aef8aed64fb4993eaf3e203aaa18ce646c340",
+        "html_url": "https://github.com/dimaserd/FocLab.git",
+        "new_commit_id": "26001faac24eebaa56aab2f4a1fa939ca814449a",
+        "new_version": "1.7.6",
+        "old_commit_id": "0869a1ffde02bde068b3aaf414a870234ca68b63",
+        "old_version": "1.7.5"
+    },
+    {
+        "client_name": "Hangfire.AspNetCore.Multitenant",
+        "five_day_commit": "044ef59cff0d3e00bc3bb4eb138891cc2f6ab7e5",
+        "html_url": "https://github.com/davidikin45/Hangfire.AspNetCore.Multitenant.git",
+        "new_commit_id": "96df091e38f15ee0adf7ca1950bd84d6fcd5f016",
+        "new_version": "1.7.5",
+        "old_commit_id": "1263fd0956f3f036ca84af26d438cf4a5141a091",
+        "old_version": "1.7.4"
+    },
+    {
+        "client_name": "XDoc",
+        "five_day_commit": "673b4cefef30b132034b8e8608b0c7d2f84807b4",
+        "html_url": "https://github.com/dimaserd/XDoc.git",
+        "new_commit_id": "1551a1f29fb723f6453a9d9b3d1744808cda04d9",
+        "new_version": "1.7.9",
+        "old_commit_id": "db145663b4d686aa0f3606d903ff99432c07cfda",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "XDoc",
+        "five_day_commit": "673b4cefef30b132034b8e8608b0c7d2f84807b4",
+        "html_url": "https://github.com/dimaserd/XDoc.git",
+        "new_commit_id": "db145663b4d686aa0f3606d903ff99432c07cfda",
+        "new_version": "1.7.9",
+        "old_commit_id": "8bc4106061be194da8e0255da261cff721a346f8",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "XDoc",
+        "five_day_commit": "8bc4106061be194da8e0255da261cff721a346f8",
+        "html_url": "https://github.com/dimaserd/XDoc.git",
+        "new_commit_id": "1373522181519f027d64ae3093b4bcdd7de1e821",
+        "new_version": "1.7.8",
+        "old_commit_id": "22dbb7cde995d6ce63f3850dcc3f64f76baa67a7",
+        "old_version": "1.7.4"
+    },
+    {
+        "client_name": "BioEngine.BRC.Jobs",
+        "five_day_commit": "fa25d00edc69d2520579a301c6556bba3d7250d0",
+        "html_url": "https://github.com/BioWareRu/BioEngine.BRC.Jobs.git",
+        "new_commit_id": "543a7824f9feb86859fa89799662f48d3500018e",
+        "new_version": "1.7.11",
+        "old_commit_id": "2d57398d3f3ec6f742fbaa726a5c8ec6bd52681f",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "BioEngine.BRC.Jobs",
+        "five_day_commit": "2d57398d3f3ec6f742fbaa726a5c8ec6bd52681f",
+        "html_url": "https://github.com/BioWareRu/BioEngine.BRC.Jobs.git",
+        "new_commit_id": "1d731638ffd6a26b7593598228897d332bf88a60",
+        "new_version": "1.7.9",
+        "old_commit_id": "fc3a9920ce0d24ca98cda5aa7515588d2495d7df",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "BioEngine.BRC.Jobs",
+        "five_day_commit": "73aa2893041d44f511ecd6b46a1666154a30f43d",
+        "html_url": "https://github.com/BioWareRu/BioEngine.BRC.Jobs.git",
+        "new_commit_id": "73aa2893041d44f511ecd6b46a1666154a30f43d",
+        "new_version": "1.7.8",
+        "old_commit_id": "cc08f96d17bba8b0826c92354a2bab6ce11c2227",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "BioEngine.BRC.Jobs",
+        "five_day_commit": "9bb10281bd3e765ea7f81aef5051b00bdd1cf4f8",
+        "html_url": "https://github.com/BioWareRu/BioEngine.BRC.Jobs.git",
+        "new_commit_id": "9bb10281bd3e765ea7f81aef5051b00bdd1cf4f8",
+        "new_version": "1.7.7",
+        "old_commit_id": "d19003dc0c9fa5db3865a5b3863a77a90be241bf",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "BioEngine.BRC.Jobs",
+        "five_day_commit": "67f6e4dfadc7d317fcd0ae19abfae55e663d50ee",
+        "html_url": "https://github.com/BioWareRu/BioEngine.BRC.Jobs.git",
+        "new_commit_id": "67f6e4dfadc7d317fcd0ae19abfae55e663d50ee",
+        "new_version": "1.7.6",
+        "old_commit_id": "3e81dbdcd04f9cc76df75210c2debbbda4a37d20",
+        "old_version": "1.7.5"
+    },
+    {
+        "client_name": "BioEngine.BRC.Jobs",
+        "five_day_commit": "3e81dbdcd04f9cc76df75210c2debbbda4a37d20",
+        "html_url": "https://github.com/BioWareRu/BioEngine.BRC.Jobs.git",
+        "new_commit_id": "3e81dbdcd04f9cc76df75210c2debbbda4a37d20",
+        "new_version": "1.7.5",
+        "old_commit_id": "098c3e8089274fd93a41857b06d19ced56c90002",
+        "old_version": "1.7.4"
+    },
+    {
+        "client_name": "ptyxiaki",
+        "five_day_commit": "f9e2f218dfe9230973eaccf31cbc2ad10be68a8e",
+        "html_url": "https://github.com/Jimmys20/ptyxiaki.git",
+        "new_commit_id": "4f004270d601466899d40d95ce1cda56bc7539b2",
+        "new_version": "1.7.6",
+        "old_commit_id": "aa79ec208571fcebecf83d806778a21fe24e635a",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "ParkingSpotsManager",
+        "five_day_commit": "b6dba14b7a4ec3927f54651137ad621aade18fdc",
+        "html_url": "https://github.com/DjeeBay/ParkingSpotsManager.git",
+        "new_commit_id": "b6dba14b7a4ec3927f54651137ad621aade18fdc",
+        "new_version": "1.7.4",
+        "old_commit_id": "52c24953bdfb54098a2c140ad27e0840eb1fdd2d",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "Html2PdfChromium",
+        "five_day_commit": "b190514d325570956319d2299011b237cafed792",
+        "html_url": "https://github.com/greter/Html2PdfChromium.git",
+        "new_commit_id": "b190514d325570956319d2299011b237cafed792",
+        "new_version": "1.7.11",
+        "old_commit_id": "d5d74276b992e31cf6e42cc250fb4405936af87f",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "Html2PdfChromium",
+        "five_day_commit": "7bebbf99fa38ff3a04e60993d6ecbd8370c47938",
+        "html_url": "https://github.com/greter/Html2PdfChromium.git",
+        "new_commit_id": "b4bd729f8675d8fe30b06cf70c0b425ce9daf314",
+        "new_version": "1.7.8",
+        "old_commit_id": "afbceb63cb110b4bfdb6ee1278a9552388ab900a",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "TestOkur.WebApi",
+        "five_day_commit": "07468a22c9cbe66809e475ba25a4c23f21fba04b",
+        "html_url": "https://github.com/testokur/TestOkur.WebApi.git",
+        "new_commit_id": "07468a22c9cbe66809e475ba25a4c23f21fba04b",
+        "new_version": "1.7.12",
+        "old_commit_id": "ef5d7e1523dddd8bb77334360436d9960ddcb9d8",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "TestOkur.WebApi",
+        "five_day_commit": "9de8e52c9ac1d9876556df27d7d8b9c3a780f378",
+        "html_url": "https://github.com/testokur/TestOkur.WebApi.git",
+        "new_commit_id": "72c2691f38732b1ce07540ae2dc777b4bc4f27a7",
+        "new_version": "1.7.11",
+        "old_commit_id": "b5d3634d1acb5198e9f01e3ef14e1d692e58d841",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "Hangfire.Realm",
+        "five_day_commit": "60df738f85eddb8fd3f4ffda6d874afce1e74d6d",
+        "html_url": "https://github.com/buchenberg/Hangfire.Realm.git",
+        "new_commit_id": "039b97c767dcf4014368cd554a40d5ec692dc758",
+        "new_version": "1.7.11",
+        "old_commit_id": "2a5421f8af6cf262590bd7466dcdab1f3fff50af",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "Hangfire.Realm",
+        "five_day_commit": "2a5421f8af6cf262590bd7466dcdab1f3fff50af",
+        "html_url": "https://github.com/buchenberg/Hangfire.Realm.git",
+        "new_commit_id": "f68601cda1ca597b3ab58f0a063f49fa052ca69b",
+        "new_version": "1.7.7",
+        "old_commit_id": "67720d184017958b7fa8579e1093cb0f8815b9c1",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "SimplDev",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/007FFFLearning/SimplDev.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "Hangfire.AspNetCore.Extensions",
+        "five_day_commit": "3df4d3928d4fc85cf00e351782db6e80529bc921",
+        "html_url": "https://github.com/davidikin45/Hangfire.AspNetCore.Extensions.git",
+        "new_commit_id": "c395d50d3f7b9facdf16da799e87620d0a8f4d41",
+        "new_version": "1.7.6",
+        "old_commit_id": "c12c2d3873a84bb3fe5f52fdd40d71cd58e7acb1",
+        "old_version": "1.7.5"
+    },
+    {
+        "client_name": "1BCommerce",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/joshuak1234/1BCommerce.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "hangfire-poc",
+        "five_day_commit": "30aa9da43d91fd27e3c5b0f8cefb8d319c253037",
+        "html_url": "https://github.com/snw55/hangfire-poc.git",
+        "new_commit_id": "b2165db8e40d5d7e5de61525a652a69bc73b7268",
+        "new_version": "1.7.6",
+        "old_commit_id": "1a8338e9173126b692098c3c2d757d99069b76d4",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "Hangfire.RecurringJobAdmin",
+        "five_day_commit": "ad978c18a30ebce8cf5f99337e3b1b935275cd2b",
+        "html_url": "https://github.com/bamotav/Hangfire.RecurringJobAdmin.git",
+        "new_commit_id": "7a9d1f4141e8b3416cc9435aed7ec1d378ea93c9",
+        "new_version": "1.7.12",
+        "old_commit_id": "c81cb5b402b478906cf90caac5fad9274c5e0701",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "myfirstrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/iamdoingdevops/myfirstrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "HangfireConfiguration",
+        "five_day_commit": "3ce6201884c08b5cffce9845119bcee112c19615",
+        "html_url": "https://github.com/Teleopti/HangfireConfiguration.git",
+        "new_commit_id": "3ce6201884c08b5cffce9845119bcee112c19615",
+        "new_version": "1.7.10",
+        "old_commit_id": "c93fde9344e7ebf99924980d21eff92c96c69a7a",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "HangfireConfiguration",
+        "five_day_commit": "3ce6201884c08b5cffce9845119bcee112c19615",
+        "html_url": "https://github.com/Teleopti/HangfireConfiguration.git",
+        "new_commit_id": "c93fde9344e7ebf99924980d21eff92c96c69a7a",
+        "new_version": "1.7.10",
+        "old_commit_id": "0e282db705078e356bc409bfff6ab54b8f32c09c",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "hou-guildbot",
+        "five_day_commit": "fa7aa0113b3341153edd0d3e9eaaf2ff62aa2dcd",
+        "html_url": "https://github.com/Herdo/hou-guildbot.git",
+        "new_commit_id": "fa7aa0113b3341153edd0d3e9eaaf2ff62aa2dcd",
+        "new_version": "1.7.15",
+        "old_commit_id": "44c1fbac6b7cf1aae33a406944013dd3cca23403",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "hou-guildbot",
+        "five_day_commit": "a18487ab96be14a5c19e60549db4e16b2aa1b599",
+        "html_url": "https://github.com/Herdo/hou-guildbot.git",
+        "new_commit_id": "bdaf3c7f622e5a8be254f7a4994b5a29ca344b9a",
+        "new_version": "1.7.12",
+        "old_commit_id": "d0ec0352acd5b40c7c3bfd8724fad681ec80c594",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "hou-guildbot",
+        "five_day_commit": "fd39312127d7cf2c260315a063648a8aced3c2d1",
+        "html_url": "https://github.com/Herdo/hou-guildbot.git",
+        "new_commit_id": "d2cbd19be26d1430b9abd60da19a3823644ff938",
+        "new_version": "1.7.11",
+        "old_commit_id": "f3ece964974bc698a86ff0b3934786e3cbf043d0",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "hou-guildbot",
+        "five_day_commit": "f3ece964974bc698a86ff0b3934786e3cbf043d0",
+        "html_url": "https://github.com/Herdo/hou-guildbot.git",
+        "new_commit_id": "9278898f23bb37faf9c4277c45b02c9b97b89bf7",
+        "new_version": "1.7.8",
+        "old_commit_id": "69b31bf36520544aa74f9a95026493b0cf0628a1",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "DevOpsLearning",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/pradeepit93/DevOpsLearning.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "DotNetCore30Demo",
+        "five_day_commit": "21d13b469c0dc3a35ad7734107a5f2453aa4afe3",
+        "html_url": "https://github.com/zhjch626/DotNetCore30Demo.git",
+        "new_commit_id": "21d13b469c0dc3a35ad7734107a5f2453aa4afe3",
+        "new_version": "1.7.9",
+        "old_commit_id": "5c48ad24a1e4c0393fab08ccfc778cbe4fe6cfe9",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "animated-medical-imaging",
+        "five_day_commit": "0af6486971e3641ff5402dc2c8b56b8a47427029",
+        "html_url": "https://github.com/niklr/animated-medical-imaging.git",
+        "new_commit_id": "0af6486971e3641ff5402dc2c8b56b8a47427029",
+        "new_version": "1.7.8",
+        "old_commit_id": "361fd6355a6e360e8b667d7380102835a6621019",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "animated-medical-imaging",
+        "five_day_commit": "079bc37043ad564692f367efa87fe285ebe07e06",
+        "html_url": "https://github.com/niklr/animated-medical-imaging.git",
+        "new_commit_id": "636bd2b6494218f052a3801633bdcae3b5a86a28",
+        "new_version": "1.7.7",
+        "old_commit_id": "c0d1f6e02361e78953121516bce0e7d2419e8c78",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "b4d45c904003a10a7d39bb04dbef1d2f6e916573",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "284a1cb2b6ddf35d0a82c3e424e832579e91a8f0",
+        "new_version": "1.7.4",
+        "old_commit_id": "5417019a37a72afb97f0535ef7cf3ae0735c26e5",
+        "old_version": "1.7.3"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "c8123513d66cec6788cd90871c5ced68be21b861",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "2512f84c9d610805f35865041ff77ae019b01282",
+        "new_version": "1.7.3",
+        "old_commit_id": "25335cd16354b5246f02352f3220b9861e7f3dca",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "5b4d5d7d86d95db8a007295ea94cf6d323a10157",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "0acbe39aab0a0c8f04712e9e7f8eca0f99f20693",
+        "new_version": "1.6.22",
+        "old_commit_id": "09e06ea2848cb372cd86ee65e581249c4767c13d",
+        "old_version": "1.6.21"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "42abe88814473ada2453f36caf80275dda861000",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "abc7c4d6e182061c59aa274da07c007ecff8ea3a",
+        "new_version": "1.6.21",
+        "old_commit_id": "9333cef55c3066b46a6ae8d3b00d4c955ffdfcfc",
+        "old_version": "1.6.20"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "33c07a68554859ddd21225e585790571e422a58d",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "34c936a0fc323323f359bde67ca4f1cc40fcc5d0",
+        "new_version": "1.6.20",
+        "old_commit_id": "a673af1df4d4bc8c477d60fb1213590c870d33ab",
+        "old_version": "1.6.19"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "90bc0e2fdd9e4d3e67728acb59c483a97f69df9f",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "6649942499bea1b77bda6a5dac315c0902a227f5",
+        "new_version": "1.6.19",
+        "old_commit_id": "922b2fb895b8cdd072e7353a6a3b2ebe77bfa25e",
+        "old_version": "1.6.17"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "6f4d036c2a5f78b910ab869773ffa0075c28125b",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "f32a663fff21fabee31ba1d5d4716bc213ea0be7",
+        "new_version": "1.6.17",
+        "old_commit_id": "7fa6582c750f1faeb8f8982197542aecb9b3e4da",
+        "old_version": "1.6.16"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "d262ddddd1e0048a4dd661658d715d93df5efdec",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "1290baecb58a33d0d8d49184dea5f9c640f44ab5",
+        "new_version": "1.6.16",
+        "old_commit_id": "95b19dbce4a9785fdac1d6f5ca74fa16dd690eeb",
+        "old_version": "1.6.15"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "95a62fd7208e4731c6aac4d6ff8f657999d4a957",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "b32fc1e6e0d8922029944ce42143c5329b78c64a",
+        "new_version": "1.6.15",
+        "old_commit_id": "c63727a252ac17a5094e90572b95afa762e63abd",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "33014ff1e07c0a72db0c645e5b7ce24d5a98361e",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "a9f2943b099f2bd88ccca37867ada1dbd4f1daf8",
+        "new_version": "1.6.14",
+        "old_commit_id": "c39d456565bb82a7cabda351f1dd5aa684aea5c4",
+        "old_version": "1.6.14"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "7bbc86a1764b7f49ad7f051113e28914dae6ca4e",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "8163d1e1d1897c87f3765cbbf08cd1b4c6ea751f",
+        "new_version": "1.6.14",
+        "old_commit_id": "a927a0fc186287b66f354184f3afcccc4471e530",
+        "old_version": "1.6.13"
+    },
+    {
+        "client_name": "aspnetboilerplate",
+        "five_day_commit": "2ec5637fb1667fcfa49977f7fdaf97f33fb1d4d4",
+        "html_url": "https://github.com/YinfengWang/aspnetboilerplate.git",
+        "new_commit_id": "01853602cb0904cebf81080b06b6dbe573c62bd9",
+        "new_version": "1.6.13",
+        "old_commit_id": "637966bf7dc9ae6ea9e0cd9457a228dfd743c2f4",
+        "old_version": "1.6.12"
+    },
+    {
+        "client_name": "healthgateway",
+        "five_day_commit": "4c7b6a6ef8ea4a3f5d53384088666f1f0cebdfa7",
+        "html_url": "https://github.com/bcgov/healthgateway.git",
+        "new_commit_id": "940567a86e7f3c05e5a2eb53aba35a19a66ed1a0",
+        "new_version": "1.7.17",
+        "old_commit_id": "3492350adf1872e0cb491fc96ea4ddf110fa4864",
+        "old_version": "1.7.16"
+    },
+    {
+        "client_name": "healthgateway",
+        "five_day_commit": "3edb5b8a2d862f09048a482e399bb84bc1fe757e",
+        "html_url": "https://github.com/bcgov/healthgateway.git",
+        "new_commit_id": "10abcb24a64307c75c3b680e58b9c6ba4f9a6908",
+        "new_version": "1.7.16",
+        "old_commit_id": "871d2cc771238041baf73cdaad305b67e67a17e3",
+        "old_version": "1.7.15"
+    },
+    {
+        "client_name": "healthgateway",
+        "five_day_commit": "b586671b4659335763d550231976759cb2d75689",
+        "html_url": "https://github.com/bcgov/healthgateway.git",
+        "new_commit_id": "3408ff01bbc991f53eb7a347e9f95d7337f39b23",
+        "new_version": "1.7.15",
+        "old_commit_id": "889e9c276cf4271b3f3438505889102977d44521",
+        "old_version": "1.7.14"
+    },
+    {
+        "client_name": "healthgateway",
+        "five_day_commit": "0fa71e95872a963f34a653985c609f33179c3c2d",
+        "html_url": "https://github.com/bcgov/healthgateway.git",
+        "new_commit_id": "96d645739bd6f8c76911b45110817c8e74274d40",
+        "new_version": "1.7.14",
+        "old_commit_id": "eb8d5d7a4b70ff60b97770ed4abfc7f3cbaf65fc",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "healthgateway",
+        "five_day_commit": "560314f483a3aed01b43bf2e8bd2dc52f1bca828",
+        "html_url": "https://github.com/bcgov/healthgateway.git",
+        "new_commit_id": "4c114612e9a06ad5c61b7f4dd534daf8f984657c",
+        "new_version": "1.7.12",
+        "old_commit_id": "8dccceccad4333b7f123b2bac896974f4d95f255",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "healthgateway",
+        "five_day_commit": "b586671b4659335763d550231976759cb2d75689",
+        "html_url": "https://github.com/bcgov/healthgateway.git",
+        "new_commit_id": "b907a6c549b2700408c7bf791e619ab5941358e6",
+        "new_version": "1.7.15",
+        "old_commit_id": "248db8e19ec4cc038bd0ed7e13b79752d7352e1c",
+        "old_version": "1.7.14"
+    },
+    {
+        "client_name": "CM",
+        "five_day_commit": "61a45568359094e78fb63bf2c91602f0df617e1d",
+        "html_url": "https://github.com/skant33/CM.git",
+        "new_commit_id": "43eabf440bfe6329562eebec2404d01779099508",
+        "new_version": "1.7.7",
+        "old_commit_id": "58d351ba90c16b0c6fc68a4509ea6c8f92997989",
+        "old_version": "1.7.0"
+    },
+    {
+        "client_name": "cfxServices",
+        "five_day_commit": "c846f497619f6cb88d7e2742c590b156cd5911a8",
+        "html_url": "https://github.com/sallysprank/cfxServices.git",
+        "new_commit_id": "3b58f8336d5bc25c375070150c48cec0b6d5898d",
+        "new_version": "1.7.12",
+        "old_commit_id": "b7e1ae73bb08b42ef4bba70434713f873e3ba0fb",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "cfxServices",
+        "five_day_commit": "6b660f6e69a89bd495737f9f2136c9cbd7688345",
+        "html_url": "https://github.com/sallysprank/cfxServices.git",
+        "new_commit_id": "6b660f6e69a89bd495737f9f2136c9cbd7688345",
+        "new_version": "1.7.8",
+        "old_commit_id": "9f11821e3e1a63cfbdb5521c7dca06e0eece5973",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "SMEIoT",
+        "five_day_commit": "276c0ccc03c485779140e6305af871f657d2b324",
+        "html_url": "https://github.com/ulfjen/SMEIoT.git",
+        "new_commit_id": "49bf8d97c9745a114afec6f23bf2ec01f4d92afd",
+        "new_version": "1.7.9",
+        "old_commit_id": "0ccd06b512a75c34f7f80346ea6431323379fd09",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "WinTenBot.NET",
+        "five_day_commit": "04486a7d1e78491919a7aef678955d21e1930fb1",
+        "html_url": "https://github.com/WinTenDev/WinTenBot.NET.git",
+        "new_commit_id": "a34f20188da5f8d1cb78c9f5ac6dae28448e0f36",
+        "new_version": "1.7.16",
+        "old_commit_id": "9944fec8eba6b2b3a39c455d26684f449065c441",
+        "old_version": "1.7.16"
+    },
+    {
+        "client_name": "WinTenBot.NET",
+        "five_day_commit": "8bef66960ebb6126904ac6600d41715bf0e78fd8",
+        "html_url": "https://github.com/WinTenDev/WinTenBot.NET.git",
+        "new_commit_id": "0c12eff004f9928856f041a5838dc2840e65c30c",
+        "new_version": "1.7.16",
+        "old_commit_id": "69e04edc5da3ad9e6bb91a0502bb797d2ecaf8ac",
+        "old_version": "1.7.15"
+    },
+    {
+        "client_name": "WinTenBot.NET",
+        "five_day_commit": "8bef66960ebb6126904ac6600d41715bf0e78fd8",
+        "html_url": "https://github.com/WinTenDev/WinTenBot.NET.git",
+        "new_commit_id": "d452e748575f115563faebe853397c747fc13b4c",
+        "new_version": "1.7.15",
+        "old_commit_id": "a9a55cd538a0c8e6a6ee1e4c5f406fb17ce7b6e2",
+        "old_version": "1.7.14"
+    },
+    {
+        "client_name": "index",
+        "five_day_commit": "c6fc089702d5d0afccc3aa8be7cffe8b4fc886d2",
+        "html_url": "https://github.com/19balazs86/index.git",
+        "new_commit_id": "c6fc089702d5d0afccc3aa8be7cffe8b4fc886d2",
+        "new_version": "1.7.14",
+        "old_commit_id": "e407b59e8786c3854b21a523d5e527741e598fd9",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "index",
+        "five_day_commit": "8c2f28c9b36076c1a09a2db8e05f2b81d33b3501",
+        "html_url": "https://github.com/19balazs86/index.git",
+        "new_commit_id": "8c2f28c9b36076c1a09a2db8e05f2b81d33b3501",
+        "new_version": "1.7.12",
+        "old_commit_id": "837eb890f6b09220c004d991c6298ce5ec9398cf",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "index",
+        "five_day_commit": "e5eb9e2ed54f54ab40aefb9fa9ed7391eaa7b7ce",
+        "html_url": "https://github.com/19balazs86/index.git",
+        "new_commit_id": "e5eb9e2ed54f54ab40aefb9fa9ed7391eaa7b7ce",
+        "new_version": "1.7.11",
+        "old_commit_id": "152af0d0a93beca3fab4fceaea2e867584d03479",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "index",
+        "five_day_commit": "152af0d0a93beca3fab4fceaea2e867584d03479",
+        "html_url": "https://github.com/19balazs86/index.git",
+        "new_commit_id": "152af0d0a93beca3fab4fceaea2e867584d03479",
+        "new_version": "1.7.10",
+        "old_commit_id": "011efd73049a72033f458e78b4096d6e4ab31fd1",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "index",
+        "five_day_commit": "2d09eb5aaa5d920cc432935e5af6843427139be1",
+        "html_url": "https://github.com/19balazs86/index.git",
+        "new_commit_id": "2d09eb5aaa5d920cc432935e5af6843427139be1",
+        "new_version": "1.7.9",
+        "old_commit_id": "62d6eb1c5a90a73dd2e91b7f0cb36ba403f8a42e",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "index",
+        "five_day_commit": "6512dd50690537159c19e46b871f20db504fc7b2",
+        "html_url": "https://github.com/19balazs86/index.git",
+        "new_commit_id": "6512dd50690537159c19e46b871f20db504fc7b2",
+        "new_version": "1.7.8",
+        "old_commit_id": "8aa06ea6e9e585b10cbad29252a5ef2b455d5f80",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "PlayingWithHangfire",
+        "five_day_commit": "8889241151f493f32563e3cffb1eec69022037ac",
+        "html_url": "https://github.com/19balazs86/PlayingWithHangfire.git",
+        "new_commit_id": "8889241151f493f32563e3cffb1eec69022037ac",
+        "new_version": "1.7.14",
+        "old_commit_id": "8282772455598c021c75a9620758fe867c3e6e3c",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "PlayingWithHangfire",
+        "five_day_commit": "8282772455598c021c75a9620758fe867c3e6e3c",
+        "html_url": "https://github.com/19balazs86/PlayingWithHangfire.git",
+        "new_commit_id": "8282772455598c021c75a9620758fe867c3e6e3c",
+        "new_version": "1.7.12",
+        "old_commit_id": "ebc128c6b51d4430b658fc40fa18ddb011ffdb31",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "PlayingWithHangfire",
+        "five_day_commit": "bf408ee92af1a5673ac92a8ccebd0e411c1ecad7",
+        "html_url": "https://github.com/19balazs86/PlayingWithHangfire.git",
+        "new_commit_id": "bf408ee92af1a5673ac92a8ccebd0e411c1ecad7",
+        "new_version": "1.7.11",
+        "old_commit_id": "c716bfee0dd13acca35dd9b49623f7c03e53ea3d",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "PlayingWithHangfire",
+        "five_day_commit": "c716bfee0dd13acca35dd9b49623f7c03e53ea3d",
+        "html_url": "https://github.com/19balazs86/PlayingWithHangfire.git",
+        "new_commit_id": "c716bfee0dd13acca35dd9b49623f7c03e53ea3d",
+        "new_version": "1.7.10",
+        "old_commit_id": "0a61c3338af44b8fb849ee5b3d57699646930a76",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "PlayingWithHangfire",
+        "five_day_commit": "0a61c3338af44b8fb849ee5b3d57699646930a76",
+        "html_url": "https://github.com/19balazs86/PlayingWithHangfire.git",
+        "new_commit_id": "0a61c3338af44b8fb849ee5b3d57699646930a76",
+        "new_version": "1.7.9",
+        "old_commit_id": "af232a28f7463287ed97627fedf91a6e726ae780",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "PlayingWithHangfire",
+        "five_day_commit": "af232a28f7463287ed97627fedf91a6e726ae780",
+        "html_url": "https://github.com/19balazs86/PlayingWithHangfire.git",
+        "new_commit_id": "af232a28f7463287ed97627fedf91a6e726ae780",
+        "new_version": "1.7.8",
+        "old_commit_id": "46cba150afd737474ca56b5378d81e0dff21c9e9",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "testing",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/adbertram/testing.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "KAF-IS-Service",
+        "five_day_commit": "a4deb9d07871fbe0cf65f69d31fa5d56f4a4ca23",
+        "html_url": "https://github.com/ANYanchuk/KAF-IS-Service.git",
+        "new_commit_id": "52b6f8dba895e0757c1b35e234945181e67ba044",
+        "new_version": "1.7.10",
+        "old_commit_id": "e2cac6c2d46966ed8febce0ba6dc12381f2ae772",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "AZURE_DevOpsTutorial",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/kohlmann0/AZURE_DevOpsTutorial.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "ntbs_Beta",
+        "five_day_commit": "1f7850ab1112c9d8eff69e2fae56b2ce250a814d",
+        "html_url": "https://github.com/publichealthengland/ntbs_Beta.git",
+        "new_commit_id": "284fb9fec8c76e8368872754b9ffbf05e6ea008c",
+        "new_version": "1.7.11",
+        "old_commit_id": "e7d46b2b6d80e1bf384f9d54e3a6f270b0050a2b",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "ntbs_Beta",
+        "five_day_commit": "1f7850ab1112c9d8eff69e2fae56b2ce250a814d",
+        "html_url": "https://github.com/publichealthengland/ntbs_Beta.git",
+        "new_commit_id": "653dd8cc24fbea682aba20b395bfcab2f195a5e9",
+        "new_version": "1.7.11",
+        "old_commit_id": "5b0417bd8a81b656eec636b3990c60ab3f945bb5",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "ntbs_Beta",
+        "five_day_commit": "4c0d4c3426115212e0dcc95bcc010bfe6814644c",
+        "html_url": "https://github.com/publichealthengland/ntbs_Beta.git",
+        "new_commit_id": "8103d55adca671397296065ecdb9f2da74bcadb6",
+        "new_version": "1.7.10",
+        "old_commit_id": "100e4188507ed447d35c1cfbb5e96dc81bb0b6c8",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "ntbs_Beta",
+        "five_day_commit": "4c0d4c3426115212e0dcc95bcc010bfe6814644c",
+        "html_url": "https://github.com/publichealthengland/ntbs_Beta.git",
+        "new_commit_id": "19c8d4d18e683b3ca27ad5ce17ecf2eae6a3dcd1",
+        "new_version": "1.7.10",
+        "old_commit_id": "c4ecd0bc518c500adca81d28e7303c6292b8a749",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "ntbs_Beta",
+        "five_day_commit": "4c0d4c3426115212e0dcc95bcc010bfe6814644c",
+        "html_url": "https://github.com/publichealthengland/ntbs_Beta.git",
+        "new_commit_id": "1e1953f592657103f9c270846b2edc202f154c4b",
+        "new_version": "1.7.10",
+        "old_commit_id": "2945f05aa8f3c5031939cc7b5fbf9a3ec51b2128",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "WY-Exploration",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/DivyaPaluru/WY-Exploration.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "devopsdemo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/Aratma/devopsdemo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "SimplCommercePl",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/Lasoty/SimplCommercePl.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "JobTransparency",
+        "five_day_commit": "7dd98d1730446bd6a586bc20afc43823f93cfa71",
+        "html_url": "https://github.com/RedGhoul/JobTransparency.git",
+        "new_commit_id": "0ed25be685a7fa31c7e4325b01916781e4b329ae",
+        "new_version": "1.7.17",
+        "old_commit_id": "222a9c871d493706e0fdb6acdfb8d0064b30a979",
+        "old_version": "1.7.14"
+    },
+    {
+        "client_name": "JobTransparency",
+        "five_day_commit": "6e9c3da2fe88d18214e09bc9892b929cc7206c73",
+        "html_url": "https://github.com/RedGhoul/JobTransparency.git",
+        "new_commit_id": "88589c11dca7b5d94b7ac2e030ea7c9f338c7847",
+        "new_version": "1.7.14",
+        "old_commit_id": "ac6034645bab4fdf31039e0efaa1ab6b9ec10539",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "JobTransparency",
+        "five_day_commit": "5b03da148c78bd18655bf05a44cbf27362b7c0ad",
+        "html_url": "https://github.com/RedGhoul/JobTransparency.git",
+        "new_commit_id": "1197c727705d4df40b07ae43ef399a4644ffe9f0",
+        "new_version": "1.7.12",
+        "old_commit_id": "19e0f751b43ffa92e8731cfae91136af594e8969",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "JobTransparency",
+        "five_day_commit": "c3f1df0747c32f5c5275f615acaae5564ed89767",
+        "html_url": "https://github.com/RedGhoul/JobTransparency.git",
+        "new_commit_id": "8894a66a505e544f57483347dc4f06be486e9e3f",
+        "new_version": "1.7.11",
+        "old_commit_id": "b7f6056528ade14866212cc25d58089d9beb6494",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "YYApi",
+        "five_day_commit": "e90cc2d86e26657c6c1f341dded0528a5305d8df",
+        "html_url": "https://github.com/YY-Tech/YYApi.git",
+        "new_commit_id": "3cbd8b75590c5913f1b3080a00216f759d4b87a3",
+        "new_version": "1.7.11",
+        "old_commit_id": "d54b71badbe51ea9410bd86f88971fde4aacf088",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "YYApi",
+        "five_day_commit": "62ffe47d2536a80d9813e2bc6feab3d27f69903e",
+        "html_url": "https://github.com/YY-Tech/YYApi.git",
+        "new_commit_id": "62ffe47d2536a80d9813e2bc6feab3d27f69903e",
+        "new_version": "1.7.9",
+        "old_commit_id": "bb2f4641a3a8edab7a237e2e07a07635b8befc17",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "myfirstdemo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/wissambenad/myfirstdemo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "DiegoRangel.CleanArchitecture",
+        "five_day_commit": "bb02eb831f6a8b9d254b4d79af98f2f3abedabfd",
+        "html_url": "https://github.com/diego-rangel/DiegoRangel.CleanArchitecture.git",
+        "new_commit_id": "bb02eb831f6a8b9d254b4d79af98f2f3abedabfd",
+        "new_version": "1.7.11",
+        "old_commit_id": "4acce4be54eb68049c916c4bee086ed89b0effa7",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "DiegoRangel.CleanArchitecture",
+        "five_day_commit": "8a3e03e757eee803c8effc0cbf3a20872629a3ba",
+        "html_url": "https://github.com/diego-rangel/DiegoRangel.CleanArchitecture.git",
+        "new_commit_id": "bf671b60a98fb3adee5ebe4abaa39aa2a86cb31e",
+        "new_version": "1.7.9",
+        "old_commit_id": "3082a9c4ea1a9b15670c9bdcccb93b4ca86be904",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "vivideo",
+        "five_day_commit": "9f848b187a9145b736588033c765831d326046b6",
+        "html_url": "https://github.com/Freeesia/vivideo.git",
+        "new_commit_id": "be4ca253a56654a1b674e11eb3312bd1c0d048c7",
+        "new_version": "1.7.17",
+        "old_commit_id": "b0f6119aa6b8544e2300da844ab3949ce9ea3877",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "vivideo",
+        "five_day_commit": "23e543c51e5b254eb505d988ce35f729087b0406",
+        "html_url": "https://github.com/Freeesia/vivideo.git",
+        "new_commit_id": "fd3448a99823b5ce5dce7a8305626a4d42460008",
+        "new_version": "1.7.11",
+        "old_commit_id": "028ae246ba7f747df65d8e6fe6ec32934280d5ac",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "vivideo",
+        "five_day_commit": "69d484fe43aac84e769251117ccd1256976a43ed",
+        "html_url": "https://github.com/Freeesia/vivideo.git",
+        "new_commit_id": "d64f65b7bdbbcd8f2b6ee08f2f0b2c68464ba6ae",
+        "new_version": "1.7.9",
+        "old_commit_id": "bb6a953042bbb1104f3a038918fb9b8b8184b182",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "vivideo",
+        "five_day_commit": "3aedb82c25413ace7207b38175736e8ea267c722",
+        "html_url": "https://github.com/Freeesia/vivideo.git",
+        "new_commit_id": "90e11129e1673a4d909cd948b9ab5f0ee0fdc248",
+        "new_version": "1.7.8",
+        "old_commit_id": "b6d1ec2c81bb2329d566cbfba977ed2cdbc550ff",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "vivideo",
+        "five_day_commit": "890fc26cfadd4e966906cc327cfb30b71cb4e3ad",
+        "html_url": "https://github.com/Freeesia/vivideo.git",
+        "new_commit_id": "c6cd44e33d8bdaa37d16cf965759cb9789f5a3ce",
+        "new_version": "1.7.8",
+        "old_commit_id": "548de057efa9b30d17b54def7ca39d04ab9fc7ad",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "vivideo",
+        "five_day_commit": "910bce72a709f02db4dea61bc58cd7a92e29f233",
+        "html_url": "https://github.com/Freeesia/vivideo.git",
+        "new_commit_id": "2866a4ae1251451af559d29130ddd7eb44c9e7b5",
+        "new_version": "1.7.8",
+        "old_commit_id": "5a966d9f25a96fee9918eb19db7c3f059a4b45d0",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "vivideo",
+        "five_day_commit": "3049258285c938a508d68c25f5e3befa15864ad9",
+        "html_url": "https://github.com/Freeesia/vivideo.git",
+        "new_commit_id": "d53afed00720e5055d771ef547f542f02054db96",
+        "new_version": "1.7.11",
+        "old_commit_id": "45149363dde6bc204d6fe20f7f1832e35555a4b7",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "devops-tutorial-azure-doodle",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/somasd/devops-tutorial-azure-doodle.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "api-core",
+        "five_day_commit": "4ca024d62c1ab330efbdf80aa90770b03b8f1bf4",
+        "html_url": "https://github.com/arditmezini/api-core.git",
+        "new_commit_id": "4ca024d62c1ab330efbdf80aa90770b03b8f1bf4",
+        "new_version": "1.7.17",
+        "old_commit_id": "562d388a9be897e433eac7f62a8363ad28a21d65",
+        "old_version": "1.7.16"
+    },
+    {
+        "client_name": "api-core",
+        "five_day_commit": "562d388a9be897e433eac7f62a8363ad28a21d65",
+        "html_url": "https://github.com/arditmezini/api-core.git",
+        "new_commit_id": "562d388a9be897e433eac7f62a8363ad28a21d65",
+        "new_version": "1.7.16",
+        "old_commit_id": "a9b039e71bb36974dc4231c69030dc3cb329df2e",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "api-core",
+        "five_day_commit": "482624ce63080040659fd1fa037c9c38ef138337",
+        "html_url": "https://github.com/arditmezini/api-core.git",
+        "new_commit_id": "204a3660b9d76038d981f496fd176ad93699fd9c",
+        "new_version": "1.7.11",
+        "old_commit_id": "6aa78173719c26a90c06260dff894d8246a275ff",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "CTS.APP",
+        "five_day_commit": "94ed6f3d1629014a233dc0ae318e0aaf5a06a52c",
+        "html_url": "https://github.com/c-kar/CTS.APP.git",
+        "new_commit_id": "4cc4cd6826aedae10d0a8b7cbcd4612d34f2c20e",
+        "new_version": "1.7.9",
+        "old_commit_id": "eee4bff384339dd3bfbce14b22ffc87b0984021d",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "Azuredevops",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/rohit0510sharma/Azuredevops.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "gitnewrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/SIHussain/gitnewrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "tips-bot",
+        "five_day_commit": "8be44c80291caa7d34b21c095a11a3a66afe6586",
+        "html_url": "https://github.com/renanaragao/tips-bot.git",
+        "new_commit_id": "13674b7fe870383407703eb9a304e4c1da5f44ea",
+        "new_version": "1.7.9",
+        "old_commit_id": "fa03980f1b5ad69b2719038c39c2651523225703",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "devopsdemo2",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/sbulakshmi/devopsdemo2.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "myfirstrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/yogidvops/myfirstrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "myfirstrepo1",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/sameerabdul/myfirstrepo1.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "PressCenters.com",
+        "five_day_commit": "a83aa992009e81796ee5cec95ac1e36177992cf8",
+        "html_url": "https://github.com/NikolayIT/PressCenters.com.git",
+        "new_commit_id": "cccbc12b5e6f80294865e8d4d3b7795e350eab9d",
+        "new_version": "1.7.12",
+        "old_commit_id": "5825258ceb77c38049b1bb96e1058158d597d6a9",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "PressCenters.com",
+        "five_day_commit": "d8f57913bf90f5c9c5eac479808acad6b89ee82b",
+        "html_url": "https://github.com/NikolayIT/PressCenters.com.git",
+        "new_commit_id": "d5ac6cfa5f180f8deec180746500c471340aa828",
+        "new_version": "1.7.11",
+        "old_commit_id": "ab96ec58bf10d3ba8f3a7ec3e0bb44ac1b5ceada",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "PressCenters.com",
+        "five_day_commit": "501e71e11cc63a152c943102555f4b70d47591d7",
+        "html_url": "https://github.com/NikolayIT/PressCenters.com.git",
+        "new_commit_id": "501e71e11cc63a152c943102555f4b70d47591d7",
+        "new_version": "1.7.10",
+        "old_commit_id": "e1ec683250466a4d204b8b8724913bc53e781bc4",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "azuredevopspipelin",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/akdevop/azuredevopspipelin.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "WebCore",
+        "five_day_commit": "86867caaa7da7d40fa3e869427332bbf381cfc03",
+        "html_url": "https://github.com/berkerdong/WebCore.git",
+        "new_commit_id": "ef6639375223ae5148c4da43cff3fc92249e7b0f",
+        "new_version": "1.7.17",
+        "old_commit_id": "6b67fce275b4c5b9931c248cd5bcec13f01e0ac3",
+        "old_version": "1.7.16"
+    },
+    {
+        "client_name": "WebCore",
+        "five_day_commit": "6b67fce275b4c5b9931c248cd5bcec13f01e0ac3",
+        "html_url": "https://github.com/berkerdong/WebCore.git",
+        "new_commit_id": "6b67fce275b4c5b9931c248cd5bcec13f01e0ac3",
+        "new_version": "1.7.16",
+        "old_commit_id": "9735dcafbb2837d1aecc6417aee0a935508f962a",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "WebCore",
+        "five_day_commit": "2da9b713ec664e559cf25beee5f5cec6295c3e34",
+        "html_url": "https://github.com/berkerdong/WebCore.git",
+        "new_commit_id": "2da9b713ec664e559cf25beee5f5cec6295c3e34",
+        "new_version": "1.7.12",
+        "old_commit_id": "ddd62801b1e962ef0fb504a3b5493a429b15af79",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "WebCore",
+        "five_day_commit": "6aaf6a77aeaa23cc8709d58b899cd18e5523b3e6",
+        "html_url": "https://github.com/berkerdong/WebCore.git",
+        "new_commit_id": "9c381165dfe555289147eb83040ebe2d95b687f3",
+        "new_version": "1.7.11",
+        "old_commit_id": "057ae62f8379bf8f245b7330f568ee5f285359b9",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "WebCore",
+        "five_day_commit": "930adf7bc8eec1c001486927c97da01f5758a0e3",
+        "html_url": "https://github.com/berkerdong/WebCore.git",
+        "new_commit_id": "68c2e205e0a5f077b55da1b3048a9379fb3ebdec",
+        "new_version": "1.7.10",
+        "old_commit_id": "2fb874a2b5ebcc9a6bd18159eb0b21e83aef3dfb",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "azuredemo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/nirmal1520/azuredemo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "myfirstrepotest",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/harshita83/myfirstrepotest.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "DotNetCoreFinanceApi",
+        "five_day_commit": "e5dfb7099cf758b3fb8aa627813679d88392b256",
+        "html_url": "https://github.com/KiraiChang/DotNetCoreFinanceApi.git",
+        "new_commit_id": "5804a71ff36039c36497e6a14e561702f13fad49",
+        "new_version": "1.7.11",
+        "old_commit_id": "1447cd7879ada70b5e14c4131ae9a968223ddc68",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "Crm",
+        "five_day_commit": "258ff257dc8bf6ea5d293307fe0c089abd730ae8",
+        "html_url": "https://github.com/RomeshAbeyawardena/Crm.git",
+        "new_commit_id": "62d87ca7fb00dea22d00b5fc91cce9135918629f",
+        "new_version": "1.7.9",
+        "old_commit_id": "05cfc01ed2c40499f6f947db7a628d853bf58d3c",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "Crm",
+        "five_day_commit": "258ff257dc8bf6ea5d293307fe0c089abd730ae8",
+        "html_url": "https://github.com/RomeshAbeyawardena/Crm.git",
+        "new_commit_id": "05cfc01ed2c40499f6f947db7a628d853bf58d3c",
+        "new_version": "1.7.9",
+        "old_commit_id": "c15e6f4c537efbabda40444a5a829ca27e96c484",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "blueprint",
+        "five_day_commit": "7ad08e472feba38e48d9a891c0a74f79a01ee149",
+        "html_url": "https://github.com/barclayadam/blueprint.git",
+        "new_commit_id": "4e6115e4b02464ab90d398493b026dbb3fba3afa",
+        "new_version": "1.7.9",
+        "old_commit_id": "0e92950a4570194e0f5e387182e251e3e2ccfb87",
+        "old_version": "1.7.6"
+    },
+    {
+        "client_name": "Personal-Stock-Trader",
+        "five_day_commit": "723e3647cd1c21aab7379cc805b82907b09ed2ea",
+        "html_url": "https://github.com/astanchev/Personal-Stock-Trader.git",
+        "new_commit_id": "63adcc15b49cffcb474c80d3f1601013b5bd7a12",
+        "new_version": "1.7.11",
+        "old_commit_id": "a128d7f23f90baa7bad0d9f62d6fd05a1ee2487e",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "Personal-Stock-Trader",
+        "five_day_commit": "1fd8f8711b9ef5aa8f9dd2302d796ab2d86bd660",
+        "html_url": "https://github.com/astanchev/Personal-Stock-Trader.git",
+        "new_commit_id": "6b4ce7fac924cd4bb0b1a33134b6725d4d56f1c8",
+        "new_version": "1.7.10",
+        "old_commit_id": "337366bc31e1d72382046961e21a4ffad84375e4",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "Oxygen-EshopSample",
+        "five_day_commit": "ece4bf0be35e7a7c0fd09b7589f0ad1da35644e0",
+        "html_url": "https://github.com/sd797994/Oxygen-EshopSample.git",
+        "new_commit_id": "ece4bf0be35e7a7c0fd09b7589f0ad1da35644e0",
+        "new_version": "1.7.11",
+        "old_commit_id": "24d8bb09f866d2404249271245404faf1db05da1",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "myfirstrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/arpithabudihal/myfirstrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "meredith-core",
+        "five_day_commit": "65f340b1502ec0a6071b013ca513ddb4406a7527",
+        "html_url": "https://github.com/whynotearth/meredith-core.git",
+        "new_commit_id": "860fd095474cbe52bbe547ba058a4553ffd53bf2",
+        "new_version": "1.7.17",
+        "old_commit_id": "17a341b5cb3e2dbdf9ae924de9363fbea28da28e",
+        "old_version": "1.7.15"
+    },
+    {
+        "client_name": "meredith-core",
+        "five_day_commit": "3000b9495586230535f41f0c955b2100ab02c1c3",
+        "html_url": "https://github.com/whynotearth/meredith-core.git",
+        "new_commit_id": "fb3dfebbdc23d27ab0e53da525008327051f5109",
+        "new_version": "1.7.15",
+        "old_commit_id": "47876c453417707344393aca08027d275c65a690",
+        "old_version": "1.7.14"
+    },
+    {
+        "client_name": "meredith-core",
+        "five_day_commit": "dcc74fd1c0c1f8234cda7dfe13fc1aa5ede1bfcc",
+        "html_url": "https://github.com/whynotearth/meredith-core.git",
+        "new_commit_id": "5884ab1ce30cedb5b53f81df32dd55b017aa5fa1",
+        "new_version": "1.7.14",
+        "old_commit_id": "f3e63dea16362fd1c6ac1abe98f36ce38bd786be",
+        "old_version": "1.7.13"
+    },
+    {
+        "client_name": "meredith-core",
+        "five_day_commit": "c96e6a3b091b85ba4517b374004eb7ed16a9b699",
+        "html_url": "https://github.com/whynotearth/meredith-core.git",
+        "new_commit_id": "b8ad3ad7e1e209594d8fbdad7296cac2ebd2ad8c",
+        "new_version": "1.7.13",
+        "old_commit_id": "8b726772d09a29c8d0cb3d973696dd393cd8568d",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "meredith-core",
+        "five_day_commit": "dc857601a7c940a5163cd9ca6845a4d8b05be5f5",
+        "html_url": "https://github.com/whynotearth/meredith-core.git",
+        "new_commit_id": "2f760bbc6c49c88584546880326f938ad762c621",
+        "new_version": "1.7.12",
+        "old_commit_id": "040fab86c1fa3cd9a585a459fbb5ef77b28c2789",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "meredith-core",
+        "five_day_commit": "489b901fb5e3c10c5cda180d41652b6262744f05",
+        "html_url": "https://github.com/whynotearth/meredith-core.git",
+        "new_commit_id": "a72f7e1c0ddc0adf12341f5b1c30b7c0b9f57a30",
+        "new_version": "1.7.11",
+        "old_commit_id": "6db826e3c91dc3741817ca415be121c8c7ff140d",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "RepositorioImport",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/jorgepineda0524/RepositorioImport.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "Manish8848",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/Manishb90/Manish8848.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "devopsTest",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/arjunmanevannan/devopsTest.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "AbridgeHubAPI",
+        "five_day_commit": "ad3ddc0cfc4b5cafe0ba5714b9f9a6123a6bbdc0",
+        "html_url": "https://github.com/harrisoncutler/AbridgeHubAPI.git",
+        "new_commit_id": "a4acd5d15f67d39a8a732274b6b1a17d4a6162e6",
+        "new_version": "1.7.11",
+        "old_commit_id": "9b03cc7638c674d9c59e5e8f6079d05880e9d480",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "AbridgeHubAPI",
+        "five_day_commit": "9b03cc7638c674d9c59e5e8f6079d05880e9d480",
+        "html_url": "https://github.com/harrisoncutler/AbridgeHubAPI.git",
+        "new_commit_id": "1c72c241ec9ab1a390a9b96b7d43f2c2cb4ddd52",
+        "new_version": "1.7.9",
+        "old_commit_id": "9169d597f7dd2114c0a4121b9489563a497efb19",
+        "old_version": "1.7."
+    },
+    {
+        "client_name": "Nldb3",
+        "five_day_commit": "3e37785f739437454b43ff597de5b51cb1bb9aab",
+        "html_url": "https://github.com/ApexPredator13/Nldb3.git",
+        "new_commit_id": "135e043679a9e2519e76bb2217377058056d4bb8",
+        "new_version": "1.7.6",
+        "old_commit_id": "d5c167d3ead1beb4e04f83a04f39e6f8c0d54af4",
+        "old_version": "1.7.5"
+    },
+    {
+        "client_name": "HMCR",
+        "five_day_commit": "49c1889e01e97c9e9ad935872bfebeac42421a08",
+        "html_url": "https://github.com/bcgov/HMCR.git",
+        "new_commit_id": "a33744406a6304e799d4f7c85783eaeb18d0e38d",
+        "new_version": "1.7.9",
+        "old_commit_id": "08b2d7202432c4449684802de9ae1d8387a241ef",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "MyDataDO",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/jalvarado70/MyDataDO.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "HFSchedulerService",
+        "five_day_commit": "f298b7b5470f0235305db39fe64163601d1d0002",
+        "html_url": "https://github.com/TomBruns/HFSchedulerService.git",
+        "new_commit_id": "c28f2ffb4940c93b2ca6d1847d0659b68bfb0c5c",
+        "new_version": "1.7.11",
+        "old_commit_id": "84faf852c395bb71648bb2a0becfd52ff124e93c",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "Sample-Hangfire",
+        "five_day_commit": "a1af4e553bcc920acc36b6e948b6ab058d3a547b",
+        "html_url": "https://github.com/MassTransit/Sample-Hangfire.git",
+        "new_commit_id": "e8a56e25c5ef33a0b256198f32d11245a25bd054",
+        "new_version": "1.7.11",
+        "old_commit_id": "7161f0d29e46eba009d02f40fc54e7f04612478f",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "Convenience",
+        "five_day_commit": "dc19455c70f0b22fe13da238734c1a02b2e98de9",
+        "html_url": "https://github.com/aishang2015/Convenience.git",
+        "new_commit_id": "a7b80de0736836a0a6990e6b7873a65fe506088e",
+        "new_version": "1.7.15",
+        "old_commit_id": "65dd530bd957d9cd001a021dc26481a92cfd0a38",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "Convenience",
+        "five_day_commit": "36a17ef88a2c55e0d0ef9b7114aa154bb7df2582",
+        "html_url": "https://github.com/aishang2015/Convenience.git",
+        "new_commit_id": "81bdc5c556bdff6a1bf71b4ba72b926052de05dd",
+        "new_version": "1.7.12",
+        "old_commit_id": "99f322c3f2113f9f1f3ba742eeb31f8ef98bd90c",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "SmartCarRentals",
+        "five_day_commit": "f0a144b5c6b013512fc4fd5f724ea7b66799f645",
+        "html_url": "https://github.com/ulivegenov/SmartCarRentals.git",
+        "new_commit_id": "ac50545cc0b8e17c3efef61806bb05e50650b02c",
+        "new_version": "1.7.11",
+        "old_commit_id": "67570d0a1db07ac27f623726f2d727153f4c46c8",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "iamdoingdevops",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/abhinavmaturu/iamdoingdevops.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "myfirstrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/madhav517/myfirstrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "Azure-demo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/viniciust-ciandt/Azure-demo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "myfirstrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/jdp2007/myfirstrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "Saumil",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/Deep-Devops/Saumil.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "TestCMSRepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/AbdulMao-CH/TestCMSRepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "EasyCMS",
+        "five_day_commit": "23f1b82c10b53a601976a1b6639ac3e5105e1765",
+        "html_url": "https://github.com/jasonyush/EasyCMS.git",
+        "new_commit_id": "85243380e726f94d82723db47e73c6cee3cf1bcf",
+        "new_version": "1.7.11",
+        "old_commit_id": "d87875c6a2f48b1d5404df3b556ff0ef51188143",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "dontnet-",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/samrait/dontnet-.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "planAndTest",
+        "five_day_commit": "f21db1c16d393d90eab23858c5a7c66f52636f29",
+        "html_url": "https://github.com/crudsfop/planAndTest.git",
+        "new_commit_id": "8f643c726067f578d96e4b5ddc94e267e8a702aa",
+        "new_version": "1.7.11",
+        "old_commit_id": "90b864e258ea1e34118e65a30705f69ce41ccbdb",
+        "old_version": "1.7."
+    },
+    {
+        "client_name": "DevOpsSample",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/olikreony/DevOpsSample.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "asp.net",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/gayan-arch/asp.net.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "yamldevops",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/kanth143/yamldevops.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "mydemo",
+        "five_day_commit": "5bc498d9e6b5fcb7eb8611b3d77b858d1678ef3e",
+        "html_url": "https://github.com/conanl5566/mydemo.git",
+        "new_commit_id": "5bc498d9e6b5fcb7eb8611b3d77b858d1678ef3e",
+        "new_version": "1.7.11",
+        "old_commit_id": "76cd73db6360172a750acb0959b51443e85e380a",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "DevOpsTestRepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/swiftjunction/DevOpsTestRepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "devops",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/hsvirdee/devops.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "myfirstrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/zjwu2000/myfirstrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "testsample1",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/shikha-devops/testsample1.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "SimplCommerce",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/adnanyangilic/SimplCommerce.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "Parking",
+        "five_day_commit": "cbacb33389801cd11f99a3bb69c70777f5ee3754",
+        "html_url": "https://github.com/trojanmartin/Parking.git",
+        "new_commit_id": "db1c3c8cd92a39abacdd1e6d61886f0a7bc25e2b",
+        "new_version": "1.7.11",
+        "old_commit_id": "90fd8737f69de4cbf30bceab0066bcabc8846c60",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "vc-platform",
+        "five_day_commit": "5933c09ef3110b5e021104815a4feed368ee7341",
+        "html_url": "https://github.com/VirtoCommerce/vc-platform.git",
+        "new_commit_id": "d7e76c2063033410894b44686dfa1ee2eb6da2c9",
+        "new_version": "1.7.14",
+        "old_commit_id": "6fab67a85059f71b5ba210a36cc81a99826e4250",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "vc-platform",
+        "five_day_commit": "7951c4e1b01ee2276a16dd5163eb2111a547555c",
+        "html_url": "https://github.com/VirtoCommerce/vc-platform.git",
+        "new_commit_id": "54d6792113962c9edb02428d4adcfb732b482d63",
+        "new_version": "1.7.12",
+        "old_commit_id": "4c5182984eae409d1288d39c5811cf6faf7c7c8f",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "vc-module-image-tools",
+        "five_day_commit": "0479d180a267aa6ae156df1ce3e48041393c38f4",
+        "html_url": "https://github.com/VirtoCommerce/vc-module-image-tools.git",
+        "new_commit_id": "6ac3b5e7d48bd37e1865a4fbb89c166a4d26c06a",
+        "new_version": "1.7.9",
+        "old_commit_id": "b97907322c37d7a58b2563cfdf967968675889c2",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "vc-module-image-tools",
+        "five_day_commit": "855632d46a7b3a20e30fb8cf8fc29838585dc37d",
+        "html_url": "https://github.com/VirtoCommerce/vc-module-image-tools.git",
+        "new_commit_id": "954daffbdc44faa0184a37c6b028dbaaaf8fc98e",
+        "new_version": "1.7.9",
+        "old_commit_id": "972f18b98aa409d580d8d4ae11ad9b4e03131b64",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "vc-module-image-tools",
+        "five_day_commit": "0c8c37688958fd13fa3d0d3f6775160c6ba6d507",
+        "html_url": "https://github.com/VirtoCommerce/vc-module-image-tools.git",
+        "new_commit_id": "62e6b32136c98850f172b6457f409ab689dbf346",
+        "new_version": "1.7.8",
+        "old_commit_id": "6e583c7f61273f52dc8760e4bbdf0f6b9ed98655",
+        "old_version": "1.7.7"
+    },
+    {
+        "client_name": "vc-module-image-tools",
+        "five_day_commit": "0c8c37688958fd13fa3d0d3f6775160c6ba6d507",
+        "html_url": "https://github.com/VirtoCommerce/vc-module-image-tools.git",
+        "new_commit_id": "6e583c7f61273f52dc8760e4bbdf0f6b9ed98655",
+        "new_version": "1.7.7",
+        "old_commit_id": "5e5408bcb2bdc327c12dbe9240a23a6e35530104",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "vc-module-catalog-publishing",
+        "five_day_commit": "351b43b7039a5a02fe7a00a084bd406d76b9c04c",
+        "html_url": "https://github.com/VirtoCommerce/vc-module-catalog-publishing.git",
+        "new_commit_id": "7ca88f991dcffe67e1173483b8aa1b9550344b7a",
+        "new_version": "1.7.9",
+        "old_commit_id": "ae263e589f42b022585443959a6d790dcafaddee",
+        "old_version": "1.7.9"
+    },
+    {
+        "client_name": "vc-module-catalog-publishing",
+        "five_day_commit": "ae263e589f42b022585443959a6d790dcafaddee",
+        "html_url": "https://github.com/VirtoCommerce/vc-module-catalog-publishing.git",
+        "new_commit_id": "ae263e589f42b022585443959a6d790dcafaddee",
+        "new_version": "1.7.9",
+        "old_commit_id": "72e35f8f6f7bbec20752f67967d8999e0f9eac28",
+        "old_version": "1.7.8"
+    },
+    {
+        "client_name": "myfirstrepo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/albertolaley/myfirstrepo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "MicroservicesKenovCourse",
+        "five_day_commit": "1c6e8d845f474f804da4031690e5c42647b712e2",
+        "html_url": "https://github.com/Aliendreamer/MicroservicesKenovCourse.git",
+        "new_commit_id": "4a94a86d4dc3a3856a3ffea4e27f38f4c3e9a78f",
+        "new_version": "1.7.",
+        "old_commit_id": "45ef635c302b8947e7f335baf0dca94b33928f16",
+        "old_version": "1.7."
+    },
+    {
+        "client_name": "myrepos",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/dtminh1234/myrepos.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "devsproject",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/rehankittur/devsproject.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "DevOpsDemo",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/G-O58/DevOpsDemo.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "SmartHub",
+        "five_day_commit": "a32bcd473a85fbd4e022c00ade2d7ae1b0d84a85",
+        "html_url": "https://github.com/SmartHub-Io/SmartHub.git",
+        "new_commit_id": "9bc724a1c3746227fe64c7bc84e04489b59b8666",
+        "new_version": "1.7.17",
+        "old_commit_id": "2361cbf1096b3003b0ff8a2c7427c029aeca200c",
+        "old_version": "1.7.16"
+    },
+    {
+        "client_name": "SmartHub",
+        "five_day_commit": "a660cc06cfd463e9c1fac84e0ad1a5770ed2ab02",
+        "html_url": "https://github.com/SmartHub-Io/SmartHub.git",
+        "new_commit_id": "248e50d9bc4aca1a2e54fc9618ee89075d0cff91",
+        "new_version": "1.7.16",
+        "old_commit_id": "52a529feaed730b9b4800284cc70a867e2324299",
+        "old_version": "1.7.15"
+    },
+    {
+        "client_name": "SmartHub",
+        "five_day_commit": "52a529feaed730b9b4800284cc70a867e2324299",
+        "html_url": "https://github.com/SmartHub-Io/SmartHub.git",
+        "new_commit_id": "e627d7d035453b3370f4d651adff350e926d00d2",
+        "new_version": "1.7.15",
+        "old_commit_id": "cd75251365a18f14e96579fd2e5f01e18e6814b5",
+        "old_version": "1.7.13"
+    },
+    {
+        "client_name": "ARXivarNext-StressTest",
+        "five_day_commit": "60a3686ade0970f1fca8aafa001fafe6e6091f18",
+        "html_url": "https://github.com/zanardini/ARXivarNext-StressTest.git",
+        "new_commit_id": "60a3686ade0970f1fca8aafa001fafe6e6091f18",
+        "new_version": "1.7.12",
+        "old_commit_id": "0aff1168dc5dc844dce5166d1a802884b82d975c",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "server",
+        "five_day_commit": "d28373c052146bdfd21e7c4288347103b7384fcc",
+        "html_url": "https://github.com/Vicky522/server.git",
+        "new_commit_id": "d28373c052146bdfd21e7c4288347103b7384fcc",
+        "new_version": "1.7.11",
+        "old_commit_id": "995136576e843ae01bed8f10ea1398584fda1b45",
+        "old_version": "1.7.10"
+    },
+    {
+        "client_name": "Webhooks",
+        "five_day_commit": "ce41908d1753e1a3c81bf5161fdf6b9f708de614",
+        "html_url": "https://github.com/hyprsoftcorp/Webhooks.git",
+        "new_commit_id": "ce41908d1753e1a3c81bf5161fdf6b9f708de614",
+        "new_version": "1.7.17",
+        "old_commit_id": "2c52fd81049ecee079287fcbe91105109fee0979",
+        "old_version": "1.7.16"
+    },
+    {
+        "client_name": "Webhooks",
+        "five_day_commit": "2c52fd81049ecee079287fcbe91105109fee0979",
+        "html_url": "https://github.com/hyprsoftcorp/Webhooks.git",
+        "new_commit_id": "9df7774a6d8d898e11f40bde93015e16532950f0",
+        "new_version": "1.7.16",
+        "old_commit_id": "764f7e8a77522d1edcaa08aecfcd9edeab2e9ba9",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "Webhooks",
+        "five_day_commit": "52d41e71605468e891359a27bbfa7af92b07eda4",
+        "html_url": "https://github.com/hyprsoftcorp/Webhooks.git",
+        "new_commit_id": "52d41e71605468e891359a27bbfa7af92b07eda4",
+        "new_version": "1.7.12",
+        "old_commit_id": "03c9c3a8755fbb5939ebb9539f51983d70bed9bd",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "template-netcore-domain",
+        "five_day_commit": "cb623819bdf4be35cedfdebddf38c7b8bbc11fc3",
+        "html_url": "https://github.com/DustinChristians/template-netcore-domain.git",
+        "new_commit_id": "cb623819bdf4be35cedfdebddf38c7b8bbc11fc3",
+        "new_version": "1.7.12",
+        "old_commit_id": "96cbccc983754a3baea36fb61ff0508091d1df65",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "undersea_team4",
+        "five_day_commit": "84f32efc746fc8866aa3ef22871141b7c2567d59",
+        "html_url": "https://github.com/Twarex01/undersea_team4.git",
+        "new_commit_id": "ef6258da51e94642a264138905681ba744cce1d7",
+        "new_version": "1.7.",
+        "old_commit_id": "622f7b0fe6cafabd75c2b9134159ebf230db7dc7",
+        "old_version": "1.7."
+    },
+    {
+        "client_name": "drooltool",
+        "five_day_commit": "e26a83d34510e44306159ff94dd857a194bfe78e",
+        "html_url": "https://github.com/sitkatech/drooltool.git",
+        "new_commit_id": "38db40d593c270a9f1a57bf29e73de5052f31924",
+        "new_version": "1.7.12",
+        "old_commit_id": "b1ec3d0cb981ff0365d97de0a4400060c8cd4c1e",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "BA_Struempf_WaterController",
+        "five_day_commit": "76b4b5dae81bf7e1edeab593f07348b576eab804",
+        "html_url": "https://github.com/SirPumpkinHead/BA_Struempf_WaterController.git",
+        "new_commit_id": "52baaa46ad080c31985ce50566262ec5efa1b288",
+        "new_version": "1.7.17",
+        "old_commit_id": "01da63d503342992d1b4651b4f2d90d5a2a888e9",
+        "old_version": "1.7.16"
+    },
+    {
+        "client_name": "BA_Struempf_WaterController",
+        "five_day_commit": "01da63d503342992d1b4651b4f2d90d5a2a888e9",
+        "html_url": "https://github.com/SirPumpkinHead/BA_Struempf_WaterController.git",
+        "new_commit_id": "0e2fedba54924b45c70516f60556b243159d3cf5",
+        "new_version": "1.7.16",
+        "old_commit_id": "aafd8bec9a12ce451d342bf1ce2fae870cd21723",
+        "old_version": "1.7.15"
+    },
+    {
+        "client_name": "BA_Struempf_WaterController",
+        "five_day_commit": "aafd8bec9a12ce451d342bf1ce2fae870cd21723",
+        "html_url": "https://github.com/SirPumpkinHead/BA_Struempf_WaterController.git",
+        "new_commit_id": "f3601e17e4bb387ee1ffd7ad84900609d2c08ac1",
+        "new_version": "1.7.15",
+        "old_commit_id": "4ab2f036fff6aca0dee0c6ceaec0f7754fb07729",
+        "old_version": "1.7.14"
+    },
+    {
+        "client_name": "BA_Struempf_WaterController",
+        "five_day_commit": "ced61a73a2ad93b3fca468f8987dc038ff1f12dc",
+        "html_url": "https://github.com/SirPumpkinHead/BA_Struempf_WaterController.git",
+        "new_commit_id": "ced61a73a2ad93b3fca468f8987dc038ff1f12dc",
+        "new_version": "1.7.14",
+        "old_commit_id": "54b6c0f2e81019520c9ef8c5d430984f3bdbf925",
+        "old_version": "1.7.13"
+    },
+    {
+        "client_name": "BA_Struempf_WaterController",
+        "five_day_commit": "54b6c0f2e81019520c9ef8c5d430984f3bdbf925",
+        "html_url": "https://github.com/SirPumpkinHead/BA_Struempf_WaterController.git",
+        "new_commit_id": "8a44a4dfaf19d87e51bd46f027740b676094a082",
+        "new_version": "1.7.13",
+        "old_commit_id": "d68b7c4dd56a4642605e09c580c0d3a1511f3b0f",
+        "old_version": "1.7.12"
+    },
+    {
+        "client_name": "BA_Struempf_WaterController",
+        "five_day_commit": "c32006c63feb22b90b94b63fa13686fe53e994b4",
+        "html_url": "https://github.com/SirPumpkinHead/BA_Struempf_WaterController.git",
+        "new_commit_id": "b95de7395143b3437f0365fac49ee69d3545b418",
+        "new_version": "1.7.12",
+        "old_commit_id": "7ce48a8ed54a30b4c497b20fa16289d5019d16eb",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "devops",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/JayZ63/devops.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "ElasticQuery.Exporter",
+        "five_day_commit": "0d4ff3ed5426c642090c44bc6bdaffc930ede95e",
+        "html_url": "https://github.com/btshft/ElasticQuery.Exporter.git",
+        "new_commit_id": "0d4ff3ed5426c642090c44bc6bdaffc930ede95e",
+        "new_version": "1.7.12",
+        "old_commit_id": "3d8cd4e551c7424f7ae1c80a64dfe9243a079138",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "dwapi-bot",
+        "five_day_commit": "62d28ba697765aaa4812dcea972c52a483973c07",
+        "html_url": "https://github.com/koskedk/dwapi-bot.git",
+        "new_commit_id": "f1fbd6cf8bb2b3286eaaab5dc68e7e89788e5d05",
+        "new_version": "1.7.11",
+        "old_commit_id": "8ebc86881ab5f60b172fb11ce223173f2198efc7",
+        "old_version": "1.7.11"
+    },
+    {
+        "client_name": "webappproject",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/Prawin2132/webappproject.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "azuredevops",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/garethheath/azuredevops.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    },
+    {
+        "client_name": "SimplCommerce",
+        "five_day_commit": "6617a653b733d77500f157b06ae14443b8a85e5f",
+        "html_url": "https://github.com/clement128/SimplCommerce.git",
+        "new_commit_id": "684b985f4d94b086a7d9fe4c214405db3e3cb25a",
+        "new_version": "1.7.5",
+        "old_commit_id": "034c388eb03a5a0173a2ac17327f8b748ae1ced0",
+        "old_version": "1.6.22"
+    }
+]

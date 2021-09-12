@@ -1,0 +1,623 @@
+[
+    {
+        "client_name": "dbup-dotnet-core",
+        "five_day_commit": "85b6da9794e91a4a2b84fac63fc2e32841b22f35",
+        "html_url": "https://github.com/vsetchinfc/dbup-dotnet-core.git",
+        "new_commit_id": "85b6da9794e91a4a2b84fac63fc2e32841b22f35",
+        "new_version": "4.5.0",
+        "old_commit_id": "702da11a844cc7a6a2af82efe99625e8571e6d2c",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "OctoFx",
+        "five_day_commit": "4e1ef9cd96abdaa4f96fccb26d87ccc47e63973c",
+        "html_url": "https://github.com/Davidpotters/OctoFx.git",
+        "new_commit_id": "4e1ef9cd96abdaa4f96fccb26d87ccc47e63973c",
+        "new_version": "3.3.2",
+        "old_commit_id": "a736de0cb5f8d391f1d3b271740b81327b4ec5d6",
+        "old_version": "3.0.6"
+    },
+    {
+        "client_name": "clud",
+        "five_day_commit": "ad41868b42dead95b7e8b6b41c3d19a2e56de4be",
+        "html_url": "https://github.com/CharlesRea/clud.git",
+        "new_commit_id": "593943df8a68fb173319418ca746d4ac4b72de8f",
+        "new_version": "4.5.0",
+        "old_commit_id": "9d42def2d09d143a150e110085a26d3649865f50",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "DbUp.Downgrade",
+        "five_day_commit": "8145d9375b4eed4e92751a09a0fd85f760727fcf",
+        "html_url": "https://github.com/asimeonov/DbUp.Downgrade.git",
+        "new_commit_id": "88d152d89790aa665ff6fc1acb4a7dbcad5dc681",
+        "new_version": "4.2.0",
+        "old_commit_id": "5e1c79545a23c99c509355639ca46ff395a49958",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "Playground",
+        "five_day_commit": "b88b357b0e0e9a99e1b6d6d06dd43921b32c0ce6",
+        "html_url": "https://github.com/carlos-vicente/Playground.git",
+        "new_commit_id": "fb65b00b646e9c3009bc901db863a135d42b4293",
+        "new_version": "3.3.5",
+        "old_commit_id": "411970410110b7ea4c8bf41ca06e06a553bccf09",
+        "old_version": "3.3.5"
+    },
+    {
+        "client_name": "Playground",
+        "five_day_commit": "dbfe0ea3b721ab5fc6c3a92c4adbe82722e4573e",
+        "html_url": "https://github.com/carlos-vicente/Playground.git",
+        "new_commit_id": "dbfe0ea3b721ab5fc6c3a92c4adbe82722e4573e",
+        "new_version": "3.3.5",
+        "old_commit_id": "45e2b09e49ac77960051cc19e7330476ca386b51",
+        "old_version": "3.3.4"
+    },
+    {
+        "client_name": "ProEvoCanary",
+        "five_day_commit": "e8e7fe19efd143fe521a7f512f1d41876c65ec75",
+        "html_url": "https://github.com/hemdagem/ProEvoCanary.git",
+        "new_commit_id": "e8e7fe19efd143fe521a7f512f1d41876c65ec75",
+        "new_version": "4.4.0",
+        "old_commit_id": "f05ab8376b2df8770bb3ed6c8467aef1a3126e12",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "Blog_Snippets",
+        "five_day_commit": "c33e7bc89a083b65bd69100225c1e45045c07053",
+        "html_url": "https://github.com/jgraber/Blog_Snippets.git",
+        "new_commit_id": "a0c97fc0391b12ba680d6757c5d6b92dcfdab1ea",
+        "new_version": "4.5.0",
+        "old_commit_id": "35af82136688086ba64cdab31b806652b7cdc46b",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "Blog_Snippets",
+        "five_day_commit": "839c67664d1760f3597ef2330ffa98990433b45c",
+        "html_url": "https://github.com/jgraber/Blog_Snippets.git",
+        "new_commit_id": "839c67664d1760f3597ef2330ffa98990433b45c",
+        "new_version": "3.3.4",
+        "old_commit_id": "743089f9abaf694d248cd506f3794e45b41a31d0",
+        "old_version": "3.3.2"
+    },
+    {
+        "client_name": "Blog_Snippets",
+        "five_day_commit": "81f748397b3a453083c718b8fd9f86fdfc4765b2",
+        "html_url": "https://github.com/jgraber/Blog_Snippets.git",
+        "new_commit_id": "644961173deec27789a85a35b909f2b0680494aa",
+        "new_version": "3.3.2",
+        "old_commit_id": "2c528b9455dccbc3b128bed9c0f619b48f6d0df8",
+        "old_version": "3.3.0"
+    },
+    {
+        "client_name": "cqrs-research",
+        "five_day_commit": "a1d4046910d743cd2602988855afd601379c8ee8",
+        "html_url": "https://github.com/danangsw/cqrs-research.git",
+        "new_commit_id": "0ff8e40cd805269d3f474d42e157672ea8c70ced",
+        "new_version": "3.3.5",
+        "old_commit_id": "18c74a7964c8d829cd8863ca6241c2ba4740f507",
+        "old_version": "3.3.5"
+    },
+    {
+        "client_name": "OctoFX",
+        "five_day_commit": "4e1ef9cd96abdaa4f96fccb26d87ccc47e63973c",
+        "html_url": "https://github.com/OctopusSamples/OctoFX.git",
+        "new_commit_id": "4e1ef9cd96abdaa4f96fccb26d87ccc47e63973c",
+        "new_version": "3.3.2",
+        "old_commit_id": "a736de0cb5f8d391f1d3b271740b81327b4ec5d6",
+        "old_version": "3.0.6"
+    },
+    {
+        "client_name": "server",
+        "five_day_commit": "130c3e4748d264f174d8f86839576e289844e15f",
+        "html_url": "https://github.com/bitwarden/server.git",
+        "new_commit_id": "0f2ea434548e391b9c4ca029a85026e0fdc5f07b",
+        "new_version": "4.4.0",
+        "old_commit_id": "8559e144c6d602a0ca6d2e04e79eb7f93145b112",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "Nevermore",
+        "five_day_commit": "874b16d90897030b95704f859096e1a94d5205fe",
+        "html_url": "https://github.com/OctopusDeploy/Nevermore.git",
+        "new_commit_id": "da3f24e61306cabf2b835031435cd82d4e403fc6",
+        "new_version": "4.1.0",
+        "old_commit_id": "812d11ed511dbe96f4139f1d4ce2d5b7712681e9",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "triton",
+        "five_day_commit": "6bff1011b97e2dac89747335e798986f675e60b5",
+        "html_url": "https://github.com/mdavid626/triton.git",
+        "new_commit_id": "29e726ab9fd11eee10e63f7cfa5608b53f680876",
+        "new_version": "3.3.4",
+        "old_commit_id": "5c0c6028b3adab283572aaac44ac0a0589b7c5e5",
+        "old_version": "3.3.4"
+    },
+    {
+        "client_name": "dbup-sqlserver-scripting",
+        "five_day_commit": "626e75e2615cb3cd2fccfc67f23d0fba2b23e084",
+        "html_url": "https://github.com/bradymholt/dbup-sqlserver-scripting.git",
+        "new_commit_id": "f0a87d127eac5f4b539d91e3aecd23a52925f1d8",
+        "new_version": "3.3.5",
+        "old_commit_id": "6b2a1b5ef906ae93a8fc9c599a0561acf9d2f6e1",
+        "old_version": "1.0.9"
+    },
+    {
+        "client_name": "dbup-sqlserver-scripting",
+        "five_day_commit": "26ce7962592e9598a012a67161cea735aa810499",
+        "html_url": "https://github.com/bradymholt/dbup-sqlserver-scripting.git",
+        "new_commit_id": "6aa4f9e8888dc22eb620c83ee1eaef8d738d0e28",
+        "new_version": "4.1.0.0",
+        "old_commit_id": "15e39b90e869c66bc18c65efce59bfdc334d0840",
+        "old_version": "3.3.5"
+    },
+    {
+        "client_name": "dbup-sqlserver-scripting",
+        "five_day_commit": "03b62654549173754f15b7e762055c07250793cb",
+        "html_url": "https://github.com/bradymholt/dbup-sqlserver-scripting.git",
+        "new_commit_id": "03b62654549173754f15b7e762055c07250793cb",
+        "new_version": "3.3.5",
+        "old_commit_id": "e1168e36af18542a45648fd0d8480129fba3a87a",
+        "old_version": "3.3.4"
+    },
+    {
+        "client_name": "dbup-sqlserver-scripting",
+        "five_day_commit": "ec3007440b6226cbfbbb62e2c147dc13f987044a",
+        "html_url": "https://github.com/bradymholt/dbup-sqlserver-scripting.git",
+        "new_commit_id": "0216dbf2e21722898d8855abc03046c6645ec6cb",
+        "new_version": "3.3.4",
+        "old_commit_id": "b9541d867b7f04bc89a3abb229a50f1406bd2d4e",
+        "old_version": "3.2.1"
+    },
+    {
+        "client_name": "dbup-sqlserver-scripting",
+        "five_day_commit": "b9541d867b7f04bc89a3abb229a50f1406bd2d4e",
+        "html_url": "https://github.com/bradymholt/dbup-sqlserver-scripting.git",
+        "new_commit_id": "67032fd12964601514be756d544a50daf718c4c5",
+        "new_version": "1.0.9",
+        "old_commit_id": "7419c84611dd91b6463149100df3877d21f85782",
+        "old_version": "1.0.6"
+    },
+    {
+        "client_name": "DbUp.SerilogUpgradeLog",
+        "five_day_commit": "0298b97208c61ef840b79bb2f870ba9cbd4dbd92",
+        "html_url": "https://github.com/valantonini/DbUp.SerilogUpgradeLog.git",
+        "new_commit_id": "0298b97208c61ef840b79bb2f870ba9cbd4dbd92",
+        "new_version": "2.0.67",
+        "old_commit_id": "930224f2ebcf875b76108d5b6d049bb982f162d9",
+        "old_version": "2.0.0"
+    },
+    {
+        "client_name": "DbUp.SerilogUpgradeLog",
+        "five_day_commit": "0298b97208c61ef840b79bb2f870ba9cbd4dbd92",
+        "html_url": "https://github.com/valantonini/DbUp.SerilogUpgradeLog.git",
+        "new_commit_id": "930224f2ebcf875b76108d5b6d049bb982f162d9",
+        "new_version": "2.0.0",
+        "old_commit_id": "e387b714466baad2578b7b0ee4cdf2cb31bbf547",
+        "old_version": "3.3.0"
+    },
+    {
+        "client_name": "yoba",
+        "five_day_commit": "08c5b6d68c86f426d6f3bd8941a41392a751fa8a",
+        "html_url": "https://github.com/stdray/yoba.git",
+        "new_commit_id": "cf90832dfc5aee014d86b195d8f08c11521b79a7",
+        "new_version": "4.3.0",
+        "old_commit_id": "adf472eb4ad3219cf89217b413a4ddf36b3761c2",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "langbot",
+        "five_day_commit": "3a2cc1df420f22a14a989a95a72b7df513d91139",
+        "html_url": "https://github.com/reflectivecode/langbot.git",
+        "new_commit_id": "52faacf6e953ee45afd61591728ae517e5369e3c",
+        "new_version": "4.2.0",
+        "old_commit_id": "d4669cdfe4e94e1e2999c4da33967fd12d0b46d7",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "langbot",
+        "five_day_commit": "7caebdb36b18b5e194dbfe2d8ff460eb3b98a141",
+        "html_url": "https://github.com/reflectivecode/langbot.git",
+        "new_commit_id": "7d50cc2d5e7578dcadf0de71c09864c8b1eed54b",
+        "new_version": "4.0.0",
+        "old_commit_id": "3eaaab73628e6bb443b9c0596a1058ac50f5ac61",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "HttpLoadTesting",
+        "five_day_commit": "01a28380a278f76a71ccd73902c3d80d1f2fefec",
+        "html_url": "https://github.com/Zoxive/HttpLoadTesting.git",
+        "new_commit_id": "01a28380a278f76a71ccd73902c3d80d1f2fefec",
+        "new_version": "4.3.0",
+        "old_commit_id": "b79cafaab84d3355bd06959f5ccb3771259dcd9b",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "HttpLoadTesting",
+        "five_day_commit": "bda20e6310d4a5907ea69d82b9a85f6c1340f6ca",
+        "html_url": "https://github.com/Zoxive/HttpLoadTesting.git",
+        "new_commit_id": "bda20e6310d4a5907ea69d82b9a85f6c1340f6ca",
+        "new_version": "4.2.0",
+        "old_commit_id": "638d1c165812ab0a2696b7463c1b2035e96df97d",
+        "old_version": "4.1.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "90e6daaab6463ff342428ef71338895e204c21f1",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "dad6e88c9b3745f181a7bbd4ef98f289517d6370",
+        "new_version": "4.5.0",
+        "old_commit_id": "6e3a39ac1ae2408f747ef24abf340daadd118406",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "127e2e147e82b74ecfd0fcf8d57130871c2567de",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "0b95cda75164f8918defa60360981f36cd7d1351",
+        "new_version": "4.4.0",
+        "old_commit_id": "d460ca9c01fb721309828fddb8103005c724b667",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "ad16a0118317f0f4e27a0d646941a71d61f60caf",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "a2a0b40c1b29eccdc312836e0c31b51a273ae53d",
+        "new_version": "4.3.0",
+        "old_commit_id": "e7ca875b86873d30b9477bad01d0ac00ab02de12",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "4154e6abcd23398b735f5379d65abf19cb87abb1",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "27e1ca1380fef6be114457da371f027a1d90d091",
+        "new_version": "4.2.0",
+        "old_commit_id": "0621b4da11767404437de0e8c49e9d4cc39a0b97",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "92e15d7af41f3d2563c25a8a729b747428e877d4",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "c3150a91ccd091485bcb3a871c6e5fc04d14d01d",
+        "new_version": "4.1.0",
+        "old_commit_id": "be89e7c489cdec3541527ec81e142389448afcc3",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "Xpenser",
+        "five_day_commit": "afc97355acd33a3510b50a7fdd6ef016b9145659",
+        "html_url": "https://github.com/techierathore/Xpenser.git",
+        "new_commit_id": "54b20534d3847e710637ec29753c77124360cdb2",
+        "new_version": "4.5.0.0",
+        "old_commit_id": "7d3ba4134966fffd67fe224579999b135b45a138",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "webapitemplate_netcore",
+        "five_day_commit": "b19d119a23b4cc1ab475efe90f6b3f0f39b26c90",
+        "html_url": "https://github.com/ddiyteam/webapitemplate_netcore.git",
+        "new_commit_id": "b19d119a23b4cc1ab475efe90f6b3f0f39b26c90",
+        "new_version": "4.3.0",
+        "old_commit_id": "bcb6644b04deab913d653048ae1fd2e185fe0445",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "Xpenser",
+        "five_day_commit": "afc97355acd33a3510b50a7fdd6ef016b9145659",
+        "html_url": "https://github.com/techierathore/Xpenser.git",
+        "new_commit_id": "54b20534d3847e710637ec29753c77124360cdb2",
+        "new_version": "4.5.0.0",
+        "old_commit_id": "7d3ba4134966fffd67fe224579999b135b45a138",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "cleansimplesolid",
+        "five_day_commit": "778bde1a8385abee4ac2b795d5e473198d719e0f",
+        "html_url": "https://github.com/eaglestorm/cleansimplesolid.git",
+        "new_commit_id": "778bde1a8385abee4ac2b795d5e473198d719e0f",
+        "new_version": "4.4.0",
+        "old_commit_id": "1e5853b6f80999a3a844177e10ca82e0b462c7ce",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "Octopus.dbup.SqlServer",
+        "five_day_commit": "b7d56d621926c401c6a563cbd923baf36dd716e4",
+        "html_url": "https://github.com/OctopusDeploy/Octopus.dbup.SqlServer.git",
+        "new_commit_id": "b7d56d621926c401c6a563cbd923baf36dd716e4",
+        "new_version": "4.5.0",
+        "old_commit_id": "dbe714b69b512d09e6cb7c68a8f992a503227b10",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "AspNetCore.Identity.Dapper",
+        "five_day_commit": "624f1813dcea70d999653e14a07431dc0ae90498",
+        "html_url": "https://github.com/simonfaltum/AspNetCore.Identity.Dapper.git",
+        "new_commit_id": "d256fc755b25bc4d919f561d618d9f3922e6ced7",
+        "new_version": "4.3.1",
+        "old_commit_id": "4c27030cefd2ff4cc2d675c3906876b5a52ecff1",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "dbup-cli",
+        "five_day_commit": "4c8d18a3c06e58bcf0f5c9d5b4d063d4f5485ace",
+        "html_url": "https://github.com/drwatson1/dbup-cli.git",
+        "new_commit_id": "ecab32bf1f4d6e4154414b63a24e45ceab67084a",
+        "new_version": "4.3.1",
+        "old_commit_id": "b2e4f47b0f8e790fcb81ea88565f67aab882306a",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "celsussolution",
+        "five_day_commit": "c21bb7f4586cb12026df4713079e16a9e555de67",
+        "html_url": "https://github.com/celsusappgit/celsussolution.git",
+        "new_commit_id": "c21bb7f4586cb12026df4713079e16a9e555de67",
+        "new_version": "4.2.0.0",
+        "old_commit_id": "d14fd15679f3facccdf4a3e0d544f9826ee67c8a",
+        "old_version": "4.1.1.0"
+    },
+    {
+        "client_name": "Dapper.GraphQL",
+        "five_day_commit": "0a30c10ed6229a10b35c87cce7341ad91db50d0e",
+        "html_url": "https://github.com/landmarkhw/Dapper.GraphQL.git",
+        "new_commit_id": "b29b8b808820757fc12bfcf49de1623d7992bf5c",
+        "new_version": "4.1.0",
+        "old_commit_id": "1b2ac95e5acbaf362f83865e7619f0725e8c433c",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "Dapper.GraphQL",
+        "five_day_commit": "421f6b81d4745d39227508204e4671977b619935",
+        "html_url": "https://github.com/landmarkhw/Dapper.GraphQL.git",
+        "new_commit_id": "6340df67d3523170f1b45798aad17094b3652bf6",
+        "new_version": "4.0.0",
+        "old_commit_id": "b58a49413fe7c708a44e139b83e2ac6a8fb879db",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "das-employerfinance",
+        "five_day_commit": "b24fe5140bbe9943a42138f414a67a07f9efb86b",
+        "html_url": "https://github.com/SkillsFundingAgency/das-employerfinance.git",
+        "new_commit_id": "87c3b96b75df89f66c74d75354800ffcd65ac87b",
+        "new_version": "4.2.0",
+        "old_commit_id": "2d19056cdcfc2b5bad9eaac4cfe9d7968c2720ec",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "andymac4182.Reference",
+        "five_day_commit": "7dadc506896fc33aee659e0095cc6df7394ac73e",
+        "html_url": "https://github.com/andymac4182/andymac4182.Reference.git",
+        "new_commit_id": "ae1b03c45a0cb10d142e724b380283eda8564822",
+        "new_version": "4.4.0",
+        "old_commit_id": "2c34a175175ba4b31cd8aa1eeb913dc13b3fd63d",
+        "old_version": "4.3.1"
+    },
+    {
+        "client_name": "netcore-boilerplate",
+        "five_day_commit": "11e0fb944e4698548832e629b953f1a73f628e98",
+        "html_url": "https://github.com/lkurzyniec/netcore-boilerplate.git",
+        "new_commit_id": "7adaf977c2c8ea535d5e46313aa0f1d6d3b50590",
+        "new_version": "4.5.0",
+        "old_commit_id": "d57035c29a21ca0d7499f25b09d23b95e3d84392",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "netcore-boilerplate",
+        "five_day_commit": "00b7b5c97b6bd0b098bd6ae0d5a8119622069484",
+        "html_url": "https://github.com/lkurzyniec/netcore-boilerplate.git",
+        "new_commit_id": "80e6bca369668bb447fc2ec1167a30e53d96c11e",
+        "new_version": "4.4.0",
+        "old_commit_id": "c3733fb8e9b6c218442ff2153ea14bda5e0b6b64",
+        "old_version": "4.3.1"
+    },
+    {
+        "client_name": "netcore-boilerplate",
+        "five_day_commit": "32a1728a05a9c22effba1104484bb229dca5b052",
+        "html_url": "https://github.com/lkurzyniec/netcore-boilerplate.git",
+        "new_commit_id": "45764d631bce10b0d4d8db47f786ad696fa65d67",
+        "new_version": "4.3.1",
+        "old_commit_id": "24d21b32fee2a4db17b0e9bdecf07a20e1410e2c",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "AspNetCore.Identity.Dapper",
+        "five_day_commit": "624f1813dcea70d999653e14a07431dc0ae90498",
+        "html_url": "https://github.com/simonfaltum/AspNetCore.Identity.Dapper.git",
+        "new_commit_id": "d256fc755b25bc4d919f561d618d9f3922e6ced7",
+        "new_version": "4.3.1",
+        "old_commit_id": "4c27030cefd2ff4cc2d675c3906876b5a52ecff1",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "MediatR.CommandQuery",
+        "five_day_commit": "92267f0bd4e780de51a4f5cd97caed1f9bba2a06",
+        "html_url": "https://github.com/loresoft/MediatR.CommandQuery.git",
+        "new_commit_id": "92267f0bd4e780de51a4f5cd97caed1f9bba2a06",
+        "new_version": "4.5.0",
+        "old_commit_id": "2b416e4c362e6b8cad9582200393a5d5289c4b1d",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "MediatR.CommandQuery",
+        "five_day_commit": "bc47ab4d7dded23f9a26f57dc4e8cea66f63a32e",
+        "html_url": "https://github.com/loresoft/MediatR.CommandQuery.git",
+        "new_commit_id": "bc47ab4d7dded23f9a26f57dc4e8cea66f63a32e",
+        "new_version": "4.4.0",
+        "old_commit_id": "723d35a9358ff1f0021064efc11e974028824d31",
+        "old_version": "4.3.1"
+    },
+    {
+        "client_name": "MediatR.CommandQuery",
+        "five_day_commit": "ab1f78f7e644929e8bb9cfe69994ed43b3714d78",
+        "html_url": "https://github.com/loresoft/MediatR.CommandQuery.git",
+        "new_commit_id": "4d42c21afc28746a32c54ae066151603a72716ad",
+        "new_version": "4.3.1",
+        "old_commit_id": "5da3f6db212063ea702218c7e53688aeebb2e7ee",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "MediatR.CommandQuery",
+        "five_day_commit": "ab1f78f7e644929e8bb9cfe69994ed43b3714d78",
+        "html_url": "https://github.com/loresoft/MediatR.CommandQuery.git",
+        "new_commit_id": "f79eb071bda4433abf8e11677429f24970a9fbe9",
+        "new_version": "4.3.0",
+        "old_commit_id": "5ff7175529da8c13429ef858f931e0dc7eed86f3",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "server",
+        "five_day_commit": "130c3e4748d264f174d8f86839576e289844e15f",
+        "html_url": "https://github.com/bitwarden/server.git",
+        "new_commit_id": "0f2ea434548e391b9c4ca029a85026e0fdc5f07b",
+        "new_version": "4.4.0",
+        "old_commit_id": "8559e144c6d602a0ca6d2e04e79eb7f93145b112",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "DbUpSample",
+        "five_day_commit": "6cda6739ed1c8823a3ccb931cfc4806ba51ff86d",
+        "html_url": "https://github.com/OctopusSamples/DbUpSample.git",
+        "new_commit_id": "6cda6739ed1c8823a3ccb931cfc4806ba51ff86d",
+        "new_version": "4.3.1",
+        "old_commit_id": "914499078c10c72c67e57dd1eebf4c4cbb17cba4",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "dbup-cli",
+        "five_day_commit": "4c8d18a3c06e58bcf0f5c9d5b4d063d4f5485ace",
+        "html_url": "https://github.com/drwatson1/dbup-cli.git",
+        "new_commit_id": "ecab32bf1f4d6e4154414b63a24e45ceab67084a",
+        "new_version": "4.3.1",
+        "old_commit_id": "b2e4f47b0f8e790fcb81ea88565f67aab882306a",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "celsussolution",
+        "five_day_commit": "c21bb7f4586cb12026df4713079e16a9e555de67",
+        "html_url": "https://github.com/celsusappgit/celsussolution.git",
+        "new_commit_id": "c21bb7f4586cb12026df4713079e16a9e555de67",
+        "new_version": "4.2.0.0",
+        "old_commit_id": "d14fd15679f3facccdf4a3e0d544f9826ee67c8a",
+        "old_version": "4.1.1.0"
+    },
+    {
+        "client_name": "EntityFrameworkCore.Generator",
+        "five_day_commit": "acc6afb19b56bf629b9452c728eabc6f681caa1e",
+        "html_url": "https://github.com/loresoft/EntityFrameworkCore.Generator.git",
+        "new_commit_id": "acc6afb19b56bf629b9452c728eabc6f681caa1e",
+        "new_version": "4.5.0",
+        "old_commit_id": "b9e26873347005780f7b2902f84829fe6c5fadae",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "EntityFrameworkCore.Generator",
+        "five_day_commit": "d40b62d7a9ca49c459df823cf2eb9479ae2e3546",
+        "html_url": "https://github.com/loresoft/EntityFrameworkCore.Generator.git",
+        "new_commit_id": "b1fdb4287c4fdffe2e492a14f87fa9d32a0c42c8",
+        "new_version": "4.4.0",
+        "old_commit_id": "4fe350c1ea8bcab11e4af595464df9500bde4410",
+        "old_version": "4.3.1"
+    },
+    {
+        "client_name": "EntityFrameworkCore.Generator",
+        "five_day_commit": "e460bbbc59acce676e3e52251f85770202707817",
+        "html_url": "https://github.com/loresoft/EntityFrameworkCore.Generator.git",
+        "new_commit_id": "8541bc7726ac9168001473fa04a6e35f8c52f52d",
+        "new_version": "4.3.1",
+        "old_commit_id": "20b1ad89cc46065286366e13183e88c885626b92",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "EntityFrameworkCore.Generator",
+        "five_day_commit": "e79233ac3a6f8df483a11222b796c0755a076f6c",
+        "html_url": "https://github.com/loresoft/EntityFrameworkCore.Generator.git",
+        "new_commit_id": "6f381bb8e47f5c84b4f22e8b5898128827c64e0c",
+        "new_version": "4.2.0",
+        "old_commit_id": "223a1aeaee8b50aed38c5a821167252a4cfe0251",
+        "old_version": "4.3.1"
+    },
+    {
+        "client_name": "EntityFrameworkCore.Generator",
+        "five_day_commit": "693258f6e5c9b7bc9cd4bf31437be8c5f5ce88e0",
+        "html_url": "https://github.com/loresoft/EntityFrameworkCore.Generator.git",
+        "new_commit_id": "efee6cf3a2ab3a057f102442ffd2b13d9fca8112",
+        "new_version": "4.3.1",
+        "old_commit_id": "068e2361326d988273e8c61b11dba12ca1985753",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "EntityFrameworkCore.Generator",
+        "five_day_commit": "16633ffc989af722779e086a782337e986140a10",
+        "html_url": "https://github.com/loresoft/EntityFrameworkCore.Generator.git",
+        "new_commit_id": "16633ffc989af722779e086a782337e986140a10",
+        "new_version": "4.2.0",
+        "old_commit_id": "c1a714caddbb399315308768e2e08340628a235e",
+        "old_version": "4.1.0"
+    },
+    {
+        "client_name": "Vodamep",
+        "five_day_commit": "e67eb4fbb98213d4f2af0ea0173515c51405a3aa",
+        "html_url": "https://github.com/dgorbach/Vodamep.git",
+        "new_commit_id": "176f28b54db168ebd7a8abcfbe9ee17176b9cfdb",
+        "new_version": "4.1.0",
+        "old_commit_id": "b2f06c87e13b9ef3770dbcb7d7d52fb939317cf3",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "contosouniversitydocker",
+        "five_day_commit": "eb996f64cbe61e3349bf901542e8037e17bc1b05",
+        "html_url": "https://github.com/jbogard/contosouniversitydocker.git",
+        "new_commit_id": "a44f857d68e143cd9a55d94b4ffe5021c3b6e5b1",
+        "new_version": "4.1.0",
+        "old_commit_id": "95d2c5abf49d61f01f0532fe7cbc356e730db440",
+        "old_version": "4.0.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "90e6daaab6463ff342428ef71338895e204c21f1",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "dad6e88c9b3745f181a7bbd4ef98f289517d6370",
+        "new_version": "4.5.0",
+        "old_commit_id": "6e3a39ac1ae2408f747ef24abf340daadd118406",
+        "old_version": "4.4.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "127e2e147e82b74ecfd0fcf8d57130871c2567de",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "0b95cda75164f8918defa60360981f36cd7d1351",
+        "new_version": "4.4.0",
+        "old_commit_id": "d460ca9c01fb721309828fddb8103005c724b667",
+        "old_version": "4.3.1"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "ad16a0118317f0f4e27a0d646941a71d61f60caf",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "a2a0b40c1b29eccdc312836e0c31b51a273ae53d",
+        "new_version": "4.3.1",
+        "old_commit_id": "e7ca875b86873d30b9477bad01d0ac00ab02de12",
+        "old_version": "4.2.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "4154e6abcd23398b735f5379d65abf19cb87abb1",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "27e1ca1380fef6be114457da371f027a1d90d091",
+        "new_version": "4.2.0",
+        "old_commit_id": "0621b4da11767404437de0e8c49e9d4cc39a0b97",
+        "old_version": "4.3.0"
+    },
+    {
+        "client_name": "FluentCommand",
+        "five_day_commit": "92e15d7af41f3d2563c25a8a729b747428e877d4",
+        "html_url": "https://github.com/loresoft/FluentCommand.git",
+        "new_commit_id": "c3150a91ccd091485bcb3a871c6e5fc04d14d01d",
+        "new_version": "4.1.0",
+        "old_commit_id": "be89e7c489cdec3541527ec81e142389448afcc3",
+        "old_version": "4.0.0"
+    }
+]

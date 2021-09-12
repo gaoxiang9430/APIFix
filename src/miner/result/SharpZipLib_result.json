@@ -1,0 +1,29 @@
+[
+    {
+        "client_name": "ShrileFinance",
+        "five_day_commit": "1fe3421fcd5c07f7f93d5a7d16bee397ee00d3ff",
+        "html_url": "https://github.com/pangboy/ShrileFinance.git",
+        "new_commit_id": "e73160db604cb1d2506b38d591e07be01da38379",
+        "new_version": "0.86.0",
+        "old_commit_id": "444d876e3319be7da96600d863ccd78f7d0f0ab7",
+        "old_version": "0.86.0"
+    },
+    {
+        "client_name": "AutoCheck",
+        "five_day_commit": "e29fde551d59e6930dc2f2a74a58394350c46dce",
+        "html_url": "https://github.com/FherStk/AutoCheck.git",
+        "new_commit_id": "b29e117d2f3b52ab80b07ef20b5709c646344932",
+        "new_version": "1.2.0",
+        "old_commit_id": "4b0f0eb21054349b297c913593bd9077cdca4d94",
+        "old_version": "1.2.0"
+    },
+    {
+        "client_name": "AutoCheck",
+        "five_day_commit": "e29fde551d59e6930dc2f2a74a58394350c46dce",
+        "html_url": "https://github.com/FherStk/AutoCheck.git",
+        "new_commit_id": "4b0f0eb21054349b297c913593bd9077cdca4d94",
+        "new_version": "1.2.0",
+        "old_commit_id": "22024c13cce80db523cb96f82c40c60e6df617ba",
+        "old_version": "1.2.0"
+    }
+]

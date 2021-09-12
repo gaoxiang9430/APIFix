@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Synthesizer": {
+      "commandName": "Project",
+      "commandLineArgs": "-m 6.1.2 -n 7.0.0 -l Polly -s WrapAsync -v --t1=0.1 > Polly_WrapAsync.txt",
+      "workingDirectory": "D:\\workspace\\breaking-changes\\src\\Synthesizer"
+    }
+  }
+}

@@ -1,0 +1,1078 @@
+Configuration: 
+---- UseAdditionalOutput: False
+---- UseAdditionalInput : True
+---- OnlyNewUsage       : False
+---- GivenExample       : 1
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.05
+---- NewUsageThreashold : 0.25
+load 59 relevant edits!
+load 767 old relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 103
+Log: add old usage policy.Execute(ctx => { Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+Log: add old usage p.Execute(() => { return 1 + 1; }, 5)
+Log: add old usage p.Execute(() => { return 1 + 1; }, 5)
+Log: add old usage policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+Log: add old usage policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+Log: add old usage policy.Execute(() => service.DoSomethingCrucial(7), context)
+Log: add old usage retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+Log: add old usage retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+Log: add old usage retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+Log: add old usage retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+Log: add old usage faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+Log: add old usage faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: add old usage faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: add old usage faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+Log: add old usage faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: add old usage faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: add old usage faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: add old usage faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: ============== Cluster start ==============
+- bulkhead.Invoking(b => b.Execute(() => { }, contextPassedToExecute)).ShouldThrow<BulkheadRejectedException>();
+----------------
++ bulkhead.Invoking(b => b.Execute(ctx => { }, contextPassedToExecute)).ShouldThrow<BulkheadRejectedException>();
+
+- policy.Invoking(p => p.Execute(() =>
+                {
+                    SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None);
+                    return ResultPrimitive.WhateverButTooLate;
+                }, contextPassedToExecute))
+                .ShouldThrow<TimeoutRejectedException>();
+----------------
++ policy.Invoking(p => p.Execute(ctx =>
+                {
+                    SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None);
+                    return ResultPrimitive.WhateverButTooLate;
+                }, contextPassedToExecute))
+                .ShouldThrow<TimeoutRejectedException>();
+
+policy.Invoking(p => p.Execute(() => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, context)).ShouldThrow < TimeoutRejectedException >();
+----------------
+policy.Invoking(p => p.Execute(ctx => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, context)).ShouldThrow < TimeoutRejectedException >();
+
+- policy.Invoking(p => p.Execute(() => { }, (IDictionary<string, object>)null))
+                  .ShouldThrow<ArgumentNullException>();
+----------------
++ policy.Invoking(p => p.Execute(ctx => { }, (IDictionary<string, object>)null))
+                  .ShouldThrow<ArgumentNullException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+b.Execute(() => { }, contextPassedToExecute)
+----------------
+b.Execute(ctx => { }, contextPassedToExecute)
+
+cache.Execute(() => { delegateExecuted = true; return valueToReturnFromExecution; }, contextToExecute)
+----------------
+cache.Execute(ctx => { delegateExecuted = true; return valueToReturnFromExecution; }, contextToExecute)
+
+cache.Execute(() => { return valueToReturn; }, contextToExecute)
+----------------
+cache.Execute(ctx => { return valueToReturn; }, contextToExecute)
+
+breaker.Execute(() => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+----------------
+breaker.Execute(ctx => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+
+breaker.Execute(() => { }, new { key = "new_value" }.AsDictionary())
+----------------
+breaker.Execute(ctx => { }, new { key = "new_value" }.AsDictionary())
+
+p.Execute(() => { throw new ArgumentNullException(); }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+----------------
+p.Execute(ctx => { throw new ArgumentNullException(); }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+
+p.Execute(() => { throw new ArgumentNullException(); }, new { key = "value1" }.AsDictionary())
+----------------
+p.Execute(ctx => { throw new ArgumentNullException(); }, new { key = "value1" }.AsDictionary())
+
+fallbackPolicy.Execute(() => { return ResultPrimitive.Fault; }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+----------------
+fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+
+fallbackPolicy.Execute(() => { return ResultPrimitive.Fault; }, new { key = "value1" }.AsDictionary())
+----------------
+fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; }, new { key = "value1" }.AsDictionary())
+
+policy.Execute(() => { if(counter < numberOfTimesToRaiseException) { counter ++; var exception = new TException(); if(configureException != null) { configureException(exception, counter); } throw exception; } }, contextData)
+----------------
+policy.Execute(ctx => { if(counter < numberOfTimesToRaiseException) { counter ++; var exception = new TException(); if(configureException != null) { configureException(exception, counter); } throw exception; } }, contextData)
+
+policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise."); } return enumerator.Current; }, contextData)
+----------------
+policy.Execute(ctx => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise."); } return enumerator.Current; }, contextData)
+
+p.Execute(() => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, contextPassedToExecute)
+----------------
+p.Execute(ctx => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, contextPassedToExecute)
+
+p.Execute(() => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, context)
+----------------
+p.Execute(ctx => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, context)
+
+p.Execute(() => { },(IDictionary < string, object >) null)
+----------------
+p.Execute(ctx => { },(IDictionary < string, object >) null)
+
+p.Execute(() => { },(Context) null)
+----------------
+p.Execute(ctx => { },(Context) null)
+
+old usages: p.Execute(() => { return 1 + 1; }, 5)
+old usages: p.Execute(() => { return 1 + 1; }, 5)
+old usages: retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+old usages: retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+old usages: faultPolicy.Execute(() => { PersistShares(shares); }, context)
+old usages: faultPolicy.Execute(() => { PersistShares(shares); }, context)
+old usages: faultPolicy.Execute(() => { PersistShares(shares); }, context)
+============= Cluster end ==============
+
+Old usage: p.Execute(() => { return 1 + 1; }, 5)
+Log: Subsititution: contextPassedToExecute:Argument -> 5:Argument
+Log: Subsititution: { }:Block -> { return 1 + 1; }:Block
+Log: Subsititution: b:IdentifierName -> p:IdentifierName
+Correponding output: p.Execute(ctx => { return 1 + 1; }, 5)
+Old usage: retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+Log: Subsititution: contextPassedToExecute:Argument -> contextData : new Dictionary < string, object > { { nameof(result), result } }:Argument
+Log: Subsititution: { }:Block -> { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }:Block
+Log: Subsititution: b:IdentifierName -> retry3Policy:IdentifierName
+Correponding output: retry3Policy.Execute(ctx => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+Old usage: retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+Log: Subsititution: contextPassedToExecute:Argument -> new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } }:Argument
+Log: Subsititution: { }:Block -> { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }:Block
+Log: Subsititution: b:IdentifierName -> retryAndWaitPolicy:IdentifierName
+Correponding output: retryAndWaitPolicy.Execute(ctx => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+Old usage: faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: Subsititution: contextPassedToExecute:Argument -> context:Argument
+Log: Subsititution: { }:Block -> { PersistShares(shares); }:Block
+Log: Subsititution: b:IdentifierName -> faultPolicy:IdentifierName
+Correponding output: faultPolicy.Execute(ctx => { PersistShares(shares); }, context)
+Log: Input to synthesize the program:
+Log: b.Execute(() => { }, contextPassedToExecute)
+Log: ---------------------
+Log: b.Execute(ctx => { }, contextPassedToExecute)
+Log: p.Execute(() => { return 1 + 1; }, 5)
+Log: ---------------------
+Log: p.Execute(ctx => { return 1 + 1; }, 5)
+Log: retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+Log: ---------------------
+Log: retry3Policy.Execute(ctx => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+Log: retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+Log: ---------------------
+Log: retryAndWaitPolicy.Execute(ctx => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+Log: faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: ---------------------
+Log: faultPolicy.Execute(ctx => { PersistShares(shares); }, context)
+Log: predict is cache.Execute(ctx => { delegateExecuted = true; return valueToReturnFromExecution; }, contextToExecute)
+Log: output  is cache.Execute(ctx => { delegateExecuted = true; return valueToReturnFromExecution; }, contextToExecute)
+Log: ----------------------------------------------------
+Log: predict is cache.Execute(ctx => { return valueToReturn; }, contextToExecute)
+Log: output  is cache.Execute(ctx => { return valueToReturn; }, contextToExecute)
+Log: ----------------------------------------------------
+Log: predict is breaker.Execute(ctx => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+Log: output  is breaker.Execute(ctx => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+Log: ----------------------------------------------------
+Log: predict is breaker.Execute(ctx => { }, new { key = "new_value" }.AsDictionary())
+Log: output  is breaker.Execute(ctx => { }, new { key = "new_value" }.AsDictionary())
+Log: ----------------------------------------------------
+Log: predict is p.Execute(ctx => { throw new ArgumentNullException(); }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+Log: output  is p.Execute(ctx => { throw new ArgumentNullException(); }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+Log: ----------------------------------------------------
+Log: predict is p.Execute(ctx => { throw new ArgumentNullException(); }, new { key = "value1" }.AsDictionary())
+Log: output  is p.Execute(ctx => { throw new ArgumentNullException(); }, new { key = "value1" }.AsDictionary())
+Log: ----------------------------------------------------
+Log: predict is fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+Log: output  is fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; }, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+Log: ----------------------------------------------------
+Log: predict is fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; }, new { key = "value1" }.AsDictionary())
+Log: output  is fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; }, new { key = "value1" }.AsDictionary())
+Log: ----------------------------------------------------
+Log: predict is policy.Execute(ctx => { if(counter < numberOfTimesToRaiseException) { counter ++; var exception = new TException(); if(configureException != null) { configureException(exception, counter); } throw exception; } }, contextData)
+Log: output  is policy.Execute(ctx => { if(counter < numberOfTimesToRaiseException) { counter ++; var exception = new TException(); if(configureException != null) { configureException(exception, counter); } throw exception; } }, contextData)
+Log: ----------------------------------------------------
+Log: predict is policy.Execute(ctx => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise."); } return enumerator.Current; }, contextData)
+Log: output  is policy.Execute(ctx => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise."); } return enumerator.Current; }, contextData)
+Log: ----------------------------------------------------
+Log: predict is p.Execute(ctx => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, contextPassedToExecute)
+Log: output  is p.Execute(ctx => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, contextPassedToExecute)
+Log: ----------------------------------------------------
+Log: predict is p.Execute(ctx => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, context)
+Log: output  is p.Execute(ctx => { SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, context)
+Log: ----------------------------------------------------
+Log: predict is p.Execute(ctx => { },(IDictionary < string, object >) null)
+Log: output  is p.Execute(ctx => { },(IDictionary < string, object >) null)
+Log: ----------------------------------------------------
+Log: predict is p.Execute(ctx => { },(Context) null)
+Log: output  is p.Execute(ctx => { },(Context) null)
+Log: ----------------------------------------------------
+Log: old usage is p.Execute(() => { return 1 + 1; }, 5)
+Log: predict is p.Execute(ctx => { return 1 + 1; }, 5)
+Log: old usage is p.Execute(() => { return 1 + 1; }, 5)
+Log: predict is p.Execute(ctx => { return 1 + 1; }, 5)
+Log: old usage is retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+Log: predict is retry3Policy.Execute(ctx => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } })
+Log: old usage is retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+Log: predict is retryAndWaitPolicy.Execute(ctx => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } })
+Log: old usage is faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: predict is faultPolicy.Execute(ctx => { PersistShares(shares); }, context)
+Log: old usage is faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: predict is faultPolicy.Execute(ctx => { PersistShares(shares); }, context)
+Log: old usage is faultPolicy.Execute(() => { PersistShares(shares); }, context)
+Log: predict is faultPolicy.Execute(ctx => { PersistShares(shares); }, context)
+Log: ============== Cluster start ==============
+- bulkhead.Invoking(b => b.Execute(() => 1, contextPassedToExecute)).ShouldThrow<BulkheadRejectedException>();
+----------------
++ bulkhead.Invoking(b => b.Execute(ctx => 1, contextPassedToExecute)).ShouldThrow<BulkheadRejectedException>();
+
+- policy.Invoking(p => p.Execute(() => 2, (IDictionary<string, object>)null))
+                .ShouldThrow<ArgumentNullException>();
+----------------
++ policy.Invoking(p => p.Execute(ctx => 2, (IDictionary<string, object>)null))
+                .ShouldThrow<ArgumentNullException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+b.Execute(() => 1, contextPassedToExecute)
+----------------
+b.Execute(ctx => 1, contextPassedToExecute)
+
+p.Execute(() => 2,(IDictionary < string, object >) null)
+----------------
+p.Execute(ctx => 2,(IDictionary < string, object >) null)
+
+p.Execute(() => 2,(Context) null)
+----------------
+p.Execute(ctx => 2,(Context) null)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- cache.Execute(() =>
+            {
+                delegateExecuted = true;
+                return valueToReturnFromExecution;
+            }, new Context(executionKey))
+                .Should().Be(valueToReturnFromCache);
+----------------
++ cache.Execute(ctx =>
+            {
+                delegateExecuted = true;
+                return valueToReturnFromExecution;
+            }, new Context(operationKey))
+                .Should().Be(valueToReturnFromCache);
+
+cache.Execute(() => { return valueToReturn; }, new Context(executionKey)).Should().Be(valueToReturn);
+----------------
+cache.Execute(ctx => { return valueToReturn; }, new Context(operationKey)).Should().Be(valueToReturn);
+
+- wrap.Execute(() =>
+            {
+                delegateExecuted = true;
+                return valueToReturnFromExecution;
+            }, new Context(executionKey))
+                .Should().Be(valueToReturnFromCache);
+----------------
++ wrap.Execute(ctx =>
+            {
+                delegateExecuted = true;
+                return valueToReturnFromExecution;
+            }, new Context(operationKey))
+                .Should().Be(valueToReturnFromCache);
+
+- cache.Execute(() =>
+                {
+                    delegateExecuted = true;
+                    return valueToReturnFromExecution;
+                }, new Context(executionKey))
+                .Should().Be(valueToReturnFromExecution);
+----------------
++ cache.Execute(ctx =>
+                {
+                    delegateExecuted = true;
+                    return valueToReturnFromExecution;
+                }, new Context(operationKey))
+                .Should().Be(valueToReturnFromExecution);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+cache.Execute(() => { delegateExecuted = true; return valueToReturnFromExecution; }, new Context(executionKey))
+----------------
+cache.Execute(ctx => { delegateExecuted = true; return valueToReturnFromExecution; }, new Context(operationKey))
+
+cache.Execute(() => { return valueToReturn; }, new Context(executionKey))
+----------------
+cache.Execute(ctx => { return valueToReturn; }, new Context(operationKey))
+
+wrap.Execute(() => { delegateExecuted = true; return valueToReturnFromExecution; }, new Context(executionKey))
+----------------
+wrap.Execute(ctx => { delegateExecuted = true; return valueToReturnFromExecution; }, new Context(operationKey))
+
+retry.Execute(() => { if(firstExecution) { firstExecution = false; throw new Exception(); } }, new Context(executionKey))
+----------------
+retry.Execute(ctx => { if(firstExecution) { firstExecution = false; throw new Exception(); } }, new Context(operationKey))
+
+retry.Execute(() => { if(firstExecution) { firstExecution = false; return ResultPrimitive.Fault; } return ResultPrimitive.Good; }, new Context(executionKey))
+----------------
+retry.Execute(ctx => { if(firstExecution) { firstExecution = false; return ResultPrimitive.Fault; } return ResultPrimitive.Good; }, new Context(operationKey))
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- cache.Execute(func, new Context(executionKey)).Should().Be(valueToReturn);
+----------------
++ cache.Execute(func, new Context(operationKey)).Should().Be(valueToReturn);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+cache.Execute(func, new Context(executionKey))
+----------------
+cache.Execute(func, new Context(operationKey))
+
+cache.Execute(action, new Context(executionKey))
+----------------
+cache.Execute(action, new Context(operationKey))
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+cache.Execute(action, new Context(executionKey));
+----------------
+cache.Execute(action, new Context(operationKey));
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+cache.Execute(func, new Context(executionKey), tokenSource.Token).Should().Be(valueToReturn);
+----------------
+cache.Execute(func, new Context(operationKey), tokenSource.Token).Should().Be(valueToReturn);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+cache.Execute(func, new Context(executionKey), tokenSource.Token)
+----------------
+cache.Execute(func, new Context(operationKey), tokenSource.Token)
+
+policy.Execute(func, new Context(executionKey), tokenSource.Token)
+----------------
+policy.Execute(func, new Context(operationKey), tokenSource.Token)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- cache.Invoking(policy => policy.Execute(func, new Context(executionKey), tokenSource.Token))
+                .ShouldThrow<OperationCanceledException>();
+----------------
++ cache.Invoking(policy => policy.Execute(func, new Context(operationKey), tokenSource.Token))
+                .ShouldThrow<OperationCanceledException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- cache.Execute(() =>
+                {
+                    delegateExecuted = true;
+                    return valueToReturnFromExecution;
+                }, contextToExecute)
+                .Should().Be(valueToReturnFromCache);
+----------------
++ cache.Execute(ctx =>
+                {
+                    delegateExecuted = true;
+                    return valueToReturnFromExecution;
+                }, contextToExecute)
+                .Should().Be(valueToReturnFromCache);
+
+cache.Execute(() => { return valueToReturn; }, contextToExecute).Should().Be(valueToReturn);
+----------------
+cache.Execute(ctx => { return valueToReturn; }, contextToExecute).Should().Be(valueToReturn);
+
+- fallbackPolicy.Execute(() => { return ResultPrimitive.Fault; },
+                new { key1 = "value1", key2 = "value2" }.AsDictionary())
+                .Should().Be(ResultPrimitive.Substitute);
+----------------
++ fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; },
+                new { key1 = "value1", key2 = "value2" }.AsDictionary())
+                .Should().Be(ResultPrimitive.Substitute);
+
+fallbackPolicy.Execute(() => { return ResultPrimitive.Fault; }, new { key = "value1" }.AsDictionary()).Should().Be(ResultPrimitive.Substitute);
+----------------
+fallbackPolicy.Execute(ctx => { return ResultPrimitive.Fault; }, new { key = "value1" }.AsDictionary()).Should().Be(ResultPrimitive.Substitute);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- breaker.Execute(() => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary());
+----------------
++ breaker.Execute(ctx => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary());
+
+- breaker.Execute(() => { }, new { key = "new_value" }.AsDictionary());
+----------------
++ breaker.Execute(ctx => { }, new { key = "new_value" }.AsDictionary());
+
+- policy.Execute(() =>
+            {
+                if (counter < numberOfTimesToRaiseException)
+                {
+                    counter++;
+
+                    var exception = new TException();
+
+                    if (configureException != null)
+                    {
+                        configureException(exception, counter);
+                    }
+
+                    throw exception;
+                }
+            }, contextData);
+----------------
++ policy.Execute(ctx =>
+            {
+                if (counter < numberOfTimesToRaiseException)
+                {
+                    counter++;
+
+                    var exception = new TException();
+
+                    if (configureException != null)
+                    {
+                        configureException(exception, counter);
+                    }
+
+                    throw exception;
+                }
+            }, contextData);
+
+old usages: retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+old usages: retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+old usages: faultPolicy.Execute(() => { PersistShares(shares); }, context);
+old usages: faultPolicy.Execute(() => { PersistShares(shares); }, context);
+old usages: faultPolicy.Execute(() => { PersistShares(shares); }, context);
+============= Cluster end ==============
+
+Old usage: retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+Log: Subsititution: new { key1 = "value1", key2 = "value2" }.AsDictionary():Argument -> contextData : new Dictionary < string, object > { { nameof(result), result } }:Argument
+Log: Subsititution: { }:Block -> { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }:Block
+Log: Subsititution: breaker:IdentifierName -> retry3Policy:IdentifierName
+Correponding output: retry3Policy.Execute(ctx => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+Old usage: retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+Log: Subsititution: new { key1 = "value1", key2 = "value2" }.AsDictionary():Argument -> new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } }:Argument
+Log: Subsititution: { }:Block -> { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }:Block
+Log: Subsititution: breaker:IdentifierName -> retryAndWaitPolicy:IdentifierName
+Correponding output: retryAndWaitPolicy.Execute(ctx => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+Old usage: faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: Subsititution: new { key1 = "value1", key2 = "value2" }.AsDictionary():Argument -> context:Argument
+Log: Subsititution: { }:Block -> { PersistShares(shares); }:Block
+Log: Subsititution: breaker:IdentifierName -> faultPolicy:IdentifierName
+Correponding output: faultPolicy.Execute(ctx => { PersistShares(shares); }, context);
+Log: Input to synthesize the program:
+Log: breaker.Execute(() => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary());
+Log: ---------------------
+Log: breaker.Execute(ctx => { }, new { key1 = "value1", key2 = "value2" }.AsDictionary());
+Log: retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+Log: ---------------------
+Log: retry3Policy.Execute(ctx => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+Log: retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+Log: ---------------------
+Log: retryAndWaitPolicy.Execute(ctx => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+Log: faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: ---------------------
+Log: faultPolicy.Execute(ctx => { PersistShares(shares); }, context);
+Log: predict is breaker.Execute(ctx => { }, new { key = "new_value" }.AsDictionary());
+Log: output  is breaker.Execute(ctx => { }, new { key = "new_value" }.AsDictionary());
+Log: ----------------------------------------------------
+Log: predict is policy.Execute(ctx => { if(counter < numberOfTimesToRaiseException) { counter ++; var exception = new TException(); if(configureException != null) { configureException(exception, counter); } throw exception; } }, contextData);
+Log: output  is policy.Execute(ctx => { if(counter < numberOfTimesToRaiseException) { counter ++; var exception = new TException(); if(configureException != null) { configureException(exception, counter); } throw exception; } }, contextData);
+Log: ----------------------------------------------------
+Log: old usage is retry3Policy.Execute(() => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+Log: predict is retry3Policy.Execute(ctx => { if(timesTried >= 2) { return; } timesTried ++; throw new TimeoutException(); }, contextData : new Dictionary < string, object > { { nameof(result), result } });
+Log: old usage is retryAndWaitPolicy.Execute(() => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+Log: predict is retryAndWaitPolicy.Execute(ctx => { if(tryAttempts ++ < 3) { throw new DivideByZeroException(); } }, new Dictionary < string, object > { { nameof(AttemptLog), AttemptLog } });
+Log: old usage is faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: predict is faultPolicy.Execute(ctx => { PersistShares(shares); }, context);
+Log: old usage is faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: predict is faultPolicy.Execute(ctx => { PersistShares(shares); }, context);
+Log: old usage is faultPolicy.Execute(() => { PersistShares(shares); }, context);
+Log: predict is faultPolicy.Execute(ctx => { PersistShares(shares); }, context);
+Log: ============== Cluster start ==============
+- breaker.Execute(() => ResultPrimitive.Good, new { key1 = "value1", key2 = "value2" }.AsDictionary());
+----------------
++ breaker.Execute(ctx => ResultPrimitive.Good, new { key1 = "value1", key2 = "value2" }.AsDictionary());
+
+- breaker.Execute(() => ResultPrimitive.Good, new { key = "new_value" }.AsDictionary());
+----------------
++ breaker.Execute(ctx => ResultPrimitive.Good, new { key = "new_value" }.AsDictionary());
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+breaker.Execute(() => ResultPrimitive.Good, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+----------------
+breaker.Execute(ctx => ResultPrimitive.Good, new { key1 = "value1", key2 = "value2" }.AsDictionary())
+
+breaker.Execute(() => ResultPrimitive.Good, new { key = "new_value" }.AsDictionary())
+----------------
+breaker.Execute(ctx => ResultPrimitive.Good, new { key = "new_value" }.AsDictionary())
+
+p.Execute(() => ResultPrimitive.Good,(IDictionary < string, object >) null)
+----------------
+p.Execute(ctx => ResultPrimitive.Good,(IDictionary < string, object >) null)
+
+p.Execute(() => ResultPrimitive.Good,(Context) null)
+----------------
+p.Execute(ctx => ResultPrimitive.Good,(Context) null)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- fallbackPolicy.Invoking(p => p.Execute(() => { throw new ArgumentNullException(); },
+                new {key1 = "value1", key2 = "value2"}.AsDictionary()))
+                .ShouldNotThrow();
+----------------
++ fallbackPolicy.Invoking(p => p.Execute(ctx => { throw new ArgumentNullException(); },
+                new {key1 = "value1", key2 = "value2"}.AsDictionary()))
+                .ShouldNotThrow();
+
+fallbackPolicy.Invoking(p => p.Execute(() => { throw new ArgumentNullException(); }, new { key = "value1" }.AsDictionary())).ShouldNotThrow();
+----------------
+fallbackPolicy.Invoking(p => p.Execute(ctx => { throw new ArgumentNullException(); }, new { key = "value1" }.AsDictionary())).ShouldNotThrow();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- return policy.Execute(() =>
+            {
+                if (!enumerator.MoveNext())
+                {
+                    throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise.");
+                }
+
+                return enumerator.Current;
+            }, contextData);
+----------------
++ return policy.Execute(ctx =>
+            {
+                if (!enumerator.MoveNext())
+                {
+                    throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise.");
+                }
+
+                return enumerator.Current;
+            }, contextData);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- int counter = 0;
+- CancellationToken cancellationToken = cancellationTokenSource.Token;
+- return policy.Execute(ct =>
+            {
+                onExecute();
+
+                counter++;
+
+                if (scenario.AttemptDuringWhichToCancel.HasValue && counter >= scenario.AttemptDuringWhichToCancel.Value)
+                {
+                    cancellationTokenSource.Cancel();
+                }
+
+                if (scenario.ActionObservesCancellation)
+                {
+                    ct.ThrowIfCancellationRequested();
+                }
+
+                if (counter <= scenario.NumberOfTimesToRaiseException)
+                {
+                    throw new TException();
+                }
+
+                return successResult;
+            }, cancellationToken);
+----------------
++ return policy.RaiseExceptionAndOrCancellation(scenario, cancellationTokenSource, onExecute,
+                _ => new TException(), successResult);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+return policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise."); } return enumerator.Current; });
+----------------
+return policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException(nameof(resultsToRaise), $"Not enough {typeof(TResult).Name}  values in {nameof(resultsToRaise)}."); } return enumerator.Current; });
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsToRaise", "Not enough TResult values in resultsToRaise."); } return enumerator.Current; })
+----------------
+policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException(nameof(resultsToRaise), $"Not enough {typeof(TResult).Name}  values in {nameof(resultsToRaise)}."); } return enumerator.Current; })
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+return policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsOrExceptionsToRaise", "Not enough TResult values in resultsOrExceptionsToRaise."); } object current = enumerator.Current; if(current is Exception) { throw(Exception) current; } else if(current is TResult) { return(TResult) current; } else { throw new ArgumentOutOfRangeException("resultsOrExceptionsToRaise", "Value is not either an Exception or TResult."); } });
+----------------
+return policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException(nameof(resultsOrExceptionsToRaise), $"Not enough {typeof(TResult).Name} values in {nameof(resultsOrExceptionsToRaise)}."); } object current = enumerator.Current; if(current is Exception) { throw(Exception) current; } else if(current is TResult) { return(TResult) current; } else { throw new ArgumentOutOfRangeException(nameof(resultsOrExceptionsToRaise), $"Value is not either an {typeof(Exception).Name} or {typeof(TResult).Name}."); } });
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException("resultsOrExceptionsToRaise", "Not enough TResult values in resultsOrExceptionsToRaise."); } object current = enumerator.Current; if(current is Exception) { throw(Exception) current; } else if(current is TResult) { return(TResult) current; } else { throw new ArgumentOutOfRangeException("resultsOrExceptionsToRaise", "Value is not either an Exception or TResult."); } })
+----------------
+policy.Execute(() => { if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException(nameof(resultsOrExceptionsToRaise), $"Not enough {typeof(TResult).Name} values in {nameof(resultsOrExceptionsToRaise)}."); } object current = enumerator.Current; if(current is Exception) { throw(Exception) current; } else if(current is TResult) { return(TResult) current; } else { throw new ArgumentOutOfRangeException(nameof(resultsOrExceptionsToRaise), $"Value is not either an {typeof(Exception).Name} or {typeof(TResult).Name}."); } })
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- return policy.Execute(ct =>
+            {
+                onExecute();
+
+                counter++;
+
+                if (!enumerator.MoveNext())
+                {
+                    throw new ArgumentOutOfRangeException(nameof(resultsToRaise), "Not enough TResult values in resultsToRaise.");
+                }
+
+                if (scenario.AttemptDuringWhichToCancel.HasValue && counter >= scenario.AttemptDuringWhichToCancel.Value)
+                {
+                    cancellationTokenSource.Cancel();
+                }
+
+                if (scenario.ActionObservesCancellation)
+                {
+                    ct.ThrowIfCancellationRequested();
+                }
+
+                return enumerator.Current;
+            }, cancellationToken);
+----------------
++ using
++ (
++ var
++ enumerator
++ =
++ resultsToRaise.GetEnumerator()
++ )
++ {
++ return policy.Execute(ct =>
+                {
+                    onExecute();
+
+                    counter++;
+
+                    if (!enumerator.MoveNext())
+                    {
+                        throw new ArgumentOutOfRangeException(nameof(resultsToRaise), $"Not enough {typeof(TResult).Name}  values in {nameof(resultsToRaise)}.");
+                    }
+
+                    if (scenario.AttemptDuringWhichToCancel.HasValue && counter >= scenario.AttemptDuringWhichToCancel.Value)
+                    {
+                        cancellationTokenSource.Cancel();
+                    }
+
+                    if (scenario.ActionObservesCancellation)
+                    {
+                        ct.ThrowIfCancellationRequested();
+                    }
+
+                    return enumerator.Current;
+                }, cancellationToken);
++ }
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+policy.Execute(ct => { onExecute(); counter ++; if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException(nameof(resultsToRaise), "Not enough TResult values in resultsToRaise."); } if(scenario.AttemptDuringWhichToCancel.HasValue && counter >= scenario.AttemptDuringWhichToCancel.Value) { cancellationTokenSource.Cancel(); } if(scenario.ActionObservesCancellation) { ct.ThrowIfCancellationRequested(); } return enumerator.Current; }, cancellationToken)
+----------------
+policy.Execute(ct => { onExecute(); counter ++; if(! enumerator.MoveNext()) { throw new ArgumentOutOfRangeException(nameof(resultsToRaise), $"Not enough {typeof(TResult).Name}  values in {nameof(resultsToRaise)}."); } if(scenario.AttemptDuringWhichToCancel.HasValue && counter >= scenario.AttemptDuringWhichToCancel.Value) { cancellationTokenSource.Cancel(); } if(scenario.ActionObservesCancellation) { ct.ThrowIfCancellationRequested(); } return enumerator.Current; }, cancellationToken)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+policy.Invoking(p => p.Execute(() => { })).ShouldNotThrow();
+----------------
+Action act =() => { result = policy.Execute(ct => { SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct); return ResultPrimitive.Good; }, userCancellationToken); };
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(() => { })
+----------------
+policy.Execute(ct => { SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct); return ResultPrimitive.Good; }, userCancellationToken)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(ct => { }, userCancellationToken)).ShouldNotThrow();
+----------------
++ Action act = () => {
+                result = policy.Execute(ct =>
+                    {
+                        SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct);
+                        return ResultPrimitive.Good;
+                    }, userCancellationToken);
+            };
++ act.ShouldNotThrow<TimeoutRejectedException>();
++ result.Should().Be(ResultPrimitive.Good);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(ct => { }, userCancellationToken)
+----------------
+policy.Execute(ct => { SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct); return ResultPrimitive.Good; }, userCancellationToken)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- watch.Start();
+- policy.Invoking(p => p.Execute(
+                    ct => SystemClock.Sleep(TimeSpan.FromSeconds(timeout), ct) // Simulate cancel in the middle of execution
+                    , userTokenSource.Token) // ... with user token.
+                   ).ShouldThrow<OperationCanceledException>();
+- watch.Stop();
+----------------
++ policy.Invoking(p => p.Execute(
+                    ct => { userTokenSource.Cancel(); ct.ThrowIfCancellationRequested(); } // Simulate cancel in the middle of execution
+                    , userTokenSource.Token) // ... with user token.
+                   ).ShouldThrow<OperationCanceledException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(timeout), ct), userTokenSource.Token)
+----------------
+p.Execute(ct => { userTokenSource.Cancel(); ct.ThrowIfCancellationRequested(); }, userTokenSource.Token)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(() => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), contextPassedToExecute))
+                .ShouldThrow<TimeoutRejectedException>();
+----------------
++ policy.Invoking(p => p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), contextPassedToExecute))
+                .ShouldThrow<TimeoutRejectedException>();
+
+policy.Invoking(p => p.Execute(() => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), context)).ShouldThrow < TimeoutRejectedException >();
+----------------
+policy.Invoking(p => p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), context)).ShouldThrow < TimeoutRejectedException >();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(() => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), contextPassedToExecute)
+----------------
+p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), contextPassedToExecute)
+
+p.Execute(() => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), context)
+----------------
+p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), context)
+
+old usages: policy.Execute(() => service.DoSomethingCrucial(7), context)
+============= Cluster end ==============
+
+Old usage: policy.Execute(() => service.DoSomethingCrucial(7), context)
+Log: Subsititution: contextPassedToExecute:Argument -> context:Argument
+Log: Subsititution: SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None):InvocationExpression -> service.DoSomethingCrucial(7):InvocationExpression
+Log: Subsititution: p:IdentifierName -> policy:IdentifierName
+Correponding output: policy.Execute(ct => service.DoSomethingCrucial(7), context)
+Log: Input to synthesize the program:
+Log: p.Execute(() => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), contextPassedToExecute)
+Log: ---------------------
+Log: p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), contextPassedToExecute)
+Log: policy.Execute(() => service.DoSomethingCrucial(7), context)
+Log: ---------------------
+Log: policy.Execute(ct => service.DoSomethingCrucial(7), context)
+Log: predict is p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), context)
+Log: output  is p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), CancellationToken.None), context)
+Log: ----------------------------------------------------
+Log: old usage is policy.Execute(() => service.DoSomethingCrucial(7), context)
+Log: predict is policy.Execute(ct => service.DoSomethingCrucial(7), context)
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), contextPassedToExecute, userCancellationToken))
+                .ShouldThrow<TimeoutRejectedException>();
+----------------
++ policy.Invoking(p => p.Execute((ctx, ct) => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), contextPassedToExecute, userCancellationToken))
+                .ShouldThrow<TimeoutRejectedException>();
+
+policy.Invoking(p => p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), context, userCancellationToken)).ShouldThrow < TimeoutRejectedException >();
+----------------
+policy.Invoking(p => p.Execute((ctx, ct) => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), context, userCancellationToken)).ShouldThrow < TimeoutRejectedException >();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), contextPassedToExecute, userCancellationToken)
+----------------
+p.Execute((ctx, ct) => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), contextPassedToExecute, userCancellationToken)
+
+p.Execute(ct => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), context, userCancellationToken)
+----------------
+p.Execute((ctx, ct) => SystemClock.Sleep(TimeSpan.FromSeconds(3), ct), context, userCancellationToken)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- watch.Start();
+- policy.Invoking(p => p.Execute(
+                    _ => SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None) // Do not observe any cancellation in the middle of execution
+                    , userTokenSource.Token) // ... with user token.
+                   ).ShouldThrow<TimeoutRejectedException>();
+- watch.Stop();
+----------------
++ policy.Invoking(p => p.Execute(
+                    _ =>
+                    {
+                        userTokenSource.Cancel(); // User token cancels in the middle of execution ...
+                        SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2),
+                            CancellationToken.None // ... but if the executed delegate does not observe it
+                            );
+                    }
+                    , userTokenSource.Token)
+                   ).ShouldThrow<TimeoutRejectedException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(_ => SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None), userTokenSource.Token)
+----------------
+p.Execute(_ => { userTokenSource.Cancel(); SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None); }, userTokenSource.Token)
+
+old usages: policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+old usages: policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+old usages: faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+old usages: faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+============= Cluster end ==============
+
+Old usage: policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+Log: Subsititution: userTokenSource.Token:Argument -> cancellationToken:Argument
+Log: Subsititution: SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None):InvocationExpression -> client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests):InvocationExpression
+Log: Subsititution: _:Parameter -> ct:Parameter
+Log: Subsititution: p:IdentifierName -> policyWrap:IdentifierName
+Correponding output: policyWrap.Execute(ct => { userTokenSource.Cancel(); client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests); }, cancellationToken)
+Old usage: faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+Log: Subsititution: userTokenSource.Token:Argument -> context:Argument
+Log: Subsititution: SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None):InvocationExpression -> PersistShares((IList < Share >) ctx[PolicyContextKeyShares]):InvocationExpression
+Log: Subsititution: _:Parameter -> ctx:Parameter
+Log: Subsititution: p:IdentifierName -> faultPolicy:IdentifierName
+Correponding output: faultPolicy.Execute(ctx => { userTokenSource.Cancel(); PersistShares((IList < Share >) ctx[PolicyContextKeyShares]); }, context)
+Log: Input to synthesize the program:
+Log: p.Execute(_ => SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None), userTokenSource.Token)
+Log: ---------------------
+Log: p.Execute(_ => { userTokenSource.Cancel(); SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None); }, userTokenSource.Token)
+Log: policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+Log: ---------------------
+Log: policyWrap.Execute(ct => { userTokenSource.Cancel(); client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests); }, cancellationToken)
+Log: faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+Log: ---------------------
+Log: faultPolicy.Execute(ctx => { userTokenSource.Cancel(); PersistShares((IList < Share >) ctx[PolicyContextKeyShares]); }, context)
+Log: old usage is policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+Log: predict is policyWrap.Execute(ct => { userTokenSource.Cancel(); client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests); }, cancellationToken)
+Log: old usage is policyWrap.Execute(ct => client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests), cancellationToken)
+Log: predict is policyWrap.Execute(ct => { userTokenSource.Cancel(); client.DownloadString(Configuration.WEB_API_ROOT + "/api/values/" + totalRequests); }, cancellationToken)
+Log: old usage is faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+Log: predict is faultPolicy.Execute(ctx => { userTokenSource.Cancel(); PersistShares((IList < Share >) ctx[PolicyContextKeyShares]); }, context)
+Log: old usage is faultPolicy.Execute(ctx => PersistShares((IList < Share >) ctx[PolicyContextKeyShares]), context)
+Log: predict is faultPolicy.Execute(ctx => { userTokenSource.Cancel(); PersistShares((IList < Share >) ctx[PolicyContextKeyShares]); }, context)
+Log: ============== Cluster start ==============
+policy.Invoking(p => { result = p.Execute(() => ResultPrimitive.Good); }).ShouldNotThrow();
+----------------
+Action act =() => { result = policy.Execute(ct => { SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct); return ResultPrimitive.Good; }, userCancellationToken); };
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(() => ResultPrimitive.Good)
+----------------
+policy.Execute(ct => { SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct); return ResultPrimitive.Good; }, userCancellationToken)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+policy.Invoking(p => { result = p.Execute(ct => ResultPrimitive.Good, userCancellationToken); }).ShouldNotThrow();
+----------------
+Action act =() => { result = policy.Execute(ct => { SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct); return ResultPrimitive.Good; }, userCancellationToken); };
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(ct => ResultPrimitive.Good, userCancellationToken)
+----------------
+policy.Execute(ct => { SystemClock.Sleep(TimeSpan.FromMilliseconds(500), ct); return ResultPrimitive.Good; }, userCancellationToken)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- watch.Start();
+- policy.Invoking(p => p.Execute(
+                    ct => {
+                        SystemClock.Sleep(TimeSpan.FromSeconds(timeout), ct);  // Simulate cancel in the middle of execution
+                        return ResultPrimitive.WhateverButTooLate;
+                    }, userTokenSource.Token) // ... with user token.
+                   ).ShouldThrow<OperationCanceledException>();
+- watch.Stop();
+----------------
++ policy.Invoking(p => p.Execute(
+                    ct => {
+                        userTokenSource.Cancel(); ct.ThrowIfCancellationRequested(); // Simulate cancel in the middle of execution
+                        return ResultPrimitive.WhateverButTooLate;
+                    }, userTokenSource.Token) // ... with user token.
+                   ).ShouldThrow<OperationCanceledException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(ct => { SystemClock.Sleep(TimeSpan.FromSeconds(timeout), ct); return ResultPrimitive.WhateverButTooLate; }, userTokenSource.Token)
+----------------
+p.Execute(ct => { userTokenSource.Cancel(); ct.ThrowIfCancellationRequested(); return ResultPrimitive.WhateverButTooLate; }, userTokenSource.Token)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(ct =>
+                {
+                    SystemClock.Sleep(TimeSpan.FromSeconds(3), ct);
+                    return ResultPrimitive.WhateverButTooLate;
+                }, contextPassedToExecute, userCancellationToken))
+                .ShouldThrow<TimeoutRejectedException>();
+----------------
++ policy.Invoking(p => p.Execute((ctx, ct) =>
+                {
+                    SystemClock.Sleep(TimeSpan.FromSeconds(3), ct);
+                    return ResultPrimitive.WhateverButTooLate;
+                }, contextPassedToExecute, userCancellationToken))
+                .ShouldThrow<TimeoutRejectedException>();
+
+policy.Invoking(p => p.Execute(ct => { SystemClock.Sleep(TimeSpan.FromSeconds(3), ct); return ResultPrimitive.WhateverButTooLate; }, context, userCancellationToken)).ShouldThrow < TimeoutRejectedException >();
+----------------
+policy.Invoking(p => p.Execute((ctx, ct) => { SystemClock.Sleep(TimeSpan.FromSeconds(3), ct); return ResultPrimitive.WhateverButTooLate; }, context, userCancellationToken)).ShouldThrow < TimeoutRejectedException >();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(ct => { SystemClock.Sleep(TimeSpan.FromSeconds(3), ct); return ResultPrimitive.WhateverButTooLate; }, contextPassedToExecute, userCancellationToken)
+----------------
+p.Execute((ctx, ct) => { SystemClock.Sleep(TimeSpan.FromSeconds(3), ct); return ResultPrimitive.WhateverButTooLate; }, contextPassedToExecute, userCancellationToken)
+
+p.Execute(ct => { SystemClock.Sleep(TimeSpan.FromSeconds(3), ct); return ResultPrimitive.WhateverButTooLate; }, context, userCancellationToken)
+----------------
+p.Execute((ctx, ct) => { SystemClock.Sleep(TimeSpan.FromSeconds(3), ct); return ResultPrimitive.WhateverButTooLate; }, context, userCancellationToken)
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- watch.Start();
+- policy.Invoking(p => p.Execute(
+                    _ => { SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None); // Do not observe any cancellation in the middle of execution
+                        return ResultPrimitive.WhateverButTooLate;
+                    }, userTokenSource.Token) // ... with user token.
+                   ).ShouldThrow<TimeoutRejectedException>();
+- watch.Stop();
+----------------
++ policy.Invoking(p => p.Execute(
+                    _ => {
+                        userTokenSource.Cancel(); // User token cancels in the middle of execution ...
+                        SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2),
+                            CancellationToken.None // ... but if the executed delegate does not observe it
+                           );
+                        return ResultPrimitive.WhateverButTooLate;
+                    }, userTokenSource.Token) 
+                   ).ShouldThrow<TimeoutRejectedException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+p.Execute(_ => { SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, userTokenSource.Token)
+----------------
+p.Execute(_ => { userTokenSource.Cancel(); SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, userTokenSource.Token)
+
+old usages: policy.Execute(ctx => { Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+============= Cluster end ==============
+
+Old usage: policy.Execute(ctx => { Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+Log: Subsititution: userTokenSource.Token:Argument -> context:Argument
+Log: Subsititution: return ResultPrimitive.WhateverButTooLate;:ReturnStatement -> return i * 2;:ReturnStatement
+Log: Subsititution: SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None);:ExpressionStatement -> Console.WriteLine("Execute计算" + i);:ExpressionStatement
+Log: Subsititution: _:Parameter -> ctx:Parameter
+Log: Subsititution: p:IdentifierName -> policy:IdentifierName
+Correponding output: policy.Execute(ctx => { userTokenSource.Cancel(); Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+Log: Input to synthesize the program:
+Log: p.Execute(_ => { SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, userTokenSource.Token)
+Log: ---------------------
+Log: p.Execute(_ => { userTokenSource.Cancel(); SystemClock.Sleep(TimeSpan.FromSeconds(timeout * 2), CancellationToken.None); return ResultPrimitive.WhateverButTooLate; }, userTokenSource.Token)
+Log: policy.Execute(ctx => { Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+Log: ---------------------
+Log: policy.Execute(ctx => { userTokenSource.Cancel(); Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+Log: old usage is policy.Execute(ctx => { Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+Log: predict is policy.Execute(ctx => { userTokenSource.Cancel(); Console.WriteLine("Execute计算" + i); return i * 2; }, context)
+Log: ============== Cluster start ==============
+retry.Execute(() => { if(firstExecution) { firstExecution = false; throw new Exception(); } }, new Context(executionKey));
+----------------
+retry.Execute(ctx => { if(firstExecution) { firstExecution = false; throw new Exception(); } }, new Context(operationKey));
+
+retry.Execute(() => { if(firstExecution) { firstExecution = false; return ResultPrimitive.Fault; } return ResultPrimitive.Good; }, new Context(executionKey));
+----------------
+retry.Execute(ctx => { if(firstExecution) { firstExecution = false; return ResultPrimitive.Fault; } return ResultPrimitive.Good; }, new Context(operationKey));
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+retry.Execute < int >(() => { if(firstExecution) { firstExecution = false; throw new Exception(); } return 0; }, new Context(executionKey));
+----------------
+retry.Execute < int >(ctx => { if(firstExecution) { firstExecution = false; throw new Exception(); } return 0; }, new Context(operationKey));
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(() => { }, (Context)null))
+                .ShouldThrow<ArgumentNullException>().And
+                .ParamName.Should().Be("context");
+----------------
++ policy.Invoking(p => p.Execute(ctx => { }, (Context)null))
+                .ShouldThrow<ArgumentNullException>().And
+                .ParamName.Should().Be("context");
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(() => 2, (Context)null))
+                .ShouldThrow<ArgumentNullException>().And
+                .ParamName.Should().Be("context");
+----------------
++ policy.Invoking(p => p.Execute(ctx => 2, (Context)null))
+                .ShouldThrow<ArgumentNullException>().And
+                .ParamName.Should().Be("context");
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(() => ResultPrimitive.Good, (IDictionary<string, object>)null))
+                .ShouldThrow<ArgumentNullException>();
+----------------
++ policy.Invoking(p => p.Execute(ctx => ResultPrimitive.Good, (IDictionary<string, object>)null))
+                .ShouldThrow<ArgumentNullException>();
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+- policy.Invoking(p => p.Execute(() => ResultPrimitive.Good, (Context)null))
+                .ShouldThrow<ArgumentNullException>().And
+                .ParamName.Should().Be("context");
+----------------
++ policy.Invoking(p => p.Execute(ctx => ResultPrimitive.Good, (Context)null))
+                .ShouldThrow<ArgumentNullException>().And
+                .ParamName.Should().Be("context");
+
+============= Cluster end ==============
+
+total correct cases : 17 totalTestCases 17 Successful rate is 1
+The successful rate for transforming old usages: 13 / 13

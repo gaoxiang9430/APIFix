@@ -1,0 +1,272 @@
+Configuration: 
+---- UseAdditionalOutput: True
+---- UseAdditionalInput : False
+---- OnlyNewUsage       : False
+---- GivenExample       : 2
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.15
+---- NewUsageThreashold : 0.25
+load 2 relevant edits!
+load 28 old relevant usages
+load 20 new relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 4
+size of new usage: 20
+Log: add new usage new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: add new usage new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: add new usage new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: add new usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add new usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add new usage new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: add new usage new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: add new usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add new usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add new usage new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: add new usage new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: add new usage new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: add new usage new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: add new usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add new usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add new usage new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: add new usage new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: add new usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add new usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: add old usage sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+Log: add old usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: add old usage sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+Log: add old usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: add old usage master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+Log: add old usage database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+Log: add old usage new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: add old usage sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+Log: add old usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: add old usage sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+Log: add old usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: add old usage master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+Log: add old usage database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+Log: add old usage new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: add old usage sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+Log: add old usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: add old usage sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+Log: add old usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: add old usage master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+Log: add old usage database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+Log: add old usage new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: add old usage new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: add old usage new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: add old usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: add old usage new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: add old usage new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: add old usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: add old usage new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: add old usage new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: add old usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: add old usage new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: add old usage new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: add old usage new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: add old usage new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: ============== Cluster start ==============
+- sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null, () => true);
+----------------
++ sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(),  null, () => true);
+
+- sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null, () => true);
+----------------
++ sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null, () => true);
+
+old usages: sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+old usages: sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+old usages: master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+old usages: database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+old usages: sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+old usages: sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+old usages: master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+old usages: database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+old usages: sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+old usages: sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+old usages: master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+old usages: database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+============= Cluster end ==============
+
+Log: Input to synthesize the program:
+Log: sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+Log: ---------------------
+Log: sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+Log: ---------------------
+Log: sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: old usage is sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+Log: predict is sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: old usage is sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+Log: predict is sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: old usage is master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+Log: predict is null
+Log: old usage is database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+Log: predict is null
+Log: old usage is sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+Log: predict is sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: old usage is sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+Log: predict is sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: old usage is master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+Log: predict is null
+Log: old usage is database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+Log: predict is null
+Log: old usage is sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true);
+Log: predict is sqlRunner = new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: old usage is sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true);
+Log: predict is sqlRunner = new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true);
+Log: old usage is master = new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true);
+Log: predict is null
+Log: old usage is database = new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true);
+Log: predict is null
+Log: ============== Cluster start ==============
+new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+----------------
+new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+
+new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+----------------
+new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+
+new usages: new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+new usages: new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+new usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+new usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+old usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+old usages: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+old usages: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+old usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+old usages: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+old usages: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+old usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+old usages: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+old usages: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+old usages: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+old usages: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+old usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+old usages: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+old usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+old usages: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+old usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+old usages: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+old usages: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+old usages: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+============= Cluster end ==============
+
+Log: generalized output is: new AdHocSqlRunner(() hole hole.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Interesting new usage: new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: Subsititution: () => true:Argument -> () => true:Argument
+Log: Subsititution: null:Argument -> "dbo":Argument
+Log: Subsititution: ():ArgumentList -> ():ArgumentList
+Log: Subsititution: SQLiteObjectParser:IdentifierName -> SqlServer.SqlServerObjectParser:QualifiedName
+Log: Subsititution: new:NewKeyword -> new:NewKeyword
+Log: Subsititution: () => sharedConnection.CreateCommand():Argument -> sqlConnection.CreateCommand:Argument
+Log: Subsititution: new:NewKeyword -> new:NewKeyword
+Correponding input: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Interesting new usage: new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: Subsititution: () => true:Argument -> () => true:Argument
+Log: Subsititution: null:Argument -> Schema:Argument
+Log: Subsititution: new SQLiteObjectParser():ObjectCreationExpression -> sqlObjectParser:IdentifierName
+Log: Subsititution: () => sharedConnection.CreateCommand():Argument -> dbCommandFactory:Argument
+Log: Subsititution: new:NewKeyword -> new:NewKeyword
+Correponding input: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: Input to synthesize the program:
+Log: new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: ---------------------
+Log: new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: ---------------------
+Log: new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: ---------------------
+Log: new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: ---------------------
+Log: new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+Log: predict is null
+Log: old usage is new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: predict is new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: old usage is new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: predict is new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: old usage is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+Log: predict is null
+Log: old usage is new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: predict is new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: old usage is new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: predict is new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: old usage is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => masterSqlConnection.CreateCommand(), "dbo",() => true)
+Log: predict is null
+Log: old usage is new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: predict is new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: old usage is new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: predict is new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: old usage is new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: predict is new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: old usage is new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: predict is new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: old usage is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: predict is new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: old usage is new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: predict is new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: old usage is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: predict is new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: old usage is new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: predict is new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: old usage is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(dbCommandFactory, Schema,() => true)
+Log: predict is new AdHocSqlRunner(dbCommandFactory, sqlObjectParser, Schema,() => true)
+Log: old usage is new AdHocSqlRunner(sqlConnection.CreateCommand, "dbo",() => true)
+Log: predict is new AdHocSqlRunner(sqlConnection.CreateCommand, new SqlServer.SqlServerObjectParser(), "dbo",() => true)
+Log: old usage is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sharedConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+Log: old usage is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), null,() => true)
+Log: predict is new AdHocSqlRunner(() => sqLiteConnection.CreateCommand(), new SQLiteObjectParser(), null,() => true)
+total correct cases : 0 totalTestCases 0 Successful rate is 0
+The successful rate for transforming old usages: 28 / 28

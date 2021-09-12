@@ -1,0 +1,506 @@
+[
+    {
+        "client_name": "HRPotter",
+        "five_day_commit": "26a0f81fd35c3a33e98b08abdb1a9ccb452ff680",
+        "html_url": "https://github.com/Rashair/HRPotter.git",
+        "new_commit_id": "ded2160445fa02f35bfd0aee98bc7a6982608d63",
+        "new_version": "12.1.0",
+        "old_commit_id": "9a0781c056a73b8d9fa14dfedf4ebf1f4427d3b4",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "joseki",
+        "five_day_commit": "ab9722d58152e70e61b1828d9f9db0a3a5d33a06",
+        "html_url": "https://github.com/deepnetworkgmbh/joseki.git",
+        "new_commit_id": "12cbca9456f63dd88bbb1cc8930df4557c8cc431",
+        "new_version": "12.4.2",
+        "old_commit_id": "625e23572130d5a97c002b0ce305c2dbd53a6af5",
+        "old_version": "12.4.1"
+    },
+    {
+        "client_name": "joseki",
+        "five_day_commit": "afd33c69a01959d0694ff5781790ab07703be94b",
+        "html_url": "https://github.com/deepnetworkgmbh/joseki.git",
+        "new_commit_id": "0b8746a4c772761bccdb77f8f760d1b0a1664e79",
+        "new_version": "12.4.1",
+        "old_commit_id": "29d7266a34653f585de9f9f09aa711fccf5ce8fe",
+        "old_version": "12.4.0"
+    },
+    {
+        "client_name": "joseki",
+        "five_day_commit": "416df209a4547111672d42cfb57285f3426bcdae",
+        "html_url": "https://github.com/deepnetworkgmbh/joseki.git",
+        "new_commit_id": "2ce54b34bfec6612dffa6ec92cc34a8ed551c7a1",
+        "new_version": "12.4.0",
+        "old_commit_id": "7b9cca634902ef3629e6893738368b2edf93e973",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "joseki",
+        "five_day_commit": "9716dd40c0b9970cea8fe158627eae3483fdcb1d",
+        "html_url": "https://github.com/deepnetworkgmbh/joseki.git",
+        "new_commit_id": "676307e35bad6c055d092807a129e3dc2fd81e76",
+        "new_version": "12.3.2",
+        "old_commit_id": "f65882ca8632f83ce14318c734d30aea65a4430e",
+        "old_version": "12.3.0"
+    },
+    {
+        "client_name": "joseki",
+        "five_day_commit": "3f4b539a69feead05e8a256643b1e3a8c5e5bdc0",
+        "html_url": "https://github.com/deepnetworkgmbh/joseki.git",
+        "new_commit_id": "120eb964dec54fb9d46d0c15e1c46d835da354d4",
+        "new_version": "12.3.0",
+        "old_commit_id": "785ed9e167650a65207ecea03566c7a1a17eb52b",
+        "old_version": "12.2.0"
+    },
+    {
+        "client_name": "CoreIdentity",
+        "five_day_commit": "5a19e291b930a4feb97fddbf540fb73d8ab29914",
+        "html_url": "https://github.com/shammelburg/CoreIdentity.git",
+        "new_commit_id": "19f44229141509d8a51a9ecd31cbc84cdf4f9eda",
+        "new_version": "12.3.2",
+        "old_commit_id": "7041ae04c7a4a19192acd07d45fe5db3130aae27",
+        "old_version": "12.3.0"
+    },
+    {
+        "client_name": "CoreIdentity",
+        "five_day_commit": "c68ea4c7dcf088e3cd49707ea9c5a702063bde05",
+        "html_url": "https://github.com/shammelburg/CoreIdentity.git",
+        "new_commit_id": "40daabb6240e9b622cee519e3a01e75550879b24",
+        "new_version": "12.3.0",
+        "old_commit_id": "8a2f1f18e38151191e85cbb184381fec5b061820",
+        "old_version": "12.2.0"
+    },
+    {
+        "client_name": "Azure-image-gallery",
+        "five_day_commit": "d2cd13d646d6c53b818e6b044cac7428a6811c5d",
+        "html_url": "https://github.com/johnmcraig/Azure-image-gallery.git",
+        "new_commit_id": "1a697135e056398c68d070754165d66b88c22cb7",
+        "new_version": "12.2.0",
+        "old_commit_id": "d1ead88847930c286ffbd50751119485a6aa65e5",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "bitwarden-server",
+        "five_day_commit": "ff8731c82fefa8c05a276101ba6376e0a2e29f64",
+        "html_url": "https://github.com/tetrafolium/bitwarden-server.git",
+        "new_commit_id": "47b50e48ef58683599e0922c4b3cc384fd0861b3",
+        "new_version": "12.1.1",
+        "old_commit_id": "ebfdabebfa65bff0ef5987a8000b915f0bb8bac9",
+        "old_version": "12.1.0"
+    },
+    {
+        "client_name": "Picton",
+        "five_day_commit": "46e41d5bff36d200407e341cb07f8d8db10d5068",
+        "html_url": "https://github.com/Jericho/Picton.git",
+        "new_commit_id": "6472f25bf54c2c2de6c454dbf5fddd1dc12e5626",
+        "new_version": "12.3.0",
+        "old_commit_id": "39e1a493a0168e6fb93f02c2c8774ce24b0fe71e",
+        "old_version": "12.1.1"
+    },
+    {
+        "client_name": "Picton",
+        "five_day_commit": "f48ff6930a8697523c989c76f4f65d1fd4e13136",
+        "html_url": "https://github.com/Jericho/Picton.git",
+        "new_commit_id": "5e160d32f5327d9bf63f1532d16ef29fef880335",
+        "new_version": "12.1.1",
+        "old_commit_id": "790ba6b10dc04acfeee8f5afbbad2908991842cd",
+        "old_version": "12.1.0"
+    },
+    {
+        "client_name": "Picton",
+        "five_day_commit": "60a099522b36a1814615b3853ff4f38b5088f2be",
+        "html_url": "https://github.com/Jericho/Picton.git",
+        "new_commit_id": "f8416c554ebeb115a1572e8bc5252f838395ce68",
+        "new_version": "12.1.0",
+        "old_commit_id": "f6f8a2d36e15087623adfc3cb09430cd8b3e4cac",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "Picton",
+        "five_day_commit": "a8dcb0cbf3a8cd41c20f07911553791d4578c585",
+        "html_url": "https://github.com/Jericho/Picton.git",
+        "new_commit_id": "a8dcb0cbf3a8cd41c20f07911553791d4578c585",
+        "new_version": "12.0.0",
+        "old_commit_id": "045ca8d80e2622017a8348e5b698ade9a4d3f2ae",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "server",
+        "five_day_commit": "130c3e4748d264f174d8f86839576e289844e15f",
+        "html_url": "https://github.com/bitwarden/server.git",
+        "new_commit_id": "8559e144c6d602a0ca6d2e04e79eb7f93145b112",
+        "new_version": "12.3.2",
+        "old_commit_id": "bca2a42956c4388a7e103f522acce5111d6f0ac5",
+        "old_version": "12.2.0"
+    },
+    {
+        "client_name": "server",
+        "five_day_commit": "0f9ec8d64fa83549faf306ee82b1b15de78984b5",
+        "html_url": "https://github.com/bitwarden/server.git",
+        "new_commit_id": "cd0ec26b0728eac52fbab2b990e792e25330a068",
+        "new_version": "12.2.0",
+        "old_commit_id": "172525bf86fe3c85c56d58a36a37cb0eb5887c5a",
+        "old_version": "12.1.1"
+    },
+    {
+        "client_name": "server",
+        "five_day_commit": "ff8731c82fefa8c05a276101ba6376e0a2e29f64",
+        "html_url": "https://github.com/bitwarden/server.git",
+        "new_commit_id": "47b50e48ef58683599e0922c4b3cc384fd0861b3",
+        "new_version": "12.1.1",
+        "old_commit_id": "ebfdabebfa65bff0ef5987a8000b915f0bb8bac9",
+        "old_version": "12.1.0"
+    },
+    {
+        "client_name": "HRPotter-2.0",
+        "five_day_commit": "26a0f81fd35c3a33e98b08abdb1a9ccb452ff680",
+        "html_url": "https://github.com/Rashair/HRPotter-2.0.git",
+        "new_commit_id": "ded2160445fa02f35bfd0aee98bc7a6982608d63",
+        "new_version": "12.1.0",
+        "old_commit_id": "9a0781c056a73b8d9fa14dfedf4ebf1f4427d3b4",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "payroll-processor",
+        "five_day_commit": "eeb21bae52f6f2759dae3a7752c88805e077870e",
+        "html_url": "https://github.com/KyleMcMaster/payroll-processor.git",
+        "new_commit_id": "3a23e31e213acbca22c6edad40638b09df603bdb",
+        "new_version": "12.4.2",
+        "old_commit_id": "de9b573e03dc61cf3e1a64e8ca65a38e163345bd",
+        "old_version": "12.3.0"
+    },
+    {
+        "client_name": "azure-powershell",
+        "five_day_commit": "1760f45fdd9b04506950b611969e21e9dc4353c1",
+        "html_url": "https://github.com/Azure/azure-powershell.git",
+        "new_commit_id": "a5d00a0dd64dc8610962b07c52f84c308fa6f27d",
+        "new_version": "12.5.0",
+        "old_commit_id": "5d651e64fb8d03d1a00a0be67d25189cf97dc02d",
+        "old_version": "12.5.0"
+    },
+    {
+        "client_name": "azure-powershell",
+        "five_day_commit": "47c91e09af33e43224eba22db83ddf2f0ac2e495",
+        "html_url": "https://github.com/Azure/azure-powershell.git",
+        "new_commit_id": "ecdb80658e62fe5790a11461b3d0ad8da712d276",
+        "new_version": "12.5.0",
+        "old_commit_id": "edb02b175b6e4df8f09111589185441c0dd0dece",
+        "old_version": "12.4.0"
+    },
+    {
+        "client_name": "azure-powershell",
+        "five_day_commit": "2ab1287302dd78711dc200bf9101547b6339c987",
+        "html_url": "https://github.com/Azure/azure-powershell.git",
+        "new_commit_id": "526a74b4c206ab52e34acdcf878e5def3a343dd0",
+        "new_version": "12.4.0",
+        "old_commit_id": "65aded718869fa95a5946d912195a91fe68ec557",
+        "old_version": "12.4.0"
+    },
+    {
+        "client_name": "azure-powershell",
+        "five_day_commit": "163fb40a8afc97218851a67378ba0cb0b53028f6",
+        "html_url": "https://github.com/Azure/azure-powershell.git",
+        "new_commit_id": "6aa258fec55c2cbe5a842c2536a049c840944574",
+        "new_version": "12.4.0",
+        "old_commit_id": "34eaab12518a6b1f46c72530af99291307e0e3ad",
+        "old_version": "12.3.0"
+    },
+    {
+        "client_name": "queue-workflow",
+        "five_day_commit": "5094cf2e1fe908e61677487e43799d037dd02bb2",
+        "html_url": "https://github.com/fluffy-bunny/queue-workflow.git",
+        "new_commit_id": "4f37100d691448413ed2faee07b6690599c12712",
+        "new_version": "12.3.0",
+        "old_commit_id": "1e6379b95760a6709330883334afac2a54f39d1c",
+        "old_version": "12.3.0"
+    },
+    {
+        "client_name": "AzureStorageSnippets",
+        "five_day_commit": "ec6b9ba8df9dcf74eb0d0df5d61cfd4e65d8148c",
+        "html_url": "https://github.com/Azure-Samples/AzureStorageSnippets.git",
+        "new_commit_id": "8b731b9b3561d42f7ac835ce2c230274b3553655",
+        "new_version": "12.5.0",
+        "old_commit_id": "5ca39820e4f8a518dcc6823b2e8603f86a908fce",
+        "old_version": "12.4.2"
+    },
+    {
+        "client_name": "Cogito.Azure.Storage",
+        "five_day_commit": "1d18b1f9b1e4e94f8dde65efcf916a460ce65a84",
+        "html_url": "https://github.com/alethic/Cogito.Azure.Storage.git",
+        "new_commit_id": "214af9d1b2fdbcfd6c0ec0312c3de928c484d872",
+        "new_version": "12.5.0",
+        "old_commit_id": "ce671a634f01817be849b9e946aa86051cc94be3",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "SAEON-Observations-Database",
+        "five_day_commit": "033fa7f1c8bf4f27fb6a618513be49bde5e2b4bb",
+        "html_url": "https://github.com/SAEONData/SAEON-Observations-Database.git",
+        "new_commit_id": "615c8009eb2b1f001d4ca6584dced5953c0a77b5",
+        "new_version": "12.4.2.0",
+        "old_commit_id": "4cb809d25f8821cc2b883c76f53be02c6d91b426",
+        "old_version": "12.4.1.0"
+    },
+    {
+        "client_name": "SAEON-Observations-Database",
+        "five_day_commit": "4cb809d25f8821cc2b883c76f53be02c6d91b426",
+        "html_url": "https://github.com/SAEONData/SAEON-Observations-Database.git",
+        "new_commit_id": "94a2ddc2e1ef0f3b1b3abb2693e04d45e032cb8f",
+        "new_version": "12.4.1",
+        "old_commit_id": "ede39d5aed8f3e6d97c088270fa18dcc3c6fcfba",
+        "old_version": "12.4.0"
+    },
+    {
+        "client_name": "SAEON-Observations-Database",
+        "five_day_commit": "4a367f4af9a88c66806d0299d86962917181a0e4",
+        "html_url": "https://github.com/SAEONData/SAEON-Observations-Database.git",
+        "new_commit_id": "79792f9a2102decd1d313ea5c8367786edccf5dd",
+        "new_version": "12.4.1.0",
+        "old_commit_id": "a069eca0d88b83318375f3db4a1e621b62eae80b",
+        "old_version": "12.4.0.0"
+    },
+    {
+        "client_name": "SAEON-Observations-Database",
+        "five_day_commit": "fe4f6580c674c5701cccc09e590b9ad65318e798",
+        "html_url": "https://github.com/SAEONData/SAEON-Observations-Database.git",
+        "new_commit_id": "c074e8210c680fd41f14075d4c10581d5fe22beb",
+        "new_version": "12.4.0.0",
+        "old_commit_id": "e509439bdc5bbf1331f5e46cec8d9301690e9517",
+        "old_version": "12.3.2.0"
+    },
+    {
+        "client_name": "SAEON-DotNet-Libraries",
+        "five_day_commit": "35064df5c90c957ae1460a2b9c0ab206a3505e01",
+        "html_url": "https://github.com/SAEONData/SAEON-DotNet-Libraries.git",
+        "new_commit_id": "35064df5c90c957ae1460a2b9c0ab206a3505e01",
+        "new_version": "12.4.2",
+        "old_commit_id": "4c54ffad3b6410c96ca9a8d39151730850bbcf2c",
+        "old_version": "12.4.1"
+    },
+    {
+        "client_name": "SAEON-DotNet-Libraries",
+        "five_day_commit": "4c54ffad3b6410c96ca9a8d39151730850bbcf2c",
+        "html_url": "https://github.com/SAEONData/SAEON-DotNet-Libraries.git",
+        "new_commit_id": "c45ef10c990b4bcb84df4949eb96d9c3d4b469bb",
+        "new_version": "12.4.1",
+        "old_commit_id": "483fa0cf06cb7947e6e0cd1407dd651981bb24af",
+        "old_version": "12.4.0"
+    },
+    {
+        "client_name": "SAEON-DotNet-Libraries",
+        "five_day_commit": "d4754e57101108d1ce54f8ab5c3ccd875fbe715e",
+        "html_url": "https://github.com/SAEONData/SAEON-DotNet-Libraries.git",
+        "new_commit_id": "62f4479adc52a9fa6580d253ce6401e87ffd1dab",
+        "new_version": "12.4.0",
+        "old_commit_id": "ef26202735fe6cd9ba52cfde35c10a43a3e4361e",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "memealyzer",
+        "five_day_commit": "cdebbe94cf3e8a607f5432b3fcae13c60cbc4a5f",
+        "html_url": "https://github.com/jongio/memealyzer.git",
+        "new_commit_id": "486cc0f0fc752bb45e12ac9ba2ec8a51c8563dcb",
+        "new_version": "12.6.0",
+        "old_commit_id": "43e133dad7580045efbd1cd663a55df017b73c72",
+        "old_version": "12.4.1"
+    },
+    {
+        "client_name": "memealyzer",
+        "five_day_commit": "8387198f6e31e5eb59ab5ebf5a92db0d95a50656",
+        "html_url": "https://github.com/jongio/memealyzer.git",
+        "new_commit_id": "00fc922d51341de450266acc9093d5d0b7ad8e84",
+        "new_version": "12.4.0",
+        "old_commit_id": "5430fd668898ef6a7c23eb671653f9d956188702",
+        "old_version": "12.4.0"
+    },
+    {
+        "client_name": "MiddleEducationPlan",
+        "five_day_commit": "39a0e9bda709b70eee3966d2d789330756afeaa8",
+        "html_url": "https://github.com/Robertorob/MiddleEducationPlan.git",
+        "new_commit_id": "39a0e9bda709b70eee3966d2d789330756afeaa8",
+        "new_version": "12.2.0",
+        "old_commit_id": "1974e2a099ec796ec101d5b57b61caeef488816d",
+        "old_version": "12.2.0"
+    },
+    {
+        "client_name": "CodeCube.Azure.Storage",
+        "five_day_commit": "a0e6992efc1697d56d3c17b69fa6af18ead704ad",
+        "html_url": "https://github.com/roblohmann/CodeCube.Azure.Storage.git",
+        "new_commit_id": "a0e6992efc1697d56d3c17b69fa6af18ead704ad",
+        "new_version": "12.5.0",
+        "old_commit_id": "271d578a4ae5cc84a834436652c78afc91c0f547",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "Likvido.Worker.AzureStorageQueue",
+        "five_day_commit": "e159b68f488de1c3f5bd8a3f8592acddac62b4dd",
+        "html_url": "https://github.com/Likvido/Likvido.Worker.AzureStorageQueue.git",
+        "new_commit_id": "e4f6e76a7a00c2d0b3b7a2808a548019cb7b4f9b",
+        "new_version": "12.4.2",
+        "old_commit_id": "bc5cf6a66ffecabec86b32eafd2ea453e3bc90ab",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "YabaAPI",
+        "five_day_commit": "54fad4834d83fd91374b7b16da94180e01680d7a",
+        "html_url": "https://github.com/Titowisk/YabaAPI.git",
+        "new_commit_id": "f87e48a5e93f0806e3aab4a06317c0f8e6228ca1",
+        "new_version": "12.5.0",
+        "old_commit_id": "b919a604f32d66fa93928fe73293fd9d85f083e1",
+        "old_version": "12.4.1"
+    },
+    {
+        "client_name": "Enterprise-Serverless-Demo",
+        "five_day_commit": "e1cb5cb2f5d6924c767f45ff0301aa5d73755e64",
+        "html_url": "https://github.com/calloncampbell/Enterprise-Serverless-Demo.git",
+        "new_commit_id": "b7780b8f642992ffb980c21b2c0a06a72da4c732",
+        "new_version": "12.4.2",
+        "old_commit_id": "1628b38489e27fe64b1f85a03db517be5649e528",
+        "old_version": "12.4.1"
+    },
+    {
+        "client_name": "Enterprise-Serverless-Demo",
+        "five_day_commit": "726f21e4c056ba0fb076178d96379b87e7b377ff",
+        "html_url": "https://github.com/calloncampbell/Enterprise-Serverless-Demo.git",
+        "new_commit_id": "4edae814398d196e4720fdaa53edc7ea681e3147",
+        "new_version": "12.4.1",
+        "old_commit_id": "e476d86a8ac1370623a9b18f8338e389a14b2419",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "azurequeue",
+        "five_day_commit": "eca71fc82ab0363926e674b898d4d97f28c8f314",
+        "html_url": "https://github.com/sumitringane/azurequeue.git",
+        "new_commit_id": "5b29c6351474e4eb7c9a4db06de01e39d18aa626",
+        "new_version": "12.3.2",
+        "old_commit_id": "e26eb02d64cadd23a9f34677b4eaebc438e4dcbb",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "Alpakka",
+        "five_day_commit": "8dc308758324f6d6ab77a4dc15ad885a6838779a",
+        "html_url": "https://github.com/akkadotnet/Alpakka.git",
+        "new_commit_id": "6df9f423fbb05fadebae30ad98104b1d52275f2d",
+        "new_version": "12.6.0",
+        "old_commit_id": "3b3d1d1299370935e78dd57850a1bb6102f01cf3",
+        "old_version": "12.5.0"
+    },
+    {
+        "client_name": "Alpakka",
+        "five_day_commit": "5428617402cec83582a27ff4d300ebef54ff02c3",
+        "html_url": "https://github.com/akkadotnet/Alpakka.git",
+        "new_commit_id": "5428617402cec83582a27ff4d300ebef54ff02c3",
+        "new_version": "12.5.0",
+        "old_commit_id": "8714200e1fc16f8b05dfcb6a472eeea6099d02a5",
+        "old_version": "12.4.2"
+    },
+    {
+        "client_name": "Alpakka",
+        "five_day_commit": "26a9e78fd778fc7b9090a182db34bc685dee2c07",
+        "html_url": "https://github.com/akkadotnet/Alpakka.git",
+        "new_commit_id": "768820fd6c1f10e8a21bd875447abbd482ec44b8",
+        "new_version": "12.4.2",
+        "old_commit_id": "e5ab89b9862f17a3512fe2ca2bfc149c9a36cbd7",
+        "old_version": "12.4.1"
+    },
+    {
+        "client_name": "Alpakka",
+        "five_day_commit": "87945e6ae9027c37dcdb78fac1ac9530430a625e",
+        "html_url": "https://github.com/akkadotnet/Alpakka.git",
+        "new_commit_id": "2ca54566cf8db485a9fa69a08f5378fb212570f6",
+        "new_version": "12.4.1",
+        "old_commit_id": "c69aa0f837c2757c734eee37e96665cf0da31e44",
+        "old_version": "12.4.0"
+    },
+    {
+        "client_name": "Alpakka",
+        "five_day_commit": "c69aa0f837c2757c734eee37e96665cf0da31e44",
+        "html_url": "https://github.com/akkadotnet/Alpakka.git",
+        "new_commit_id": "3bb6f01d37ccca7c84684c98bf318e03ef1524fd",
+        "new_version": "12.4.0",
+        "old_commit_id": "9da67a09b173fe8db0a581f02e4cb4ab31f03cc2",
+        "old_version": "12.3.2"
+    },
+    {
+        "client_name": "Printo",
+        "five_day_commit": "b87d52a9b1f34ed3b818f5d7ac14e04b66178223",
+        "html_url": "https://github.com/michalSRT/Printo.git",
+        "new_commit_id": "6deb17b11ab6323e681c05eb652807406bedf3df",
+        "new_version": "12.4.2",
+        "old_commit_id": "2d2f544660c8ef9a7de53c17dc7bcd1de6c5bba3",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "Shuttle.Esb.AzureMQ",
+        "five_day_commit": "021487aafeadc78953300a6eacc9c18a8cfafac1",
+        "html_url": "https://github.com/Shuttle/Shuttle.Esb.AzureMQ.git",
+        "new_commit_id": "021487aafeadc78953300a6eacc9c18a8cfafac1",
+        "new_version": "12.6.0",
+        "old_commit_id": "b353e0b68bb0251039b738e4ccb2ebf08a9bb364",
+        "old_version": "12.4.2"
+    },
+    {
+        "client_name": "irwene-discord-bot",
+        "five_day_commit": "d5881be68952305022a186e39e7c592002992dd1",
+        "html_url": "https://github.com/sidewinder94/irwene-discord-bot.git",
+        "new_commit_id": "a2b19626d540f3bb057c1e4835b61afe48a86d1c",
+        "new_version": "12.5.0",
+        "old_commit_id": "0b6eead53612abe744f369905328ae9311068a16",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "feedreader",
+        "five_day_commit": "93f04c4717dbf5ea532a0dca1ca6cabec2fe8d42",
+        "html_url": "https://github.com/justforfun-click/feedreader.git",
+        "new_commit_id": "858dcf9ea69d3134d154a851ce4e00d16f2b3fb9",
+        "new_version": "12.5.0",
+        "old_commit_id": "7d67a8023009b54b8e4f63fa421250854d4333bb",
+        "old_version": "12.4.2"
+    },
+    {
+        "client_name": "laget.Azure.Enqueuer",
+        "five_day_commit": "fcae89e80e2b41ea64b2c0329236f52d1b86ba5e",
+        "html_url": "https://github.com/laget-se/laget.Azure.Enqueuer.git",
+        "new_commit_id": "fcae89e80e2b41ea64b2c0329236f52d1b86ba5e",
+        "new_version": "12.5.0",
+        "old_commit_id": "b58ebd26258f9e809cec2df23774b57e9b510be4",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "laget.Azure.Enqueuer",
+        "five_day_commit": "fcae89e80e2b41ea64b2c0329236f52d1b86ba5e",
+        "html_url": "https://github.com/laget-se/laget.Azure.Enqueuer.git",
+        "new_commit_id": "2fa90049f2ce4d460f11cbc7b98c0e81457ce69d",
+        "new_version": "12.0.0",
+        "old_commit_id": "8aa97c1d59ee493bd48205f46d39e4451353b53b",
+        "old_version": "12.0.0"
+    },
+    {
+        "client_name": "eqarchives-searchui",
+        "five_day_commit": "d31059ebb355bfc8ab384cd0b601765df76c2e19",
+        "html_url": "https://github.com/dbsanfte/eqarchives-searchui.git",
+        "new_commit_id": "70f1815a9ca526de53418f5d34c8b3bfecf66a08",
+        "new_version": "12.5.0",
+        "old_commit_id": "43fa244f15995da9b0ac77953ca3b0a490cc1e86",
+        "old_version": "12.2.0"
+    },
+    {
+        "client_name": "MondoCore",
+        "five_day_commit": "371ea52bc3aa7f016f1c44553a3ee84973d184ee",
+        "html_url": "https://github.com/jim-lightfoot/MondoCore.git",
+        "new_commit_id": "5766959f89f5d8ea76783c4214f71b4c61a5f5ab",
+        "new_version": "12.5.0",
+        "old_commit_id": "e43e766eaace24831d5e1ea83877679ee6bf6d5e",
+        "old_version": "12.4.2"
+    },
+    {
+        "client_name": "NET-Core-API-Boilerplate",
+        "five_day_commit": "3461ea0a9ce30e0a58f2f2c118f81e1446f75b5c",
+        "html_url": "https://github.com/bervProject/NET-Core-API-Boilerplate.git",
+        "new_commit_id": "6a4b2045c54d0e4b7aea2c64690cccdd58a01339",
+        "new_version": "12.6.0",
+        "old_commit_id": "7edb97f1f61ffddb818bcac9c6926b654bc1942f",
+        "old_version": "12.5.0"
+    }
+]

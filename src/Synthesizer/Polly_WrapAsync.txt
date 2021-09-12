@@ -1,0 +1,12 @@
+Configuration: 
+---- UseAdditionalOutput: False
+---- UseAdditionalInput : False
+---- OnlyNewUsage       : False
+---- GivenExample       : 1
+---- UseTypedUsage      : False
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.1
+---- NewUsageThreashold : 0.25
+---- Validate           : True
+load 5 relevant edits!

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.8.0" />
+      <PackageReference Include="Json.Net" Version="1.0.23" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+      <PackageReference Include="Microsoft.ProgramSynthesis" Version="7.25.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="NuGet.Frameworks" Version="5.8.1" />
+      <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+      <PackageReference Include="xUnit" Version="2.4.0" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.2">
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+          <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+	  
+	  <PackageReference Include="Microsoft.Build.Locator" Version="1.4.1" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.9.0-4.final" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="3.9.0-4.final" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces" Version="3.9.0-4.final" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.MSBuild" Version="3.9.0-4.final" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+	<Target Name="DoNotCopyMSBuildDependencies" AfterTargets="ResolveAssemblyReferences">
+		<ItemGroup>
+			<ReferenceCopyLocalPaths Remove="@(ReferenceCopyLocalPaths)" Condition="'%(Filename)%(Extension)' == 'Microsoft.Build.dll'&#xD;&#xA;                                          OR '%(Filename)%(Extension)' == 'Microsoft.Build.Framework.dll'&#xD;&#xA;									      OR '%(Filename)%(Extension)' == 'Microsoft.Build.Tasks.Core.dll'&#xD;&#xA;                                          OR '%(Filename)%(Extension)' == 'Microsoft.Build.Utilities.Core.dll'" />
+		</ItemGroup>
+	</Target>
+
+</Project>

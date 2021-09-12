@@ -1,0 +1,332 @@
+load 3 relevant edits!
+load 867 old relevant usages
+invoke synthesis engine...
+old usage sise 867, new usage size 0
+the size of unRolledEdits is: 3
+size of new usage: 0
+add old usage var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : retry => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, ctx) => { logger.LogTrace($"Exception {exception.GetType().Name} with message ${exception.Message} detected on attempt {retry} of {retries}"); });
+add old usage var policy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, i => TimeSpan.FromMilliseconds(i * retryTimeoutRatioMs));
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+add old usage RetryPolicy < HttpResponseMessage > retryPolicy = Policy.Handle < HttpRequestException >().OrResult < HttpResponseMessage >(r => r.StatusCode == TooManyRequests).WaitAndRetryAsync(MaxAbsoluteLinkRetry, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)));
+add old usage RetryPolicy < HttpResponseMessage > retryPolicy = Policy.Handle < HttpRequestException >().OrResult < HttpResponseMessage >(r => r.StatusCode == TooManyRequests).WaitAndRetryAsync(MaxAbsoluteLinkRetry, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)));
+add old usage IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Hub, because of exception {exception}"); });
+add old usage var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Edge Module, because of exception {exception}"); });
+add old usage var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Hub, because of exception {exception}"); });
+add old usage var policy = RetryPolicy.Handle < Exception >().WaitAndRetryAsync(_pTimeSpans,(ex, time, context) => { _logger.Error("Subscribe/RetryPolicy", "EventBusRabbitMQ", $"message:{ea.Body}--count:{context.Count}--time:{time}", ex); });
+add old usage IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : retry => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, ctx) => { logger.LogWarning(exception, "[{prefix}] Exception {ExceptionType} with message {Message} detected on attempt {retry} of {retries}", prefix, exception.GetType().Name, exception.Message, retry, retries); });
+add old usage IAsyncPolicy < HttpResponseMessage > HttpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(rsp => ValidRetry.Contains(rsp.StatusCode)).WaitAndRetryAsync(0, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt) / 2));
+add old usage var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { _logger.Warn(ex.ToString()); });
+add old usage var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { });
+add old usage var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { _logger.Warn(ex.ToString()); });
+add old usage var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+add old usage IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, x => TimeSpan.FromSeconds(3));
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)), onRetry :(exception, calculatedWaitDuration, attempt, context) => { Console.ForegroundColor = ConsoleColor.Yellow; Console.WriteLine("\tException: " + exception.Message); Console.WriteLine("\tRetry #" + attempt); Console.WriteLine("\t... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Console.ForegroundColor = ConsoleColor.White; if(context.ContainsKey("retry"))(context["retry"] as RetryCounter).Value = attempt; });
+add old usage AsyncRetryPolicy < HttpResponseMessage > retryPolicy = HttpPolicyExtensions.HandleTransientHttpError().OrResult(r => r.StatusCode == HttpStatusCode.NotFound).WaitAndRetryAsync(new[] { TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(5), TimeSpan.FromSeconds(10) },(x, i) => x.Result.Dispose());
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+add old usage Policy exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+add old usage Policy exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+add old usage var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : x => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, context) => { logger.LogWarning(exception, "[{prefix}] Exception {ExceptionType} with message {Message} detected on attempt {retry} of {retries}", prefix, exception.GetType().Name, exception.Message, retry, retries); });
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+add old usage var policy = Policy.Handle < WebException >().WaitAndRetryAsync(5, a => TimeSpan.FromMilliseconds(200));
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(10, retryAttempt => TimeSpan.FromSeconds(300));
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(5));
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMinutes(1), onRetry :(exception, calculatedWaitDuration) => { Console.WriteLine("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { System.Diagnostics.Debug.WriteLine("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+add old usage var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 5, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(2000), onRetry :(exception, calculatedWaitDuration) => { Log4NetLogger.LogDebug(string.Format("{0}下载异常，开始下载重试！\r\n{1}", strFileName, exception.Message)); });
+add old usage var policy = Policy.Handle < RateLimitExceededException >().WaitAndRetryAsync(5, retry => TimeSpan.FromSeconds(Math.Pow(2, retry)));
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, attempt => TimeSpan.FromMilliseconds(200),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Policy logging: " + exception.Message, Color.Yellow)); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(20, attempt => TimeSpan.FromMilliseconds(200),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Policy logging: " + exception.Message, Color.Yellow)); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Exception: " + exception.Message, Color.Yellow)); progress.Report(ProgressWithMessage(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms.", Color.Yellow)); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 20, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Exception: " + exception.Message, ConsoleColor.Yellow); ConsoleHelper.WriteLineInColor(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms.", ConsoleColor.Yellow); retries ++; });
+add old usage var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 5, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(2000), onRetry :(exception, calculatedWaitDuration) => { Logger.Log($"下载[{downloadUrl}时，发生异常，正在进行重试下载]", Category.Warn, Priority.High); });
+add old usage Policy policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+add old usage var policy = Policy.Handle < AdalException >(ex => ex.ErrorCode == "temporarily_unavailable").WaitAndRetryAsync(3, a => TimeSpan.FromSeconds(3));
+add old usage Policy policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+============== Cluster start ==============
+- Policy policy = Policy
+                .Handle<DivideByZeroException>()
+                .WaitAndRetryAsync(new[]
+                {
+                    1.Seconds(),
+                    2.Seconds(),
+                    3.Seconds()
+                }, (_, __, context) => contextData = context);
+----------------
++ var policy = Policy
+                .Handle<DivideByZeroException>()
+                .WaitAndRetryAsync(new[]
+                {
+                    1.Seconds(),
+                    2.Seconds(),
+                    3.Seconds()
+                }, (_, __, context) => contextData = context);
+
+- Policy policy = Policy
+                .Handle<DivideByZeroException>()
+                .WaitAndRetryAsync(new[]
+                {
+                    1.Seconds(),
+                    2.Seconds(),
+                    3.Seconds()
+                }, (_, __, context) => capturedContext = context);
+----------------
++ var policy = Policy
+                .Handle<DivideByZeroException>()
+                .WaitAndRetryAsync(new[]
+                {
+                    1.Seconds(),
+                    2.Seconds(),
+                    3.Seconds()
+                }, (_, __, context) => capturedContext = context);
+
+- Policy policy = Policy
+                .Handle<DivideByZeroException>()
+                .WaitAndRetryAsync(new[]
+                {
+                    1.Seconds()
+                },
+                (_, __, context) => contextValue = context["key"].ToString());
+----------------
++ var policy = Policy
+                .Handle<DivideByZeroException>()
+                .WaitAndRetryAsync(new[]
+                {
+                    1.Seconds()
+                },
+                (_, __, context) => contextValue = context["key"].ToString());
+
+old usages: var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : retry => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, ctx) => { logger.LogTrace($"Exception {exception.GetType().Name} with message ${exception.Message} detected on attempt {retry} of {retries}"); });
+old usages: var policy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, i => TimeSpan.FromMilliseconds(i * retryTimeoutRatioMs));
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+old usages: RetryPolicy < HttpResponseMessage > retryPolicy = Policy.Handle < HttpRequestException >().OrResult < HttpResponseMessage >(r => r.StatusCode == TooManyRequests).WaitAndRetryAsync(MaxAbsoluteLinkRetry, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)));
+old usages: RetryPolicy < HttpResponseMessage > retryPolicy = Policy.Handle < HttpRequestException >().OrResult < HttpResponseMessage >(r => r.StatusCode == TooManyRequests).WaitAndRetryAsync(MaxAbsoluteLinkRetry, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)));
+old usages: IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Hub, because of exception {exception}"); });
+old usages: var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Edge Module, because of exception {exception}"); });
+old usages: var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Hub, because of exception {exception}"); });
+old usages: var policy = RetryPolicy.Handle < Exception >().WaitAndRetryAsync(_pTimeSpans,(ex, time, context) => { _logger.Error("Subscribe/RetryPolicy", "EventBusRabbitMQ", $"message:{ea.Body}--count:{context.Count}--time:{time}", ex); });
+old usages: IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : retry => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, ctx) => { logger.LogWarning(exception, "[{prefix}] Exception {ExceptionType} with message {Message} detected on attempt {retry} of {retries}", prefix, exception.GetType().Name, exception.Message, retry, retries); });
+old usages: IAsyncPolicy < HttpResponseMessage > HttpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(rsp => ValidRetry.Contains(rsp.StatusCode)).WaitAndRetryAsync(0, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt) / 2));
+old usages: var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { _logger.Warn(ex.ToString()); });
+old usages: var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { });
+old usages: var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { _logger.Warn(ex.ToString()); });
+old usages: var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+old usages: IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, x => TimeSpan.FromSeconds(3));
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)), onRetry :(exception, calculatedWaitDuration, attempt, context) => { Console.ForegroundColor = ConsoleColor.Yellow; Console.WriteLine("\tException: " + exception.Message); Console.WriteLine("\tRetry #" + attempt); Console.WriteLine("\t... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Console.ForegroundColor = ConsoleColor.White; if(context.ContainsKey("retry"))(context["retry"] as RetryCounter).Value = attempt; });
+old usages: AsyncRetryPolicy < HttpResponseMessage > retryPolicy = HttpPolicyExtensions.HandleTransientHttpError().OrResult(r => r.StatusCode == HttpStatusCode.NotFound).WaitAndRetryAsync(new[] { TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(5), TimeSpan.FromSeconds(10) },(x, i) => x.Result.Dispose());
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+old usages: Policy exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+old usages: Policy exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+old usages: var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : x => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, context) => { logger.LogWarning(exception, "[{prefix}] Exception {ExceptionType} with message {Message} detected on attempt {retry} of {retries}", prefix, exception.GetType().Name, exception.Message, retry, retries); });
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+old usages: var policy = Policy.Handle < WebException >().WaitAndRetryAsync(5, a => TimeSpan.FromMilliseconds(200));
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(10, retryAttempt => TimeSpan.FromSeconds(300));
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(5));
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMinutes(1), onRetry :(exception, calculatedWaitDuration) => { Console.WriteLine("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { System.Diagnostics.Debug.WriteLine("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+old usages: var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 5, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(2000), onRetry :(exception, calculatedWaitDuration) => { Log4NetLogger.LogDebug(string.Format("{0}下载异常，开始下载重试！\r\n{1}", strFileName, exception.Message)); });
+old usages: var policy = Policy.Handle < RateLimitExceededException >().WaitAndRetryAsync(5, retry => TimeSpan.FromSeconds(Math.Pow(2, retry)));
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, attempt => TimeSpan.FromMilliseconds(200),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Policy logging: " + exception.Message, Color.Yellow)); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(20, attempt => TimeSpan.FromMilliseconds(200),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Policy logging: " + exception.Message, Color.Yellow)); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Exception: " + exception.Message, Color.Yellow)); progress.Report(ProgressWithMessage(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms.", Color.Yellow)); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 20, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Exception: " + exception.Message, ConsoleColor.Yellow); ConsoleHelper.WriteLineInColor(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms.", ConsoleColor.Yellow); retries ++; });
+old usages: var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 5, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(2000), onRetry :(exception, calculatedWaitDuration) => { Logger.Log($"下载[{downloadUrl}时，发生异常，正在进行重试下载]", Category.Warn, Priority.High); });
+old usages: Policy policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+old usages: var policy = Policy.Handle < AdalException >(ex => ex.ErrorCode == "temporarily_unavailable").WaitAndRetryAsync(3, a => TimeSpan.FromSeconds(3));
+old usages: Policy policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+============= Cluster end ==============
+
+Input to synthesize the program:
+Policy policy = Policy.Handle < DivideByZeroException >().WaitAndRetryAsync(new[] { 1.Seconds(), 2.Seconds(), 3.Seconds() },(_, __, context) => contextData = context);
+---------------------
+var policy = Policy.Handle < DivideByZeroException >().WaitAndRetryAsync(new[] { 1.Seconds(), 2.Seconds(), 3.Seconds() },(_, __, context) => contextData = context);
+Policy policy = Policy.Handle < DivideByZeroException >().WaitAndRetryAsync(new[] { 1.Seconds(), 2.Seconds(), 3.Seconds() },(_, __, context) => capturedContext = context);
+---------------------
+var policy = Policy.Handle < DivideByZeroException >().WaitAndRetryAsync(new[] { 1.Seconds(), 2.Seconds(), 3.Seconds() },(_, __, context) => capturedContext = context);
+predict is var policy = Policy.Handle < DivideByZeroException >().WaitAndRetryAsync(new[] { 1.Seconds() },(_, __, context) => contextValue = context["key"].ToString());
+output  is var policy = Policy.Handle < DivideByZeroException >().WaitAndRetryAsync(new[] { 1.Seconds() },(_, __, context) => contextValue = context["key"].ToString());
+----------------------------------------------------
+old usage is var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : retry => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, ctx) => { logger.LogTrace($"Exception {exception.GetType().Name} with message ${exception.Message} detected on attempt {retry} of {retries}"); });
+predict is null
+old usage is var policy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, i => TimeSpan.FromMilliseconds(i * retryTimeoutRatioMs));
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+predict is null
+old usage is RetryPolicy < HttpResponseMessage > retryPolicy = Policy.Handle < HttpRequestException >().OrResult < HttpResponseMessage >(r => r.StatusCode == TooManyRequests).WaitAndRetryAsync(MaxAbsoluteLinkRetry, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)));
+predict is null
+old usage is RetryPolicy < HttpResponseMessage > retryPolicy = Policy.Handle < HttpRequestException >().OrResult < HttpResponseMessage >(r => r.StatusCode == TooManyRequests).WaitAndRetryAsync(MaxAbsoluteLinkRetry, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)));
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Hub, because of exception {exception}"); });
+predict is null
+old usage is var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Edge Module, because of exception {exception}"); });
+predict is null
+old usage is var policy = Policy.Handle < TimeoutException >().Or < DeviceMessageLockLostException >().Or < IotHubCommunicationException >().Or < IotHubThrottledException >().Or < ServerBusyException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(exception, span, retryCount, context) => { _logger.Warn(exception, $"Retry {retryCount}/{5} sending to IoT Hub, because of exception {exception}"); });
+predict is null
+old usage is var policy = RetryPolicy.Handle < Exception >().WaitAndRetryAsync(_pTimeSpans,(ex, time, context) => { _logger.Error("Subscribe/RetryPolicy", "EventBusRabbitMQ", $"message:{ea.Body}--count:{context.Count}--time:{time}", ex); });
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : retry => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, ctx) => { logger.LogWarning(exception, "[{prefix}] Exception {ExceptionType} with message {Message} detected on attempt {retry} of {retries}", prefix, exception.GetType().Name, exception.Message, retry, retries); });
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > HttpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(rsp => ValidRetry.Contains(rsp.StatusCode)).WaitAndRetryAsync(0, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt) / 2));
+predict is null
+old usage is var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { _logger.Warn(ex.ToString()); });
+predict is null
+old usage is var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { });
+predict is null
+old usage is var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { _logger.Warn(ex.ToString()); });
+predict is null
+old usage is var policy = Policy.Handle < BrokerUnreachableException >().Or < SocketException >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),(ex, time) => { });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is IAsyncPolicy < HttpResponseMessage > httWaitAndpRetryPolicy = Policy.HandleResult < HttpResponseMessage >(r => ! r.IsSuccessStatusCode).WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, x => TimeSpan.FromSeconds(3));
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)), onRetry :(exception, calculatedWaitDuration, attempt, context) => { Console.ForegroundColor = ConsoleColor.Yellow; Console.WriteLine("\tException: " + exception.Message); Console.WriteLine("\tRetry #" + attempt); Console.WriteLine("\t... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Console.ForegroundColor = ConsoleColor.White; if(context.ContainsKey("retry"))(context["retry"] as RetryCounter).Value = attempt; });
+predict is null
+old usage is AsyncRetryPolicy < HttpResponseMessage > retryPolicy = HttpPolicyExtensions.HandleTransientHttpError().OrResult(r => r.StatusCode == HttpStatusCode.NotFound).WaitAndRetryAsync(new[] { TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(5), TimeSpan.FromSeconds(10) },(x, i) => x.Result.Dispose());
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+predict is null
+old usage is Policy exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+predict is var exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+old usage is Policy exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+predict is var exponentialRetryPolicy = Policy.Handle < TException >().WaitAndRetryAsync(retryCount, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+old usage is var policy = Policy.Handle < SqlException >().WaitAndRetryAsync(retryCount : retries, sleepDurationProvider : x => TimeSpan.FromSeconds(5), onRetry :(exception, timeSpan, retry, context) => { logger.LogWarning(exception, "[{prefix}] Exception {ExceptionType} with message {Message} detected on attempt {retry} of {retries}", prefix, exception.GetType().Name, exception.Message, retry, retries); });
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+predict is null
+old usage is var policy = Policy.Handle < WebException >().WaitAndRetryAsync(5, a => TimeSpan.FromMilliseconds(200));
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(10, retryAttempt => TimeSpan.FromSeconds(300));
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(5));
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { Log.Warning("Exception: " + exception.Message); Log.Warning(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms."); Log.Debug(exception, exception.Message); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMinutes(1), onRetry :(exception, calculatedWaitDuration) => { Console.WriteLine("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { System.Diagnostics.Debug.WriteLine("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(2, retrytime => TimeSpan.FromSeconds(Math.Pow(2, retrytime)),(exception, timespan) => { onError.Invoke(exception); });
+predict is null
+old usage is var policy = Policy.Handle < HttpRequestException >().WaitAndRetryAsync(3, retryAttempt => { var waitSeconds = TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1)); Console.WriteLine(DateTime.Now.ToString() + "-Retry:[" + retryAttempt + "], wait " + waitSeconds + "s..."); return waitSeconds; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 5, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(2000), onRetry :(exception, calculatedWaitDuration) => { Log4NetLogger.LogDebug(string.Format("{0}下载异常，开始下载重试！\r\n{1}", strFileName, exception.Message)); });
+predict is null
+old usage is var policy = Policy.Handle < RateLimitExceededException >().WaitAndRetryAsync(5, retry => TimeSpan.FromSeconds(Math.Pow(2, retry)));
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(3, attempt => TimeSpan.FromMilliseconds(200),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Policy logging: " + exception.Message, Color.Yellow)); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(20, attempt => TimeSpan.FromMilliseconds(200),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Policy logging: " + exception.Message, Color.Yellow)); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { progress.Report(ProgressWithMessage("Exception: " + exception.Message, Color.Yellow)); progress.Report(ProgressWithMessage(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms.", Color.Yellow)); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 3, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 20, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(200), onRetry :(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Policy logging: " + exception.Message, ConsoleColor.Yellow); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(6, attempt => TimeSpan.FromSeconds(0.1 * Math.Pow(2, attempt)),(exception, calculatedWaitDuration) => { ConsoleHelper.WriteLineInColor("Exception: " + exception.Message, ConsoleColor.Yellow); ConsoleHelper.WriteLineInColor(" ... automatically delaying for " + calculatedWaitDuration.TotalMilliseconds + "ms.", ConsoleColor.Yellow); retries ++; });
+predict is null
+old usage is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(retryCount : 5, sleepDurationProvider : attempt => TimeSpan.FromMilliseconds(2000), onRetry :(exception, calculatedWaitDuration) => { Logger.Log($"下载[{downloadUrl}时，发生异常，正在进行重试下载]", Category.Warn, Priority.High); });
+predict is null
+old usage is Policy policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+predict is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+old usage is var policy = Policy.Handle < AdalException >(ex => ex.ErrorCode == "temporarily_unavailable").WaitAndRetryAsync(3, a => TimeSpan.FromSeconds(3));
+predict is null
+old usage is Policy policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+predict is var policy = Policy.Handle < Exception >().WaitAndRetryAsync(polly_retry_count, i => polly_pauseBetweenFailures,(exception, timeSpan, context) => { Console.WriteLine("retrying"); });
+total correct cases : 1 totalTestCases 1 Successful rate is 1

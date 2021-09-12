@@ -1,0 +1,178 @@
+Configuration: 
+---- UseAdditionalOutput: True
+---- UseAdditionalInput : False
+---- OnlyNewUsage       : False
+---- GivenExample       : 2
+---- UseTypedUsage      : True
+---- NewKeyWords        : 
+---- OldKeyWords        : 
+---- OldUsageThreashold : 0.15
+---- NewUsageThreashold : 0.25
+load 1 relevant edits!
+load 33 old relevant usages
+load 18 new relevant usages
+Log: invoke synthesis engine...
+Log: the size of unRolledEdits is: 2
+size of new usage: 18
+Log: add new usage postProcessor.Process(request, response, cancellationToken)
+Log: add new usage postProcessor.Process(request, response, cancellationToken)
+Log: add new usage postProcessor.Process(request, response, cancellationToken)
+Log: add new usage processor.Process(_request, _response, default)
+Log: add new usage p.Process(_request, _response, default)
+Log: add new usage processor.Process(_request, _response, default)
+Log: add new usage p.Process(_request, _response, default)
+Log: add new usage processor.Process(_request, _response, default)
+Log: add new usage p.Process(_request, _response, default)
+Log: add new usage postProcessor.Process(request, response, cancellationToken)
+Log: add new usage postProcessor.Process(request, response, cancellationToken)
+Log: add new usage postProcessor.Process(request, response, cancellationToken)
+Log: add new usage processor.Process(_request, _response, default)
+Log: add new usage p.Process(_request, _response, default)
+Log: add new usage processor.Process(_request, _response, default)
+Log: add new usage p.Process(_request, _response, default)
+Log: add new usage processor.Process(_request, _response, default)
+Log: add new usage p.Process(_request, _response, default)
+Log: add old usage processor.Process(request, response)
+Log: add old usage processor.Process(request, cancellationToken)
+Log: add old usage subject.Process(request, response)
+Log: add old usage subject.Process(request, response)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, response)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage this.subject.Process(request, response)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, response)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: add old usage subject.Process(request, default)
+Log: ============== Cluster start ==============
+- await processor.Process(request, response).ConfigureAwait(false);
+----------------
++ await processor.Process(request, response, cancellationToken).ConfigureAwait(false);
+
+============= Cluster end ==============
+
+Log: ============== Cluster start ==============
+processor.Process(request, response)
+----------------
+processor.Process(request, response, cancellationToken)
+
+new usages: postProcessor.Process(request, response, cancellationToken)
+new usages: processor.Process(_request, _response, default)
+new usages: p.Process(_request, _response, default)
+old usages: processor.Process(request, response)
+old usages: processor.Process(request, cancellationToken)
+old usages: subject.Process(request, response)
+old usages: subject.Process(request, response)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, response)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: this.subject.Process(request, response)
+old usages: this.subject.Process(request, response)
+old usages: this.subject.Process(request, response)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: this.subject.Process(request, response)
+old usages: this.subject.Process(request, response)
+old usages: this.subject.Process(request, response)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: this.subject.Process(request, response)
+old usages: this.subject.Process(request, response)
+old usages: this.subject.Process(request, response)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, response)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+old usages: subject.Process(request, default)
+============= Cluster end ==============
+
+Log: generalized output is: processor.Process(request, response, cancellationToken)
+Interesting new usage: postProcessor.Process(request, response, cancellationToken)
+Log: Subsititution: response:Argument -> response:Argument
+Log: Subsititution: request:Argument -> request:Argument
+Log: Subsititution: processor:IdentifierName -> postProcessor:IdentifierName
+Correponding input: postProcessor.Process(request, response)
+Interesting new usage: processor.Process(_request, _response, default)
+Log: Subsititution: cancellationToken:IdentifierName -> default:DefaultLiteralExpression
+Log: Subsititution: response:Argument -> _response:Argument
+Log: Subsititution: request:Argument -> _request:Argument
+Log: Subsititution: processor:IdentifierName -> processor:IdentifierName
+Correponding input: processor.Process(_request, _response)
+Interesting new usage: p.Process(_request, _response, default)
+Log: Subsititution: cancellationToken:IdentifierName -> default:DefaultLiteralExpression
+Log: Subsititution: response:Argument -> _response:Argument
+Log: Subsititution: request:Argument -> _request:Argument
+Log: Subsititution: processor:IdentifierName -> p:IdentifierName
+Correponding input: p.Process(_request, _response)
+Log: Input to synthesize the program:
+Log: postProcessor.Process(request, response)
+Log: ---------------------
+Log: postProcessor.Process(request, response, cancellationToken)
+Log: processor.Process(_request, _response)
+Log: ---------------------
+Log: processor.Process(_request, _response, default)
+Log: p.Process(_request, _response)
+Log: ---------------------
+Log: p.Process(_request, _response, default)
+Log: processor.Process(request, response)
+Log: ---------------------
+Log: processor.Process(request, response, cancellationToken)
+Log: old usage is processor.Process(request, response)
+Log: predict is processor.Process(request, response, cancellationToken)
+Log: old usage is subject.Process(request, response)
+Log: predict is subject.Process(request, response, cancellationToken)
+Log: old usage is subject.Process(request, response)
+Log: predict is subject.Process(request, response, cancellationToken)
+Log: old usage is subject.Process(request, response)
+Log: predict is subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is this.subject.Process(request, response)
+Log: predict is this.subject.Process(request, response, cancellationToken)
+Log: old usage is subject.Process(request, response)
+Log: predict is subject.Process(request, response, cancellationToken)
+total correct cases : 0 totalTestCases 0 Successful rate is 0
+The successful rate for transforming old usages: 14 / 33
