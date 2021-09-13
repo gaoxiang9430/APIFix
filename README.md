@@ -5,98 +5,27 @@ to the new library version, since this can lead to over-fitting transformation r
 example usages of the new updated library in clients, which provide valuable context for synthesizing and
 applying the transformation rules.
 
-### How does it work?
+## Build ##
 
-
-### Build
-
-
-### Usage
+To install APIFix, you can either use our docker image or build it from source on Windows or Linux system. On Windows, you need to install Visual Studio with dotnet-sdk-5.0 and MSBUILD support. On linux, you need to install dotnet-runtime-5.0 and dotnet-sdk-5.0. Furthermore, it requires python3 library gitpython, alive-progress and PyGithub. To compile APIFix, simply run the following command:
 
 ```
-usage: crawler.py [-h] [-u USER] [-t TOKEN] repo author package
-
-positional arguments:
-  repo                  	the name of repository
-  author                	the name of repository author
-  package               	the package name
-
-optional arguments:
-  --only_latest             only mine the latest library version used by the clients
-  -u USER, --user USER  	the git user name for mining
-  -t TOKEN, --token TOKEN   token for mining
-  
-  -h, --help            	show this help message and exit
+cd src
+dotnet restore
+dotnet build
 ```
+To check your installation, you can run the test cases.
 
 ```
-usage: MineEdit.py [-h] -o OLD -n NEW name
-
-positional arguments:
-  name               the name of the library
-
-optional arguments:
-  -h, --help         show this help message and exit
-  -o OLD, --old OLD  the old library version
-  -n NEW, --new NEW  the new library versions
+dotnet test
 ```
 
-```
-usage: MineUsages.py [-h] [-l NAME] [-o OLD] [-n NEW] [-c COMPILATION]
+## Usage ##
+To use APIFix, there are two steps: (1) mining existing human adaptations for fixing breaking changes and the API usages (2) invoke synthesizer to automate API adaptations. The instructions on how to use our miner can be found in [doc/miner.md](doc/miner.md) and how to use the synthesizer is described in [doc/synthesizer.md](doc/synthesizer.md)
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -l NAME, --name NAME  the name of the library
-  -o OLD, --only-old OLD
-                        only the old library versions
-  -n NEW, --only-new NEW
-                        only the new library versions
-  -c COMPILATION, --compilation-mode COMPILATION
-                        find usages only in compilation mode
-```
 
-```
-usage: CSharpEngine.exe -l LIBRARY -m OLD_VERSION -n NEW_VERSION [OPTIONS]
+## Publication ##
+**APIFix: Output-Oriented Program Synthesis for Combating Breaking Changes in Libraries**<br> [[pdf]](https://www.comp.nus.edu.sg/~gaoxiang/papers/APIFix.pdf)<br>
+Xiang Gao, Arjun Radhakrishna, Gustavo Soares, Ridwan Shariffdeen, Sumit Gulwani, Abhik Roychoudhury 
+*Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA) 2021*
 
-options:
-  -l, --libraryName    Required. The name of library.
-  -m, --oldLib         Required. The old version of library.
-  -n, --newLib         Required. The new version of library.
-
-  -i                   Extract relevent edit from library update itself.
-
-  -c, --clientName     The name of the client.
-  -s, --oldClient      The old version of client.
-  -t, --newClient      The new version of client.
-
-  -z                   Extract old/new usages.
-
-  -y                   Compliation mode
-  -p, --sln            The path to the sln file.
-
-  -v, --verbose        Set output to verbose messages.
-  --help               Display this help screen.
-  --version            Display version information.
-```
-
-```
-Synthesizer.exe -l LIBRARY -m OLD_VERSION -n NEW_VERSION [OPTIONS]
-
-options:
-  -l, --libraryName         Required. The name of library.
-  -m, --oldLib              Required. The old version of library.
-  -n, --newLib              Required. The new version of library.
-
-  -s, --TargetAPI           Required. The name of old target API for fixing.
-  -t, --TargetAPI           The name of new target API for fixing.
-
-  --t1                      (Default: 0.15) The threshold for old usages [0, 1].
-  --t2                      (Default: 0.25) The threshold for new usages [0, 1].
-
-  -o, --additionalOutput    (Default: false) Use additionalOutput when synthesizing adaptation rule.
-  -i, --additionalInput     (Default: false) Use additionalInput when synthesizing adaptation rule.
-
-  -v, --verbose             Set output to Global.verbose messages.
-  --help                    Display this help screen.
-  --version                 Display version information.
-```

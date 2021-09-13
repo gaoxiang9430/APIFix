@@ -2,8 +2,8 @@
   "profiles": {
     "CSharpEngine": {
       "commandName": "Project",
-      "commandLineArgs": " -l Polly -m 6.1.2 -n 7.0.0 -c ServiceFabricGateway -s 6105e0 -t 6949f3",
-      "workingDirectory": "D:\\workspace\\breaking-changes\\src\\CSharpEngine"
+      "commandLineArgs": "-l MediatR -m 6.0.0 -n 7.0.0 -i -y -p MediatR.sln",
+      "workingDirectory": "D:\\workspace\\APIFix\\src\\CSharpEngine"
     }
   }
 }

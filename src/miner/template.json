@@ -1,0 +1,11 @@
+{
+    "library": "MediatR",
+    "source": "v6.0.0",
+    "target": "v7.0.0",
+    "old_apis": [
+        "Process"
+    ],
+    "new_apis": [
+        "Process"
+    ]
+}

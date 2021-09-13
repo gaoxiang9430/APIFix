@@ -169,8 +169,8 @@ namespace CSharpEngine{
                 outputFile.Write(json_content);
         }
 
-        public static List<string> loadInterestingAPI(string library, string source, string target, string version) {
-            var metadataFile = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "benchmark", "interesting_api.json");
+        public static List<string> loadInterestingAPI(string library, string source, string target, string version, string metadataFile) {
+            //var metadataFile = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "benchmark", "interesting_api.json");
             List<InterestingApi> interestingApis = JsonConvert.DeserializeObject<List<InterestingApi>>(File.ReadAllText(metadataFile));
             foreach (var interestingApi in interestingApis) {
                 if (interestingApi.library.Equals(library) && interestingApi.source.Equals(source) && interestingApi.target.Equals(target)) {

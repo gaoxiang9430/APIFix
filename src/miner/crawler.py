@@ -259,15 +259,15 @@ class Miner:
         version_out.close()
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Mining breaking changes.')
+    parser = argparse.ArgumentParser(description='Mine clients of a github library.')
     parser.add_argument('repo', type=str, help='the name of repository')
     parser.add_argument('author', type=str, help='the name of repository author')
     parser.add_argument('package', type=str, help='the name of package')
     parser.add_argument('-i', '--id', type=str, default=None, help='the id of the repo')
     parser.add_argument('-u', '--user', type=str, default=None, help='the git user name for mining')
     parser.add_argument('-t', '--token', type=str, default=None, help='token for mining')
-    parser.add_argument('--only_latest', nargs='?',
-                        const=True, default=False, help='only mine the latest library version used by the clients')
+    parser.add_argument('--only-latest', dest="only_latest", action="store_true", 
+                        help='only mine the latest library version used by the clients')
 
     args = parser.parse_args()
     if len(args.repo) <= 0 or len(args.author) <= 0:

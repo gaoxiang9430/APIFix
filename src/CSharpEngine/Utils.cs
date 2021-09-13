@@ -51,7 +51,10 @@ namespace CSharpEngine {
     public class Utils{
         public static void LogTest(string message){
             using (var writer = new System.IO.StreamWriter(System.Console.OpenStandardOutput()))
-                writer.WriteLine(message);
+            {
+                DateTime localDate = DateTime.Now;
+                writer.WriteLine("[" + localDate.ToString() + "] " + message);
+            }
         }
 
         public static string GetMatchedFileFromGit(string newFp) {

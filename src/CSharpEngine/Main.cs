@@ -19,6 +19,7 @@ namespace CSharpEngine{
         public static string oldSlnPath, newSlnPath;
         public static string targetUsagesVersion = null;
         public static string saveEditPath;
+        public static string configurationFile = null;
 
         public class Options
         {
@@ -33,6 +34,9 @@ namespace CSharpEngine{
 
             [Option('l', "libraryName", Required = true, HelpText = "The name of library.")]
             public string LibraryName { get; set; }
+
+            [Option('f', "configurationFile", Required = true, HelpText = "The path to the metadata file.")]
+            public string configurationFile { get; set; }
 
             [Option('i', Required = false, HelpText = "Extract relevent edit from library update itself.")]
             public bool Itself { get; set; }
@@ -69,7 +73,11 @@ namespace CSharpEngine{
                 // filter out the irrelevant edit
                 var oldClasses = ExtractClasses(targetUsagesVersion);
                 Utils.LogTest("Extracting usage of API from client...");
-                var interestingApis = NodeFilter.loadInterestingAPI(libraryName, oldLibVersion, newLibVersion, targetUsagesVersion);
+                if (configurationFile == null) { 
+                    Utils.LogTest("Please specify the configuration file.");
+                    return 1;
+                }
+                var interestingApis = NodeFilter.loadInterestingAPI(libraryName, oldLibVersion, newLibVersion, targetUsagesVersion, configurationFile);
                 var relevantClient = NodeFilter.FilterClient(clientName, oldClasses, outputPath, cs, targetUsagesVersion, interestingApis);
                 return relevantClient ? 0 : 1;
             }
@@ -100,8 +108,9 @@ namespace CSharpEngine{
                 clientName = o.ClientName;
                 oldClientVersion = o.OldClient;
                 newClientVersion = o.NewClient;
+                configurationFile = o.configurationFile;
 
-                if(o.SlnPath != null)
+                if (o.SlnPath != null)
                     slnPath = o.SlnPath;
 
                 verbose = o.Verbose;
@@ -163,6 +172,7 @@ namespace CSharpEngine{
             }
             Config.oldPath = oldClientPath;
             Config.newPath = newClientPath;
+            
             if (!Directory.Exists(oldClientPath))
                 Debug.Fail(oldClientPath + " does not exist!");
             if (!Directory.Exists(newClientPath))
@@ -199,7 +209,6 @@ namespace CSharpEngine{
         }
 
         public static void LogRelevantEdit(List<Edit> relevantEdits){
-            Utils.LogTest("Log edits");
             if (!File.Exists(saveEditPath))
                 Directory.CreateDirectory(saveEditPath);
             int index = 0;
@@ -227,6 +236,8 @@ namespace CSharpEngine{
                 outputFile.Write(json_content);
 
             var editfile = Path.Combine(saveEditPath, "edit.txt");
+            Utils.LogTest("Number of relevant human adapations: " + relevantEdits.Count());
+            Utils.LogTest("The mining results are save at " + metadataFile);
             foreach (var edit in relevantEdits) { 
                 using (StreamWriter outputFile = File.AppendText(editfile)){
                     outputFile.WriteLine("========================================================== " + edit.id);
