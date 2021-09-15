@@ -56,6 +56,7 @@ namespace CSharpEngine{
             }
             return modifiedClassName.Distinct().ToList();
         }
+
         public List<Record<MatchedClass, MatchedMethod>> extractModifiedMethodName(){
             var modifiedMethodName = new List<Record<MatchedClass, MatchedMethod>>();
             foreach (var mc in changes)

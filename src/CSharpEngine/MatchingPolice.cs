@@ -8,94 +8,8 @@ namespace CSharpEngine{
 
     public class MatchingPolice{
 
-	public static List<string> blockStatement = new List<string>{"DoStatement", "ForEachStatement", "ForStatement", "IfStatement", "LockStatement", 
-        "SwitchStatement", "UsingStatement", "TryStatement", "WhileStatement", "LocalFunctionStatement", "UsingStatement"};
-
-        public static List<Edit> ExtractRelevantEditsFromMethod(List<MatchedClass> matchedClasses, ChangeSummary cs){
-            var references = cs.extractModifiedInterfaceName();
-
-            var edits = new List<Edit>();
-            foreach (var matchedClass in matchedClasses){
-                // travel all the modified method and search for the edit related to the library update
-                foreach(var matchedMethod in matchedClass.GetMatchedMethods().Where(e => !e.IsUnmodifiedMethod())){
-                    if(matchedMethod.method1 == null || matchedMethod.method1.GetSyntax() == null || 
-                        matchedMethod.method1.GetSyntax().Body == null)
-                        continue;
-                    if(matchedMethod.method2 == null || matchedMethod.method2.GetSyntax() == null || 
-                        matchedMethod.method2.GetSyntax().Body == null)
-                        continue;
-                    foreach (var reference in references){
-                        var refClass = reference.Item1.class1;
-                        if (refClass == null || (reference.Item2 != null && reference.Item2.method1 == null))
-                            continue;
-
-                        // coarsely filter out
-                        if (reference.Item2 == null && !Contains(matchedMethod.method1.GetSyntax().Body, refClass.className))
-                            continue; 
-                        // modified method/constructor declaration
-                        else if (reference.Item2 != null && !Contains(matchedMethod.method1.GetSyntax().Body, reference.Item2.method1.methodName))
-                            continue;
-
-                        // fine-grained filter out & generate edits
-                        var subEdits = TrimEdit(matchedMethod.method1, matchedMethod.method2, reference);
-                        foreach(var subEdit in subEdits)
-                            if(!edits.Contains(subEdit))
-                                edits.Add(subEdit);
-                    }
-                }
-            }
-            return edits;
-        }
-
-        public static List<Edit> TrimEdit(Method method1, Method method2, Record<MatchedClass, MatchedMethod> reference){            
-            var children1 = UnRollNode(method1.GetSyntax().Body);
-            var children2 = UnRollNode(method2.GetSyntax().Body);
-            var matchedChildren = GetMatchedChild(children1, children2);
-            
-            var edits = new List<Edit>();
-            for(int i=0; i<matchedChildren.Count-1; i++){
-                var oldList = new List<SyntaxNodeOrToken>();
-                var newList = new List<SyntaxNodeOrToken>();
-                for(var j=matchedChildren[i].Item1+1; j<matchedChildren[i+1].Item1; j++){
-                    oldList.Add(children1[j]);
-                }
-                
-                for(var j=matchedChildren[i].Item2+1; j<matchedChildren[i+1].Item2; j++)
-                    newList.Add(children2[j]);
-
-                if ((oldList.Count == 0 && newList.Count == 0) || TokenSame(oldList, newList))
-                    continue;
-
-                if(reference.Item2 == null){   // for field name or class name changes
-                    if (Contains(oldList, reference.Item1.class1.className))
-                        edits.Add(new Edit(oldList, newList, reference.Item1.class1.className));
-                }else{ // for method change
-                    var invocation1 = DeepContains(oldList, reference.Item1.class1, reference.Item2.method1, "old");
-                    if (invocation1 != null){
-                        SyntaxNodeOrToken invocation2 = null;
-                        if (reference.Item2.method2 != null) { // change method signature
-                            invocation2 = DeepContains(newList, reference.Item1.class2, reference.Item2.method2, "new");
-                            if (invocation2 != null && (reference.Item2.changeType == ChangeType.ChangeType || !TokenSame(invocation1, invocation2)))
-                            {
-                                edits.Add(new Edit(oldList, newList, reference.Item2.method1.methodName));
-
-                                var onlyInvocationEditInput = new List<SyntaxNodeOrToken>();
-                                onlyInvocationEditInput.Add(invocation1);
-                                var onlyInvocationEditOutput = new List<SyntaxNodeOrToken>();
-                                onlyInvocationEditOutput.Add(invocation2);
-                                edits.Add(new Edit(onlyInvocationEditInput, onlyInvocationEditOutput, reference.Item2.method1.methodName));
-                            }
-                        }
-                        else // deleted method
-                            edits.Add(new Edit(oldList, newList, reference.Item2.method1.methodName));
-                    }
-                }
-            }
-            return edits;
-        }
-
         // check whether a node include a method invocation by referring to semantic model
-        public static SyntaxNodeOrToken DeepContains(List<SyntaxNodeOrToken> nodes, Class refClass, Method refMethod, string version){
+        public static SyntaxNodeOrToken SearchNode(List<SyntaxNodeOrToken> nodes, Class refClass, Method refMethod, string version){
             var methodName = refMethod.methodName;
             var className = refClass.GetSignature();
             if (refMethod.GetThisName() != null)
@@ -205,7 +119,7 @@ namespace CSharpEngine{
             return packageName.Equals(containingPackage);
         }
 
-        private static bool Contains(List<SyntaxNodeOrToken> nodes, string reference){
+        public static bool Contains(List<SyntaxNodeOrToken> nodes, string reference){
             foreach(var node in nodes)
                 if(Contains(node, reference)) 
                     return true;
@@ -293,25 +207,7 @@ namespace CSharpEngine{
             }
         }
 
-        private static List<SyntaxNodeOrToken> UnRollNode(SyntaxNodeOrToken node)
-        {
-            var nodes = new List<SyntaxNodeOrToken>();
-            foreach (var child in node.ChildNodesAndTokens())
-            {
-                string kind = Microsoft.CodeAnalysis.CSharp.CSharpExtensions.Kind(child).ToString();
-                if (child.IsToken
-                   || (kind.Contains("Statement") && !blockStatement.Contains(kind))
-                   || kind.Contains("Expression"))
-                    nodes.Add(child);
-                else
-                {
-                    nodes.AddRange(UnRollNode(child.AsNode()));
-                }
-            }
-            return nodes;
-        }
-
-        private static List<Record<int, int>> GetMatchedChild(List<SyntaxNodeOrToken> nodes1, List<SyntaxNodeOrToken> nodes2)
+        public static List<Record<int, int>> GetMatchedChild(List<SyntaxNodeOrToken> nodes1, List<SyntaxNodeOrToken> nodes2)
         {
             var n = nodes1.Count;
             var m = nodes2.Count;

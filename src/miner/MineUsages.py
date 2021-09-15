@@ -113,7 +113,7 @@ def invoke_csharpengine(lib_name, old_version, new_version, client_name, old_cli
               " -s " + old_client_version + \
               " -t  " + new_client_version + \
               " -z " + target_version + \
-              " -f " + os.path.join(script_path, CONFIGURATION_FILE)
+              " -f " + CONFIGURATION_FILE
     # print(command)
     utils.utils.log("[COMMAND]: " + str(command))
     return_code = subprocess.call(command, shell=True)
@@ -153,7 +153,7 @@ def invoke_csharpengine_compilation_mode(lib_name, old_lib_version, new_lib_vers
                   " -z " + target_version + \
                   " -y " + \
                   " -p " + sln_file + \
-                  " -f " + os.path.join(script_path, CONFIGURATION_FILE)
+                  " -f " + CONFIGURATION_FILE
         utils.log("[COMMAND]: " + str(command))
         return_code = subprocess.call(command, shell=True)
         utils.log("[INFO] Ret Code: " + str(return_code))

@@ -1,6 +1,6 @@
 # Output-Oriented Program Synthesis for Combating Breaking Changes in Libraries #
 
-<span style="color:red">Half-baked project. The interface is intensively updated.</span>.
+**Half-baked project. The interface is intensively updated.**
 
 APIFix is a tool that automates API usage adaptations by learning from the existing human actions via an output-oriented program synthesis. The aim is not only to rely on the example human adaptations of the clients from the old library version
 to the new library version, since this can lead to over-fitting transformation rules. Instead, APIFix also relies on

@@ -40,40 +40,6 @@ namespace CSharpEngine
             //     CompileSolution(newSlnPath, "new");
         }
 
-        private static int RunCommand(string command, string path) {
-            var proc1 = new ProcessStartInfo();
-
-            proc1.WorkingDirectory = path;
-
-            proc1.RedirectStandardInput = false;
-            proc1.RedirectStandardOutput = true;
-            proc1.RedirectStandardError = true;
-            proc1.UseShellExecute = false;
-            proc1.CreateNoWindow = true;
-
-            proc1.FileName = "cmd.exe";
-            proc1.Verb = "runas";
-            proc1.Arguments = "/c " + command;
-            proc1.WindowStyle = ProcessWindowStyle.Hidden;
-            // Console.WriteLine("running command " + command);
-            Process P = Process.Start(proc1);
-            P.WaitForExit();
-
-            return P.ExitCode;
-        }
-
-        private static int CommandCompile(string oldSlnPath)
-        {
-            var slnPath = Path.GetDirectoryName(oldSlnPath);
-            var restoreStatus = RunCommand("dotnet restore", slnPath);
-            if (restoreStatus != 0)
-                return restoreStatus;
-            Console.WriteLine("restore status: " + restoreStatus);
-
-            var buildStatus = RunCommand("MSBuild.exe", slnPath);
-            Console.WriteLine("build status: " + buildStatus);
-            return buildStatus;
-        }
 
         public static RTCompilation Init() {
             /*var retCode = CommandCompile(oldSlnPath);
@@ -138,7 +104,7 @@ namespace CSharpEngine
 
         public void CompileSolution(string solutionUrl, string version)
         {
-            Console.WriteLine("Start compiling the " + version + " project!");
+            Utils.LogTest("Start compiling the " + version + " project!");
             int success = 0;
             List<Compilation> compilations = new List<Compilation>();
             var syntaxNodes = new List<SyntaxTree>();
@@ -208,7 +174,7 @@ namespace CSharpEngine
                     }
                 }
             }
-            Console.WriteLine(success + " / " + projectGraph.GetTopologicallySortedProjects().Count() + " of projects has been successfully compiled!");
+            Utils.LogTest(success + " / " + projectGraph.GetTopologicallySortedProjects().Count() + " of projects has been successfully compiled!");
             if (version == "new"){
                 newCompilations = compilations;
                 newSyntexNodes = syntaxNodes;

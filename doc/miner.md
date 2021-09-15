@@ -2,6 +2,9 @@
 
 ## Mine relevant clients of a github library
 
+Github Dependency graph
+https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph
+
 ```
 usage: crawler.py [-h] [-u USER] [-t TOKEN] repo author package
 
@@ -74,29 +77,4 @@ optional arguments:
   --only-old            only the old library versions
   --only-new            only the new library versions
   --compilation-mode    find usages only in compilation mode
-```
-
-
-```
-usage: CSharpEngine.exe -l LIBRARY -m OLD_VERSION -n NEW_VERSION [OPTIONS]
-
-options:
-  -l, --libraryName    Required. The name of library.
-  -m, --oldLib         Required. The old version of library.
-  -n, --newLib         Required. The new version of library.
-
-  -i                   Extract relevent edit from library update itself.
-
-  -c, --clientName     The name of the client.
-  -s, --oldClient      The old version of client.
-  -t, --newClient      The new version of client.
-
-  -z                   Extract old/new usages.
-
-  -y                   Compliation mode
-  -p, --sln            The path to the sln file.
-
-  -v, --verbose        Set output to verbose messages.
-  --help               Display this help screen.
-  --version            Display version information.
 ```

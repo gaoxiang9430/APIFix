@@ -2,6 +2,8 @@
     "library": "MediatR",
     "source": "v6.0.0",
     "target": "v7.0.0",
+    "old_class": "MediatR.Pipeline.IRequestPostProcessor",
+    "new_class": "MediatR.Pipeline.IRequestPostProcessor",
     "old_apis": [
         "Process"
     ],

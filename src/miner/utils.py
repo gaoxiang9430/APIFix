@@ -79,6 +79,7 @@ def pre_build(lib_name, repo_name, version):
         repo_path = os.path.join(script_path, "..", "..", "benchmark", lib_name, "client", repo_name + "-" + version)
     else:
         repo_path = os.path.join(script_path, "..", "..", "benchmark", lib_name, "library", repo_name + "-" + version)
+    log("[INFO] pre_building " + repo_path + " ...")
     sln_file_list = []
     for root, dirs, files in os.walk(repo_path):
         for file in files:
@@ -103,11 +104,11 @@ def pre_build(lib_name, repo_name, version):
             pre_build_command += "nuget.exe restore > /dev/null; "
             pre_build_command += "MSBuild.exe `basename " + sln_file_rel_path + "` > /dev/null"
 
-        log("[COMMAND]: " + str(pre_build_command))
+        # log("[COMMAND]: " + str(pre_build_command))
         return_code = subprocess.call(pre_build_command, shell=True)
-        log("[INFO] Ret Code: " + str(return_code))
+        log("[INFO] Successfully pre_build " + lib_name)
         if return_code != 0:
-            log("pre_build failed with return code: " + str(return_code))
+            log("[ERROR] Pre_build failed with return code: " + str(return_code))
         else:
             filtered_sln_file_list.append(sln_file_rel_path)
     return filtered_sln_file_list

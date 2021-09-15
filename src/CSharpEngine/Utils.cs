@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace CSharpEngine {
 
@@ -37,6 +38,87 @@ namespace CSharpEngine {
             this.Item1 = item1;
             this.Item2 = item2;
             this.Item3 = item3;
+        }
+    }
+
+    public class BreakingChange
+    {
+        public string library;
+        public string source;
+        public string target;
+        public string old_class;
+        public string new_class;
+        public List<string> old_apis;
+        public List<string> new_apis;
+
+        public BreakingChange(string library, string source, string target, string old_class, string new_class, List<string> old_apis, List<string> new_apis)
+        {
+            this.library = library;
+            this.source = source;
+            this.target = target;
+            this.old_class = old_class;
+            this.new_class = new_class;
+            this.old_apis = old_apis;
+            this.new_apis = new_apis;
+        }
+
+        public static BreakingChange loadInterestingAPI(string metadataFile)
+        {
+            return JsonConvert.DeserializeObject<BreakingChange>(File.ReadAllText(metadataFile));
+        }
+
+        public bool Matches(Record<MatchedClass, MatchedMethod> modifiedInter)
+        {
+            return MatchesWithNewAPI(modifiedInter) && MatchesWithOldAPI(modifiedInter);
+        }
+
+        public bool MatchesWithNewAPI(Record<MatchedClass, MatchedMethod> modifiedInter)
+        {
+            if (modifiedInter.Item1 == null || modifiedInter.Item2 == null)
+                return false;
+            Class refClass;
+            Method refMethod;
+            refClass = modifiedInter.Item1.class2;
+            refMethod = modifiedInter.Item2.method2;
+            if (refClass == null || refMethod == null)
+                return false; ;
+            if (!new_class.Equals(refClass.nameSpace + "." + refClass.className) ||
+                !new_apis.Contains(refMethod.methodName))
+                return false;
+            return true;
+        }
+
+        public bool MatchesWithOldAPI(Record<MatchedClass, MatchedMethod> modifiedInter)
+        {
+            if (modifiedInter.Item1 == null || modifiedInter.Item2 == null)
+                return false;
+            Class refClass;
+            Method refMethod;
+            refClass = modifiedInter.Item1.class1;
+            refMethod = modifiedInter.Item2.method1;
+            if (refClass == null || refMethod == null)
+                return false;
+            if (!old_class.Equals(refClass.nameSpace + "." + refClass.className) ||
+                !old_apis.Contains(refMethod.methodName))
+                return false;
+            return true;
+        }
+
+        override
+        public string ToString() {
+            string str = "library: " + library + "\n" +
+                   "source: " + source + "\n" +
+                   "target: " + target + "\n" +
+                   "old_class: " + old_class + "\n" +
+                   "new_class: " + new_class + "\n" +
+                   "old_apis: [";
+            foreach (var item in old_apis)
+                str += item;
+            str += "]\nnew_apis: [";
+            foreach (var item in new_apis)
+                str += item;
+            str += "]";
+            return str;
         }
     }
 

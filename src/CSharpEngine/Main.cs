@@ -3,22 +3,20 @@ using System.IO;
 using CommandLine;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Newtonsoft.Json;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis;
-using System.Threading.Tasks;
 
 namespace CSharpEngine{
 
     public class MainEntry {
         public static string benchmarkPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "benchmark");
+        public static string minerPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "miner");
         public static string libraryName, clientName, oldLibVersion, newLibVersion;
         public static string oldLibPath, newLibPath;
         public static string oldClientPath, newClientPath;
         public static string outputPath;
         public static string oldSlnPath, newSlnPath;
         public static string targetUsagesVersion = null;
-        public static string saveEditPath;
         public static string configurationFile = null;
 
         public class Options
@@ -67,8 +65,10 @@ namespace CSharpEngine{
 
             // Utils.LogTest("Generating change summary...");
             var changeSummaryOutput = Path.Combine(outputPath, "changesummary.json");
-            var cs = ChangeSummary.CreateChangeSummary(oldLibPath, newLibPath, changeSummaryOutput);         
+            var cs = ChangeSummary.CreateChangeSummary(oldLibPath, newLibPath, changeSummaryOutput);
 
+            var breakingChanges = BreakingChange.loadInterestingAPI(Path.Join(minerPath, configurationFile));
+            // mining API usages
             if (targetUsagesVersion != null){
                 // filter out the irrelevant edit
                 var oldClasses = ExtractClasses(targetUsagesVersion);
@@ -77,23 +77,21 @@ namespace CSharpEngine{
                     Utils.LogTest("Please specify the configuration file.");
                     return 1;
                 }
-                var interestingApis = NodeFilter.loadInterestingAPI(libraryName, oldLibVersion, newLibVersion, targetUsagesVersion, configurationFile);
-                var relevantClient = NodeFilter.FilterClient(clientName, oldClasses, outputPath, cs, targetUsagesVersion, interestingApis);
-                return relevantClient ? 0 : 1;
+                var miner = new APIUsageMiner(clientName, oldClasses, cs, breakingChanges, outputPath);
+                var findRelevantClient = miner.SearchClient(targetUsagesVersion);
+                return findRelevantClient ? 0 : 1;
             }
-            else {
+            else { // mining human adaptations
                 Utils.LogTest("Calulating the matched classes/methods between two versions...");
                 var classes1 = ExtractClasses("old");
                 var classes2 = ExtractClasses("new");
                 List<MatchedClass> matchedClasses = ClassExtractor.CalculateMatchedClass(classes1, classes2);
 
+                var miner = new EditMiner(matchedClasses, cs, breakingChanges, outputPath);
                 Utils.LogTest("Extract the edits that are relavent to the library update...");
-                var relevantEdits = MatchingPolice.ExtractRelevantEditsFromMethod(matchedClasses, cs);
-                relevantEdits = relevantEdits.OrderBy(o=>o.id).ToList();
-                if(relevantEdits.Count()!=0)
-                    LogRelevantEdit(relevantEdits);
+                var findRelevantEdits = miner.SearchEdits();
+                return findRelevantEdits ? 0 : 1;
             }
-            return 0;
         }
 
         public static void ParseArgs(string[] args){
@@ -140,11 +138,6 @@ namespace CSharpEngine{
 
             // take library itself as it own client
             if(extractlibraryEdit){
-                if(Config.CompilationMode)
-                    saveEditPath = Path.Combine(outputPath, "typed_library");
-                else
-                    saveEditPath = Path.Combine(outputPath, "library");
-
                 oldClientPath = oldLibPath;
                 newClientPath = newLibPath;
 
@@ -157,12 +150,8 @@ namespace CSharpEngine{
                     Debug.Fail(oldLibPath + " does not exist!");
                 if (targetUsagesVersion == null && !Directory.Exists(newLibPath))
                     Debug.Fail(newLibPath + " does not exist!");
-            } else{
-                if(Config.CompilationMode)
-                    saveEditPath = Path.Combine(outputPath, "clients", "typed_" + clientName);
-                else
-                    saveEditPath = Path.Combine(outputPath, "clients", clientName);
-
+            } 
+            else{
                 oldClientPath = Path.Combine(benchmarkPath, libraryName, "client", clientName + "-" + oldClientVersion);
                 newClientPath = Path.Combine(benchmarkPath, libraryName, "client", clientName + "-" + newClientVersion);
                 if (Config.CompilationMode) {
@@ -208,45 +197,6 @@ namespace CSharpEngine{
             return classes;
         }
 
-        public static void LogRelevantEdit(List<Edit> relevantEdits){
-            if (!File.Exists(saveEditPath))
-                Directory.CreateDirectory(saveEditPath);
-            int index = 0;
-            foreach (var edit in relevantEdits){
-                var inputNode = edit.GetOldStructNode();
-                var outputNode = edit.GetNewStructNode();
-
-                // save each edit as xml format
-                if (inputNode != null) {
-                    edit.inputPath = "inputNode" + index + ".xml";
-                    var editFullPath = Path.Combine(saveEditPath, edit.inputPath);
-                    Translator.storeNode(inputNode, editFullPath);
-                }
-                if (outputNode != null) {
-                    edit.outputPath = "outputNode" + index + ".xml";
-                    var editFullPath =  Path.Combine(saveEditPath, edit.outputPath);
-                    Translator.storeNode(outputNode, editFullPath);
-                }
-                index ++;
-            }
-            
-            var metadataFile = Path.Combine(saveEditPath, "edit_metadata.json");
-            string json_content = JsonConvert.SerializeObject(relevantEdits, Formatting.Indented);
-            using (StreamWriter outputFile = new StreamWriter(metadataFile))
-                outputFile.Write(json_content);
-
-            var editfile = Path.Combine(saveEditPath, "edit.txt");
-            Utils.LogTest("Number of relevant human adapations: " + relevantEdits.Count());
-            Utils.LogTest("The mining results are save at " + metadataFile);
-            foreach (var edit in relevantEdits) { 
-                using (StreamWriter outputFile = File.AppendText(editfile)){
-                    outputFile.WriteLine("========================================================== " + edit.id);
-                    outputFile.WriteLine("---- inputNode: " + edit.inputPath);
-                    outputFile.WriteLine("---- outputNode: " + edit.outputPath);
-                    outputFile.WriteLine(edit.ToString());
-                }
-            }
-        }
     }
 }
 

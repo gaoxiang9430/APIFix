@@ -55,7 +55,7 @@ def invoke_csharpengine(lib_name, old_version, new_version, client_name, old_cli
               " -c " + client_name + \
               " -s " + old_client_version + \
               " -t " + new_client_version + \
-              " -f " + os.path.join(script_path, CONFIGURATION_FILE)
+              " -f " + script_path, CONFIGURATION_FILE
     if COMPILATION_MODE:
         command = command + " -y -p " + sln_path
     utils.log("[INFO] command: " + command)
@@ -75,7 +75,7 @@ def invoke_csharpengine_to_mine_itself(lib_name, old_version, new_version):
               " -l " + lib_name + \
               " -m " + old_version + \
               " -n " + new_version + \
-              " -f " + os.path.join(script_path, CONFIGURATION_FILE) + \
+              " -f " + CONFIGURATION_FILE + \
               " -i"
     if COMPILATION_MODE:
         sln_file_list_new = utils.pre_build(lib_name, lib_name, new_version)
@@ -94,9 +94,11 @@ def invoke_csharpengine_to_mine_itself(lib_name, old_version, new_version):
 
     if return_code != 0:
         if str(return_code) == "1":
-            utils.log("invocation of CSharpEngine failed with return code: " + str(return_code))
+            utils.log("[ERROR] invocation of CSharpEngine failed with return code: " + str(return_code))
         else:
-            utils.log("invocation of CSharpEngine crashed with return code: " + str(return_code))
+            utils.log("[ERROR] invocation of CSharpEngine crashed with return code: " + str(return_code))
+    else:
+        utils.log("[INFO] mining human adaptations from library itself is done!!!")
     return return_code
 
 
