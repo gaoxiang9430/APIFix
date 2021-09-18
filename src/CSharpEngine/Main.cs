@@ -82,7 +82,7 @@ namespace CSharpEngine{
                 return findRelevantClient ? 0 : 1;
             }
             else { // mining human adaptations
-                Utils.LogTest("Calulating the matched classes/methods between two versions...");
+                // Utils.LogTest("Calulating the matched classes/methods between two versions...");
                 var classes1 = ExtractClasses("old");
                 var classes2 = ExtractClasses("new");
                 List<MatchedClass> matchedClasses = ClassExtractor.CalculateMatchedClass(classes1, classes2);

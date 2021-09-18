@@ -8,6 +8,9 @@ import git
 from github import Github
 import pathlib
 import utils
+from alive_progress import alive_bar
+import json
+import shutil
 
 
 script_path = os.path.dirname(os.path.realpath(__file__))
@@ -41,7 +44,7 @@ def get_repo(url, path, commit_id):
         g = git.cmd.Git(path)
         g.checkout("-f", commit_id)
     except:
-        return 1
+        return 2
 
     return 0
 
@@ -55,18 +58,17 @@ def invoke_csharpengine(lib_name, old_version, new_version, client_name, old_cli
               " -c " + client_name + \
               " -s " + old_client_version + \
               " -t " + new_client_version + \
-              " -f " + script_path, CONFIGURATION_FILE
+              " -f " + CONFIGURATION_FILE
     if COMPILATION_MODE:
         command = command + " -y -p " + sln_path
-    utils.log("[INFO] command: " + command)
+    utils.log("[INFO] command: " + str(command))
     return_code = subprocess.call(command, shell=True)
     if return_code != 0:
         command = "rm -rf " + old_client_version
         subprocess.call(command, shell=True)
         command = "rm -rf " + new_client_version
         subprocess.call(command, shell=True)
-        #utils.log("failed to invoke CSharpEngine")
-        #exit(return_code)
+    return return_code
 
 
 def invoke_csharpengine_to_mine_itself(lib_name, old_version, new_version):
@@ -111,18 +113,14 @@ def extract_sln_path(client_path):
     return None
 
 
-def trim(version):
-    return ''.join( c for c in version if c in '1234567890.' )
-
-
 def mine_library_edits(author_name, lib_name, old_lib_version, new_lib_version):
     library_path = os.path.join(script_path, "..", "..", "benchmark", lib_name, "library")
     if not os.path.exists(library_path):
         os.makedirs(library_path, exist_ok=True)
     library_link = "https://github.com/" + author_name + "/" + lib_name
 
-    old_lib_version_id = trim(old_lib_version)
-    new_lib_version_id = trim(new_lib_version)
+    old_lib_version_id = utils.trim_version_number(old_lib_version)
+    new_lib_version_id = utils.trim_version_number(new_lib_version)
     old_library_path = os.path.join(library_path, lib_name + "-" + old_lib_version_id)
     new_library_path = os.path.join(library_path, lib_name + "-" + new_lib_version_id)
 
@@ -151,11 +149,18 @@ def mine_client_edits(lib_name, client, old_lib_version, new_lib_version):
     new_client_path = os.path.join(client_path, client_name + "-" + new_commit_id[0:6])
     ret1 = get_repo(client["html_url"], old_client_path, old_commit_id)
     ret2 = get_repo(client["html_url"], new_client_path, new_commit_id)
-    if ret1 != 0 or ret2 != 0:
+    if ret1 != 0:
+        utils.log("[ERROR] failed to clone repo: " + old_client_path + " RET:" + str(ret1))
+        return
+    if ret2 != 0:
+        utils.log("[ERROR] failed to clone repo: " + new_client_path + " RET:" + str(ret2))
         return
 
     sln_path = None
-    invoke_csharpengine(lib_name, old_lib_version, new_lib_version, client_name, old_commit_id[0:6], new_commit_id[0:6], sln_path)
+    ret = invoke_csharpengine(lib_name, old_lib_version, new_lib_version, client_name, old_commit_id[0:6], new_commit_id[0:6], sln_path)
+    if ret != 0:
+        shutil.rmtree(old_client_path)
+        shutil.rmtree(new_client_path)
 
 
 skip_clients = ["app-innovation-workshop", "xplat-netcore-webassembly", "das-payments-V2_c2a4bf", "RecordPoint.Connectors.SDK", "das-payments-V2"]
@@ -165,7 +170,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Mine humam adaptations for breaking changes')
     parser.add_argument(dest='author', type=str, help='the author name of the library')
     parser.add_argument(dest='library', type=str, help='the name of the library')
-    parser.add_argument('-f', '--config_file', dest='config_file', help='the path to the configuration file', required=True)
+    parser.add_argument('-f', '--config-file', dest='config_file', help='the path to the configuration file', required=True)
     parser.add_argument("--only-mine-library", dest="mine_library", action="store_true", 
                         help="mine the human adaptations from library itself")
     parser.add_argument('--compilation-mode', dest='compilation', action="store_true",
@@ -185,24 +190,23 @@ if __name__ == '__main__':
     old_lib_version = target_apis["source"]
     new_lib_version = target_apis["target"]
 
-    mine_library_edits(args.author, args.library, old_lib_version, new_lib_version)
+    # mine_library_edits(args.author, args.library, old_lib_version, new_lib_version)
     
-    old_lib_version_id = trim(old_lib_version)
-    new_lib_version_id = trim(new_lib_version)
+    old_lib_version_id = utils.trim_version_number(old_lib_version)
+    new_lib_version_id = utils.trim_version_number(new_lib_version)
     if not args.mine_library:
         relevant_client_edits = get_relevant_client(args.library, old_lib_version_id, new_lib_version_id)
     
         length = len(relevant_client_edits)
-        utils.log("the number of relevant clients is ", length)
+        utils.log("[INFO] the number of relevant clients is " + str(length))
     
-        for i in range(length):
-            client = relevant_client_edits[i]
-            if client["client_name"] in skip_clients:
-                continue
-            mine_client_edits(args.library, client, old_lib_version_id, new_lib_version_id)
+        with alive_bar(length) as bar:
+            for i in range(length):
+                client = relevant_client_edits[i]
+                if client["client_name"] in skip_clients:
+                    continue
+                utils.log("[INFO] mining human adapation from client " + client["client_name"])
+                mine_client_edits(args.library, client, old_lib_version_id, new_lib_version_id)
+                utils.log("[INFO] mining " + client["client_name"] + " is done!!!")
 
-            progress = int(float(100*i) / (length-1) / 2)
-            sys.stdout.write('\r')
-            sys.stdout.write("[%-50s] %d%%" % ('='*progress, 2*progress))
-            sys.stdout.flush()
-        utils.log()
+                bar()

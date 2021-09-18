@@ -23,7 +23,7 @@ ONLY_NEW = False
 ONLY_OLD = False
 
 script_path = os.path.dirname(os.path.realpath(__file__))
-g = Github(ACCESS_TOKEN)
+g = Github()
 CONFIGURATION_FILE = None
 
 
@@ -33,23 +33,23 @@ def search_github(api_list, repo_name):
         repo_name = repo_name[1:]
     rate = rate_limit.search
     if rate.remaining == 0:
-        print(f'\nYou have 0/{rate.limit} API calls remaining. Reset time: {rate.reset}')
+        utils.debug(f'\nYou have 0/{rate.limit} API calls remaining. Reset time: {rate.reset}')
         time.sleep(80)
     else:
-        print(f'You have {rate.remaining}/{rate.limit} API calls remaining')
+        utils.debug(f'You have {rate.remaining}/{rate.limit} API calls remaining')
 
     keyword_list = ""
     count = 0
     for api_name in api_list:
         api_name = str(api_name).strip().replace(" ", "")
         query = f'"{api_name}" in:file repo:' + str(repo_name)
-        utils.utils.log("Git Query: " + str(query))
+        utils.debug("Git Query: " + str(query))
         try:
             result = g.search_code(query, order='desc')
-            utils.utils.log("Found " + str(result.totalCount) + " file(s)")
+            utils.debug("Found " + str(result.totalCount) + " file(s)")
             count = int(result.totalCount)
         except Exception as e:
-            print("Github Exception: " + str(e))
+            utils.debug("Github Exception: " + str(e))
             count = 0
         if count > 0:
             break
@@ -61,7 +61,7 @@ def get_client_list(lib_name, target_version, version):
     relevant_clients = []
     client_info_path = os.path.join(script_path, "..", "miner", "result", lib_name+"_version_info.txt")
     if not os.path.exists(client_info_path):
-        print("[ERROR] the client info file does not exist. Please run the crawler.py first!!! ")
+        utils.log("[ERROR] the client info file does not exist. Please run the crawler.py first!!! ")
         exit(1)
     static_client_list = []
     if ONLY_COMPILATION_MODE and os.path.exists(FILE_STATIC_CLIENT_LIST):
@@ -111,21 +111,18 @@ def invoke_csharpengine(lib_name, old_version, new_version, client_name, old_cli
               " -n " + new_version + \
               " -c " + client_name + \
               " -s " + old_client_version + \
-              " -t  " + new_client_version + \
+              " -t " + new_client_version + \
               " -z " + target_version + \
               " -f " + CONFIGURATION_FILE
-    # print(command)
-    utils.utils.log("[COMMAND]: " + str(command))
+    # utils.log(command)
+    utils.debug("[COMMAND]: " + str(command))
     return_code = subprocess.call(command, shell=True)
-    utils.log("[INFO] Ret Code: " + str(return_code))
+    utils.debug("Ret Code: " + str(return_code))
     if return_code != 0:
-        # command = "rm -rf " + client_path
-        # subprocess.call(command, shell=True)
-        utils.log("failed to invoke CSharpEngine for Static Analysis")
         if str(return_code) == "1":
-            utils.log("invocation failed with return code: " + str(return_code))            
+            utils.debug("invocation failed with return code: " + str(return_code))            
         else:
-            utils.log("invocation crashed with return code: " + str(return_code))           
+            utils.debug("invocation crashed with return code: " + str(return_code))           
         shutil.rmtree(client_path)
     return return_code
 
@@ -154,16 +151,16 @@ def invoke_csharpengine_compilation_mode(lib_name, old_lib_version, new_lib_vers
                   " -y " + \
                   " -p " + sln_file + \
                   " -f " + CONFIGURATION_FILE
-        utils.log("[COMMAND]: " + str(command))
+        utils.debug("[COMMAND]: " + str(command))
         return_code = subprocess.call(command, shell=True)
-        utils.log("[INFO] Ret Code: " + str(return_code))
+        utils.debug("Ret Code: " + str(return_code))
         if return_code == 0:
             break
     if return_code != 0:
         if str(return_code) == "1":
-            utils.log("invocation failed with return code: " + str(return_code))
+            utils.debug("invocation failed with return code: " + str(return_code))
         else:
-            utils.log("invocation crashed with return code: " + str(return_code))
+            utils.debug("invocation crashed with return code: " + str(return_code))
         shutil.rmtree(client_path)
     return return_code
 
@@ -177,7 +174,7 @@ def get_relevant_client(lib_name, repo_name, old_lib_version, new_lib_version, t
     client_path = os.path.join(client_path, client_name + "-1.0")
     client_url = "https://www.github.com" + repo_name
     status_clone = get_repo(client_url, client_path)
-    utils.log("[INFO] client cloned from " + "https://www.github.com" + repo_name + " to " + client_path)
+    utils.debug("client cloned from " + "https://www.github.com" + repo_name + " to " + client_path)
     if status_clone != 0:
         return
     status_static = 0
@@ -197,88 +194,81 @@ def get_relevant_client(lib_name, repo_name, old_lib_version, new_lib_version, t
             with open(FILE_STATIC_CLIENT_LIST, 'a') as log_static:
                 log_static.write(client_name + "," + client_url + "\n")
     if status_static == 0 and status_dynamic == 0:
-        utils.log("[INFO] C# Information Collected")
+        utils.debug("C# Information Collected")
     else:
-        utils.log("[INFO] Unable to extract AST")
+        utils.debug("Unable to extract AST")
 
 
 def fetch_client(client_list, target_version, api_list, library_name, old_version, new_version):
     length = len(client_list)
-    print("the length of clients: ", len(client_list))
+    utils.log("[INFO] the length of clients: " + str(len(client_list)))
     if length > 1000:
         length = 1000
     with alive_bar(length) as bar:
         for i in range(length):
             client_name = client_list[i]
-            # print(client)
-            utils.log("[INFO] Name: " + str(client_name))
+            # utils.log(client)
+            utils.log("[INFO] Mining client: " + str(client_name))
             if client_name == "/thomasmichaelwallace/progDotNetNotes":
                 bar()
                 continue
             if search_github(api_list, client_name) == 0:
-                utils.log("Skipping repo: " + str(client_name))
-                utils.log("[INFO] Search Result is Empty")
+                utils.info("[INFO] Skipping repo: " + str(client_name) + " since the Search Result is Empty")
                 bar()
                 continue
             get_relevant_client(library_name, client_name, old_version, new_version, target_version)
             bar()
 
 
-def mine(lib_name=None):
+def mine(breaking_change=None):
     global FILE_MAIN_LOG, ONLY_NEW, ONLY_OLD, FILE_TYPED_CLIENT_LIST, FILE_STATIC_CLIENT_LIST
-    breaking_changes = utils.read_json(CONFIGURATION_FILE)
-    length = len(breaking_changes)
 
-    for info in breaking_changes:
-        library_name = info['library']
-        if lib_name:
-            if library_name != lib_name:
-                continue
-        version_old = info['source']
-        version_new = info['target']
-        log_name = library_name + "_" + str(version_old) + "_" + str(version_new)
-        root_directory = "\\".join(os.path.realpath(__file__).split("\\")[:-3])
-        if os.name == "posix":
-            root_directory = "/".join(os.path.realpath(__file__).split("/")[:-3])
-        FILE_MAIN_LOG = DIRECTORY_LOG + "/" + log_name
-        lib_version_change = lib_name + "_" + str(version_old) + "_" + str(version_new)
-        lib_change_dir = os.path.join(root_directory, "benchmark", lib_name, lib_version_change)
-        FILE_STATIC_CLIENT_LIST = lib_change_dir + "/static-list"
-        FILE_TYPED_CLIENT_LIST = lib_change_dir + "/typed-list"
-        if not os.path.isfile(FILE_STATIC_CLIENT_LIST):
-            with open(FILE_STATIC_CLIENT_LIST, 'w') as log_file:
-                pass
-        if not os.path.isfile(FILE_TYPED_CLIENT_LIST):
-            with open(FILE_TYPED_CLIENT_LIST, 'w') as log_file:
-                pass
-        print("FILE_MAIN_LOG: " + FILE_MAIN_LOG)
-        if os.path.isfile(FILE_MAIN_LOG):
-            os.remove(FILE_MAIN_LOG)
-        with open(FILE_MAIN_LOG, 'w+') as log_file:
-            log_file.write("[Start] started at " + str(datetime.datetime.now()) + "\n")
-        print(library_name, version_old, version_new)
-        print("-"*100)
-        old_client_list = list()
-        new_client_list = list()
-        if not ONLY_NEW:
-            utils.log("[INFO] reading old client list")
-            old_client_list = get_client_list(library_name, version_old, "old")
-            utils.log("[INFO] read old clients: " + str(len(old_client_list)))
-            utils.log("[INFO] fetching old clients")
-            lib_api_list = info['old_apis']
-            fetch_client(old_client_list, "old", lib_api_list, library_name, version_old, version_new)
-        if not ONLY_OLD:
-            utils.log("[INFO] reading new client list")
-            new_client_list = get_client_list(library_name, version_new, "new")
-            utils.log("[INFO] read new clients: " + str(len(new_client_list)))
-            utils.log("[INFO] fetching new clients")
-            lib_api_list = info['new_apis']
-            fetch_client(new_client_list, "new", lib_api_list, library_name, version_old, version_new)
+    library_name = breaking_change['library']
 
+    version_old = utils.trim_version_number(breaking_change['source'])
+    version_new = utils.trim_version_number(breaking_change['target'])
+    log_name = library_name + "_" + str(version_old) + "_" + str(version_new)
+    root_directory = "\\".join(os.path.realpath(__file__).split("\\")[:-3])
+    if os.name == "posix":
+        root_directory = "/".join(os.path.realpath(__file__).split("/")[:-3])
+    FILE_MAIN_LOG = DIRECTORY_LOG + "/" + log_name
+    lib_version_change = library_name + "_" + str(version_old) + "_" + str(version_new)
+    lib_change_dir = os.path.join(root_directory, "benchmark", library_name, lib_version_change)
+    FILE_STATIC_CLIENT_LIST = lib_change_dir + "/static-list"
+    FILE_TYPED_CLIENT_LIST = lib_change_dir + "/typed-list"
+    if not os.path.isfile(FILE_STATIC_CLIENT_LIST):
+        with open(FILE_STATIC_CLIENT_LIST, 'w') as log_file:
+            pass
+    if not os.path.isfile(FILE_TYPED_CLIENT_LIST):
+        with open(FILE_TYPED_CLIENT_LIST, 'w') as log_file:
+            pass
+    utils.log("FILE_MAIN_LOG: " + FILE_MAIN_LOG)
+    if os.path.isfile(FILE_MAIN_LOG):
+        os.remove(FILE_MAIN_LOG)
+    with open(FILE_MAIN_LOG, 'w+') as log_file:
+        log_file.write("[Start] started at " + str(datetime.datetime.now()) + "\n")
+    print(library_name, version_old, version_new)
+    print("-"*100)
+    old_client_list = list()
+    new_client_list = list()
+    if not ONLY_NEW:
+        utils.debug("reading old client list")
+        old_client_list = get_client_list(library_name, version_old, "old")
+        utils.debug("read old clients: " + str(len(old_client_list)))
+        utils.debug("fetching old clients")
+        lib_api_list = breaking_change['old_apis']
+        fetch_client(old_client_list, "old", lib_api_list, library_name, version_old, version_new)
+    if not ONLY_OLD:
+        utils.debug("reading new client list")
+        new_client_list = get_client_list(library_name, version_new, "new")
+        utils.debug("read new clients: " + str(len(new_client_list)))
+        utils.debug("fetching new clients")
+        lib_api_list = breaking_change['new_apis']
+        fetch_client(new_client_list, "new", lib_api_list, library_name, version_old, version_new)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Mine usages of APIs')
-    parser.add_argument('-l', '--name', dest='name', help='the name of the library', required=True)
+    # parser.add_argument('-l', '--name', dest='name', help='the name of the library', required=True)
     parser.add_argument('-f', '--config_file', dest='config_file', help='the path to the configuration file', required=True)
 
     parser.add_argument('--only-old', dest='old', action="store_true",  
@@ -294,12 +284,6 @@ if __name__ == '__main__':
     if not os.path.isdir(DIRECTORY_LOG):
         os.mkdir(DIRECTORY_LOG)
 
-    mine_lib_name = args.name
-    CONFIGURATION_FILE = args.config_file
-    if not os.path.isfile(CONFIGURATION_FILE):
-        print("[ERROR] The configuration file does not exist!!!")
-        exit(1)
-
     if args.old:
         ONLY_OLD = True
     if args.new:
@@ -307,4 +291,10 @@ if __name__ == '__main__':
 
     ONLY_COMPILATION_MODE = args.compilation
 
-    mine(mine_lib_name)
+    CONFIGURATION_FILE = args.config_file
+    if not os.path.isfile(CONFIGURATION_FILE):
+        utils.log("[ERROR] The configuration file does not exist!!!")
+        exit(1)
+    breaking_change = utils.read_json(CONFIGURATION_FILE)
+
+    mine(breaking_change)

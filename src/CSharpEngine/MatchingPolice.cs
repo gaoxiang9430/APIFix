@@ -207,51 +207,6 @@ namespace CSharpEngine{
             }
         }
 
-        public static List<Record<int, int>> GetMatchedChild(List<SyntaxNodeOrToken> nodes1, List<SyntaxNodeOrToken> nodes2)
-        {
-            var n = nodes1.Count;
-            var m = nodes2.Count;
-
-            var matchedChild = new List<Record<int, int>>[m + 1, n + 1];
-            for (int ii = 0; ii < m + 1; ii++)
-                for (int jj = 0; jj < n + 1; jj++)
-                    matchedChild[ii, jj] = new List<Record<int, int>>();
-
-            int[,] d = new int[m + 1, n + 1];
-
-            for (var i = 0; i < m + 1; i++)
-                d[i, 0] = i;
-
-            for (var j = 1; j < n + 1; j++)
-                d[0, j] = j;
-
-            for (var j = 1; j < n + 1; j++)
-            {
-                for (var i = 1; i < m + 1; i++)
-                {
-                    var substitutionCost = 1;
-                    if (nodes1[j - 1].ToString().Equals(nodes2[i - 1].ToString()))
-                        substitutionCost = 0;
-
-                    d[i, j] = Math.Min(d[i - 1, j] + 1,                             // deletion
-                                       Math.Min(d[i, j - 1] + 1,                    // insertion
-                                                d[i - 1, j - 1] + substitutionCost)); // substitution
-                    if (d[i, j] == d[i - 1, j - 1] + substitutionCost && substitutionCost == 0)
-                    {
-                        matchedChild[i, j].AddRange(matchedChild[i - 1, j - 1]);
-                        matchedChild[i, j].Add(new Record<int, int>(j - 1, i - 1));
-                    }
-                    else if (d[i, j] == d[i, j - 1] + 1)
-                        matchedChild[i, j].AddRange(matchedChild[i, j - 1]);
-                    else
-                        matchedChild[i, j].AddRange(matchedChild[i - 1, j]);
-                }
-            }
-            var ret = matchedChild[m, n];
-            ret.Add(new Record<int, int>(n, m));
-            return ret;
-        }
-
         private static string RemoveGeneticPara(string str) {
             string ret = "";
             var record = true;

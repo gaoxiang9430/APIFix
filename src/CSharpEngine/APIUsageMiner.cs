@@ -84,7 +84,8 @@ namespace CSharpEngine{
                         if (Config.CompilationMode)
                             typeInfo = InvocationNodeType.GenerateType(instance.AsNode(), version);
                         // save relevant client metadata
-                        var rc = new RelevantNodes(refMethod.methodName, "placeholder", clientName, typeInfo, instance.AsNode());
+                        var rc = new RelevantNodes(refMethod.methodName, "placeholder", clientName, typeInfo, instance.AsNode().ToString());
+                        rc.SetSyntaxNode(instance.AsNode());
                         relevantNodes.Add(rc);
                         /*if (Config.CompilationMode)
                             SaveMethod(instance.AsNode(), refMethod.methodName);
@@ -148,17 +149,21 @@ namespace CSharpEngine{
         public InvokeType invocationType;
         private Node StructNode;
         private SyntaxNode syntaxNode;
-        public RelevantNodes(string id, string path, string clientname, InvokeType invocationType, SyntaxNode syntaxNode) { 
+        public RelevantNodes(string id, string path, string clientname, InvokeType invocationType, string text) { 
             this.id = id;
             this.path = path;
-            this.text = syntaxNode.ToString();
+            this.text = text;
             this.clientname = clientname;
             this.invocationType = invocationType;
-            this.syntaxNode = syntaxNode;
         }
 
         public void SetStructNode(Node node) {
             StructNode = node;
+        }
+
+        public void SetSyntaxNode(SyntaxNode node)
+        {
+            syntaxNode = node;
         }
 
         public Node GetStructNode() => StructNode;

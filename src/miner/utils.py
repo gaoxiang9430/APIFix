@@ -10,12 +10,22 @@ token = None
 
 script_path = os.path.dirname(os.path.realpath(__file__))
 FILE_MAIN_LOG = "temp.log"
+DEBUG = True
 
 
 def log(log_message):
     global FILE_MAIN_LOG
     log_message = "[" + str(time.asctime()) + "] " + log_message + "\n"
     print(log_message)
+    with open(FILE_MAIN_LOG, 'a') as log_file:
+        log_file.write(log_message)
+
+
+def debug(log_message):
+    global FILE_MAIN_LOG
+    log_message = "[" + str(time.asctime()) + "] [DEBUG] " + log_message + "\n"
+    if DEBUG:
+        print(log_message)
     with open(FILE_MAIN_LOG, 'a') as log_file:
         log_file.write(log_message)
 
@@ -113,3 +123,5 @@ def pre_build(lib_name, repo_name, version):
             filtered_sln_file_list.append(sln_file_rel_path)
     return filtered_sln_file_list
 
+def trim_version_number(version):
+    return ''.join( c for c in version if c in '1234567890.' )
