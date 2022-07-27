@@ -28,13 +28,13 @@ namespace Synthesizer
             return relevantEdits;
         }
 
-        public static List<RelevantClient> LoadClientUsage(string usagePath, string targetAPI, int n = 0) {
+        public static List<RelevantNodes> LoadClientUsage(string usagePath, string targetAPI, int n = 0) {
             if (Directory.Exists(usagePath))
             {
                 var metadataFile = Path.Combine(usagePath, "relevant_client_metadata.json");
-                List<RelevantClient> relevantClients = JsonConvert.DeserializeObject<List<RelevantClient>>(File.ReadAllText(metadataFile));
+                List<RelevantNodes> relevantClients = JsonConvert.DeserializeObject<List<RelevantNodes>>(File.ReadAllText(metadataFile));
 
-                var relevantUsages = relevantClients.Where(e => e.reference.Equals(targetAPI)).ToList();
+                var relevantUsages = relevantClients.Where(e => e.id.Equals(targetAPI)).ToList();
                 if (n > 0) {
                     relevantUsages = relevantUsages.GetRange(0, Math.Min(n, relevantUsages.Count()));
                 }
@@ -50,7 +50,7 @@ namespace Synthesizer
             else
             {
                 Global.Log("The old usage path does not exist!");
-                return new List<RelevantClient>();
+                return new List<RelevantNodes>();
             }
         }
 

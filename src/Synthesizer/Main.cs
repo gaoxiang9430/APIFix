@@ -82,7 +82,7 @@ namespace Synthesizer
             Console.WriteLine("load " + relevantEdits.Count + " relevant edits!");
 
             // load new usages
-            List<RelevantClient> newUsages = null;
+            List<RelevantNodes> newUsages = null;
             if (Config.UseAdditionalOutput) {
                 var newUsagePath = Path.Combine(outputPath, "new_relevant_client");
                 if (Config.UseTypedUsage)

@@ -82,8 +82,8 @@ namespace CSharpEngine {
             refMethod = modifiedInter.Item2.method2;
             if (refClass == null || refMethod == null)
                 return false; ;
-            if (!new_class.Equals(refClass.nameSpace + "." + refClass.className) ||
-                !new_apis.Contains(refMethod.methodName))
+            if (new_class == null || !new_class.Equals(refClass.nameSpace + "." + refClass.className) ||
+                new_apis == null || !new_apis.Contains(refMethod.methodName))
                 return false;
             return true;
         }
@@ -98,8 +98,8 @@ namespace CSharpEngine {
             refMethod = modifiedInter.Item2.method1;
             if (refClass == null || refMethod == null)
                 return false;
-            if (!old_class.Equals(refClass.nameSpace + "." + refClass.className) ||
-                !old_apis.Contains(refMethod.methodName))
+            if (old_class == null || !old_class.Equals(refClass.nameSpace + "." + refClass.className) ||
+                old_apis == null || !old_apis.Contains(refMethod.methodName))
                 return false;
             return true;
         }

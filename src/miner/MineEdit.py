@@ -72,8 +72,10 @@ def invoke_csharpengine(lib_name, old_version, new_version, client_name, old_cli
 
 
 def invoke_csharpengine_to_mine_itself(lib_name, old_version, new_version):
-    csharp_engine_path = os.path.join(script_path, "..", "CSharpEngine", "bin", "Debug", "net5.0", "CSharpEngine.exe")
-    command = csharp_engine_path + \
+    project_path = os.path.join(script_path, "..", "CSharpEngine")
+    # csharp_engine_path = os.path.join(project_path, "bin", "Debug", "net5.0", "CSharpEngine.exe")
+    csharp_engine = "dotnet run --project " + project_path + " -- "
+    command = csharp_engine + \
               " -l " + lib_name + \
               " -m " + old_version + \
               " -n " + new_version + \
@@ -190,7 +192,7 @@ if __name__ == '__main__':
     old_lib_version = target_apis["source"]
     new_lib_version = target_apis["target"]
 
-    # mine_library_edits(args.author, args.library, old_lib_version, new_lib_version)
+    mine_library_edits(args.author, args.library, old_lib_version, new_lib_version)
     
     old_lib_version_id = utils.trim_version_number(old_lib_version)
     new_lib_version_id = utils.trim_version_number(new_lib_version)

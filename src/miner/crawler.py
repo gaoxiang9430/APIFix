@@ -17,15 +17,14 @@ import io
 
 class Miner:
 
-    def __init__(self, library = None, package = None, author = None, id = None):
+    def __init__(self, library = None, package = None, author = None, max_dependent = 500):
         self.library_name = library
         self.package_name = package
         self.author_name = author
-        self.id = id
-        if id == None:
-            library_name_id = library
-        else:
-            library_name_id = library+id
+        library_name_id = library
+        self.max_deps = max_dependent/20
+        if not os.path.exists("result"):
+            os.mkdir("result")
         self.dep_result = "result/" + library_name_id + "_dep_result.txt"
         self.mine_result = "result/" + library_name_id + "_result.txt"
         self.mine_result_json = "result/" + library_name_id + "_result.json"
@@ -34,8 +33,9 @@ class Miner:
 
     def get_all_dependent(self):
         dependents = "/network/dependents"
-        if self.id != None:
-            dependents = dependents + "?package_id=" + self.id
+        #if self.id != None:
+        #    dependents = dependents + "?package_id=" + self.id
+        print("searching clint programs from: https://github.com/" + self.author_name + "/" + self.library_name + dependents)
         return self.get_all_dependent_sub("https://github.com/" +
                                           self.author_name + "/" + self.library_name + dependents)
 
@@ -71,7 +71,7 @@ class Miner:
         lines.reverse()
         for line in lines:
             next = re.match(r'.*class=\"btn btn-outline BtnGroup-item\" href=\"(.*)\">Next', line, re.S)
-            if next and self.depth < 500:  # find next
+            if next and self.depth < self.max_deps:  # find next
                 self.depth += 1
                 if "Previous" in next.group(1):
                     break
@@ -120,7 +120,7 @@ class Miner:
                         version = self.extract_version(file_content.decode(), self.package_name)
                         if version != None:
                             files_indicate_lib.append((file_path, version))
-        print(files_indicate_lib)
+        # print(files_indicate_lib)
         return files_indicate_lib
 
     def get_five_day_commit(self, dep, commit):
@@ -140,7 +140,6 @@ class Miner:
     def visit_dependent(self, dependent):
         visited_commits = []
         edit_items = []
-        print(dependent)
         files_indicate_lib = self.get_file_include_library(dependent)
         # result_out = open(self.mine_result, "a")
         for file_indicate_lib in files_indicate_lib:
@@ -220,6 +219,7 @@ class Miner:
 
         old_len = 0
         length = len(dependents)
+        print("mining the library versions used by each clients:")
         for i in range(length):
             dependent = dependents[i]
             update_items += miner.visit_dependent(dependent)
@@ -236,8 +236,9 @@ class Miner:
             sys.stdout.write("[%-50s] %d%%" % ('='*progress, 2*progress))
             sys.stdout.flush()
         print()
-		    
-        command = "python -m json.tool " + self.mine_result + " > " + self.mine_result_json
+		
+        command = "python3 -m json.tool " + self.mine_result + " > " + self.mine_result_json
+        print("the mining results are saved to " + self.mine_result_json)
         subprocess.call(command, shell=True)
 
 
@@ -263,7 +264,7 @@ if __name__ == '__main__':
     parser.add_argument('repo', type=str, help='the name of repository')
     parser.add_argument('author', type=str, help='the name of repository author')
     parser.add_argument('package', type=str, help='the name of package')
-    parser.add_argument('-i', '--id', type=str, default=None, help='the id of the repo')
+    parser.add_argument('-m', '--max', type=int, default=500, help='the max number of clients to explore')
     parser.add_argument('-u', '--user', type=str, default=None, help='the git user name for mining')
     parser.add_argument('-t', '--token', type=str, default=None, help='token for mining')
     parser.add_argument('--only-latest', dest="only_latest", action="store_true", 
@@ -284,8 +285,7 @@ if __name__ == '__main__':
         utils.user = args.user
         utils.token = args.token
 
-    r_id = args.id
-    miner = Miner(repo_name, package_name, author_name, r_id)
+    miner = Miner(repo_name, package_name, author_name, args.max)
     
     dependents = miner.read_dependent_from_file()
     #if len(dependents) > 1500:

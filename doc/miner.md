@@ -24,6 +24,8 @@ optional arguments:
   -h, --help            	  show this help message and exit
 ```
 
+The mining results will be saved in file 
+
 ## Prepare a configuration file
 
 ```
@@ -31,6 +33,8 @@ optional arguments:
     "library": "LIBRARY_NAME",
     "source": "OLD_VERSION_NUMBER",
     "target": "NEW_VERSION_NUMBER",
+    "old_class": "CLASS_NAME_IN_THE_OLD_LIBRARY_VERSION",
+    "new_class": "CLASS_NAME_IN_THE_NEW_LIBRARY_VERSION",
     "old_apis": [
         "OLD_API_NAME"
     ],

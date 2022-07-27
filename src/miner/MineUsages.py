@@ -213,7 +213,7 @@ def fetch_client(client_list, target_version, api_list, library_name, old_versio
                 bar()
                 continue
             if search_github(api_list, client_name) == 0:
-                utils.info("[INFO] Skipping repo: " + str(client_name) + " since the Search Result is Empty")
+                utils.log("[INFO] Skipping repo: " + str(client_name) + " since the Search Result is Empty")
                 bar()
                 continue
             get_relevant_client(library_name, client_name, old_version, new_version, target_version)
